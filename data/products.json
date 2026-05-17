@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-05-17T17:59:53.956503",
-  "total_products": 25,
+  "last_updated": "2026-05-17T00:00:00",
+  "total_products": 10,
   "products": [
     {
       "id": "rm-home-2526",
@@ -27,12 +27,20 @@
       ],
       "links": [
         {
-          "t": "shop.realmadrid.com",
-          "u": "https://us.shop.realmadrid.com/collections/jerseys-kits"
+          "t": "🛒 Tienda oficial Real Madrid",
+          "u": "https://us.shop.realmadrid.com/es/products/rmcfmz0899-mens-home-jersey-25-26-white"
         },
         {
-          "t": "Adidas.com",
-          "u": "https://www.adidas.com/us/real-madrid-home-jersey"
+          "t": "🛒 Adidas.com — Authentic $200",
+          "u": "https://www.adidas.com/us/real-madrid-25-26-home-authentic-jersey/JV5918.html"
+        },
+        {
+          "t": "🛒 World Soccer Shop",
+          "u": "https://www.worldsoccershop.com/buy/real-madrid-2025-2026-jerseys"
+        },
+        {
+          "t": "🛒 LaLiga Store",
+          "u": "https://www2.laligastore.com/en/real-madrid/t-14207102+z-9487992-2683164900"
         }
       ],
       "brand": "Adidas",
@@ -63,12 +71,20 @@
       ],
       "links": [
         {
-          "t": "mlssoccer.com",
-          "u": "https://store.mlssoccer.com/collections/inter-miami-cf"
+          "t": "🛒 MLSStore.com — Messi Euforia",
+          "u": "https://www.mlsstore.com/es/inter-miami-cf/mens-inter-miami-cf-lionel-messi-adidas-light-pink-2025-euforia-replica-player-jersey/t-21257796+p-572267848552586+z-9-2563664462"
         },
         {
-          "t": "Fanatics",
-          "u": "https://www.fanatics.com"
+          "t": "🛒 Fanatics — Authentic $194.99",
+          "u": "https://www.fanatics.com/mls/inter-miami-cf/o-3577+t-76706629+z-97877-2244091536"
+        },
+        {
+          "t": "🛒 World Soccer Shop",
+          "u": "https://www.worldsoccershop.com/shop/details/inter-miami-cf-2025-home-jersey-by-adidas_A1108753"
+        },
+        {
+          "t": "📰 Nota oficial lanzamiento",
+          "u": "https://www.intermiamicf.com/news/inter-miami-cf-unveils-euforia-club-s-new-2025-and-2026-pink-home-kit"
         }
       ],
       "brand": "Adidas",
@@ -99,12 +115,20 @@
       ],
       "links": [
         {
-          "t": "store.nba.com",
-          "u": "https://store.nba.com/los-angeles-lakers/jerseys"
+          "t": "🛒 NBA Store — City Edition",
+          "u": "https://store.nba.com/los-angeles-lakers/city-edition/t-25478568+c-1223050524+z-97-2210389272"
         },
         {
-          "t": "Fanatics",
-          "u": "https://www.fanatics.com/nba/los-angeles-lakers"
+          "t": "🛒 Nike.com — Lakers jerseys",
+          "u": "https://www.nike.com/w/los-angeles-lakers-6m6dc"
+        },
+        {
+          "t": "🛒 Dick's Sporting Goods — Authentic $210",
+          "u": "https://www.dickssportinggoods.com/f/los-angeles-lakers-nba-city-edition-apparel-gear-3452-1561609"
+        },
+        {
+          "t": "🛒 Global NBA Store",
+          "u": "https://global.nbastore.com/en/los-angeles-lakers/city-edition/t-25478568+c-1223050524+z-97-2210389272"
         }
       ],
       "brand": "Nike",
@@ -139,16 +163,16 @@
       ],
       "links": [
         {
-          "t": "store.nba.com Lunar",
-          "u": "https://store.nba.com/lunar-new-year"
+          "t": "🛒 NBA Store — Lunar New Year",
+          "u": "https://store.nba.com/lunar-new-year/c-4525738841+z-901857-3022056735"
         },
         {
-          "t": "Fanatics",
-          "u": "https://www.fanatics.com/nba/chinese-new-year-gear"
+          "t": "🛒 Fanatics — Chinese New Year",
+          "u": "https://www.fanatics.com/nba/chinese-new-year-gear/o-1381+c-20086061+z-8375-2690202837"
         },
         {
-          "t": "Foot Locker",
-          "u": "https://www.footlocker.com"
+          "t": "🛒 Foot Locker — LNY jerseys",
+          "u": "https://www.footlocker.com/buy/nba-chinese-new-year-jersey-0aez11a"
         }
       ],
       "brand": "Nike/NBALab",
@@ -179,12 +203,20 @@
       ],
       "links": [
         {
-          "t": "MLB.com",
-          "u": "https://www.mlb.com/stories/2025-mlb-city-connect-jerseys"
+          "t": "🛒 MLB Shop — White Sox City Connect",
+          "u": "https://www.mlbshop.com/chicago-white-sox/2025-mlb-city-connect/t-36554212+c-6739127486+z-97-689062974"
         },
         {
-          "t": "ESPN tracker",
-          "u": "https://www.espn.com/mlb/story/_/id/39776958"
+          "t": "🛒 Sports World Chicago",
+          "u": "https://www.sportsworldchicago.com/Chicago-White-Sox-City-Connect/"
+        },
+        {
+          "t": "🛒 Macy's — Replica $90-110",
+          "u": "https://www.macys.com/shop/product/nike-mens-red-chicago-white-sox-2025-city-connect-limited-jersey?ID=22400476"
+        },
+        {
+          "t": "📰 Newsweek — Dónde comprar",
+          "u": "https://www.newsweek.com/sports/mlb/how-buy-chicago-white-sox-2025-city-connect-jerseys-hats-gear-2065823"
         }
       ],
       "brand": "Nike",
@@ -215,8 +247,16 @@
       ],
       "links": [
         {
-          "t": "Puma.com",
+          "t": "🛒 Puma.com — Uruguay",
           "u": "https://www.puma.com/en/uruguay"
+        },
+        {
+          "t": "🛒 Fanatics — Uruguay gear",
+          "u": "https://www.fanatics.com/soccer/uruguay"
+        },
+        {
+          "t": "🛒 World Soccer Shop",
+          "u": "https://www.worldsoccershop.com/national-teams/uruguay-soccer-jerseys"
         }
       ],
       "brand": "Puma",
@@ -248,12 +288,16 @@
       ],
       "links": [
         {
-          "t": "Roland Garros Shop",
+          "t": "🛒 Roland Garros Shop oficial",
           "u": "https://www.rolandgarros.com/en-us/shop"
         },
         {
-          "t": "Nike tennis",
+          "t": "🛒 Nike Tennis",
           "u": "https://www.nike.com/w/tennis"
+        },
+        {
+          "t": "🛒 Tennis Warehouse",
+          "u": "https://www.tenniswarehouse.com"
         }
       ],
       "brand": "Nike/Adidas/Lacoste",
@@ -289,12 +333,16 @@
       ],
       "links": [
         {
-          "t": "Red Bull Racing Shop",
+          "t": "🛒 Red Bull Racing Shop oficial",
           "u": "https://www.redbullracing.com/shop"
         },
         {
-          "t": "F1 Store",
+          "t": "🛒 F1 Store oficial",
           "u": "https://www.formula1.com/en/shop"
+        },
+        {
+          "t": "🛒 Grand Prix Store",
+          "u": "https://www.grandprixstore.com"
         }
       ],
       "brand": "Red Bull/Oracle",
@@ -326,12 +374,16 @@
       ],
       "links": [
         {
-          "t": "Canterbury.com",
+          "t": "🛒 All Blacks Shop oficial",
+          "u": "https://www.allblacks.com/shop"
+        },
+        {
+          "t": "🛒 Canterbury.com",
           "u": "https://www.canterburysport.com"
         },
         {
-          "t": "All Blacks Shop",
-          "u": "https://www.allblacks.com/shop"
+          "t": "🛒 World Rugby Shop",
+          "u": "https://store.world.rugby"
         }
       ],
       "brand": "Canterbury",
@@ -363,308 +415,21 @@
       ],
       "links": [
         {
-          "t": "NHL Shop",
+          "t": "🛒 NHL Shop oficial",
           "u": "https://www.nhlshop.com"
         },
         {
-          "t": "Fanatics NHL",
+          "t": "🛒 Fanatics NHL",
           "u": "https://www.fanatics.com/nhl"
+        },
+        {
+          "t": "🛒 Dick's Sporting Goods NHL",
+          "u": "https://www.dickssportinggoods.com/f/nhl-jerseys"
         }
       ],
       "brand": "Adidas",
       "special": true,
       "added_date": "2026-05-17"
-    },
-    {
-      "id": "arsenal-home-2026-27",
-      "cat": "fut",
-      "t": "Arsenal 2026/27 Home Kit",
-      "sub": "Adidas jersey with maroon stripes and lightning bolt design, celebrates Emirates Stadium 20 years",
-      "tags": [
-        "arsenal",
-        "adidas",
-        "home-kit",
-        "2026-27",
-        "limited-edition"
-      ],
-      "date": "May 2026",
-      "prices": [],
-      "links": [
-        {
-          "t": "Arsenal official announcement",
-          "u": "https://www.arsenal.com"
-        }
-      ],
-      "brand": "Adidas",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "inter-miami-third-2026",
-      "cat": "fut",
-      "t": "Inter Miami 2026 Third Kit",
-      "sub": "Miami Vice inspired third kit design for 2026 season",
-      "tags": [
-        "inter-miami",
-        "third-kit",
-        "2026",
-        "miami-vice"
-      ],
-      "date": "2026",
-      "prices": [],
-      "links": [],
-      "brand": "Adidas",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "mexico-world-cup-2026-third",
-      "cat": "fut",
-      "t": "Mexico 2026 World Cup Third Kit",
-      "sub": "Adidas x Mexican brand collaboration for 2026 World Cup",
-      "tags": [
-        "mexico",
-        "world-cup-2026",
-        "third-kit",
-        "adidas"
-      ],
-      "date": "May 2026",
-      "prices": [],
-      "links": [],
-      "brand": "Adidas",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "man-utd-third-2026",
-      "cat": "fut",
-      "t": "Manchester United Third Kit 2026",
-      "sub": "Third kit inspired by Salford Lads Club heritage",
-      "tags": [
-        "manchester-united",
-        "third-kit",
-        "2026",
-        "salford-lads"
-      ],
-      "date": "2026",
-      "prices": [],
-      "links": [],
-      "brand": "Unknown",
-      "special": false,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "timberwolves-classic-uniforms-2026",
-      "cat": "bsk",
-      "t": "Timberwolves Classic Uniforms",
-      "sub": "Minnesota Timberwolves modern classic rebrand for 2026-27 season",
-      "tags": [
-        "NBA",
-        "uniforms",
-        "Timberwolves",
-        "rebrand",
-        "2026-27"
-      ],
-      "date": "2026-27 season",
-      "prices": [],
-      "links": [],
-      "brand": "Unknown",
-      "special": false,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "pirates-city-connect-air-max-2026",
-      "cat": "mlb",
-      "t": "Pirates City Connect Nike Air Max 1",
-      "sub": "Nike custom Air Max 1 shoes for Pittsburgh Pirates City Connect collection",
-      "tags": [
-        "City Connect",
-        "Nike Air Max 1",
-        "Pirates",
-        "2026",
-        "custom"
-      ],
-      "date": "May 2026",
-      "prices": [],
-      "links": [],
-      "brand": "Nike",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "ohio-state-black-alt-2026",
-      "cat": "nfl",
-      "t": "Ohio State Black Alternate Football Uniforms",
-      "sub": "Ohio State Buckeyes, Heritage Stripes pattern on sleeves",
-      "tags": [
-        "college football",
-        "alternate jersey",
-        "heritage stripes"
-      ],
-      "date": "2026 season",
-      "prices": [],
-      "links": [],
-      "brand": "Ohio State Athletics",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "ohio-state-home-road-2026",
-      "cat": "nfl",
-      "t": "Ohio State Home & Road Football Uniforms",
-      "sub": "Scarlet home and white road jerseys with Heritage Stripes",
-      "tags": [
-        "college football",
-        "home jersey",
-        "road jersey"
-      ],
-      "date": "2026 season",
-      "prices": [],
-      "links": [],
-      "brand": "Ohio State Athletics",
-      "special": false,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "unc-1980-throwback-2026",
-      "cat": "nfl",
-      "t": "UNC 1980 Throwback Football Jerseys",
-      "sub": "North Carolina Tar Heels, 100th season Kenan Stadium",
-      "tags": [
-        "college football",
-        "throwback",
-        "anniversary"
-      ],
-      "date": "2026 season",
-      "prices": [],
-      "links": [],
-      "brand": "UNC Athletics",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "steelers-1933-throwback-2026",
-      "cat": "nfl",
-      "t": "Pittsburgh Steelers 1933 Throwback Uniforms",
-      "sub": "Pittsburgh Steelers, classic 1933 design",
-      "tags": [
-        "throwback",
-        "nfl",
-        "historic"
-      ],
-      "date": "2026 season",
-      "prices": [],
-      "links": [],
-      "brand": "Pittsburgh Steelers",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "packers-throwback-2025",
-      "cat": "nfl",
-      "t": "Green Bay Packers Throwback Helmets & Uniforms",
-      "sub": "Green Bay Packers, new throwback design debut",
-      "tags": [
-        "throwback",
-        "nfl",
-        "uniform reveal"
-      ],
-      "date": "July 2025",
-      "prices": [],
-      "links": [],
-      "brand": "Green Bay Packers",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "disney-f1-velocity-2026",
-      "cat": "formula1",
-      "t": "Disney x Formula 1 Velocity Collection",
-      "sub": "Disney Consumer Products, Fuel the Magic campaign apparel",
-      "tags": [
-        "disney",
-        "formula1",
-        "velocity",
-        "merchandise",
-        "apparel"
-      ],
-      "date": "May 2026",
-      "prices": [],
-      "links": [],
-      "brand": "Disney",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "tag-heuer-f1-solargraph-2026",
-      "cat": "formula1",
-      "t": "TAG Heuer Formula 1 Solargraph Watch",
-      "sub": "TAG Heuer, limited-edition motorsports watch",
-      "tags": [
-        "tag-heuer",
-        "formula1",
-        "watch",
-        "limited-edition",
-        "solargraph"
-      ],
-      "date": "2026",
-      "prices": [],
-      "links": [],
-      "brand": "TAG Heuer",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "blackhawks-winter-classic-2025",
-      "cat": "nhl",
-      "t": "Blackhawks 2025 Winter Classic Jersey",
-      "sub": "Official Chicago Blackhawks Winter Classic jersey for Wrigley Field game",
-      "tags": [
-        "winter classic",
-        "blackhawks",
-        "jersey",
-        "wrigley field"
-      ],
-      "date": "2025",
-      "prices": [],
-      "links": [],
-      "brand": "Unknown",
-      "special": true,
-      "added_date": "2026-05-17",
-      "auto_generated": true
-    },
-    {
-      "id": "reebok-ultimate-sevens-2026",
-      "cat": "rugby",
-      "t": "Ultimate Sevens Kit Collection",
-      "sub": "Reebok official kit partner for new franchise rugby sevens championship",
-      "tags": [
-        "sevens",
-        "rugby",
-        "kit",
-        "franchise",
-        "europe"
-      ],
-      "date": "2026",
-      "prices": [],
-      "links": [],
-      "brand": "Reebok",
-      "special": false,
-      "added_date": "2026-05-17",
-      "auto_generated": true
     }
   ]
 }
