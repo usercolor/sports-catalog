@@ -1,0 +1,48 @@
+name: Sports Catalog Auto-Update
+
+on:
+  schedule:
+    # Runs every Monday at 8am UTC (5am Uruguay time)
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+    # Also lets you trigger it manually from GitHub UI
+    inputs:
+      sport_focus:
+        description: 'Focus on a specific sport (optional: fut, nba, nfl, mlb, tennis, formula1, all)'
+        required: false
+        default: 'all'
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to commit updated files
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install anthropic requests python-dotenv
+
+      - name: Run catalog updater
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SPORT_FOCUS: ${{ github.event.inputs.sport_focus || 'all' }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}  # optional: free web search API
+        run: |
+          python scripts/update_catalog.py
+
+      - name: Commit updated catalog
+        run: |
+          git config --global user.name 'Sports Catalog Bot'
+          git config --global user.email 'bot@sports-catalog.local'
+          git add data/ site/
+          git diff --staged --quiet || git commit -m "Auto-update: $(date +'%Y-%m-%d') sports catalog refresh"
+          git push
