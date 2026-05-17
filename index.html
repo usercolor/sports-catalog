@@ -1,1 +1,1128 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sports Catalog</title><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#08080b;color:#edeae4;font-family:sans-serif;font-size:14px}#tb{position:fixed;top:0;left:0;right:0;height:52px;background:rgba(8,8,11,.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.07);display:flex;align-items:center;gap:12px;padding:0 20px;z-index:100}.logo{font-size:16px;font-weight:600;color:#e8c97a}.meta{margin-left:auto;font-size:11px;color:#5a5650}.meta b{color:#e8c97a}#ctrl{position:sticky;top:52px;z-index:90;background:rgba(8,8,11,.95);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.07);padding:10px 20px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}.fp{padding:4px 12px;border-radius:20px;font-size:11px;cursor:pointer;border:1px solid rgba(255,255,255,.13);background:transparent;color:#9b9590;white-space:nowrap}.fp.on,.fp:hover{background:#e8c97a;color:#08080b}.sep{width:1px;height:16px;background:rgba(255,255,255,.13)}#si{flex:1;min-width:140px;background:#16161e;border:1px solid rgba(255,255,255,.13);border-radius:8px;padding:6px 12px;color:#edeae4;font-size:13px;outline:none}#si:focus{border-color:#e8c97a}#rc b{color:#e8c97a;font-family:monospace}#grid{padding:16px 20px;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}.card{background:#16161e;border:1px solid rgba(255,255,255,.07);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}.card:hover{border-color:rgba(255,255,255,.18);transform:translateY(-2px)}.card.hide{display:none}.vis{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;font-size:44px;position:relative;background:rgba(255,255,255,.04)}.badge{position:absolute;top:8px;left:8px;font-size:9px;font-weight:600;padding:2px 8px;border-radius:8px;background:rgba(0,0,0,.6);color:rgba(255,255,255,.8)}.dbadge{position:absolute;bottom:8px;right:8px;font-size:9px;padding:2px 8px;border-radius:8px;background:rgba(0,0,0,.6);color:rgba(255,255,255,.7)}.body{padding:12px;flex:1;display:flex;flex-direction:column}h3{font-size:12px;font-weight:600;color:#edeae4;margin-bottom:3px;line-height:1.3}.sub{font-size:11px;color:#9b9590;margin-bottom:8px;line-height:1.35}.tags{display:flex;flex-wrap:wrap;gap:3px;margin-bottom:8px}.tag{font-size:10px;padding:2px 6px;border-radius:4px;background:#1e1e28;color:#5a5650;border:1px solid rgba(255,255,255,.07)}.prices{display:flex;flex-wrap:wrap;gap:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.07);margin-top:auto}.pv{font-family:monospace;font-size:12px;color:#e8c97a}.pl{font-size:10px;color:#5a5650;display:block;margin-bottom:1px}.links{display:flex;flex-direction:column;gap:3px;margin-top:8px}.lk{font-size:10px;color:#5b9cf6;text-decoration:none}.lk::before{content:"↗ "}.lk:hover{color:#e8c97a}#footer{padding:20px;border-top:1px solid rgba(255,255,255,.07);font-size:11px;color:#5a5650;text-align:center}@media(max-width:600px){#grid{grid-template-columns:1fr 1fr;padding:12px;gap:10px}}</style></head><body><header id="tb"><div class="logo">🏆 Sports Catalog</div><div class="meta">Actualizado <b>2026-05-17</b> &middot; <b id="tc">10</b> productos</div></header><div id="ctrl"><button class="fp on" onclick="filt('all',this)">Todos</button><div class="sep"></div><button class="fp" onclick="filt('fut',this)">⚽ Fútbol</button><button class="fp" onclick="filt('bsk',this)">🏀 Basketball</button><button class="fp" onclick="filt('mlb',this)">⚾ MLB</button><button class="fp" onclick="filt('nfl',this)">🏈 NFL</button><button class="fp" onclick="filt('nhl',this)">🏒 NHL</button><button class="fp" onclick="filt('tennis',this)">🎾 Tenis</button><button class="fp" onclick="filt('formula1',this)">🏎️ F1</button><button class="fp" onclick="filt('rugby',this)">🏉 Rugby</button><div class="sep"></div><button class="fp" onclick="filt('sel',this)">🌍 Selecciones</button><button class="fp" onclick="filt('mer',this)">🛍 Merch</button><button class="fp" onclick="filt('fab',this)">🏭 Fabricación</button><div class="sep"></div><input id="si" type="text" placeholder="Buscar..." oninput="doS(this.value)"><div id="rc"><b id="rn">10</b> productos</div></div><div id="grid"><div class="card" data-cat="fut"><div class="vis">⚽<span class="badge">FUT</span><span class="dbadge">Jul 2025</span></div><div class="body"><h3>Real Madrid Home 2025-26</h3><p class="sub">Adidas HEAT.RDY · blanco clásico. Contrato €117.6M/año</p><div class="tags"><span class="tag">Adidas</span><span class="tag">Home kit</span><span class="tag">La Liga</span><span class="tag">UCL</span></div><div class="prices"><div class="pv"><span class="pl">Authentic</span>€150-205</div><div class="pv"><span class="pl">Replica</span>€90-110</div></div><div class="links"><a class="lk" href="https://us.shop.realmadrid.com/collections/jerseys-kits" target="_blank">shop.realmadrid.com</a><a class="lk" href="https://www.adidas.com/us/real-madrid-home-jersey" target="_blank">Adidas.com</a></div></div></div><div class="card" data-cat="fut"><div class="vis">⚽<span class="badge">FUT</span><span class="dbadge">Feb 2025</span></div><div class="body"><h3>Inter Miami CF Euforia 2025</h3><p class="sub">Adidas · pink home. El kit MLS más vendido del mundo</p><div class="tags"><span class="tag">MLS</span><span class="tag">Best seller</span><span class="tag">Messi</span><span class="tag">Adidas</span></div><div class="prices"><div class="pv"><span class="pl">Replica adulto</span>$89-130</div><div class="pv"><span class="pl">Youth Messi</span>$79-99</div></div><div class="links"><a class="lk" href="https://store.mlssoccer.com/collections/inter-miami-cf" target="_blank">mlssoccer.com</a><a class="lk" href="https://www.fanatics.com" target="_blank">Fanatics</a></div></div></div><div class="card" data-cat="bsk"><div class="vis">🏀<span class="badge">BSK</span><span class="dbadge">Nov 2025</span></div><div class="body"><h3>LA Lakers City Edition 2025-26</h3><p class="sub">Nike · California Dream City Edition Remix. Palmeras californianas</p><div class="tags"><span class="tag">NBA</span><span class="tag">City Edition</span><span class="tag">Lakers</span><span class="tag">Remix</span></div><div class="prices"><div class="pv"><span class="pl">Authentic</span>$250</div><div class="pv"><span class="pl">Swingman</span>$125</div></div><div class="links"><a class="lk" href="https://store.nba.com/los-angeles-lakers/jerseys" target="_blank">store.nba.com</a><a class="lk" href="https://www.fanatics.com/nba/los-angeles-lakers" target="_blank">Fanatics</a></div></div></div><div class="card" data-cat="bsk"><div class="vis">🏀<span class="badge">BSK</span><span class="dbadge">Ene/Feb 2026</span></div><div class="body"><h3>NBA Año Nuevo Lunar 2026 — Year of the Snake</h3><p class="sub">NBALab × Hyperfly · Sweatshirts, T-shirts, gorras. Ene-Feb 2026</p><div class="tags"><span class="tag">NBA</span><span class="tag">Lunar New Year</span><span class="tag">Year of the Snake</span><span class="tag">NBALab</span></div><div class="prices"><div class="pv"><span class="pl">Sweatshirt</span>$65-90</div><div class="pv"><span class="pl">T-shirt</span>$40-55</div><div class="pv"><span class="pl">Swingman LNY</span>$120-140</div></div><div class="links"><a class="lk" href="https://store.nba.com/lunar-new-year" target="_blank">store.nba.com Lunar</a><a class="lk" href="https://www.fanatics.com/nba/chinese-new-year-gear" target="_blank">Fanatics</a><a class="lk" href="https://www.footlocker.com" target="_blank">Foot Locker</a></div></div></div><div class="card" data-cat="mlb"><div class="vis">⚾<span class="badge">MLB</span><span class="dbadge">2 May 2025</span></div><div class="body"><h3>White Sox City Connect 2025</h3><p class="sub">Nike · 1° kit MLB que combina NBA+MLB (Black Hawks). Debut 2 May 2025</p><div class="tags"><span class="tag">MLB</span><span class="tag">City Connect</span><span class="tag">Chicago</span><span class="tag">NBA+MLB crossover</span></div><div class="prices"><div class="pv"><span class="pl">Replica</span>$110</div><div class="pv"><span class="pl">Authentic</span>$200</div></div><div class="links"><a class="lk" href="https://www.mlb.com/stories/2025-mlb-city-connect-jerseys" target="_blank">MLB.com</a><a class="lk" href="https://www.espn.com/mlb/story/_/id/39776958" target="_blank">ESPN tracker</a></div></div></div><div class="card" data-cat="sel"><div class="vis">🌍<span class="badge">SEL</span><span class="dbadge">Permanente</span></div><div class="body"><h3>Uruguay Selección Nacional 2024-26</h3><p class="sub">Puma · celeste titular. Proveedor oficial desde 2017. Clasificado Mundial 2026</p><div class="tags"><span class="tag">Puma</span><span class="tag">FIFA</span><span class="tag">Uruguay</span><span class="tag">Mundial 2026</span></div><div class="prices"><div class="pv"><span class="pl">Replica fan</span>~$85-110</div><div class="pv"><span class="pl">Authentic</span>~$130-150</div></div><div class="links"><a class="lk" href="https://www.puma.com/en/uruguay" target="_blank">Puma.com</a></div></div></div><div class="card" data-cat="tennis"><div class="vis">🎾<span class="badge">TENNIS</span><span class="dbadge">May-Jun 2025</span></div><div class="body"><h3>Roland Garros Official Outfits 2025</h3><p class="sub">Nike/Adidas/Lacoste · outfits oficiales para la terre battue de Paris. Mayo-Jun</p><div class="tags"><span class="tag">Tennis</span><span class="tag">Roland Garros</span><span class="tag">Nike</span><span class="tag">Grand Slam</span></div><div class="prices"><div class="pv"><span class="pl">Polo fan</span>$60-90</div><div class="pv"><span class="pl">Kit jugador replica</span>$120-180</div></div><div class="links"><a class="lk" href="https://www.rolandgarros.com/en-us/shop" target="_blank">Roland Garros Shop</a><a class="lk" href="https://www.nike.com/w/tennis" target="_blank">Nike tennis</a></div></div></div><div class="card" data-cat="formula1"><div class="vis">🏎️<span class="badge">FORMULA1</span><span class="dbadge">Mar-Nov 2025</span></div><div class="body"><h3>Red Bull Racing Merchandise 2025</h3><p class="sub">Red Bull / Oracle · chaqueta de equipo, polo, cap, race suit replica. Oracle sponsorship</p><div class="tags"><span class="tag">F1</span><span class="tag">Red Bull</span><span class="tag">Oracle</span><span class="tag">Race suit</span></div><div class="prices"><div class="pv"><span class="pl">Team jacket</span>$120-180</div><div class="pv"><span class="pl">Race suit replica</span>$200-350</div><div class="pv"><span class="pl">Team polo</span>$60-90</div></div><div class="links"><a class="lk" href="https://www.redbullracing.com/shop" target="_blank">Red Bull Racing Shop</a><a class="lk" href="https://www.formula1.com/en/shop" target="_blank">F1 Store</a></div></div></div><div class="card" data-cat="rugby"><div class="vis">🏉<span class="badge">RUGBY</span><span class="dbadge">Jun 2025</span></div><div class="body"><h3>All Blacks Home Jersey 2025</h3><p class="sub">Canterbury · jersey negro titular Nueva Zelanda. El más reconocido del rugby mundial</p><div class="tags"><span class="tag">Rugby</span><span class="tag">All Blacks</span><span class="tag">Canterbury</span><span class="tag">Nueva Zelanda</span></div><div class="prices"><div class="pv"><span class="pl">Replica adulto</span>$90-120</div><div class="pv"><span class="pl">Authentic</span>$150-180</div></div><div class="links"><a class="lk" href="https://www.canterburysport.com" target="_blank">Canterbury.com</a><a class="lk" href="https://www.allblacks.com/shop" target="_blank">All Blacks Shop</a></div></div></div><div class="card" data-cat="nhl"><div class="vis">🏒<span class="badge">NHL</span><span class="dbadge">1 Ene 2026</span></div><div class="body"><h3>NHL Winter Classic 2026</h3><p class="sub">Adidas · uniforme especial para el juego al aire libre. 1 enero cada año. Heritage design</p><div class="tags"><span class="tag">NHL</span><span class="tag">Winter Classic</span><span class="tag">Adidas</span><span class="tag">1 Ene</span></div><div class="prices"><div class="pv"><span class="pl">Authentic</span>$220-280</div><div class="pv"><span class="pl">Replica</span>$115-140</div></div><div class="links"><a class="lk" href="https://www.nhlshop.com" target="_blank">NHL Shop</a><a class="lk" href="https://www.fanatics.com/nhl" target="_blank">Fanatics NHL</a></div></div></div></div><footer id="footer">Sports Catalog &middot; 2026-05-17</footer><script>let CF="all",CS="";function filt(c,b){CF=c;document.querySelectorAll(".fp").forEach(x=>x.classList.remove("on"));b.classList.add("on");render();}function doS(v){CS=v.toLowerCase();render();}function render(){let n=0;document.querySelectorAll(".card").forEach(card=>{const mc=CF=="all"||card.dataset.cat==CF;const ms=!CS||card.textContent.toLowerCase().includes(CS);if(mc&&ms){card.classList.remove("hide");n++;}else card.classList.add("hide");});document.getElementById("rn").textContent=n;document.getElementById("tc").textContent=n;}render();</script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kit Intelligence — Colecciones Deportivas 2024-26</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#08080b;--bg2:#0f0f14;--bg3:#16161e;--bg4:#1e1e28;--bg5:#252532;
+  --border:rgba(255,255,255,0.06);--border2:rgba(255,255,255,0.12);--border3:rgba(255,255,255,0.18);
+  --text:#edeae4;--text2:#9b9590;--text3:#5a5650;
+  --gold:#e8c97a;--gold2:#d4a832;--red:#e05a3a;
+  --blue:#5b9cf6;--green:#52c98a;--pink:#e06fa8;--purple:#9b7fe8;
+  --serif:'Instrument Serif',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+  --mono:'DM Mono',monospace;
+  --r:10px;--r-lg:16px;--r-xl:22px;
+  --nav:230px;--top:56px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;line-height:1.6;overflow-x:hidden;min-height:100vh}
+
+/* ─── TOPBAR ─── */
+#topbar{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  height:var(--top);
+  background:rgba(8,8,11,0.88);backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:12px;padding:0 18px;
+}
+.logo{font-family:var(--serif);font-size:17px;color:var(--gold);letter-spacing:-0.3px;white-space:nowrap}
+.logo em{font-style:italic;color:var(--text2);font-size:13px}
+.top-pills{display:flex;gap:5px;margin-left:auto;flex-wrap:nowrap}
+.tpill{
+  padding:4px 12px;border-radius:20px;font-size:11px;font-weight:500;
+  cursor:pointer;border:1px solid var(--border2);background:transparent;
+  color:var(--text2);transition:all .18s;white-space:nowrap;
+}
+.tpill:hover,.tpill.on{background:var(--gold);color:#08080b;border-color:var(--gold)}
+#hbg{display:none;background:none;border:none;cursor:pointer;color:var(--text);font-size:20px;padding:4px;line-height:1}
+
+/* ─── REFRESH ─── */
+#refresh-bar{
+  position:fixed;top:var(--top);left:var(--nav);right:0;z-index:150;
+  background:rgba(8,8,11,0.82);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:12px;padding:7px 20px;
+  font-size:12px;
+}
+#refresh-bar.full{left:0}
+.last-updated{color:var(--text3);font-family:var(--mono)}
+.last-updated span{color:var(--gold)}
+#btn-refresh{
+  margin-left:auto;display:flex;align-items:center;gap:6px;
+  padding:5px 14px;border-radius:20px;font-size:11px;font-weight:600;
+  cursor:pointer;border:1px solid var(--border2);background:var(--bg3);
+  color:var(--text);transition:all .18s;
+}
+#btn-refresh:hover{border-color:var(--gold);color:var(--gold)}
+#btn-refresh.spinning svg{animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.status-dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0}
+.status-dot.loading{background:var(--gold);animation:pulse 1s ease-in-out infinite}
+.status-dot.error{background:var(--red)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* ─── LAYOUT ─── */
+#layout{display:flex;padding-top:calc(var(--top) + 38px);min-height:100vh}
+
+/* ─── SIDEBAR ─── */
+#sidebar{
+  width:var(--nav);min-width:var(--nav);
+  position:fixed;top:calc(var(--top)+38px);bottom:0;left:0;
+  overflow-y:auto;background:var(--bg2);
+  border-right:1px solid var(--border);
+  padding:14px 0 40px;transition:transform .3s;z-index:100;
+}
+#sidebar::-webkit-scrollbar{width:3px}
+#sidebar::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.nlabel{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text3);padding:14px 16px 5px}
+.nitem{
+  display:flex;align-items:center;gap:9px;padding:8px 16px;
+  cursor:pointer;color:var(--text2);font-size:13px;
+  border-left:2px solid transparent;transition:all .14s;
+}
+.nitem:hover{color:var(--text);background:var(--bg3)}
+.nitem.on{color:var(--gold);border-left-color:var(--gold);background:rgba(232,201,122,0.05)}
+.nitem .ic{font-size:15px;width:17px;text-align:center;flex-shrink:0}
+.nbadge{margin-left:auto;font-size:9px;padding:2px 6px;border-radius:8px;background:var(--bg4);color:var(--text3)}
+
+/* ─── MAIN ─── */
+#main{margin-left:var(--nav);flex:1;min-width:0}
+.section{display:none;padding-bottom:60px}
+.section.on{display:block}
+
+/* ─── HERO ─── */
+.hero{
+  padding:28px 28px 0;display:flex;align-items:flex-start;
+  justify-content:space-between;gap:16px;flex-wrap:wrap;
+  border-bottom:1px solid var(--border);
+  background:linear-gradient(180deg,var(--bg3) 0%,transparent 100%);
+}
+.hero h1{font-family:var(--serif);font-size:26px;font-weight:400;line-height:1.2;color:var(--text)}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero p{font-size:13px;color:var(--text2);margin-top:4px}
+.hero-icon{font-size:44px;line-height:1;padding-bottom:12px;flex-shrink:0}
+.tabs-row{display:flex;overflow-x:auto;padding:0 28px}
+.tabs-row::-webkit-scrollbar{height:0}
+.tab{
+  padding:9px 16px;cursor:pointer;font-size:13px;font-weight:500;
+  color:var(--text3);border-bottom:2px solid transparent;
+  white-space:nowrap;transition:all .14s;
+}
+.tab:hover{color:var(--text2)}
+.tab.on{color:var(--gold);border-bottom-color:var(--gold)}
+.content{padding:24px 28px}
+.pane{display:none}.pane.on{display:block}
+
+/* ─── AI CONTENT BLOCK ─── */
+.ai-block{
+  background:var(--bg3);border:1px solid var(--border);
+  border-radius:var(--r-lg);padding:20px;margin-bottom:20px;
+  position:relative;min-height:100px;
+}
+.ai-block.loading::after{
+  content:'';position:absolute;inset:0;border-radius:var(--r-lg);
+  background:linear-gradient(90deg,transparent 0%,rgba(232,201,122,0.05) 50%,transparent 100%);
+  background-size:200% 100%;animation:shimmer 1.4s ease-in-out infinite;
+}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.ai-label{
+  display:flex;align-items:center;gap:6px;font-size:10px;font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--gold2);
+  margin-bottom:12px;
+}
+.ai-label svg{width:12px;height:12px;flex-shrink:0}
+.ai-text{font-size:13px;color:var(--text2);line-height:1.7}
+.ai-text h4{font-size:14px;font-weight:600;color:var(--text);margin:12px 0 6px}
+.ai-text strong{color:var(--text);font-weight:500}
+.ai-text ul{margin:6px 0 6px 18px}
+.ai-text li{margin-bottom:3px}
+.ai-text .highlight{color:var(--gold);font-weight:500}
+.ai-skeleton{display:flex;flex-direction:column;gap:8px}
+.skel-line{height:13px;background:var(--bg4);border-radius:4px;animation:shimmer 1.4s ease-in-out infinite;background-size:200% 100%}
+
+/* ─── STAT GRID ─── */
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:20px}
+.scard{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px;transition:border-color .18s}
+.scard:hover{border-color:var(--border2)}
+.scard .slbl{font-size:11px;color:var(--text3);margin-bottom:5px;line-height:1.3}
+.scard .sval{font-size:22px;font-weight:600;color:var(--text);letter-spacing:-.5px;font-family:var(--mono)}
+.scard .ssub{font-size:11px;color:var(--text3);margin-top:2px}
+
+/* ─── JERSEY CARDS ─── */
+.jgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;margin-bottom:20px}
+.jcard{
+  background:var(--bg3);border:1px solid var(--border);
+  border-radius:var(--r-lg);overflow:hidden;cursor:pointer;
+  transition:all .2s;text-decoration:none;display:block;
+}
+.jcard:hover{border-color:var(--border2);transform:translateY(-2px)}
+.jvisual{
+  height:130px;display:flex;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;
+}
+.jbody{padding:14px}
+.jbody h4{font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px}
+.jbody p{font-size:12px;color:var(--text2);line-height:1.4;margin-bottom:8px}
+.jpills{display:flex;gap:5px;flex-wrap:wrap}
+.jpill{
+  font-size:10px;font-weight:500;padding:2px 8px;border-radius:8px;
+  background:var(--bg4);color:var(--text3);border:1px solid var(--border);
+}
+.jpill.g{background:rgba(82,201,138,0.12);color:var(--green);border-color:rgba(82,201,138,0.25)}
+.jpill.a{background:rgba(232,201,122,0.12);color:var(--gold);border-color:rgba(232,201,122,0.25)}
+.jlink{
+  font-size:10px;color:var(--blue);display:flex;align-items:center;gap:4px;
+  margin-top:8px;text-decoration:none;
+}
+.jlink:hover{color:var(--gold)}
+.jlink svg{width:10px;height:10px}
+.store-badge{
+  position:absolute;top:8px;right:8px;font-size:9px;font-weight:600;
+  padding:2px 7px;border-radius:6px;background:rgba(0,0,0,.5);color:rgba(255,255,255,.8);
+  backdrop-filter:blur(4px);
+}
+
+/* ─── TABLE ─── */
+.twrap{overflow-x:auto;margin-bottom:20px;border-radius:var(--r);border:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead tr{background:var(--bg3)}
+th{text-align:left;padding:9px 13px;font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--border);white-space:nowrap}
+td{padding:9px 13px;border-bottom:1px solid var(--border);color:var(--text);vertical-align:top;line-height:1.4}
+tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:var(--bg3)}
+td.v{font-family:var(--mono);font-size:12px;color:var(--gold);white-space:nowrap}
+td.m{color:var(--text2)}
+td.g{color:var(--green);font-weight:500}
+
+/* ─── TIMELINE ─── */
+.tl{margin-bottom:20px}
+.tlrow{display:flex;gap:10px;margin-bottom:10px;align-items:flex-start}
+.tlmo{min-width:52px;font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;padding-top:5px}
+.tlchips{display:flex;flex-wrap:wrap;gap:5px;flex:1}
+.chip{font-size:11px;font-weight:500;padding:4px 11px;border-radius:20px;cursor:pointer;border:1px solid transparent;transition:opacity .14s}
+.chip:hover{opacity:.8}
+.cg{background:rgba(82,201,138,.14);color:var(--green);border-color:rgba(82,201,138,.28)}
+.cb{background:rgba(91,156,246,.14);color:var(--blue);border-color:rgba(91,156,246,.28)}
+.ca{background:rgba(232,201,122,.14);color:var(--gold);border-color:rgba(232,201,122,.28)}
+.cr{background:rgba(224,90,58,.14);color:var(--red);border-color:rgba(224,90,58,.28)}
+.cp{background:rgba(155,127,232,.14);color:var(--purple);border-color:rgba(155,127,232,.28)}
+.ck{background:rgba(224,111,168,.14);color:var(--pink);border-color:rgba(224,111,168,.28)}
+.cx{background:var(--bg4);color:var(--text2);border-color:var(--border2)}
+
+/* ─── SECTION TITLE ─── */
+.stitle{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text3);margin:22px 0 10px;padding-bottom:7px;border-bottom:1px solid var(--border)}
+
+/* ─── INFO BOXES ─── */
+.ibox{background:rgba(91,156,246,.07);border:1px solid rgba(91,156,246,.18);border-radius:var(--r);padding:13px 16px;margin-bottom:16px;font-size:13px;color:#9ab7f5;line-height:1.6}
+.wbox{background:rgba(224,90,58,.07);border:1px solid rgba(224,90,58,.18);border-radius:var(--r);padding:13px 16px;margin-bottom:16px;font-size:13px;color:#f08870;line-height:1.6}
+.gbox{background:rgba(82,201,138,.07);border:1px solid rgba(82,201,138,.18);border-radius:var(--r);padding:13px 16px;margin-bottom:16px;font-size:13px;color:#7dd4a0;line-height:1.6}
+
+/* ─── MODEL CARD ─── */
+.mcard{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r-lg);padding:18px;margin-bottom:11px;transition:border-color .18s;cursor:pointer}
+.mcard:hover{border-color:var(--border2)}
+.mcard.star{border-color:rgba(232,201,122,.35);background:rgba(232,201,122,.03)}
+.mcard h4{font-size:14px;font-weight:600;color:var(--text);margin-bottom:7px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.mcard p{font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px}
+.mpros{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.pro{font-size:11px;color:var(--green)}.con{font-size:11px;color:var(--red)}
+
+/* ─── BRAND BAR ─── */
+.bcard{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r-lg);padding:16px;margin-bottom:11px}
+.bcard h4{font-size:13px;font-weight:600;color:var(--text);margin-bottom:9px}
+.brow{display:flex;align-items:center;gap:9px;margin-bottom:5px}
+.blbl{min-width:65px;font-size:12px;color:var(--text2)}
+.bwrap{flex:1;height:4px;background:var(--bg4);border-radius:2px;overflow:hidden}
+.bfill{height:100%;border-radius:2px}
+.bpct{font-family:var(--mono);font-size:11px;color:var(--text3);min-width:28px}
+.bteams{font-size:11px;color:var(--text3);margin-top:4px;line-height:1.5}
+
+/* ─── PRICING POS ─── */
+.ppos{margin:16px 0}
+.prow{display:flex;align-items:center;gap:10px;margin-bottom:9px}
+.plbl{min-width:125px;font-size:12px;color:var(--text2)}
+.pbwrap{flex:1;height:5px;background:var(--bg4);border-radius:3px;overflow:hidden}
+.pbfill{height:100%;border-radius:3px}
+.pval{font-family:var(--mono);font-size:12px;min-width:55px;text-align:right}
+.pfeatured .plbl{color:var(--green);font-weight:600}
+.pfeatured .pval{color:var(--green)}
+
+/* ─── TREND GRID ─── */
+.trgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:13px;margin-bottom:20px}
+.trcard{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r-lg);padding:18px;cursor:pointer;transition:all .2s}
+.trcard:hover{border-color:var(--border2);transform:translateY(-2px)}
+.tricon{font-size:24px;margin-bottom:9px}
+.trcard h4{font-size:13px;font-weight:600;color:var(--text);margin-bottom:5px}
+.trcard p{font-size:12px;color:var(--text2);line-height:1.5}
+.trtags{margin-top:9px;display:flex;flex-wrap:wrap;gap:4px}
+.trtag{font-size:10px;padding:2px 7px;border-radius:7px;background:var(--bg4);color:var(--text3);border:1px solid var(--border)}
+
+/* ─── OVERLAY + MOBILE ─── */
+#overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:90}
+.sfooter{margin:28px 28px 0;padding:16px 0;border-top:1px solid var(--border);font-size:11px;color:var(--text3);line-height:1.6}
+
+/* ─── MOBILE ─── */
+@media(max-width:768px){
+  :root{--nav:256px}
+  #hbg{display:block}
+  .top-pills{display:none}
+  #sidebar{transform:translateX(-100%);box-shadow:4px 0 30px rgba(0,0,0,.5)}
+  #sidebar.open{transform:translateX(0)}
+  #overlay.open{display:block}
+  #main{margin-left:0}
+  #refresh-bar{left:0}
+  .hero{padding:20px 16px 0}
+  .tabs-row{padding:0 16px}
+  .content{padding:18px 16px}
+  .sgrid{grid-template-columns:1fr 1fr}
+  .jgrid{grid-template-columns:1fr 1fr}
+  .trgrid{grid-template-columns:1fr}
+  .tlrow{flex-direction:column;gap:5px}
+  .tlmo{padding-top:0}
+  .sfooter{margin:20px 16px 0}
+  .prow .plbl{min-width:90px;font-size:11px}
+}
+@media(max-width:480px){
+  .jgrid{grid-template-columns:1fr}
+  .sgrid{grid-template-columns:1fr 1fr}
+}
+
+/* ─── FADE ANIM ─── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.section.on .content>*{animation:fadeUp .28s ease forwards}
+</style>
+</head>
+<body>
+
+<header id="topbar">
+  <button id="hbg" onclick="toggleSidebar()" aria-label="Menú">☰</button>
+  <div class="logo">Kit Intelligence <em>· Colecciones Deportivas</em></div>
+  <div class="top-pills">
+    <button class="tpill on" onclick="go('fut-ov')">⚽ Fútbol</button>
+    <button class="tpill" onclick="go('bsk-ov')">🏀 Basket</button>
+    <button class="tpill" onclick="go('precios')">💰 Precios</button>
+    <button class="tpill" onclick="go('marcas')">🏷 Marcas</button>
+    <button class="tpill" onclick="go('trends')">✦ Diseño</button>
+    <button class="tpill" onclick="go('uruguay')">🇺🇾 Uruguay</button>
+  </div>
+</header>
+
+<div id="refresh-bar">
+  <div class="status-dot loading" id="sdot"></div>
+  <div class="last-updated" id="lupd">Actualizando contenido con IA…</div>
+  <button id="btn-refresh" onclick="refreshAll(true)">
+    <svg id="refresh-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M13.5 8A5.5 5.5 0 1 1 10 3.1"/><polyline points="10,1 10,4 13,4"/></svg>
+    Actualizar
+  </button>
+</div>
+
+<div id="overlay" onclick="closeSidebar()"></div>
+
+<div id="layout">
+<nav id="sidebar">
+  <div class="nlabel">⚽ Fútbol</div>
+  <div class="nitem on" data-s="fut-ov" onclick="go('fut-ov');closeSidebar()"><span class="ic">◈</span>Resumen general<span class="nbadge" style="color:var(--green)">MLS·PL·Liga</span></div>
+  <div class="nitem" data-s="fut-kits" onclick="go('fut-kits');closeSidebar()"><span class="ic">👕</span>Colección técnica</div>
+  <div class="nitem" data-s="fut-merch" onclick="go('fut-merch');closeSidebar()"><span class="ic">🛍</span>Merchandising</div>
+  <div class="nitem" data-s="fut-drops" onclick="go('fut-drops');closeSidebar()"><span class="ic">📅</span>Drops especiales</div>
+  <div class="nlabel">🏀 Basketball</div>
+  <div class="nitem" data-s="bsk-ov" onclick="go('bsk-ov');closeSidebar()"><span class="ic">◈</span>NBA / EuroLeague</div>
+  <div class="nitem" data-s="bsk-kits" onclick="go('bsk-kits');closeSidebar()"><span class="ic">🏅</span>Editions & colección</div>
+  <div class="nitem" data-s="bsk-drops" onclick="go('bsk-drops');closeSidebar()"><span class="ic">⭐</span>City & Special Editions</div>
+  <div class="nlabel">📊 Análisis</div>
+  <div class="nitem" data-s="precios" onclick="go('precios');closeSidebar()"><span class="ic">💰</span>Precios comparados</div>
+  <div class="nitem" data-s="marcas" onclick="go('marcas');closeSidebar()"><span class="ic">🏷</span>Marcas & contratos</div>
+  <div class="nitem" data-s="trends" onclick="go('trends');closeSidebar()"><span class="ic">✦</span>Tendencias diseño</div>
+  <div class="nitem" data-s="uruguay" onclick="go('uruguay');closeSidebar()"><span class="ic">🇺🇾</span>Uruguay: estrategia</div>
+</nav>
+
+<main id="main">
+
+<!-- ══ FÚTBOL OVERVIEW ══ -->
+<section id="fut-ov" class="section on">
+  <div class="hero">
+    <div><h1>Fútbol — <em>Visión general</em></h1><p>MLS · Premier League · La Liga · Serie A · Bundesliga · Selecciones FIFA</p></div>
+    <div class="hero-icon">⚽</div>
+  </div>
+  <div class="tabs-row">
+    <div class="tab on" onclick="tab(this,'fo-main')">Panorama IA</div>
+    <div class="tab" onclick="tab(this,'fo-clubes')">Clubes & kits</div>
+    <div class="tab" onclick="tab(this,'fo-drops')">Drops</div>
+  </div>
+  <div class="content">
+    <div id="fo-main" class="pane on">
+      <div class="sgrid">
+        <div class="scard"><div class="slbl">SKUs club Tier 1</div><div class="sval">60–120</div><div class="ssub">Por temporada</div></div>
+        <div class="scard"><div class="slbl">Drops anuales</div><div class="sval">6–10</div><div class="ssub">Ventanas lanzamiento</div></div>
+        <div class="scard"><div class="slbl">Kit auténtico</div><div class="sval">€200</div><div class="ssub">Authentic + UCL patches</div></div>
+        <div class="scard"><div class="slbl">Kits por temporada</div><div class="sval">3–4</div><div class="ssub">Home/Away/Third/4th</div></div>
+      </div>
+      <div class="ai-block loading" id="ai-fut-overview">
+        <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Análisis IA — actualizando…</div>
+        <div class="ai-skeleton"><div class="skel-line" style="width:90%"></div><div class="skel-line" style="width:75%"></div><div class="skel-line" style="width:85%"></div><div class="skel-line" style="width:60%"></div></div>
+      </div>
+    </div>
+    <div id="fo-clubes" class="pane">
+      <div class="jgrid">
+        <!-- Real Madrid -->
+        <a class="jcard" href="https://us.shop.realmadrid.com/collections/jerseys-kits" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#e8e5df 55%,#ccc 100%)">
+            <svg width="64" height="82" viewBox="0 0 64 82"><path d="M16 6L4 22l12 6v47h36V28l12-6L52 6Q32 0 16 6Z" fill="white" stroke="#bbb" stroke-width="1.2"/><path d="M16 6Q32 2 52 6" fill="none" stroke="#bbb"/></svg>
+            <div class="store-badge">Adidas · Tienda oficial ↗</div>
+          </div>
+          <div class="jbody"><h4>Real Madrid 2025-26</h4><p>Home blanco clásico, Away negro, Third azul Bernabéu inspirado en los asientos del estadio</p><div class="jpills"><span class="jpill g">Authentic €150–205</span><span class="jpill">Replica €90–110</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>us.shop.realmadrid.com</div></div>
+        </a>
+        <!-- Barça -->
+        <a class="jcard" href="https://store.fcbarcelona.com/collections/jerseys" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#003087 50%,#a50044 100%)">
+            <svg width="64" height="82" viewBox="0 0 64 82"><path d="M16 6L4 22l12 6v47h36V28l12-6L52 6Q32 0 16 6Z" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1.2"/><rect x="16" y="6" width="11" height="69" fill="#a50044" opacity=".9"/><rect x="27" y="6" width="11" height="69" fill="#003087" opacity=".9"/><rect x="38" y="6" width="11" height="69" fill="#a50044" opacity=".9"/></svg>
+            <div class="store-badge">Nike · Tienda oficial ↗</div>
+          </div>
+          <div class="jbody"><h4>FC Barcelona 2025-26</h4><p>Azulgrana home. Third × Coldplay Spotify (El Clásico oct 2024). Nike €122M/año</p><div class="jpills"><span class="jpill g">Authentic €150</span><span class="jpill a">Collab Coldplay</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.fcbarcelona.com</div></div>
+        </a>
+        <!-- Inter Miami -->
+        <a class="jcard" href="https://store.mlssoccer.com/inter-miami-cf" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#f4bacf 55%,#1c1f5a 100%)">
+            <svg width="64" height="82" viewBox="0 0 64 82"><path d="M16 6L4 22l12 6v47h36V28l12-6L52 6Q32 0 16 6Z" fill="#f7c4d8" stroke="#e8a8c8" stroke-width="1.2"/></svg>
+            <div class="store-badge">Adidas · MLS Store ↗</div>
+          </div>
+          <div class="jbody"><h4>Inter Miami "Euforia"</h4><p>Pink home — el kit MLS más vendido del mundo. Adidas exclusiva toda la liga desde 2017</p><div class="jpills"><span class="jpill g">Replica $89–130</span><span class="jpill">Youth $79–99</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.mlssoccer.com</div></div>
+        </a>
+        <!-- Bayern -->
+        <a class="jcard" href="https://store.fcbayern.com/en/jerseys" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#dc052d 55%,#0a0a0c 100%)">
+            <svg width="64" height="82" viewBox="0 0 64 82"><path d="M16 6L4 22l12 6v47h36V28l12-6L52 6Q32 0 16 6Z" fill="#dc052d" stroke="#ff2244" stroke-width="1.2"/></svg>
+            <div class="store-badge">Adidas · 125 Aniv. ↗</div>
+          </div>
+          <div class="jbody"><h4>Bayern Munich 2025-26</h4><p>Third lozenge pattern aniversario 125 años (4.11/5 rating). Heritage reinterpretado por Adidas</p><div class="jpills"><span class="jpill g">Authentic €150</span><span class="jpill a">Anniversary kit</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.fcbayern.com</div></div>
+        </a>
+        <!-- PSG -->
+        <a class="jcard" href="https://www.psg.fr/en/jersey-kits" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#003f8a 50%,#e30613 100%)">
+            <svg width="64" height="82" viewBox="0 0 64 82"><path d="M16 6L4 22l12 6v47h36V28l12-6L52 6Q32 0 16 6Z" fill="#004098" stroke="#003070" stroke-width="1.2"/><rect x="16" y="6" width="32" height="4" fill="#e30613"/></svg>
+            <div class="store-badge">Nike / Jordan ↗</div>
+          </div>
+          <div class="jbody"><h4>Paris Saint-Germain 2025-26</h4><p>Partnership Jordan Brand desde 2018. "Wings" 4th kit con gradiente pink-black icónico</p><div class="jpills"><span class="jpill g">Authentic €150</span><span class="jpill a">Jordan collab</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>psg.fr</div></div>
+        </a>
+        <!-- Man City -->
+        <a class="jcard" href="https://www.mancity.com/mcfc/first-team/shirts" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#6caee0 55%,#1c2c5b 100%)">
+            <svg width="64" height="82" viewBox="0 0 64 82"><path d="M16 6L4 22l12 6v47h36V28l12-6L52 6Q32 0 16 6Z" fill="#6caee0" stroke="#5a9fd4" stroke-width="1.2"/></svg>
+            <div class="store-badge">Puma · £100M/año ↗</div>
+          </div>
+          <div class="jbody"><h4>Manchester City 2025-26</h4><p>El mayor contrato de la historia de la Premier League. Puma £100M/año. Sky blue icónico</p><div class="jpills"><span class="jpill g">Authentic £125</span><span class="jpill">Replica £80</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>mancity.com</div></div>
+        </a>
+      </div>
+    </div>
+    <div id="fo-drops" class="pane">
+      <div class="ibox">El ciclo de vida de un kit dura 14–18 meses. Los clubes inyectan drops cada 4–6 semanas para sostener el momentum comercial sin lanzar nueva colección técnica.</div>
+      <div class="tl">
+        <div class="tlrow"><div class="tlmo">May–Jun</div><div class="tlchips"><div class="chip cg">Home kit teaser / leak</div><div class="chip cx">Pre-season training kit</div></div></div>
+        <div class="tlrow"><div class="tlmo">Julio</div><div class="tlchips"><div class="chip cg">🟢 Home kit lanzamiento oficial</div></div></div>
+        <div class="tlrow"><div class="tlmo">Jul–Ago</div><div class="tlchips"><div class="chip cb">Away kit</div><div class="chip cx">Tour pretemporada Asia / USA</div></div></div>
+        <div class="tlrow"><div class="tlmo">Ago–Sep</div><div class="tlchips"><div class="chip ca">Third kit</div><div class="chip cx">Pre-match / Anthem jacket</div></div></div>
+        <div class="tlrow"><div class="tlmo">Sep</div><div class="tlchips"><div class="chip cp">Champions / Europa League kit</div></div></div>
+        <div class="tlrow"><div class="tlmo">Oct–Nov</div><div class="tlchips"><div class="chip ck">Halloween special</div><div class="chip cp">Colaboraciones moda</div></div></div>
+        <div class="tlrow"><div class="tlmo">Nov</div><div class="tlchips"><div class="chip cr">Black Friday</div></div></div>
+        <div class="tlrow"><div class="tlmo">Dic</div><div class="tlchips"><div class="chip cb">Christmas / Holiday collection</div><div class="chip cx">Sets regalo, pijamas</div></div></div>
+        <div class="tlrow"><div class="tlmo">Enero</div><div class="tlchips"><div class="chip cr">🐉 Lunar New Year kit</div><div class="chip ca">Fourth kit / Special edition</div></div></div>
+        <div class="tlrow"><div class="tlmo">Feb</div><div class="tlchips"><div class="chip ck">Valentine's Day</div><div class="chip cg">🟢 MLS Jersey Week</div></div></div>
+        <div class="tlrow"><div class="tlmo">Mar–Abr</div><div class="tlchips"><div class="chip ca">Cup special kits (FA, Copa del Rey)</div></div></div>
+        <div class="tlrow"><div class="tlmo">Mayo</div><div class="tlchips"><div class="chip cg">Champions Final edition</div><div class="chip cb">Anniversary kits</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ KITS FÚTBOL ══ -->
+<section id="fut-kits" class="section">
+  <div class="hero"><div><h1>Colección <em>técnica completa</em></h1><p>SKUs de indumentaria técnica de un club Tier 1 por temporada</p></div><div class="hero-icon">👕</div></div>
+  <div class="tabs-row">
+    <div class="tab on" onclick="tab(this,'fk-kits')">Kits de juego</div>
+    <div class="tab" onclick="tab(this,'fk-train')">Entrenamiento</div>
+    <div class="tab" onclick="tab(this,'fk-staff')">Banco / Staff / Viaje</div>
+    <div class="tab" onclick="tab(this,'fk-junior')">Junior</div>
+  </div>
+  <div class="content">
+    <div id="fk-kits" class="pane on">
+      <div class="ai-block loading" id="ai-fut-kits">
+        <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Análisis IA — actualizando…</div>
+        <div class="ai-skeleton"><div class="skel-line" style="width:85%"></div><div class="skel-line" style="width:70%"></div><div class="skel-line" style="width:90%"></div></div>
+      </div>
+      <div class="twrap"><table>
+        <thead><tr><th>Prenda</th><th>Versiones</th><th>Precio</th><th>Notas</th></tr></thead>
+        <tbody>
+          <tr><td style="font-weight:600">Camiseta Authentic</td><td class="m">Home / Away / Third</td><td class="v">€150 → €205</td><td class="m">Dri-FIT ADV · HEAT.RDY · ULTRAWEAVE. +€30–50 con personalización</td></tr>
+          <tr><td style="font-weight:600">Camiseta Replica Stadium</td><td class="m">Home / Away / Third</td><td class="v">€90–€110</td><td class="m">Escudo bordado, números termoadhesivos</td></tr>
+          <tr><td>Camiseta Mujer</td><td class="m">3 kits</td><td class="v">€90–€110</td><td class="m">Women's cut. Mismas versiones Auth y Replica</td></tr>
+          <tr><td>Manga larga Authentic</td><td class="m">Home / Away</td><td class="v">€170–€200</td><td class="m">Solo versión premium. Invierno europeo</td></tr>
+          <tr><td>Short de juego</td><td class="m">Por kit</td><td class="v">€40–€55</td><td class="m">Vendido separado o en set completo</td></tr>
+          <tr><td>Medias de juego (par)</td><td class="m">Por kit</td><td class="v">€18–€25</td><td class="m">Diseño coordinado con el kit</td></tr>
+          <tr><td>Camiseta arquero</td><td class="m">2–3 colores</td><td class="v">€100–€150</td><td class="m">Colores opuestos al equipo</td></tr>
+          <tr><td>Guantes arquero</td><td class="m">Pro / Club / Training</td><td class="v">€30–€200</td><td class="m">Contrato separado: Adidas Predator, Nike Vapor Grip, Puma Ultra</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="fk-train" class="pane">
+      <div class="twrap"><table>
+        <thead><tr><th>Prenda</th><th>Nomenclatura inglés</th><th>Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Camiseta de entrenamiento</td><td class="m">Training Top / Strike Top / Tiro Top</td><td class="v">€50–€70</td></tr>
+          <tr><td>Camiseta pre-partido</td><td class="m">Pre-Match Jersey / Pre-Match Shirt</td><td class="v">€70–€100</td></tr>
+          <tr><td>Short de entrenamiento</td><td class="m">Training Shorts</td><td class="v">€35–€45</td></tr>
+          <tr><td>Pantalón largo</td><td class="m">Training Pants / Tiro Pants / Strike Pants</td><td class="v">€70–€90</td></tr>
+          <tr><td>Buzo / Sudadera</td><td class="m">Sweat Top (con o sin capucha)</td><td class="v">€70–€100</td></tr>
+          <tr><td>Campera entrenamiento</td><td class="m">Training Jacket / Track Top</td><td class="v">€90–€130</td></tr>
+          <tr><td>Rompevientos / Lluvia</td><td class="m">Rain Jacket / All-Weather</td><td class="v">€100–€150</td></tr>
+          <tr><td>Tracksuit completo</td><td class="m">Campera + pantalón</td><td class="v">€130–€180</td></tr>
+          <tr><td>Base layer / térmica</td><td class="m">Compression Base Layer</td><td class="v">€40–€70</td></tr>
+          <tr><td>Bibs / Pecheras</td><td class="m">Training Bibs (fabricables sin licencia)</td><td class="v">€10–€20</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="fk-staff" class="pane">
+      <div class="stitle">Banco de suplentes y cuerpo técnico</div>
+      <div class="twrap"><table>
+        <thead><tr><th>Prenda</th><th>Uso</th><th>Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Anthem Jacket / Track Jacket</td><td class="m">Calentamiento previo + banco suplentes</td><td class="v">€90–€177</td></tr>
+          <tr><td>Coach Jacket / Manager Jacket</td><td class="m">Entrenadores — más formal, softshell</td><td class="v">€100–€150</td></tr>
+          <tr><td>Bench Coat / Padded Jacket</td><td class="m">Parka acolchada invierno (Bundesliga, EPL)</td><td class="v">€120–€200</td></tr>
+          <tr><td>Chaleco / Vest / Gilet</td><td class="m">Asistentes y preparadores en campo</td><td class="v">€60–€90</td></tr>
+          <tr><td>Polo de staff</td><td class="m">Cuerpo técnico y médico</td><td class="v">€50–€70</td></tr>
+        </tbody>
+      </table></div>
+      <div class="stitle">Viaje y presentación</div>
+      <div class="twrap"><table>
+        <thead><tr><th>Prenda</th><th>Nomenclatura</th><th>Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Campera de viaje</td><td class="m">Travel Jacket / Tech Travel Jacket / VIS Tech</td><td class="v">€80–€120</td></tr>
+          <tr><td>Polo / Tee lifestyle</td><td class="m">Polo, Crew Neck Tee con escudo</td><td class="v">€40–€70</td></tr>
+          <tr><td>Pantalón de viaje</td><td class="m">Joggers / Woven Pants / Cargo Pants</td><td class="v">€70–€110</td></tr>
+          <tr><td>Hoodie de club</td><td class="m">Club Hoodie / Anthem Hoodie</td><td class="v">€70–€100</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="fk-junior" class="pane">
+      <div class="ibox">La línea junior replica al 100% la colección adulta en tallas 3-4 años hasta 13-14 años. Precios 30–40% menores. Alto margen para el club por volumen de regalo.</div>
+      <div class="sgrid">
+        <div class="scard"><div class="slbl">Ahorro vs adulto</div><div class="sval">30–40%</div></div>
+        <div class="scard"><div class="slbl">Real Madrid Kids Kit</div><div class="sval">$31–82</div></div>
+        <div class="scard"><div class="slbl">Inter Miami Youth Messi</div><div class="sval">$79–99</div></div>
+        <div class="scard"><div class="slbl">Mini-kit bebé</div><div class="sval">€25–45</div><div class="ssub">0–3 años</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MERCHANDISING ══ -->
+<section id="fut-merch" class="section">
+  <div class="hero"><div><h1>Merchandising <em>oficial</em></h1><p>250–800 SKUs adicionales por temporada en un club Tier 1</p></div><div class="hero-icon">🛍</div></div>
+  <div class="tabs-row">
+    <div class="tab on" onclick="tab(this,'fm-life')">Lifestyle / Moda</div>
+    <div class="tab" onclick="tab(this,'fm-acc')">Accesorios</div>
+    <div class="tab" onclick="tab(this,'fm-col')">Hogar / Coleccionables</div>
+    <div class="tab" onclick="tab(this,'fm-collab')">Colaboraciones</div>
+  </div>
+  <div class="content">
+    <div id="fm-life" class="pane on">
+      <div class="ai-block loading" id="ai-merch">
+        <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Tendencias merchandising — actualizando…</div>
+        <div class="ai-skeleton"><div class="skel-line" style="width:88%"></div><div class="skel-line" style="width:72%"></div><div class="skel-line" style="width:80%"></div></div>
+      </div>
+      <div class="twrap"><table>
+        <thead><tr><th>Prenda</th><th>Descripción</th><th>Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Remeras gráficas / T-shirts</td><td class="m">Escudo + frases del club, ciudad, hashtag. Unisex / mujer / niño</td><td class="v">€25–€40</td></tr>
+          <tr><td>Hoodie / Buzo con capucha</td><td class="m">Escudo bordado o full-print. Mayor margen en merch</td><td class="v">€60–€100</td></tr>
+          <tr><td>Track jacket lifestyle</td><td class="m">No técnica, uso casual urbano. Diferente de la de entrenamiento</td><td class="v">€70–€110</td></tr>
+          <tr><td>Gorras New Era (9FORTY, 9FIFTY, bucket hat)</td><td class="m">Partner oficial NBA y clubs europeos</td><td class="v">$12–$35</td></tr>
+          <tr><td>Beanies / Gorros de invierno</td><td class="m">Knit con escudo bordado. Clave en mercados PL/Bundesliga</td><td class="v">€15–€25</td></tr>
+          <tr><td>Bufandas (Scarves)</td><td class="m">Jacquard con escudo + colores. La pieza emblema del fan europeo</td><td class="v">$18–$25</td></tr>
+          <tr><td>Pantuflas / Zapatillas de casa</td><td class="m">Liverpool, Bayern Munich las venden. Alto margen, bajo costo</td><td class="v">€25–€40</td></tr>
+          <tr><td>Toallas playa / baño</td><td class="m">Sublimación con escudo full color</td><td class="v">$15–$25</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="fm-acc" class="pane">
+      <div class="twrap"><table>
+        <thead><tr><th>Artículo</th><th>Descripción</th><th>Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Llaveros (Keyrings)</td><td class="m">Plástico, metal o peluche con escudo</td><td class="v">€5–€12</td></tr>
+          <tr><td>Billeteras / Wallets</td><td class="m">PU leather o tela con escudo</td><td class="v">€15–€30</td></tr>
+          <tr><td>Pines y parches</td><td class="m">Para ropa, mochilas o gorras</td><td class="v">€5–€12</td></tr>
+          <tr><td>Imanes de heladera</td><td class="m">Acrílico o caucho con escudo en relieve</td><td class="v">€4–€8</td></tr>
+          <tr><td>Paraguas / Sombrillas</td><td class="m">Con escudo y colores oficiales</td><td class="v">€25–€50</td></tr>
+          <tr><td>Ponchos de lluvia</td><td class="m">Muy popular en Premier League</td><td class="v">€15–€30</td></tr>
+          <tr><td>Bolsos / Mochilas</td><td class="m">Gym Bag, Duffel Bag, Backpack</td><td class="v">€40–€80</td></tr>
+          <tr><td>Pelota oficial del club</td><td class="m">Versión Pro Match y recreativa</td><td class="v">€25–€170</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="fm-col" class="pane">
+      <div class="twrap"><table>
+        <thead><tr><th>Artículo</th><th>Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Tazas / Mugs (cerámica, térmica, travel)</td><td class="v">€7–€15</td></tr>
+          <tr><td>Almohadas / Cojines decorativos</td><td class="v">€20–€45</td></tr>
+          <tr><td>Mantas / Fleece blankets</td><td class="v">€20–€40</td></tr>
+          <tr><td>Posters enmarcados / Cuadros</td><td class="v">€30–€120</td></tr>
+          <tr><td>Cromos Topps / Panini (PL → Topps 25-26)</td><td class="v">€1.50–€20/box</td></tr>
+          <tr><td>Cromos NBA Panini Prizm</td><td class="v">$5–$500+ carta</td></tr>
+          <tr><td>Figuras jugadores (Funko Pop)</td><td class="v">€15–€40</td></tr>
+          <tr><td>Banderas estadio (1.5×0.9m)</td><td class="v">$14–$25</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="fm-collab" class="pane">
+      <div class="ibox">📈 Depop: +294% búsquedas camisetas fútbol durante Euro 2024. La camiseta es ahora producto fashion, no solo deportivo.</div>
+      <div class="trgrid">
+        <a class="trcard" href="https://store.fcbarcelona.com" target="_blank" rel="noopener" style="text-decoration:none">
+          <div class="tricon">🎸</div><h4>FC Barcelona × Coldplay</h4>
+          <p>Oct 2024, El Clásico. Fases lunares en lugar del logo Spotify. Quinta collab (Rosalía, Drake, Karol G, Rolling Stones)</p>
+          <div class="trtags"><span class="trtag">Limited kit</span><span class="trtag">One game only</span></div>
+        </a>
+        <a class="trcard" href="https://www.psg.fr/en/jersey-kits" target="_blank" rel="noopener" style="text-decoration:none">
+          <div class="tricon">✈️</div><h4>PSG × Jordan Brand</h4>
+          <p>Partnership desde 2018. Tercero/cuarto kit con Jumpman. Primero en la historia. "Wings" gradient pink-black</p>
+          <div class="trtags"><span class="trtag">4th kit</span><span class="trtag">Annual</span></div>
+        </a>
+        <a class="trcard" href="https://store.nba.com/brooklyn-nets" target="_blank" rel="noopener" style="text-decoration:none">
+          <div class="tricon">🎨</div><h4>Brooklyn Nets × KAWS</h4>
+          <p>City Edition 2024-25 diseñada por el artista KAWS. El más buscado en StockX de la temporada NBA</p>
+          <div class="trtags"><span class="trtag">NBA City Ed.</span><span class="trtag">Art collab</span></div>
+        </a>
+        <a class="trcard" href="https://store.knicks.com" target="_blank" rel="noopener" style="text-decoration:none">
+          <div class="tricon">🏙️</div><h4>NY Knicks × KITH</h4>
+          <p>City Edition 2024-25 con patrón flag check KITH, logo Swoosh NYC exclusivo, MSG renderings en short</p>
+          <div class="trtags"><span class="trtag">KITH</span><span class="trtag">Fashion</span></div>
+        </a>
+        <div class="trcard">
+          <div class="tricon">🏔️</div><h4>Inter Milan × Nike ACG</h4>
+          <p>Enero 2026. Primer kit de fútbol con logo ACG de Nike. Crossover streetwear/outdoor histórico</p>
+          <div class="trtags"><span class="trtag">4th kit</span><span class="trtag">Jan 2026</span></div>
+        </div>
+        <div class="trcard">
+          <div class="tricon">👗</div><h4>Fiorentina × Luisaviaroma</h4>
+          <p>Cuarto kit fashion-luxury. Palazzo Pitti estética florentina. Ejemplo de club mediano accediendo al lujo vía collab local</p>
+          <div class="trtags"><span class="trtag">4th kit</span><span class="trtag">Luxury</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ DROPS FÚTBOL ══ -->
+<section id="fut-drops" class="section">
+  <div class="hero"><div><h1>Drops <em>especiales</em></h1><p>Tipos de edición y nomenclatura global</p></div><div class="hero-icon">📅</div></div>
+  <div class="content">
+    <div class="trgrid">
+      <div class="trcard"><div class="tricon">🕰️</div><h4>Heritage / Anniversary Kit</h4><p>Conmemoración de aniversarios. Bayern 125 años, Crystal Palace anniversary, Real Madrid títulos europeos</p><div class="trtags"><span class="trtag">Coleccionable</span><span class="trtag">Stock limitado</span></div></div>
+      <div class="trcard"><div class="tricon">🏆</div><h4>Champions / Cup Kit</h4><p>Kits específicos UCL, UEL o copa nacional. Algunos clubs tienen un third europeo distinto al de liga doméstica</p><div class="trtags"><span class="trtag">UCL</span><span class="trtag">Copa</span></div></div>
+      <div class="trcard"><div class="tricon">📼</div><h4>Throwback / Retro Kit</h4><p>Réplica modernizada de kit histórico. Inter Milan 1996-97 revival. MLS Archive Collection. El retro chic es la corriente más fuerte 2024-26</p><div class="trtags"><span class="trtag">Retro chic</span><span class="trtag">Nostalgia</span></div></div>
+      <div class="trcard"><div class="tricon">🐉</div><h4>Lunar New Year Kit</h4><p>Man City, Barcelona, Arsenal. Ediciones rojas con motivos chinos. Mercado Asia-Pacífico es clave para PL y LaLiga</p><div class="trtags"><span class="trtag">Asia market</span><span class="trtag">Enero</span></div></div>
+      <div class="trcard"><div class="tricon">🌆</div><h4>MLS Special Editions</h4><p>Heritage, All-Star, MLS Cup, Pride (junio). "Euforia" Miami, "The Evergreen State" Seattle, "The Soul" DC United</p><div class="trtags"><span class="trtag">MLS</span><span class="trtag">Local identity</span></div></div>
+      <div class="trcard"><div class="tricon">🕯️</div><h4>Tribute / Charity Match Kit</h4><p>Homenajes a jugadores. Un solo partido. Valor coleccionable inmediato e impredecible. Homenaje Diogo Jota, kits Maradona</p><div class="trtags"><span class="trtag">Un solo partido</span><span class="trtag">Priceless</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ BASKETBALL OVERVIEW ══ -->
+<section id="bsk-ov" class="section">
+  <div class="hero"><div><h1>Basketball — <em>Sistema de Editions</em></h1><p>NBA · EuroLeague · Selecciones FIBA</p></div><div class="hero-icon">🏀</div></div>
+  <div class="tabs-row">
+    <div class="tab on" onclick="tab(this,'bo-nba')">Sistema NBA</div>
+    <div class="tab" onclick="tab(this,'bo-euro')">EuroLeague / FIBA</div>
+  </div>
+  <div class="content">
+    <div id="bo-nba" class="pane on">
+      <div class="sgrid">
+        <div class="scard"><div class="slbl">Editions por franquicia</div><div class="sval">4–5</div><div class="ssub">Por temporada</div></div>
+        <div class="scard"><div class="slbl">Nike Authentic</div><div class="sval">$250</div><div class="ssub">Pro Cut / Vapor Knit</div></div>
+        <div class="scard"><div class="slbl">Nike Swingman</div><div class="sval">$125</div><div class="ssub">Fan replica oficial</div></div>
+        <div class="scard"><div class="slbl">Fanatics Replica</div><div class="sval">$40–85</div><div class="ssub">Entry level</div></div>
+      </div>
+      <div class="ai-block loading" id="ai-bsk-overview">
+        <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Análisis NBA — actualizando…</div>
+        <div class="ai-skeleton"><div class="skel-line" style="width:90%"></div><div class="skel-line" style="width:75%"></div><div class="skel-line" style="width:82%"></div></div>
+      </div>
+      <div class="jgrid">
+        <a class="jcard" href="https://store.nba.com/los-angeles-lakers/jerseys" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#552583 55%,#f9a01b 100%)">
+            <svg width="55" height="72" viewBox="0 0 55 72"><rect x="5" y="5" width="45" height="62" rx="4" fill="#552583" stroke="#7a35c7" stroke-width="1.2"/><text x="27" y="40" text-anchor="middle" font-size="14" fill="#f9a01b" font-family="sans-serif" font-weight="700">23</text></svg>
+            <div class="store-badge">Nike · Lakers ↗</div>
+          </div>
+          <div class="jbody"><h4>LA Lakers — Icon Edition</h4><p>Purple & gold icónico. City Edition Remix 2025-26 revisita el diseño "Showtime" de 2019</p><div class="jpills"><span class="jpill g">Authentic $250</span><span class="jpill">Swingman $125</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.nba.com/lakers</div></div>
+        </a>
+        <a class="jcard" href="https://store.nba.com/boston-celtics/jerseys" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#007a33 55%,#1a1a1a 100%)">
+            <svg width="55" height="72" viewBox="0 0 55 72"><rect x="5" y="5" width="45" height="62" rx="4" fill="#007a33" stroke="#00a845" stroke-width="1.2"/><text x="27" y="40" text-anchor="middle" font-size="14" fill="white" font-family="sans-serif" font-weight="700">0</text></svg>
+            <div class="store-badge">Nike · Celtics ↗</div>
+          </div>
+          <div class="jbody"><h4>Boston Celtics — Icon Edition</h4><p>Verde clásico. City Edition 2025-26 "Remix" de los kits de 2019-20. Campeones 2024</p><div class="jpills"><span class="jpill g">Authentic $250</span><span class="jpill">Swingman $125</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.nba.com/celtics</div></div>
+        </a>
+        <a class="jcard" href="https://store.nba.com/golden-state-warriors/jerseys" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#1d428a 55%,#ffc72c 100%)">
+            <svg width="55" height="72" viewBox="0 0 55 72"><rect x="5" y="5" width="45" height="62" rx="4" fill="#1d428a" stroke="#2859b5" stroke-width="1.2"/><text x="27" y="40" text-anchor="middle" font-size="14" fill="#ffc72c" font-family="sans-serif" font-weight="700">30</text></svg>
+            <div class="store-badge">Nike · Warriors ↗</div>
+          </div>
+          <div class="jbody"><h4>Golden State Warriors</h4><p>Royal blue & gold. City Edition "The Bay" 2025-26. Statement Edition con logo Jumpman Jordan</p><div class="jpills"><span class="jpill g">Authentic $250</span><span class="jpill a">City Ed.</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.nba.com/warriors</div></div>
+        </a>
+        <a class="jcard" href="https://store.nba.com/miami-heat/jerseys" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#98002e 55%,#f9a01b 100%)">
+            <svg width="55" height="72" viewBox="0 0 55 72"><rect x="5" y="5" width="45" height="62" rx="4" fill="#98002e" stroke="#c2003a" stroke-width="1.2"/><text x="27" y="40" text-anchor="middle" font-size="14" fill="#f9a01b" font-family="sans-serif" font-weight="700">3</text></svg>
+            <div class="store-badge">Nike · Heat ↗</div>
+          </div>
+          <div class="jbody"><h4>Miami Heat — City "Vice"</h4><p>"Vice City" estética es la más icónica de las City Editions. "Bleed Heat Red" Remix 2025-26</p><div class="jpills"><span class="jpill g">Authentic $250</span><span class="jpill a">Vice · iconic</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.nba.com/heat</div></div>
+        </a>
+      </div>
+    </div>
+    <div id="bo-euro" class="pane">
+      <div class="ibox">A diferencia de la NBA, EuroLeague no tiene proveedor único. Cada club elige su marca. Hay 8+ marcas distintas entre los 20 clubes.</div>
+      <div class="jgrid">
+        <a class="jcard" href="https://www.realmadrid.com/en/basketball/online-store" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#e8e5df 55%,#ccc 100%)">
+            <svg width="55" height="72" viewBox="0 0 55 72"><rect x="5" y="5" width="45" height="62" rx="4" fill="white" stroke="#ccc" stroke-width="1.2"/><text x="27" y="40" text-anchor="middle" font-size="13" fill="#333" font-family="sans-serif" font-weight="700">REAL</text></svg>
+            <div class="store-badge">Adidas · EuroLeague ↗</div>
+          </div>
+          <div class="jbody"><h4>Real Madrid Baloncesto</h4><p>Home blanco Adidas. Kit europeo distinto al ACB. Campeones EuroLeague 2023. Jersey Home replica</p><div class="jpills"><span class="jpill g">Replica €75–95</span><span class="jpill">Auth €110–140</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>realmadrid.com</div></div>
+        </a>
+        <a class="jcard" href="https://store.fcbarcelona.com/collections/basketball" target="_blank" rel="noopener">
+          <div class="jvisual" style="background:linear-gradient(135deg,#003087 55%,#a50044 100%)">
+            <svg width="55" height="72" viewBox="0 0 55 72"><rect x="5" y="5" width="22" height="62" fill="#003087"/><rect x="27" y="5" width="23" height="62" fill="#a50044"/><rect x="5" y="5" width="45" height="62" rx="4" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="1.2"/></svg>
+            <div class="store-badge">Nike · EuroLeague ↗</div>
+          </div>
+          <div class="jbody"><h4>FC Barcelona Basket</h4><p>Nike Dri-FIT. 5 uniformes distintos temporada 25-26 incluyendo European Home y Away específicos</p><div class="jpills"><span class="jpill g">Replica €75–95</span><span class="jpill">5 jerseys</span></div><div class="jlink"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 9L9 1M9 1H4M9 1v5"/></svg>store.fcbarcelona.com</div></div>
+        </a>
+      </div>
+      <div class="twrap"><table>
+        <thead><tr><th>Selección FIBA</th><th>Marca</th><th>Jersey fan</th></tr></thead>
+        <tbody>
+          <tr><td>USA, Francia, España, Lituania</td><td class="m">Nike / Jordan Brand</td><td class="v">€89.95</td></tr>
+          <tr><td>Alemania (2024-25), Argentina (hasta 2032)</td><td class="m" style="color:var(--gold)">PEAK — mayor crecimiento FIBA</td><td class="v">€94.95</td></tr>
+          <tr><td>Italia, Hungría</td><td class="m">Macron</td><td class="v">€60–€80</td></tr>
+          <tr><td>Polonia</td><td class="m">4F</td><td class="v">€50–€70</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ KITS BASKET ══ -->
+<section id="bsk-kits" class="section">
+  <div class="hero"><div><h1>Colección técnica <em>basketball</em></h1><p>Uniformes NBA + EuroLeague — todos los componentes</p></div><div class="hero-icon">🏅</div></div>
+  <div class="content">
+    <div class="twrap"><table>
+      <thead><tr><th>Tier</th><th>Tecnología</th><th>Números</th><th>Precio USA</th></tr></thead>
+      <tbody>
+        <tr><td style="font-weight:600">Nike Authentic / Pro Cut</td><td class="m">Vapor Knit slim, vents cintura</td><td class="m">Tackle twill cosido multicapa</td><td class="v">$250</td></tr>
+        <tr><td style="font-weight:600">Nike Swingman</td><td class="m">Dri-FIT regular fit</td><td class="m">Heat-pressed twill monocapa</td><td class="v">$125 ($94.97 oferta)</td></tr>
+        <tr><td style="font-weight:600">Fanatics Fast Break</td><td class="m">Polyester estándar</td><td class="m">Serigrafiados o flex</td><td class="v">$40–$85</td></tr>
+        <tr><td style="font-weight:600">M&N Hardwood Classics Swingman</td><td class="m">Vintage replica</td><td class="m">Cosido o bordado</td><td class="v">$100–$150</td></tr>
+        <tr><td style="font-weight:600">M&N Hardwood Classics Authentic</td><td class="m">Tejido de época</td><td class="m">Tackle twill cosido original</td><td class="v">$200–$350</td></tr>
+      </tbody>
+    </table></div>
+    <div class="stitle">Calentamiento y banco</div>
+    <div class="twrap"><table>
+      <thead><tr><th>Prenda</th><th>Nomenclatura inglés</th><th>Precio</th></tr></thead>
+      <tbody>
+        <tr><td>Camiseta de calentamiento</td><td class="m">Shooting Shirt / Pregame Tee</td><td class="v">$50–$70</td></tr>
+        <tr><td>Pantalón de calentamiento</td><td class="m">Warm-up Pants / Tear-away Pants</td><td class="v">$90–$120</td></tr>
+        <tr><td>Campera de calentamiento</td><td class="m">Warm-up Jacket / Showtime Jacket</td><td class="v">$110–$150</td></tr>
+        <tr><td>Half-Zip coaches</td><td class="m">Coaches Dri-FIT Half-Zip Pullover</td><td class="v">$120</td></tr>
+        <tr><td>Hoodie courtside</td><td class="m">Player Issue Hoodie</td><td class="v">$80–$110</td></tr>
+        <tr><td>Practice Jersey reversible</td><td class="m">Training Jersey (colores opuestos c/cara)</td><td class="v">$30–$50</td></tr>
+        <tr><td>Calcetines Stance (partner oficial NBA)</td><td class="m">Varios modelos por equipo</td><td class="v">$18/par</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══ DROPS BASKET ══ -->
+<section id="bsk-drops" class="section">
+  <div class="hero"><div><h1>City & <em>Special Editions NBA</em></h1><p>Los drops mid-season más desarrollados del deporte mundial</p></div><div class="hero-icon">⭐</div></div>
+  <div class="content">
+    <div class="ai-block loading" id="ai-bsk-drops">
+      <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>City Editions — actualizando…</div>
+      <div class="ai-skeleton"><div class="skel-line" style="width:88%"></div><div class="skel-line" style="width:72%"></div><div class="skel-line" style="width:80%"></div></div>
+    </div>
+    <div class="tl">
+      <div class="tlrow"><div class="tlmo">Oct</div><div class="tlchips"><div class="chip cg">Inicio temporada — Association / Icon / Statement</div></div></div>
+      <div class="tlrow"><div class="tlmo">Nov</div><div class="tlchips"><div class="chip ca">⭐ City Edition — el drop más importante</div><div class="chip cx">Emirates NBA Cup courts</div></div></div>
+      <div class="tlrow"><div class="tlmo">25 Dic</div><div class="tlchips"><div class="chip cr">Christmas Day Game uniforms especiales</div></div></div>
+      <div class="tlrow"><div class="tlmo">Enero</div><div class="tlchips"><div class="chip cb">MLK Day games</div><div class="chip cx">Classic Edition debuts (throwback)</div></div></div>
+      <div class="tlrow"><div class="tlmo">Feb</div><div class="tlchips"><div class="chip cp">🌟 NBA All-Star uniforms + lifestyle weekend</div><div class="chip cx">Black History Month collection</div></div></div>
+      <div class="tlrow"><div class="tlmo">Mar–Abr</div><div class="tlchips"><div class="chip ca">Earned Edition (solo equipos playoff año anterior)</div></div></div>
+      <div class="tlrow"><div class="tlmo">Abr–Jun</div><div class="tlchips"><div class="chip cg">Playoffs merch — express 24-48 hs</div><div class="chip cr">NBA Finals championship merch</div></div></div>
+    </div>
+    <div class="stitle">City Edition 2024-25 — Más aclamados</div>
+    <div class="trgrid">
+      <a class="trcard" href="https://store.nba.com/brooklyn-nets/city-edition" target="_blank" rel="noopener" style="text-decoration:none"><div class="tricon">🎨</div><h4>Brooklyn Nets × KAWS</h4><p>Gris-negro con motivos artísticos KAWS. El más buscado en StockX de la temporada 24-25</p><div class="trtags"><span class="trtag">Art collab</span><span class="trtag">NYC</span></div></a>
+      <a class="trcard" href="https://store.nba.com/cleveland-cavaliers/city-edition" target="_blank" rel="noopener" style="text-decoration:none"><div class="tricon">🏛️</div><h4>Cleveland Cavs × Museum of Art</h4><p>Arquitectura del Cleveland Museum of Art. Top rating City Edition 24-25</p><div class="trtags"><span class="trtag">Cultural</span><span class="trtag">Architecture</span></div></a>
+      <a class="trcard" href="https://store.nba.com/detroit-pistons/city-edition" target="_blank" rel="noopener" style="text-decoration:none"><div class="tricon">🏆</div><h4>Detroit Pistons "Bad Boys"</h4><p>Color bone, número naranja vintage, firma Chuck Daly. Tributo a los campeonatos 89-90</p><div class="trtags"><span class="trtag">Throwback</span><span class="trtag">Legacy</span></div></a>
+      <a class="trcard" href="https://store.nba.com/new-york-knicks/city-edition" target="_blank" rel="noopener" style="text-decoration:none"><div class="tricon">🏙️</div><h4>NY Knicks × KITH</h4><p>Flag check KITH, Swoosh NYC exclusivo, MSG renderings en short. Alta moda + basketball</p><div class="trtags"><span class="trtag">KITH</span><span class="trtag">Fashion</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRECIOS ══ -->
+<section id="precios" class="section">
+  <div class="hero"><div><h1>Precios <em>comparados</em></h1><p>Tienda oficial USD/EUR. Para Uruguay sumar 30–60% (aranceles + IVA + logística)</p></div><div class="hero-icon">💰</div></div>
+  <div class="tabs-row">
+    <div class="tab on" onclick="tab(this,'pr-fut')">Fútbol</div>
+    <div class="tab" onclick="tab(this,'pr-bsk')">Basketball</div>
+    <div class="tab" onclick="tab(this,'pr-uru')">Producción Uruguay</div>
+  </div>
+  <div class="content">
+    <div id="pr-fut" class="pane on">
+      <div class="sgrid">
+        <div class="scard"><div class="slbl">Authentic tope</div><div class="sval">€200</div><div class="ssub">Con personalización + UCL</div></div>
+        <div class="scard"><div class="slbl">Replica fan estándar</div><div class="sval">€90–110</div></div>
+        <div class="scard"><div class="slbl">Réplica AAA no oficial</div><div class="sval">$35–55</div><div class="ssub">Al consumidor</div></div>
+        <div class="scard"><div class="slbl">Multiplicador oficial vs genérica</div><div class="sval">3x–6x</div></div>
+      </div>
+      <div class="twrap"><table>
+        <thead><tr><th>Producto</th><th>Precio EUR/USD</th><th>Ejemplo</th></tr></thead>
+        <tbody>
+          <tr><td>Camiseta Authentic adulto</td><td class="v">€150 → €205</td><td class="m">Real Madrid Home 25-26 con parches UCL</td></tr>
+          <tr><td>Camiseta Replica adulto</td><td class="v">€90–€110</td><td class="m">Real Madrid Replica $78.75 (Sports Direct rebajado)</td></tr>
+          <tr><td>Camiseta Replica mujer</td><td class="v">€90–€110</td><td class="m">Inter Miami Women's Messi "Euforia" $79.99</td></tr>
+          <tr><td>Kit infantil completo</td><td class="v">€60–€110</td><td class="m">Real Madrid Kids 25-26 desde $31.50</td></tr>
+          <tr><td>Long Sleeve Authentic</td><td class="v">€170–€200</td><td class="m">Solo versión premium, invierno europeo</td></tr>
+          <tr><td>Anthem / Track Jacket</td><td class="v">€90–€177</td><td class="m">Liverpool VIS Tech $90 / England Lionesses $177</td></tr>
+          <tr><td>Tracksuit completo</td><td class="v">€130–€180</td><td class="m">Campera + pantalón entrenamiento</td></tr>
+          <tr><td>Pelota club recreativa</td><td class="v">€25–€55</td><td class="m">Chelsea Third Football size 5 $14–$24</td></tr>
+          <tr><td>Hoodie lifestyle</td><td class="v">€60–€100</td><td class="m">Club Hoodie con escudo bordado</td></tr>
+          <tr><td>Bufanda oficial (scarf)</td><td class="v">$18–$25</td><td class="m">Chelsea Lion Scarf $20</td></tr>
+          <tr><td>Botines tope de gama</td><td class="v">€250–€350</td><td class="m">Adidas Predator, Nike Mercurial Superfly</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="pr-bsk" class="pane">
+      <div class="twrap"><table>
+        <thead><tr><th>Producto</th><th>Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Nike Authentic Jersey (cualquier Edition)</td><td class="v">$250</td></tr>
+          <tr><td>Nike Swingman Jersey (fan replica)</td><td class="v">$125 (oferta $94.97)</td></tr>
+          <tr><td>Fanatics Fast Break Replica</td><td class="v">$40–$85</td></tr>
+          <tr><td>Mitchell & Ness Hardwood Classics Authentic</td><td class="v">$200–$350</td></tr>
+          <tr><td>Short oficial Swingman</td><td class="v">$70</td></tr>
+          <tr><td>Short Authentic</td><td class="v">$110</td></tr>
+          <tr><td>Warm-up Jacket / Showtime</td><td class="v">$110–$150</td></tr>
+          <tr><td>Wilson Pelota oficial NBA</td><td class="v">$60–$170</td></tr>
+          <tr><td>Calcetines Stance oficiales NBA</td><td class="v">$18/par</td></tr>
+          <tr><td>Jersey EuroLeague replica (R. Madrid Basket)</td><td class="v">€75–€95</td></tr>
+          <tr><td>Jersey EuroLeague Authentic</td><td class="v">€110–€140</td></tr>
+          <tr><td>Jersey selección FIBA Nike USA</td><td class="v">€89.95</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="pr-uru" class="pane">
+      <div class="ibox">Cotizaciones de referencia del mercado uruguayo y regional (MGR Sport, Bulk, Zeus, GyG, HM Sport Argentina). Sin diseño, IVA ni logística.</div>
+      <div class="twrap"><table>
+        <thead><tr><th>Producto</th><th>Costo fábrica (USD)</th><th>Precio B2C sugerido</th><th>Margen bruto</th></tr></thead>
+        <tbody>
+          <tr><td>Camiseta sublimada full design adulto</td><td class="m">$8–$14</td><td class="v">$25–$45</td><td class="g">~55%</td></tr>
+          <tr><td>Short sublimado</td><td class="m">$5–$9</td><td class="v">$15–$25</td><td class="g">~55%</td></tr>
+          <tr><td>Conjunto entrenamiento (cam + short)</td><td class="m">$12–$20</td><td class="v">$35–$60</td><td class="g">~55%</td></tr>
+          <tr><td>Campera / Anthem jacket sublimada</td><td class="m">$18–$32</td><td class="v">$55–$95</td><td class="g">~55%</td></tr>
+          <tr><td>Tracksuit completo</td><td class="m">$28–$45</td><td class="v">$80–$140</td><td class="g">~50%</td></tr>
+          <tr><td>Hoodie lifestyle premium</td><td class="m">$12–$22</td><td class="v">$45–$75</td><td class="g">~57%</td></tr>
+          <tr><td>Bufanda jacquard</td><td class="m">$4–$8</td><td class="v">$18–$28</td><td class="g">~60%</td></tr>
+          <tr><td>Taza cerámica sublimada</td><td class="m">$1.50–$3</td><td class="v">$8–$15</td><td class="g">~65%</td></tr>
+        </tbody>
+      </table></div>
+      <div class="stitle">Posicionamiento de precio</div>
+      <div class="ppos">
+        <div class="prow"><div class="plbl" style="color:var(--text3)">Réplica genérica importada</div><div class="pbwrap"><div class="pbfill" style="width:22%;background:var(--text3)"></div></div><div class="pval" style="color:var(--text3)">$25–$40</div></div>
+        <div class="prow pfeatured"><div class="plbl">⭐ Tu producto local</div><div class="pbwrap"><div class="pbfill" style="width:45%;background:var(--green)"></div></div><div class="pval">$35–$65</div></div>
+        <div class="prow"><div class="plbl" style="color:var(--blue)">Oficial Puma/Adidas/Nike</div><div class="pbwrap"><div class="pbfill" style="width:100%;background:var(--blue)"></div></div><div class="pval" style="color:var(--blue)">$90–$150</div></div>
+      </div>
+      <div class="gbox">✅ Sweet spot $35–$65: calidad superior a la réplica genérica, precio accesible vs el oficial importado. Margen bruto 50–65%.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MARCAS ══ -->
+<section id="marcas" class="section">
+  <div class="hero"><div><h1>Marcas y <em>contratos vigentes</em></h1><p>Mapa de proveedores. Temporada 2024-2026.</p></div><div class="hero-icon">🏷</div></div>
+  <div class="tabs-row">
+    <div class="tab on" onclick="tab(this,'ma-fut')">Fútbol</div>
+    <div class="tab" onclick="tab(this,'ma-bsk')">Basketball</div>
+  </div>
+  <div class="content">
+    <div id="ma-fut" class="pane on">
+      <div class="ai-block loading" id="ai-marcas">
+        <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Contratos y deals — actualizando…</div>
+        <div class="ai-skeleton"><div class="skel-line" style="width:85%"></div><div class="skel-line" style="width:70%"></div><div class="skel-line" style="width:80%"></div></div>
+      </div>
+      <div class="bcard"><h4>🟢 Adidas — 23 clubes · 24%</h4>
+        <div class="brow"><div class="blbl">Cuota liga</div><div class="bwrap"><div class="bfill" style="width:24%;background:#1a8a2a"></div></div><div class="bpct">24%</div></div>
+        <div class="bteams">Real Madrid €117.6M/año · Man United £90M/año (2025) · Arsenal £75M/año · Liverpool £100M/año (desde ago-2025) · Bayern Munich · Juventus (hasta 2037) · MLS exclusiva liga completa</div>
+      </div>
+      <div class="bcard"><h4>⚫ Puma — 15 clubes · 16%</h4>
+        <div class="brow"><div class="blbl">Cuota liga</div><div class="bwrap"><div class="bfill" style="width:16%;background:#cc2222"></div></div><div class="bpct">16%</div></div>
+        <div class="bteams">Manchester City £100M/año (mayor contrato en la historia de la Premier League) · AC Milan · Borussia Dortmund · Valencia · <strong style="color:var(--gold)">Uruguay selección desde 2017</strong></div>
+      </div>
+      <div class="bcard"><h4>✔ Nike — 13 clubes · 14%</h4>
+        <div class="brow"><div class="blbl">Cuota liga</div><div class="bwrap"><div class="bfill" style="width:14%;background:#185599"></div></div><div class="bpct">14%</div></div>
+        <div class="bteams">FC Barcelona €122M/año (mayor La Liga) · PSG hasta 2032 + Jordan Brand · Inter Milan desde 1998 · Chelsea £60M/año · Atlético Madrid €28M/año · NBA exclusiva completa desde 2017-18</div>
+      </div>
+      <div class="bcard"><h4>🌐 Resto — Castore, Hummel, Joma, Macron, Kappa, SUDU, Umbro, Kelme, Lotto, Erreà, Zeus · 46%</h4>
+        <div class="brow"><div class="blbl">Cuota combinada</div><div class="bwrap"><div class="bfill" style="width:46%;background:#666"></div></div><div class="bpct">46%</div></div>
+        <div class="bteams">SUDU (UK): kits desde £58 replica / £80 authentic, desafiando el precio estándar £80/£125. Wolverhampton usa SUDU. Castore creció con Newcastle, Leverkusen, Everton.</div>
+      </div>
+    </div>
+    <div id="ma-bsk" class="pane">
+      <div class="bcard"><h4>✔ Nike — Exclusiva NBA completa</h4><p style="font-size:13px;color:var(--text2);line-height:1.6">Contrato exclusivo NBA desde 2017-18. Statement Edition lleva Jordan Brand (Jumpman) desde 2020-21. Partners: New Era (gorras), Wilson (pelota desde 2021), Stance (medias).</p></div>
+      <div class="twrap"><table>
+        <thead><tr><th>EuroLeague (20 clubs)</th><th>Marca</th></tr></thead>
+        <tbody>
+          <tr><td>Real Madrid Baloncesto, Bayern Munich Basketball</td><td class="m">Adidas</td></tr>
+          <tr><td>FC Barcelona Basket, Olympiacos, Olimpia Milano</td><td class="m">Nike (EA7 para Milano)</td></tr>
+          <tr><td>Pelota oficial EuroLeague</td><td class="m">Spalding</td></tr>
+          <tr><td>Pelota oficial FIBA</td><td class="m">Molten</td></tr>
+          <tr><td>Resto clubes (8+ marcas distintas)</td><td class="m">Macron, Kappa, Puma, Erreà, Peak, 4F</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TENDENCIAS ══ -->
+<section id="trends" class="section">
+  <div class="hero"><div><h1>Tendencias de <em>diseño</em></h1><p>6 ejes dominantes en fútbol y basketball. Ciclo 2024-2026.</p></div><div class="hero-icon">✦</div></div>
+  <div class="content">
+    <div class="ai-block loading" id="ai-trends">
+      <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Tendencias de diseño — actualizando…</div>
+      <div class="ai-skeleton"><div class="skel-line" style="width:90%"></div><div class="skel-line" style="width:75%"></div><div class="skel-line" style="width:85%"></div><div class="skel-line" style="width:60%"></div></div>
+    </div>
+    <div class="trgrid">
+      <div class="trcard"><div class="tricon">🕰️</div><h4>Heritage y retro reinterpretado</h4><p>La corriente más fuerte. Collares clásicos, fuentes throwback, escudos vintage. Coordenada estética: 1970s, 80s, 90s. Bayern 125 años, Inter 1996-97 revival, NBA City Edition Remix 2025-26</p><div class="trtags"><span class="trtag">Bayern 125</span><span class="trtag">NBA Remix</span></div></div>
+      <div class="trcard"><div class="tricon">🗺️</div><h4>Storytelling cultural local</h4><p>La camiseta como vehículo narrativo. Houndstooth de Madrid, mosaico Gaudí de Barça, Stax Records Memphis. NBA City Edition: cada franquicia cuenta su ciudad</p><div class="trtags"><span class="trtag">City Edition</span><span class="trtag">MLS local</span></div></div>
+      <div class="trcard"><div class="tricon">◈</div><h4>Patrones geométricos y gradientes</h4><p>Color blocking diagonal reemplazó rayas horizontales. Gradientes sunset, pink-black, chevrons, diamonds. PSG Wings, Juventus away aquamarina</p><div class="trtags"><span class="trtag">PSG Wings</span><span class="trtag">Gradients</span></div></div>
+      <div class="trcard"><div class="tricon">𝗔</div><h4>Tipografía como identidad</h4><p>Fuentes custom por club, claw-marks, runas, tribales. Front numbers en pecho volviendo. Tinta silicona 3D en relieve</p><div class="trtags"><span class="trtag">Custom fonts</span><span class="trtag">3D relief</span></div></div>
+      <div class="trcard"><div class="tricon">🧵</div><h4>Tecnologías de tela premium</h4><p>Sublimación full-dye estándar, 4-way stretch, slim-fit. Materiales reciclados (Bayern 125 aniversario). No más estampado pegado</p><div class="trtags"><span class="trtag">Dri-FIT ADV</span><span class="trtag">HEAT.RDY</span></div></div>
+      <div class="trcard"><div class="tricon">🤝</div><h4>Colaboraciones streetwear / fashion</h4><p>Depop: +294% búsquedas camisetas durante Euro 2024. Hailey Bieber y Dua Lipa con soccer shirts. La camiseta es moda, no solo deporte</p><div class="trtags"><span class="trtag">KAWS × Nets</span><span class="trtag">Coldplay × Barça</span></div></div>
+    </div>
+    <div class="stitle">Kits más aclamados 2024-25 (SoccerBible / Football Kit Archive)</div>
+    <div class="twrap"><table>
+      <thead><tr><th>Kit</th><th>Rating</th><th>Por qué destaca</th></tr></thead>
+      <tbody>
+        <tr><td>Werder Bremen 25-26 Special</td><td class="v">4.33/5 ⭐</td><td class="m">El más aclamado de la temporada</td></tr>
+        <tr><td>Juventus 2024-25 Third</td><td class="v">4.30/5</td><td class="m">Paleta aquamarina-azul rupturista</td></tr>
+        <tr><td>Bayern Munich 25-26 Home</td><td class="v">4.30/5</td><td class="m">Elegante actualización heritage</td></tr>
+        <tr><td>Bayern Munich 25-26 Third</td><td class="v">4.11/5</td><td class="m">Lozenge pattern del escudo 1970s</td></tr>
+        <tr><td>AS Roma 25-26 Third (Adidas)</td><td class="v">Top cited</td><td class="m">Verde + amarillo — "art you can wear"</td></tr>
+        <tr><td>Inter Milan 25-26 Fourth (Nike ACG)</td><td class="v">Más hype</td><td class="m">Primer kit de fútbol con logo ACG</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══ URUGUAY ══ -->
+<section id="uruguay" class="section">
+  <div class="hero"><div><h1>🇺🇾 Uruguay — <em>Estrategia</em></h1><p>Fabricación local · Licencias · Modelos de negocio · Proveedores</p></div></div>
+  <div class="tabs-row">
+    <div class="tab on" onclick="tab(this,'ur-legal')">Legal / licencias</div>
+    <div class="tab" onclick="tab(this,'ur-modelos')">Modelos de negocio</div>
+    <div class="tab" onclick="tab(this,'ur-provs')">Proveedores</div>
+    <div class="tab" onclick="tab(this,'ur-timing')">Calendario oportunidades</div>
+  </div>
+  <div class="content">
+    <div id="ur-legal" class="pane on">
+      <div class="ai-block loading" id="ai-uruguay">
+        <div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Análisis estratégico Uruguay — actualizando…</div>
+        <div class="ai-skeleton"><div class="skel-line" style="width:90%"></div><div class="skel-line" style="width:78%"></div><div class="skel-line" style="width:85%"></div><div class="skel-line" style="width:65%"></div></div>
+      </div>
+      <div class="gbox"><strong>✅ Se puede fabricar y vender libremente:</strong><br>· Indumentaria deportiva con diseño propio en cualquier color y patrón<br>· Paleta celeste-blanco (Uruguay), amarillo-negro (fans Peñarol), tricolor (fans Nacional) — sin usar escudo registrado ni nombre registrado<br>· Línea propia con motivos culturales: candombe, gauchesca, Rambla, "1930-1950 legacy"<br>· Accesorios genéricos: bolsos, gorras sin escudo, toallas, banderas</div>
+      <div class="wbox"><strong>🚫 Requiere licencia oficial:</strong><br>· Escudos registrados: Peñarol, Nacional, AUF, Real Madrid, Barça, Lakers, NBA, FIFA, UEFA, Champions League<br>· Nombres registrados de clubs, ligas y jugadores<br>· Marcas de proveedores: tres tiras Adidas, Swoosh Nike, felino Puma, Jumpman Jordan<br><br><strong>Marco legal:</strong> Ley 17.011 (marcas) + Convenio de París. La DNA puede incautar mercadería con marca apócrifa.</div>
+    </div>
+    <div id="ur-modelos" class="pane">
+      <div class="mcard"><h4>🔧 Modelo A — Fabricante local, diseño propio <span class="jpill g">Riesgo cero</span></h4><p>Producción 100% local con MGR Sport, Bulk, Zeus, GyG, Podium. Clubes locales OFI/ONFI, baby fútbol, escuelas, corporativos + retail con identidad uruguaya.</p><div class="mpros"><span class="pro">✓ Margen 50–65% B2C</span><span class="pro">✓ Time-to-market 2–4 semanas</span><span class="con">✗ Sin pull de marcas globales</span></div></div>
+      <div class="mcard"><h4>🚚 Modelo B — Revendedor oficial / importador <span class="jpill g">Sin riesgo legal</span></h4><p>Importar producto oficial vía distribuidores autorizados de Argentina, Brasil o Chile. Producto auténtico, sin riesgo aduanero. Menor margen.</p><div class="mpros"><span class="pro">✓ Producto auténtico</span><span class="con">✗ Margen retail 30–45%</span><span class="con">✗ Capital alto inmovilizado</span></div></div>
+      <div class="mcard"><h4>📜 Modelo C — Licenciatario local de club <span class="jpill a">Requiere negociación</span></h4><p>Acuerdo con Peñarol, Nacional, Defensor o AUF. Categorías "open": tazas, bufandas, hoodies, banderas. Royalty al club: 10–20% sobre venta.</p></div>
+      <div class="mcard"><h4>🌍 Modelo D — Marca propia + e-commerce <span class="jpill">Mediano plazo</span></h4><p>Marca uruguaya estilo Hummel-Greenland. E-commerce para diáspora uruguaya en USA, España y Australia (+600k personas). Alto poder adquisitivo con nostalgia activa.</p></div>
+      <div class="mcard star"><h4>⭐ Modelo E — Híbrido <span class="jpill g">Recomendado</span></h4><p><strong>Pilar 1:</strong> B2B local para clubes OFI, Liga Básquetbol, escuelas, baby fútbol. MOQ 15–25 unidades, clientes recurrentes.<br><br><strong>Pilar 2:</strong> Retail "Uruguay-inspired" — storytelling 1930-1950, gauchesca, celeste, para Mundial 2026. Sin marcas registradas. Margen 55–65%.<br><br><strong>Pilar 3:</strong> Importación selectiva de producto oficial alta rotación (Uruguay Puma, Peñarol/Nacional merch licenciado) para generar tráfico.</p><div class="mpros"><span class="pro">✓ Estabilidad + crecimiento</span><span class="pro">✓ Riesgo distribuido</span><span class="pro">✓ Mundial 2026 como catalizador</span></div></div>
+    </div>
+    <div id="ur-provs" class="pane">
+      <div class="stitle">Fabricantes locales Uruguay</div>
+      <div class="twrap"><table>
+        <thead><tr><th>Empresa</th><th>Capacidad</th><th>Clubes de referencia</th></tr></thead>
+        <tbody>
+          <tr><td style="font-weight:600">MGR Sport</td><td class="m">Sublimación + confección desde 1982 (Hocquart 1650, Mvd)</td><td class="m">Fénix, Progreso, Racing UY, River Plate UY, Cerro, Rampla</td></tr>
+          <tr><td style="font-weight:600">Zeus Indumentaria</td><td class="m">Sublimación full + confección</td><td class="m">Mercado local y retail deportivo</td></tr>
+          <tr><td style="font-weight:600">GyG Indumentaria</td><td class="m">Confección técnica</td><td class="m">Clubes amateurs y formativos</td></tr>
+          <tr><td style="font-weight:600">Bulk Sportswear UY</td><td class="m">Sublimación + DTF</td><td class="m">Clubes, equipos corporativos</td></tr>
+        </tbody>
+      </table></div>
+      <div class="stitle">Proveedores regionales (Argentina / Brasil)</div>
+      <div class="twrap"><table>
+        <thead><tr><th>Proveedor</th><th>País</th><th>Qué provee</th></tr></thead>
+        <tbody>
+          <tr><td>Textil Iberoamericana · Promatex · TN Platex</td><td class="m">Argentina</td><td class="m">Jersey microperforada, interlock, microfibra para sublimación</td></tr>
+          <tr><td>HM Sport (Rosario)</td><td class="m">Argentina</td><td class="m">Confección y sublimación. Vende a Uruguay directamente</td></tr>
+          <tr><td>Cluster Santa Catarina (Brusque, Blumenau)</td><td class="m">Brasil</td><td class="m">Telas técnicas alta performance, exporta a Latam</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div id="ur-timing" class="pane">
+      <div class="ibox">Alinear los lanzamientos a los calendarios deportivos maximiza la demanda sin inversión extra en marketing. El Mundial 2026 es la ventana de mayor oportunidad en décadas para Uruguay.</div>
+      <div class="tl">
+        <div class="tlrow"><div class="tlmo">Feb–Mar</div><div class="tlchips"><div class="chip cg">Inicio torneo AUF Apertura</div><div class="chip cb">Lanzar colección kits clubes locales</div></div></div>
+        <div class="tlrow"><div class="tlmo">Mar–Jun</div><div class="tlchips"><div class="chip ca">⭐ MUNDIAL 2026 — demanda máxima celeste heritage</div></div></div>
+        <div class="tlrow"><div class="tlmo">Jul–Ago</div><div class="tlchips"><div class="chip cb">Post-mundial — colección legacy</div><div class="chip cx">Kits temporada 25-26 local</div></div></div>
+        <div class="tlrow"><div class="tlmo">Oct</div><div class="tlchips"><div class="chip cg">Liga Uruguaya Básquetbol</div><div class="chip ca">Colección basket local</div></div></div>
+        <div class="tlrow"><div class="tlmo">Nov</div><div class="tlchips"><div class="chip cr">Black Friday</div></div></div>
+        <div class="tlrow"><div class="tlmo">Dic</div><div class="tlchips"><div class="chip cb">Holiday collection — sets regalo</div></div></div>
+      </div>
+      <div class="sgrid">
+        <div class="scard"><div class="slbl">Clubes OFI / ONFI aprox.</div><div class="sval">400+</div><div class="ssub">Potenciales clientes B2B</div></div>
+        <div class="scard"><div class="slbl">Equipos Liga Basket UY</div><div class="sval">60+</div></div>
+        <div class="scard"><div class="slbl">MOQ típico B2B clubes</div><div class="sval">15–25</div><div class="ssub">Unidades por modelo</div></div>
+        <div class="scard"><div class="slbl">Diáspora uruguaya</div><div class="sval">600k+</div><div class="ssub">USA / España / Australia</div></div>
+      </div>
+      <div class="gbox">🇺🇾 <strong>Mundial 2026 es el catalizador:</strong> Uruguay clasificó. La demanda de producto celeste/heritage tendrá un pico entre marzo y agosto 2026. Lanzar línea "Uruguay-inspired" antes de marzo 2026, sin uso del escudo AUF (que es Puma). El torneo lleva el tráfico orgánico sin inversión en marketing.</div>
+      <div class="sfooter"><strong>Fuentes:</strong> Footy Headlines · SoccerBible · Football Kit Archive · NBAStore.com · EuroLeague Basketball · FIBA.basketball · Sports Direct · Fanatics · MLSStore.com · SportsLogos.Net · GiveMeSport · Temporadas 2024-25 y 2025-26</div>
+    </div>
+  </div>
+</section>
+
+</main>
+</div>
+
+<script>
+// ── NAVIGATION ──
+function go(id){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.nitem').forEach(n=>n.classList.remove('on'));
+  document.querySelectorAll('.tpill').forEach(p=>p.classList.remove('on'));
+  const sec=document.getElementById(id);
+  if(sec)sec.classList.add('on');
+  const ni=document.querySelector('[data-s="'+id+'"]');
+  if(ni)ni.classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+  // Initialize first pane in section
+  sec.querySelectorAll('.pane').forEach((p,i)=>{p.style.display=i===0?'block':'none';if(i===0)p.classList.add('on');else p.classList.remove('on');});
+  sec.querySelectorAll('.tab').forEach((t,i)=>{if(i===0)t.classList.add('on');else t.classList.remove('on');});
+}
+function tab(el,paneId){
+  const sec=el.closest('.section');
+  sec.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  el.classList.add('on');
+  const cont=sec.querySelector('.content');
+  if(cont){
+    cont.querySelectorAll('.pane').forEach(p=>{p.classList.remove('on');p.style.display='none';});
+    const pane=document.getElementById(paneId);
+    if(pane){pane.classList.add('on');pane.style.display='block';}
+  }
+}
+function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('open');}
+function closeSidebar(){document.getElementById('sidebar').classList.remove('open');document.getElementById('overlay').classList.remove('open');}
+
+// ── AI CONTENT SYSTEM ──
+const AI_BLOCKS={
+  'ai-fut-overview':{
+    prompt:`Eres un analista experto en indumentaria deportiva. Genera un análisis conciso (150-180 palabras) en español sobre el estado actual del mercado de colecciones de fútbol en MLS, Premier League, La Liga, Serie A y Bundesliga para temporada 2025-26. Incluye: 1 tendencia clave en kits, 1 dato relevante sobre contratos de marcas, y 1 insight estratégico sobre drops especiales. Sé específico y usa datos reales recientes. Formato: párrafo fluido sin bullets, con datos concretos.`,
+    sec:'fut-ov'
+  },
+  'ai-fut-kits':{
+    prompt:`Analiza en 120-150 palabras en español los kits de fútbol más relevantes de la temporada 2025-26 (Real Madrid, Bayern Munich, Inter Milan, PSG, clubes MLS). Menciona qué versión vende más (Authentic vs Replica), cuál fue el kit de arquero más innovador, y un detalle técnico sobre las telas utilizadas. Párrafo fluido con datos específicos.`,
+    sec:'fut-kits'
+  },
+  'ai-merch':{
+    prompt:`En 120-150 palabras en español, describe las tendencias actuales de merchandising en fútbol y basketball 2024-26. Menciona qué categorías de producto crecen más (hoodies, gorras, bufandas, accesorios), el impacto de las colaboraciones de moda en las ventas, y un dato concreto sobre el mercado. Menciona el efecto +294% Depop en Euro 2024. Párrafo fluido.`,
+    sec:'fut-merch'
+  },
+  'ai-bsk-overview':{
+    prompt:`Analiza en 140-170 palabras en español el sistema de Editions de la NBA temporada 2025-26. Explica la "City Edition Remix", menciona las diferencias entre Association, Icon, Statement y City Edition, destaca 2 equipos con uniformes destacados esta temporada, y menciona el rol de Jordan Brand en las Statement Edition. Incluye el precio Authentic ($250) vs Swingman ($125). Párrafo fluido.`,
+    sec:'bsk-ov'
+  },
+  'ai-bsk-drops':{
+    prompt:`En 130-160 palabras en español, describe el sistema de drops de la NBA en la temporada 2025-26. Enfócate en: qué significa "City Edition Remix", los drops más importantes (noviembre City Edition, 25 diciembre, All-Star de febrero), y qué hace que la City Edition de Brooklyn Nets × KAWS y Cleveland Cavs × Museum of Art sean las más aclamadas. Párrafo fluido con datos.`,
+    sec:'bsk-drops'
+  },
+  'ai-marcas':{
+    prompt:`En 140-160 palabras en español, analiza el mapa de marcas en fútbol 2025-26. Menciona: la ventaja de Adidas (23 clubes, 24% de las top 5 ligas), el mayor contrato de la historia de la Premier (Puma-Man City £100M), la exclusiva Nike en la NBA, y el crecimiento de PEAK en FIBA (Alemania, Argentina). Destaca que Uruguay usa Puma desde 2017 y la relevancia para una empresa local. Párrafo fluido.`,
+    sec:'marcas'
+  },
+  'ai-trends':{
+    prompt:`En 150-180 palabras en español, analiza las 6 tendencias de diseño dominantes en kits deportivos 2024-26: retro/heritage, storytelling cultural local, patrones geométricos y gradientes, tipografía como identidad, tecnologías de tela, y colaboraciones streetwear. Menciona ejemplos concretos: Bayern 125 años, PSG Wings, Inter Milan ACG, KAWS×Nets, Coldplay×Barça. Incluye el dato de +294% en Depop durante Euro 2024. Párrafo fluido, tono analítico.`,
+    sec:'trends'
+  },
+  'ai-uruguay':{
+    prompt:`En 160-190 palabras en español, genera un análisis estratégico para una empresa de indumentaria deportiva en Uruguay. Incluye: qué se puede fabricar sin licencia (diseño propio, colores inspirados), qué requiere licencia (escudos, nombres registrados, marcas como Nike/Adidas/Puma), el modelo de negocio recomendado (híbrido B2B local + retail Uruguay-inspired), y por qué el Mundial 2026 es el mayor catalizador. Menciona la diáspora uruguaya de 600k en USA/España/Australia como mercado e-commerce. Tono directo y práctico. Párrafo fluido.`,
+    sec:'uruguay'
+  }
+};
+
+let loadedBlocks=new Set();
+let lastUpdate=null;
+
+async function fetchAIContent(blockId,force=false){
+  if(loadedBlocks.has(blockId)&&!force)return;
+  const block=document.getElementById(blockId);
+  if(!block)return;
+  const cfg=AI_BLOCKS[blockId];
+  if(!cfg)return;
+  block.classList.add('loading');
+  block.innerHTML=`<div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Actualizando con IA…</div><div class="ai-skeleton"><div class="skel-line" style="width:90%"></div><div class="skel-line" style="width:75%"></div><div class="skel-line" style="width:82%"></div><div class="skel-line" style="width:60%"></div></div>`;
+  try{
+    const res=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:1000,
+        messages:[{role:'user',content:cfg.prompt}]
+      })
+    });
+    if(!res.ok)throw new Error('API error '+res.status);
+    const data=await res.json();
+    const text=data.content?.[0]?.text||'';
+    block.classList.remove('loading');
+    block.innerHTML=`<div class="ai-label"><svg viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 4v3M6 8.5v.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>Análisis IA · ${new Date().toLocaleTimeString('es-UY',{hour:'2-digit',minute:'2-digit'})}</div><div class="ai-text">${text.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>')}</div>`;
+    loadedBlocks.add(blockId);
+  }catch(e){
+    block.classList.remove('loading');
+    block.innerHTML=`<div class="ai-label" style="color:var(--red)">⚠ No se pudo conectar con la IA</div><div class="ai-text" style="color:var(--text3);font-size:12px">Verificá tu conexión a internet. El resto del contenido (tablas, precios, marcas, calendarios) está disponible y es independiente de la IA.<br><br>Para activar el análisis IA necesitás abrir el archivo localmente desde un servidor o desplegarlo online.</div>`;
+  }
+}
+
+async function refreshAll(force=false){
+  const btn=document.getElementById('btn-refresh');
+  const sdot=document.getElementById('sdot');
+  const lupd=document.getElementById('lupd');
+  btn.classList.add('spinning');
+  sdot.className='status-dot loading';
+  lupd.innerHTML='Actualizando contenido con IA…';
+  if(force)loadedBlocks.clear();
+  const ids=Object.keys(AI_BLOCKS);
+  for(const id of ids){
+    await fetchAIContent(id,force);
+    await new Promise(r=>setTimeout(r,300));
+  }
+  btn.classList.remove('spinning');
+  const now=new Date();
+  lastUpdate=now;
+  sdot.className='status-dot';
+  lupd.innerHTML=`Actualizado · <span>${now.toLocaleTimeString('es-UY',{hour:'2-digit',minute:'2-digit'})}</span> · Contenido analítico generado con IA`;
+}
+
+// ── INIT ──
+document.addEventListener('DOMContentLoaded',()=>{
+  // Init all panes
+  document.querySelectorAll('.section').forEach(sec=>{
+    sec.querySelectorAll('.pane').forEach((p,i)=>{p.style.display=i===0?'block':'none';});
+  });
+  // Auto-refresh on load
+  refreshAll(false);
+});
+</script>
+</body>
+</html>
