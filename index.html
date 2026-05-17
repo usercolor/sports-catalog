@@ -3,42 +3,94 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inicio — Sports Intelligence 2024-26</title>
+<title>Sports Intelligence — Indumentaria Deportiva 2024-26</title>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;padding:14px 24px 60px}
+.card{background:var(--bg3);border:1px solid var(--b);border-radius:14px;padding:20px;text-decoration:none;display:flex;flex-direction:column;gap:9px;transition:all .2s;position:relative;overflow:hidden}
+.card:hover{border-color:var(--b2);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.card.hl{border-color:rgba(232,201,122,.25);background:linear-gradient(135deg,var(--bg3) 0%,rgba(232,201,122,.04) 100%)}
+.card.hl::before{content:'NUEVO';position:absolute;top:12px;right:12px;font-size:9px;font-weight:700;padding:2px 7px;border-radius:6px;background:rgba(232,201,122,.2);color:var(--gold);letter-spacing:.05em}
+.ci{font-size:32px;line-height:1}
+.card h2{font-size:14px;font-weight:600;color:var(--tx)}
+.card p{font-size:12px;color:var(--tx2);line-height:1.5;flex:1}
+.cf{font-size:11px;color:var(--tx3);margin-top:2px}
+.ca{font-size:11px;font-weight:600;color:var(--gold);margin-top:auto;padding-top:5px}
+.ph{padding:22px 24px 14px;border-bottom:1px solid var(--b);background:linear-gradient(180deg,var(--bg3) 0%,transparent 100%)}
+.ph h1{font-family:var(--sf);font-size:22px;font-weight:400}
+.ph h1 em{color:var(--gold);font-style:italic}
+.ph p{font-size:13px;color:var(--tx2);margin-top:5px;max-width:600px}
+.slabel{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);padding:14px 24px 0}
+@media(max-width:800px){.cards-grid{padding:12px 14px 60px;gap:10px}.slabel{padding:12px 14px 0}}
+</style>
 </head>
 <body>
 <header id="tb">
   <button id="hm" onclick="tsb()">☰</button>
   <a class="logo" href="index.html">Sports Intelligence <em>· 2024-26</em></a>
-  <nav class="tnav"><a href="index.html" class="on">🏠 Inicio</a><a href="futbol.html">⚽ Fútbol</a><a href="basketball.html">🏀 Basketball</a><a href="mlb-nfl.html">⚾ MLB/NFL</a><a href="otros.html">🌐 Otros</a><a href="calendario.html">📅 Calendario</a><a href="marcas.html">🏷 Marcas</a><a href="diseno.html">✦ Diseño</a><a href="uruguay.html">🇺🇾 Uruguay</a></nav>
+  <nav class="tnav">
+    <a href="index.html" class="on">🏠 Inicio</a>
+    <a href="noticias.html">📰 Noticias</a>
+    <a href="referencias.html">🔗 Referencia</a>
+    <a href="futbol.html">⚽ Fútbol</a>
+    <a href="basketball.html">🏀 Basketball</a>
+    <a href="mlb-nfl.html">⚾ MLB/NFL</a>
+    <a href="otros.html">🌐 Otros</a>
+    <a href="calendario.html">📅 Calendario</a>
+    <a href="marcas.html">🏷 Marcas</a>
+    <a href="diseno.html">✦ Diseño</a>
+    <a href="uruguay.html">🇺🇾 Uruguay</a>
+  </nav>
 </header>
 <div id="ov" onclick="csb()"></div>
 <div id="ly">
 <nav id="sb">
   <div class="nlb">Navegación</div>
-<a href="index.html"  class="ni on"><span class="ic">🏠</span>Inicio / Dashboard</a>
-<a href="futbol.html" class="ni"><span class="ic">⚽</span>Fútbol</a>
-<a href="basketball.html" class="ni"><span class="ic">🏀</span>Basketball</a>
-<a href="mlb-nfl.html" class="ni"><span class="ic">⚾</span>MLB & NFL</a>
-<a href="otros.html" class="ni"><span class="ic">🌐</span>Tenis · F1 · Rugby</a>
-<a href="calendario.html" class="ni"><span class="ic">📅</span>Calendario de drops</a>
-<a href="marcas.html" class="ni"><span class="ic">🏷</span>Marcas & contratos</a>
-<a href="diseno.html" class="ni"><span class="ic">✦</span>Tendencias diseño</a>
-<a href="uruguay.html" class="ni"><span class="ic">🇺🇾</span>Uruguay / Estrategia</a>
-
+  <a href="index.html" class="ni on"><span class="ic">🏠</span>Inicio</a>
+  <a href="noticias.html" class="ni"><span class="ic">📰</span>Noticias<span class="nb">auto</span></a>
+  <a href="referencias.html" class="ni"><span class="ic">🔗</span>Sitios de referencia</a>
+  <div class="nlb">Por deporte</div>
+  <a href="futbol.html" class="ni"><span class="ic">⚽</span>Fútbol</a>
+  <a href="basketball.html" class="ni"><span class="ic">🏀</span>Basketball</a>
+  <a href="mlb-nfl.html" class="ni"><span class="ic">⚾</span>MLB & NFL</a>
+  <a href="otros.html" class="ni"><span class="ic">🌐</span>Otros deportes</a>
+  <div class="nlb">Análisis</div>
+  <a href="calendario.html" class="ni"><span class="ic">📅</span>Calendario de drops</a>
+  <a href="marcas.html" class="ni"><span class="ic">🏷</span>Marcas & contratos</a>
+  <a href="diseno.html" class="ni"><span class="ic">✦</span>Tendencias diseño</a>
+  <a href="uruguay.html" class="ni"><span class="ic">🇺🇾</span>Uruguay / Estrategia</a>
 </nav>
 <main id="mn">
-
-<div class="page-hero">
+<div class="ph">
   <h1>Sports Intelligence <em>2024-26</em></h1>
-  <p>Análisis completo de colecciones deportivas · Productos con links de compra · Calendario de drops · Estrategia Uruguay</p>
+  <p>Análisis de colecciones deportivas · Noticias automáticas · Productos con links · Calendario de drops · Estrategia Uruguay</p>
 </div>
+
+<div class="slabel">Noticias & referencia</div>
+<div class="cards-grid">
+  <a class="card hl" href="noticias.html">
+    <div class="ci">📰</div>
+    <h2>Noticias destacadas</h2>
+    <p>Lanzamientos de kits, collabs y merchandising. Cobertura global y Latinoamérica. Actualización automática cada 3 días.</p>
+    <div class="cf">FootyHeadlines · SoccerBible · ESPN · Olé · NBA.com</div>
+    <div class="ca">Ver noticias →</div>
+  </a>
+  <a class="card hl" href="referencias.html">
+    <div class="ci">🔗</div>
+    <h2>Sitios de referencia</h2>
+    <p>Los mejores recursos por deporte. Tiendas oficiales, archivos de diseño, retailers y merch de los principales clubes globales.</p>
+    <div class="cf">Footy Headlines · NBA Store · MLB Shop · All Blacks · F1</div>
+    <div class="ca">Ver referencias →</div>
+  </a>
+</div>
+
+<div class="slabel">Por deporte</div>
 <div class="cards-grid">
   <a class="card" href="futbol.html">
     <div class="ci">⚽</div>
     <h2>Fútbol</h2>
-    <p>MLS · Premier League · La Liga · Serie A · Bundesliga · Selecciones FIFA. Análisis de temporada, ligas, precios y drops.</p>
+    <p>MLS · Premier League · La Liga · Serie A · Bundesliga · Selecciones FIFA. Análisis, precios, drops y productos con links.</p>
     <div class="cf">Kits · Entrenamiento · Merchandising</div>
     <div class="ca">Ver sección →</div>
   </a>
@@ -59,21 +111,25 @@
   <a class="card" href="otros.html">
     <div class="ci">🌐</div>
     <h2>Tenis · F1 · Rugby · NHL</h2>
-    <p>Grand Slams · Red Bull Racing · All Blacks · Winter Classic. Selecciones y productos de referencia con links.</p>
+    <p>Grand Slams · Red Bull Racing · All Blacks · Winter Classic. Productos con links directos a tiendas oficiales.</p>
     <div class="cf">Roland Garros · F1 Shop · NHL</div>
     <div class="ca">Ver sección →</div>
   </a>
+</div>
+
+<div class="slabel">Análisis global</div>
+<div class="cards-grid">
   <a class="card" href="calendario.html">
     <div class="ci">📅</div>
     <h2>Calendario de drops</h2>
-    <p>Todas las fechas confirmadas 2025-26. Lunar New Year · Christmas · All-Star · World Series · Mundial 2026.</p>
+    <p>Todas las fechas confirmadas 2025-26. Lunar New Year · Christmas · All-Star · World Series · Super Bowl · Mundial 2026 ⭐</p>
     <div class="cf">Fechas exactas · Todos los deportes</div>
     <div class="ca">Ver calendario →</div>
   </a>
   <a class="card" href="marcas.html">
     <div class="ci">🏷</div>
     <h2>Marcas & contratos</h2>
-    <p>Adidas 24% · Puma 16% · Nike 14% exclusivas NBA/NFL/MLB. Contratos vigentes, montos y fechas de vencimiento.</p>
+    <p>Adidas 24% · Puma 16% · Nike 14% con exclusivas NBA/NFL/MLB. Contratos vigentes y montos reales por club.</p>
     <div class="cf">Adidas · Nike · Puma · PEAK · SUDU</div>
     <div class="ca">Ver marcas →</div>
   </a>
@@ -92,23 +148,12 @@
     <div class="ca">Ver estrategia →</div>
   </a>
 </div>
+
 </main>
 </div>
 <script>
 function tsb(){document.getElementById('sb').classList.toggle('open');document.getElementById('ov').classList.toggle('open');}
 function csb(){document.getElementById('sb').classList.remove('open');document.getElementById('ov').classList.remove('open');}
-function tb(el,pid){
-  el.closest('.tabs').querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
-  el.classList.add('on');
-  document.querySelectorAll('.pn').forEach(p=>{p.classList.remove('on');p.style.display='none';});
-  const pn=document.getElementById(pid);
-  if(pn){pn.classList.add('on');pn.style.display='block';}
-}
-document.querySelectorAll('.pn').forEach((p,i)=>{
-  const pns=p.closest('.ct,.ct-nb')?.querySelectorAll(':scope > .pn') || [p];
-  p.style.display=([...pns].indexOf(p)===0)?'block':'none';
-  if([...pns].indexOf(p)===0) p.classList.add('on');
-});
 </script>
 </body>
 </html>
