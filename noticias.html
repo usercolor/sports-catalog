@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noticias — Sports Intelligence 2024-26</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:20px}
+.nc{background:var(--bg3);border:1px solid var(--b);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:all .2s;text-decoration:none;color:inherit}
+.nc:hover{border-color:var(--b2);transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.ni{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--bg4);display:block}
+.ni-ph{width:100%;aspect-ratio:16/9;background:var(--bg4);display:flex;align-items:center;justify-content:center;font-size:32px}
+.nb{padding:13px}
+.nm{display:flex;align-items:center;gap:8px;margin-bottom:7px;flex-wrap:wrap}
+.nsrc{font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.ncat{font-size:10px;color:var(--tx3);padding:2px 7px;border-radius:10px;background:var(--bg4);border:1px solid var(--b)}
+.ndate{font-size:10px;color:var(--tx3);margin-left:auto;font-family:var(--mo);white-space:nowrap}
+.nt{font-size:13px;font-weight:600;color:var(--tx);line-height:1.35;margin-bottom:5px}
+.ns{font-size:12px;color:var(--tx2);line-height:1.5;flex:1}
+.nf{margin-top:10px;padding-top:9px;border-top:1px solid var(--b);display:flex;align-items:center;justify-content:space-between}
+.nread{font-size:11px;color:var(--blue);font-weight:500}
+.nread::after{content:' →'}
+.src-fy{background:rgba(82,201,138,.15);color:#52c98a}
+.src-sb{background:rgba(232,201,122,.15);color:#e8c97a}
+.src-nb{background:rgba(91,156,246,.15);color:#5b9cf6}
+.src-es{background:rgba(224,90,58,.15);color:#e05a3a}
+.src-ml{background:rgba(155,127,232,.15);color:#9b7fe8}
+.src-ge{background:rgba(200,200,200,.12);color:#aaa}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.fb{padding:5px 12px;border-radius:20px;font-size:11px;font-weight:500;cursor:pointer;border:1px solid var(--b2);background:transparent;color:var(--tx2);transition:all .15s}
+.fb:hover,.fb.on{background:var(--gold);color:#08080b;border-color:var(--gold)}
+.last-upd{font-size:11px;color:var(--tx3);font-family:var(--mo);margin-bottom:14px}
+.last-upd span{color:var(--gold)}
+.empty{padding:40px 20px;text-align:center;color:var(--tx3);font-size:13px}
+.empty div{font-size:32px;margin-bottom:10px}
+@media(max-width:600px){.news-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header id="tb">
+  <button id="hm" onclick="tsb()">☰</button>
+  <a class="logo" href="index.html">Sports Intelligence <em>· 2024-26</em></a>
+  <nav class="tnav">
+    <a href="index.html">🏠 Inicio</a>
+    <a href="futbol.html">⚽ Fútbol</a>
+    <a href="basketball.html">🏀 Basketball</a>
+    <a href="mlb-nfl.html">⚾ MLB/NFL</a>
+    <a href="otros.html">🌐 Otros</a>
+    <a href="noticias.html" class="on">📰 Noticias</a>
+    <a href="referencias.html">🔗 Referencia</a>
+    <a href="calendario.html">📅 Calendario</a>
+    <a href="marcas.html">🏷 Marcas</a>
+    <a href="uruguay.html">🇺🇾 Uruguay</a>
+  </nav>
+</header>
+<div id="ov" onclick="csb()"></div>
+<div id="ly">
+<nav id="sb">
+  <div class="nlb">Navegación</div>
+  <a href="index.html" class="ni"><span class="ic">🏠</span>Inicio</a>
+  <a href="futbol.html" class="ni"><span class="ic">⚽</span>Fútbol</a>
+  <a href="basketball.html" class="ni"><span class="ic">🏀</span>Basketball</a>
+  <a href="mlb-nfl.html" class="ni"><span class="ic">⚾</span>MLB & NFL</a>
+  <a href="otros.html" class="ni"><span class="ic">🌐</span>Otros deportes</a>
+  <a href="noticias.html" class="ni on"><span class="ic">📰</span>Noticias</a>
+  <a href="referencias.html" class="ni"><span class="ic">🔗</span>Sitios de referencia</a>
+  <a href="calendario.html" class="ni"><span class="ic">📅</span>Calendario</a>
+  <a href="marcas.html" class="ni"><span class="ic">🏷</span>Marcas</a>
+  <a href="diseno.html" class="ni"><span class="ic">✦</span>Diseño</a>
+  <a href="uruguay.html" class="ni"><span class="ic">🇺🇾</span>Uruguay</a>
+</nav>
+<main id="mn">
+<div class="hr">
+  <div>
+    <h1>Noticias — <em>Indumentaria deportiva</em></h1>
+    <p>Diseño de kits · Lanzamientos · Collabs · Merchandising · América Latina y Global</p>
+  </div>
+  <div class="hi">📰</div>
+</div>
+<div class="ct">
+  <div id="last-upd" class="last-upd">Cargando noticias...</div>
+  <div class="filters">
+    <button class="fb on" onclick="fil('all',this)">Todas</button>
+    <button class="fb" onclick="fil('fut',this)">⚽ Fútbol</button>
+    <button class="fb" onclick="fil('bsk',this)">🏀 Basketball</button>
+    <button class="fb" onclick="fil('mlb',this)">⚾ MLB</button>
+    <button class="fb" onclick="fil('nfl',this)">🏈 NFL</button>
+    <button class="fb" onclick="fil('nhl',this)">🏒 NHL</button>
+    <button class="fb" onclick="fil('tennis',this)">🎾 Tenis</button>
+    <button class="fb" onclick="fil('f1',this)">🏎️ F1</button>
+    <button class="fb" onclick="fil('uru',this)">🇺🇾 Uruguay/Latam</button>
+  </div>
+  <div id="news-grid" class="news-grid">
+    <div class="empty"><div>📡</div>Cargando noticias desde el servidor...</div>
+  </div>
+</div>
+</main>
+</div>
+
+<script>
+function tsb(){document.getElementById('sb').classList.toggle('open');document.getElementById('ov').classList.toggle('open');}
+function csb(){document.getElementById('sb').classList.remove('open');document.getElementById('ov').classList.remove('open');}
+
+const SRC_COLORS = {
+  'FootyHeadlines':'src-fy','SoccerBible':'src-sb','KitNews':'src-sb',
+  'NBA.com':'src-nb','ESPN':'src-es','Marca':'src-es','AS':'src-es',
+  'Olé':'src-ml','El País':'src-ml','La Nación':'src-ml',
+  'MLB.com':'src-nb','NFL.com':'src-nb','NHL.com':'src-nb',
+  'default':'src-ge'
+};
+
+const CAT_ICONS = {
+  fut:'⚽',bsk:'🏀',mlb:'⚾',nfl:'🏈',nhl:'🏒',
+  tennis:'🎾',f1:'🏎️',rugby:'🏉',uru:'🇺🇾',gen:'📰'
+};
+
+let ALL_NEWS = [];
+let CF = 'all';
+
+function srcColor(src){
+  for(const k of Object.keys(SRC_COLORS)){
+    if(src && src.includes(k)) return SRC_COLORS[k];
+  }
+  return SRC_COLORS.default;
+}
+
+function render(){
+  const grid = document.getElementById('news-grid');
+  const filtered = CF==='all' ? ALL_NEWS : ALL_NEWS.filter(n=>n.cat===CF);
+  if(!filtered.length){
+    grid.innerHTML = '<div class="empty"><div>🔍</div>No hay noticias en esta categoría aún.<br>El sistema actualiza cada 3 días automáticamente.</div>';
+    return;
+  }
+  grid.innerHTML = filtered.map((n,i)=>{
+    const imgHtml = n.image
+      ? `<img class="ni" src="${n.image}" alt="${n.title}" onerror="this.parentNode.innerHTML='<div class=ni-ph>${CAT_ICONS[n.cat]||'📰'}</div>'">`
+      : `<div class="ni-ph">${CAT_ICONS[n.cat]||'📰'}</div>`;
+    const sc = srcColor(n.source);
+    const catLabel = n.cat ? `<span class="ncat">${CAT_ICONS[n.cat]||''} ${n.cat.toUpperCase()}</span>` : '';
+    const dateStr = n.date ? new Date(n.date).toLocaleDateString('es-UY',{day:'numeric',month:'short',year:'numeric'}) : '';
+    return `<a class="nc" href="${n.url||'#'}" target="_blank" rel="noopener" style="animation-delay:${i*0.04}s">
+      ${imgHtml}
+      <div class="nb">
+        <div class="nm">
+          <span class="nsrc ${sc}">${n.source||'Fuente'}</span>
+          ${catLabel}
+          <span class="ndate">${dateStr}</span>
+        </div>
+        <div class="nt">${n.title}</div>
+        <div class="ns">${n.summary||''}</div>
+        <div class="nf"><span class="nread">Leer nota completa</span></div>
+      </div>
+    </a>`;
+  }).join('');
+}
+
+function fil(cat, btn){
+  CF = cat;
+  document.querySelectorAll('.fb').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  render();
+}
+
+// Load news from JSON
+fetch('data/news.json')
+  .then(r=>r.ok ? r.json() : Promise.reject('not found'))
+  .then(data=>{
+    ALL_NEWS = data.news || [];
+    const upd = data.last_updated ? data.last_updated.slice(0,10) : '—';
+    document.getElementById('last-upd').innerHTML =
+      `Última actualización: <span>${upd}</span> · <span>${ALL_NEWS.length}</span> noticias · Actualización automática cada 3 días`;
+    render();
+  })
+  .catch(()=>{
+    // Show placeholder news when JSON doesn't exist yet
+    ALL_NEWS = [
+      {title:'FootyHeadlines — Nuevos kits 2025-26',summary:'El sitio de referencia para lanzamientos de kits publica los primeros renders de la próxima temporada. Adidas y Nike dominan las filtraciones de julio.',source:'FootyHeadlines',cat:'fut',date:'2026-05-17',url:'https://www.footyheadlines.com',image:''},
+      {title:'SoccerBible — Tendencias de diseño 2025',summary:'Análisis profundo de las tendencias que dominaron la temporada: heritage, gradientes, y la explosión de las collabs con marcas streetwear.',source:'SoccerBible',cat:'fut',date:'2026-05-15',url:'https://www.soccerbible.com',image:''},
+      {title:'NBA City Edition 2025-26 — Primeras filtraciones',summary:'Los 30 equipos de la NBA están preparando sus City Editions para noviembre. Lakers y Celtics lideran las búsquedas en StockX según datos anticipados.',source:'ESPN',cat:'bsk',date:'2026-05-14',url:'https://www.espn.com',image:''},
+      {title:'MLB City Connect 2025 — Tracker completo',summary:'29 de 30 equipos ya tienen su kit City Connect. White Sox × Bulls fue la colaboración más impactante de la temporada, combinando por primera vez MLB y NBA.',source:'MLB.com',cat:'mlb',date:'2026-05-13',url:'https://www.mlb.com',image:''},
+      {title:'Indumentaria deportiva en América Latina — Tendencias 2025',summary:'Olé analiza el mercado regional: el crecimiento de marcas locales en Argentina, Chile y Uruguay como alternativa al producto europeo importado.',source:'Olé',cat:'uru',date:'2026-05-12',url:'https://www.ole.com.ar',image:''},
+      {title:'Inter Milan × Nike ACG — El kit más hypeado de 2026',summary:'La colaboración entre Inter Milan y la línea ACG de Nike es el primer kit de fútbol en la historia que lleva el logo ACG. Streetwear y deporte se fusionan.',source:'FootyHeadlines',cat:'fut',date:'2026-05-10',url:'https://www.footyheadlines.com',image:''},
+    ];
+    document.getElementById('last-upd').innerHTML =
+      'Vista previa — <span>El workflow automático cargará noticias reales cada 3 días</span>';
+    render();
+  });
+</script>
+</body>
+</html>

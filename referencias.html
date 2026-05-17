@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sitios de Referencia — Sports Intelligence 2024-26</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-bottom:24px}
+.rc{background:var(--bg3);border:1px solid var(--b);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:9px;transition:all .2s}
+.rc:hover{border-color:var(--b2);transform:translateY(-2px)}
+.rh{display:flex;align-items:center;gap:11px}
+.rlogo{width:40px;height:40px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;border:1px solid var(--b2)}
+.rname{font-size:14px;font-weight:600;color:var(--tx)}
+.rurl{font-size:10px;color:var(--tx3);font-family:var(--mo);margin-top:1px}
+.rtags{display:flex;flex-wrap:wrap;gap:3px}
+.rtag{font-size:10px;padding:2px 7px;border-radius:10px;background:var(--bg4);color:var(--tx3);border:1px solid var(--b)}
+.rdesc{font-size:12px;color:var(--tx2);line-height:1.5}
+.rlinks{display:flex;flex-direction:column;gap:4px;margin-top:2px}
+.rlk{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--blue);text-decoration:none;transition:color .13s;padding:4px 7px;border-radius:6px;background:var(--bg4);border:1px solid var(--b)}
+.rlk:hover{color:var(--gold);border-color:rgba(232,201,122,.3);background:rgba(232,201,122,.05)}
+.rlk::before{content:'↗';font-size:10px;color:var(--tx3)}
+.sport-section{margin-bottom:28px}
+.sport-title{display:flex;align-items:center;gap:8px;font-size:16px;font-weight:600;color:var(--tx);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--b)}
+.sport-title .ic{font-size:20px}
+.merch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:11px;margin-bottom:24px}
+.mc{background:var(--bg3);border:1px solid var(--b);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px;transition:all .2s}
+.mc:hover{border-color:var(--b2);transform:translateY(-2px)}
+.mh{display:flex;align-items:center;gap:9px}
+.mico{font-size:22px;width:36px;text-align:center;flex-shrink:0}
+.mname{font-size:13px;font-weight:600;color:var(--tx)}
+.mclub{font-size:10px;color:var(--tx3);margin-top:1px}
+.mcats{display:flex;flex-direction:column;gap:3px}
+.mcat{display:flex;align-items:center;justify-content:space-between;font-size:11px;padding:4px 8px;border-radius:6px;background:var(--bg4);border:1px solid var(--b)}
+.mcat span:first-child{color:var(--tx2)}
+.mcat span:last-child{color:var(--tx3);font-family:var(--mo);font-size:10px}
+.mfoot{margin-top:4px;padding-top:8px;border-top:1px solid var(--b)}
+.mlink{font-size:11px;color:var(--blue);text-decoration:none}
+.mlink::before{content:'↗ '}
+.mlink:hover{color:var(--gold)}
+@media(max-width:600px){.ref-grid,.merch-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header id="tb">
+  <button id="hm" onclick="tsb()">☰</button>
+  <a class="logo" href="index.html">Sports Intelligence <em>· 2024-26</em></a>
+  <nav class="tnav">
+    <a href="index.html">🏠 Inicio</a>
+    <a href="futbol.html">⚽ Fútbol</a>
+    <a href="basketball.html">🏀 Basketball</a>
+    <a href="mlb-nfl.html">⚾ MLB/NFL</a>
+    <a href="otros.html">🌐 Otros</a>
+    <a href="noticias.html">📰 Noticias</a>
+    <a href="referencias.html" class="on">🔗 Referencia</a>
+    <a href="calendario.html">📅 Calendario</a>
+    <a href="marcas.html">🏷 Marcas</a>
+    <a href="uruguay.html">🇺🇾 Uruguay</a>
+  </nav>
+</header>
+<div id="ov" onclick="csb()"></div>
+<div id="ly">
+<nav id="sb">
+  <div class="nlb">Navegación</div>
+  <a href="index.html" class="ni"><span class="ic">🏠</span>Inicio</a>
+  <a href="futbol.html" class="ni"><span class="ic">⚽</span>Fútbol</a>
+  <a href="basketball.html" class="ni"><span class="ic">🏀</span>Basketball</a>
+  <a href="mlb-nfl.html" class="ni"><span class="ic">⚾</span>MLB & NFL</a>
+  <a href="otros.html" class="ni"><span class="ic">🌐</span>Otros deportes</a>
+  <a href="noticias.html" class="ni"><span class="ic">📰</span>Noticias</a>
+  <a href="referencias.html" class="ni on"><span class="ic">🔗</span>Sitios de referencia</a>
+  <a href="calendario.html" class="ni"><span class="ic">📅</span>Calendario</a>
+  <a href="marcas.html" class="ni"><span class="ic">🏷</span>Marcas</a>
+  <a href="diseno.html" class="ni"><span class="ic">✦</span>Diseño</a>
+  <a href="uruguay.html" class="ni"><span class="ic">🇺🇾</span>Uruguay</a>
+</nav>
+<main id="mn">
+<div class="hr">
+  <div>
+    <h1>Sitios de referencia <em>& merch destacado</em></h1>
+    <p>Los mejores recursos por deporte · Tiendas oficiales · Productos de merchandising principales clubes</p>
+  </div>
+  <div class="hi">🔗</div>
+</div>
+<div class="ct">
+
+<!-- ═══ FÚTBOL ═══ -->
+<div class="sport-section">
+<div class="sport-title"><span class="ic">⚽</span>Fútbol — Sitios de referencia</div>
+<div class="ref-grid">
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(82,201,138,.12);border-color:rgba(82,201,138,.25)">⚽</div>
+      <div><div class="rname">Footy Headlines</div><div class="rurl">footyheadlines.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Kits & filtraciones</span><span class="rtag">Liga</span><span class="rtag">Selecciones</span></div>
+    <div class="rdesc">El sitio más completo de filtraciones y lanzamientos de kits. Cubre todas las ligas, selecciones nacionales y rankings de popularidad. Imprescindible para seguir drops antes del lanzamiento oficial.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.footyheadlines.com" target="_blank">Últimas filtraciones</a>
+      <a class="rlk" href="https://www.footyheadlines.com/p/football-kit-rankings.html" target="_blank">Rankings de kits</a>
+      <a class="rlk" href="https://www.footyheadlines.com/p/adidas-football-kits.html" target="_blank">Kits por marca</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(232,201,122,.12);border-color:rgba(232,201,122,.25)">📖</div>
+      <div><div class="rname">Football Kit Archive</div><div class="rurl">footballkitarchive.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Rankings</span><span class="rtag">Historia</span><span class="rtag">Ratings fans</span></div>
+    <div class="rdesc">Archivo histórico de kits con ratings de fans (0-5). El recurso más completo para comparar diseños por temporada, club y marca. Los ratings son referencias del mercado.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.footballkitarchive.com" target="_blank">Archivo completo</a>
+      <a class="rlk" href="https://www.footballkitarchive.com/2025-26-football-kits/" target="_blank">Kits 2025-26</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(91,156,246,.12);border-color:rgba(91,156,246,.25)">🎨</div>
+      <div><div class="rname">SoccerBible</div><div class="rurl">soccerbible.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Diseño</span><span class="rtag">Streetwear</span><span class="rtag">Collabs</span></div>
+    <div class="rdesc">Referencia de cultura streetwear + fútbol. Cubre collabs con marcas de moda, tendencias de diseño y los kits más estéticos del mercado. Muy usado por compradores millennials y Gen Z.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.soccerbible.com" target="_blank">Últimas notas</a>
+      <a class="rlk" href="https://www.soccerbible.com/performance/football-boots/kits/" target="_blank">Kits destacados</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(224,90,58,.12);border-color:rgba(224,90,58,.25)">🏪</div>
+      <div><div class="rname">World Soccer Shop</div><div class="rurl">worldsoccershop.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Tienda</span><span class="rtag">Precios reales</span><span class="rtag">Internacional</span></div>
+    <div class="rdesc">Mayor retailer de indumentaria de fútbol internacional. Precios reales en USD, shipping global. Referencia de precios de mercado para réplicas y auténticas de todas las ligas.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.worldsoccershop.com" target="_blank">Tienda completa</a>
+      <a class="rlk" href="https://www.worldsoccershop.com/national-teams/" target="_blank">Selecciones nacionales</a>
+      <a class="rlk" href="https://www.worldsoccershop.com/training-jerseys/" target="_blank">Entrenamiento</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(82,201,138,.12);border-color:rgba(82,201,138,.25)">🏟️</div>
+      <div><div class="rname">Tienda Real Madrid</div><div class="rurl">us.shop.realmadrid.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Referencia top 1</span><span class="rtag">Adidas</span><span class="rtag">SKU completo</span></div>
+    <div class="rdesc">La tienda oficial con más SKUs del mundo. Referencia para estructura de catálogo: kits, training, lifestyle, merchandising, coleccionables, baby, junior. 250-800 productos activos.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://us.shop.realmadrid.com/es/collections/jerseys-kits" target="_blank">Kits & camisetas</a>
+      <a class="rlk" href="https://us.shop.realmadrid.com/es/collections/training" target="_blank">Entrenamiento</a>
+      <a class="rlk" href="https://us.shop.realmadrid.com/es/collections/accessories" target="_blank">Accesorios & merch</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(232,201,122,.12);border-color:rgba(232,201,122,.25)">🏪</div>
+      <div><div class="rname">Chelsea FC Store</div><div class="rurl">store.chelseafc.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Merch variado</span><span class="rtag">Nike</span><span class="rtag">Hogar & lifestyle</span></div>
+    <div class="rdesc">Referencia para merchandising no textil: tazas, bolsos, bolígrafos, marcos, rompecabezas, banderines, artículos de hogar. Catálogo muy diversificado, excelente para referencia de categorías.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://store.chelseafc.com/en/chelsea-gifts-and-accessories" target="_blank">Gifts & accesorios</a>
+      <a class="rlk" href="https://store.chelseafc.com/en/chelsea-mens-training" target="_blank">Training</a>
+      <a class="rlk" href="https://store.chelseafc.com/en/chelsea-mens-jerseys" target="_blank">Camisetas</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(155,127,232,.12);border-color:rgba(155,127,232,.25)">🗞️</div>
+      <div><div class="rname">Marca / AS / Olé</div><div class="rurl">marca.com · as.com · ole.com.ar</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Noticias</span><span class="rtag">Latam</span><span class="rtag">Español</span></div>
+    <div class="rdesc">Los tres medios de referencia en español para noticias de indumentaria, contratos de patrocinio y lanzamientos en América Latina. Olé lidera la cobertura regional argentina/uruguaya.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.marca.com" target="_blank">Marca.com</a>
+      <a class="rlk" href="https://www.as.com" target="_blank">AS.com</a>
+      <a class="rlk" href="https://www.ole.com.ar" target="_blank">Olé — Argentina/Latam</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(91,156,246,.12);border-color:rgba(91,156,246,.25)">💜</div>
+      <div><div class="rname">Crystal Palace Store</div><div class="rurl">shop.cpfc.co.uk</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Merch completo</span><span class="rtag">Joyería</span><span class="rtag">Baby & hogar</span></div>
+    <div class="rdesc">Referencia de catálogo ultra-diversificado: 805+ joyas, 239+ llaveros, 261+ baby, 447+ papelería, 119+ accesorios de auto. Ejemplo de profundidad de merchandising en club europeo mediano.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://shop.cpfc.co.uk/" target="_blank">Tienda completa</a>
+      <a class="rlk" href="https://shop.cpfc.co.uk/collections/jewellery-accessories" target="_blank">Joyería 805+ items</a>
+      <a class="rlk" href="https://shop.cpfc.co.uk/collections/baby-junior" target="_blank">Baby & junior</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ═══ BASKETBALL ═══ -->
+<div class="sport-section">
+<div class="sport-title"><span class="ic">🏀</span>Basketball — Sitios de referencia</div>
+<div class="ref-grid">
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(91,156,246,.12);border-color:rgba(91,156,246,.25)">🏀</div>
+      <div><div class="rname">NBA Store oficial</div><div class="rurl">store.nba.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Tienda oficial</span><span class="rtag">City Edition</span><span class="rtag">Todas las franquicias</span></div>
+    <div class="rdesc">La tienda oficial de la NBA. Referencia de precios y estructura de catálogo: 5 Editions por franquicia, Hardwood Classics, drops especiales (LNY, Christmas, All-Star). Cubrimiento global.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://store.nba.com/city-edition" target="_blank">City Edition 2025-26</a>
+      <a class="rlk" href="https://store.nba.com/lunar-new-year" target="_blank">Lunar New Year</a>
+      <a class="rlk" href="https://store.nba.com/jerseys" target="_blank">Todas las camisetas</a>
+      <a class="rlk" href="https://store.nba.com/hats-headwear" target="_blank">Gorras & headwear</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(232,201,122,.12);border-color:rgba(232,201,122,.25)">🏅</div>
+      <div><div class="rname">Mitchell & Ness</div><div class="rurl">mitchellandness.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Hardwood Classics</span><span class="rtag">Retro</span><span class="rtag">Vintage</span></div>
+    <div class="rdesc">El referente de indumentaria retro NBA, NFL y MLB. Hardwood Classics, throwbacks, colecciones especiales Lunar New Year y Heritage. Precios premium, audiencia coleccionista.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.mitchellandness.com/basketball" target="_blank">NBA Hardwood Classics</a>
+      <a class="rlk" href="https://www.mitchellandness.com/football" target="_blank">NFL Throwbacks</a>
+      <a class="rlk" href="https://www.mitchellandness.co.uk/collections/chinese-new-year" target="_blank">Lunar New Year colección</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(82,201,138,.12);border-color:rgba(82,201,138,.25)">📊</div>
+      <div><div class="rname">Basketball Jersey Archive</div><div class="rurl">basketballjersey.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Archivo histórico</span><span class="rtag">Ratings</span><span class="rtag">Historia</span></div>
+    <div class="rdesc">Archivo visual completo de jerseys NBA desde los años 50. Referencia de diseño histórico para inspiración de líneas heritage y retro. Cubre ABA, NBA y equipos que ya no existen.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.basketball-jersey-archive.com" target="_blank">Archivo completo</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(224,90,58,.12);border-color:rgba(224,90,58,.25)">📈</div>
+      <div><div class="rname">StockX — NBA</div><div class="rurl">stockx.com/nba</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Precios resale</span><span class="rtag">Demanda real</span><span class="rtag">Tendencias</span></div>
+    <div class="rdesc">Plataforma de resale que indica la demanda real del mercado secundario. Los kits más buscados, precios de reventa y trending items son indicadores clave del deseo de compra.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://stockx.com/sneakers/basketball" target="_blank">NBA en StockX</a>
+      <a class="rlk" href="https://stockx.com/jerseys" target="_blank">Jerseys más buscados</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ═══ MLB / NFL ═══ -->
+<div class="sport-section">
+<div class="sport-title"><span class="ic">⚾🏈</span>MLB & NFL — Sitios de referencia</div>
+<div class="ref-grid">
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(91,156,246,.12);border-color:rgba(91,156,246,.25)">⚾</div>
+      <div><div class="rname">MLB Shop oficial</div><div class="rurl">mlbshop.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Tienda oficial</span><span class="rtag">City Connect</span><span class="rtag">30 equipos</span></div>
+    <div class="rdesc">La tienda oficial de MLB. Referencia para City Connect, All-Star Game, World Series, y colecciones especiales LNY. Cubre los 30 equipos con Authentic ($200) y Limited ($110-140).</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.mlbshop.com" target="_blank">MLB Shop completo</a>
+      <a class="rlk" href="https://www.mlb.com/stories/2025-mlb-city-connect-jerseys" target="_blank">City Connect tracker 2025</a>
+      <a class="rlk" href="https://www.mlbshop.com/all-star-game" target="_blank">All-Star Game gear</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(224,90,58,.12);border-color:rgba(224,90,58,.25)">🏈</div>
+      <div><div class="rname">NFL Shop oficial</div><div class="rurl">nflshop.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Tienda oficial</span><span class="rtag">Super Bowl</span><span class="rtag">32 equipos</span></div>
+    <div class="rdesc">La tienda oficial de la NFL. Referencia para uniformes Elite Authentic ($320-380), Color Rush, Throwback TNF y el express merch del Super Bowl disponible 15 minutos post-victoria.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.nflshop.com" target="_blank">NFL Shop completo</a>
+      <a class="rlk" href="https://www.fanatics.com/nfl/super-bowl-gear" target="_blank">Super Bowl gear</a>
+      <a class="rlk" href="https://www.fanatics.com/nfl/color-rush" target="_blank">Color Rush collection</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(82,201,138,.12);border-color:rgba(82,201,138,.25)">🏪</div>
+      <div><div class="rname">Fanatics</div><div class="rurl">fanatics.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Multi-liga</span><span class="rtag">Express merch</span><span class="rtag">Todos los deportes</span></div>
+    <div class="rdesc">El mayor retailer de indumentaria deportiva oficial del mundo. Cubre NBA, NFL, MLB, NHL, MLS, fútbol europeo. Referencia de precios mid-market y el proveedor del express merch de campeonatos.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.fanatics.com/nba" target="_blank">NBA en Fanatics</a>
+      <a class="rlk" href="https://www.fanatics.com/nfl" target="_blank">NFL en Fanatics</a>
+      <a class="rlk" href="https://www.fanatics.com/mlb" target="_blank">MLB en Fanatics</a>
+      <a class="rlk" href="https://www.fanatics.com/nhl" target="_blank">NHL en Fanatics</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(232,201,122,.12);border-color:rgba(232,201,122,.25)">📰</div>
+      <div><div class="rname">ESPN / The Athletic</div><div class="rurl">espn.com · theathletic.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Noticias</span><span class="rtag">City Connect</span><span class="rtag">Análisis uniforme</span></div>
+    <div class="rdesc">ESPN y The Athletic son las referencias para noticias de nuevos uniformes, análisis de reacciones de fans y rankings de City Connect. ESPN tiene un tracker actualizado de todos los City Connect 2025.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.espn.com/mlb/story/_/id/39776958/tracking-mlb-city-connect-jerseys-uniforms" target="_blank">ESPN City Connect tracker</a>
+      <a class="rlk" href="https://www.espn.com/nba" target="_blank">ESPN NBA</a>
+      <a class="rlk" href="https://theathletic.com" target="_blank">The Athletic</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ═══ OTROS ═══ -->
+<div class="sport-section">
+<div class="sport-title"><span class="ic">🌐</span>Otros deportes — Sitios de referencia</div>
+<div class="ref-grid">
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(91,156,246,.12);border-color:rgba(91,156,246,.25)">🏒</div>
+      <div><div class="rname">NHL Shop oficial</div><div class="rurl">nhlshop.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Tienda oficial</span><span class="rtag">Winter Classic</span><span class="rtag">32 equipos</span></div>
+    <div class="rdesc">La tienda oficial de la NHL. Referencia para uniformes Winter Classic (1 ene), Stadium Series y Authentic Adidas ($220-280). Drops especiales muy cotizados en el mercado secundario.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.nhlshop.com" target="_blank">NHL Shop completo</a>
+      <a class="rlk" href="https://www.fanatics.com/nhl" target="_blank">NHL en Fanatics</a>
+      <a class="rlk" href="https://www.mitchellandness.com/hockey" target="_blank">NHL Vintage Mitchell & Ness</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(82,201,138,.12);border-color:rgba(82,201,138,.25)">🎾</div>
+      <div><div class="rname">Roland Garros / Grand Slams</div><div class="rurl">rolandgarros.com · wimbledon.com</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Tenis</span><span class="rtag">Outfits oficiales</span><span class="rtag">Colecciones</span></div>
+    <div class="rdesc">Las tiendas oficiales de los Grand Slams son referencias de outfits de temporada. Nike, Adidas, Lacoste y New Balance compiten con colecciones exclusivas para cada torneo.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.rolandgarros.com/en-us/shop" target="_blank">Roland Garros Shop</a>
+      <a class="rlk" href="https://www.wimbledon.com/shop" target="_blank">Wimbledon Shop</a>
+      <a class="rlk" href="https://www.usopen.org/merchandise" target="_blank">US Open Merch</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(224,90,58,.12);border-color:rgba(224,90,58,.25)">🏎️</div>
+      <div><div class="rname">F1 Store / Team Shops</div><div class="rurl">formula1.com/shop</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Fórmula 1</span><span class="rtag">Race suits</span><span class="rtag">Team gear</span></div>
+    <div class="rdesc">La tienda oficial de F1 más los shops individuales de cada equipo (Red Bull, Ferrari, McLaren, Mercedes). Race suit replicas ($200-350), team jackets y lifestyle son las categorías clave.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.formula1.com/en/shop" target="_blank">F1 Store oficial</a>
+      <a class="rlk" href="https://www.redbullracing.com/shop" target="_blank">Red Bull Racing Shop</a>
+      <a class="rlk" href="https://store.ferrari.com/en_us/scuderia-ferrari" target="_blank">Scuderia Ferrari Store</a>
+      <a class="rlk" href="https://www.grandprixstore.com" target="_blank">Grand Prix Store</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(155,127,232,.12);border-color:rgba(155,127,232,.25)">🏉</div>
+      <div><div class="rname">All Blacks / Rugby Shops</div><div class="rurl">allblacks.com · world.rugby</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Rugby</span><span class="rtag">All Blacks</span><span class="rtag">Selecciones</span></div>
+    <div class="rdesc">El jersey de los All Blacks es el más reconocido del rugby mundial. Canterbury como proveedor dominante. Las tiendas oficiales de selecciones son referencia de precios y categorías de producto.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.allblacks.com/shop" target="_blank">All Blacks Shop</a>
+      <a class="rlk" href="https://www.canterburysport.com" target="_blank">Canterbury.com</a>
+      <a class="rlk" href="https://store.world.rugby" target="_blank">World Rugby Store</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ═══ MERCH PRINCIPALES CLUBES ═══ -->
+<div class="sport-section">
+<div class="sport-title"><span class="ic">🛍</span>Productos de merchandising — Principales clubes globales</div>
+<div id="merch-status" style="font-size:11px;color:var(--tx3);margin-bottom:12px;font-family:var(--mo)">
+  Datos base cargados · El sistema automático expande este catálogo semanalmente
+</div>
+<div class="merch-grid" id="merch-grid">
+
+  <div class="mc">
+    <div class="mh"><div class="mico">⚽</div><div><div class="mname">Real Madrid CF</div><div class="mclub">Adidas · La Liga · shop.realmadrid.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Camisetas & kits</span><span>Kit home €90–205</span></div>
+      <div class="mcat"><span>Training completo</span><span>€50–180</span></div>
+      <div class="mcat"><span>Lifestyle / streetwear</span><span>€35–100</span></div>
+      <div class="mcat"><span>Junior & baby</span><span>€25–75</span></div>
+      <div class="mcat"><span>Accesorios & hogar</span><span>€8–80</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://us.shop.realmadrid.com" target="_blank">us.shop.realmadrid.com</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">⚽</div><div><div class="mname">FC Barcelona</div><div class="mclub">Nike · La Liga · store.fcbarcelona.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Camisetas & kits</span><span>Kit home €100–150</span></div>
+      <div class="mcat"><span>Training & pre-match</span><span>€50–130</span></div>
+      <div class="mcat"><span>Lifestyle Barça</span><span>€30–90</span></div>
+      <div class="mcat"><span>Junior & baby</span><span>€25–70</span></div>
+      <div class="mcat"><span>Coleccionables & gifts</span><span>€10–120</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://store.fcbarcelona.com" target="_blank">store.fcbarcelona.com</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">⚽</div><div><div class="mname">Chelsea FC</div><div class="mclub">Nike · Premier League · store.chelseafc.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Camisetas & kits</span><span>£80–125</span></div>
+      <div class="mcat"><span>Training</span><span>£35–100</span></div>
+      <div class="mcat"><span>Bolsos & travel</span><span>$13–140</span></div>
+      <div class="mcat"><span>Hogar (tazas, cuadros)</span><span>$11–107</span></div>
+      <div class="mcat"><span>Baby & junior</span><span>£20–50</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://store.chelseafc.com/en/chelsea-gifts-and-accessories" target="_blank">Gifts & Accessories</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">⚽</div><div><div class="mname">Inter Miami CF</div><div class="mclub">Adidas · MLS · mlsstore.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Euforia Kit (home)</span><span>$89–194</span></div>
+      <div class="mcat"><span>Fortitude Kit (away)</span><span>$79–159</span></div>
+      <div class="mcat"><span>MLS Cup Champions ⭐</span><span>$30–90</span></div>
+      <div class="mcat"><span>Youth & baby</span><span>$45–103</span></div>
+      <div class="mcat"><span>Lifestyle & t-shirts</span><span>$25–60</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://www.mlsstore.com/en/inter-miami-cf/jerseys/t-10923363+d-14552059+z-901-2875614280" target="_blank">MLS Store — Inter Miami</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">🏀</div><div><div class="mname">LA Lakers</div><div class="mclub">Nike · NBA · store.nba.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>City Edition 2025-26</span><span>$125–250</span></div>
+      <div class="mcat"><span>Icon Edition (gold)</span><span>$125–250</span></div>
+      <div class="mcat"><span>Association Edition</span><span>$125–250</span></div>
+      <div class="mcat"><span>Hardwood Classics M&N</span><span>$100–350</span></div>
+      <div class="mcat"><span>Gorras New Era</span><span>$38–45</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://store.nba.com/los-angeles-lakers" target="_blank">Lakers en NBA Store</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">🏀</div><div><div class="mname">Chicago Bulls</div><div class="mclub">Nike · NBA · store.nba.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Icon Edition (red)</span><span>$125–250</span></div>
+      <div class="mcat"><span>City Edition 2025-26</span><span>$125–250</span></div>
+      <div class="mcat"><span>Hardwood Classics M&N</span><span>$100–350</span></div>
+      <div class="mcat"><span>Lifestyle & t-shirts</span><span>$35–75</span></div>
+      <div class="mcat"><span>Gorras New Era</span><span>$35–42</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://store.nba.com/chicago-bulls" target="_blank">Bulls en NBA Store</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">⚾</div><div><div class="mname">NY Yankees</div><div class="mclub">Nike · MLB · mlbshop.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Home jersey (blanco)</span><span>$110–200</span></div>
+      <div class="mcat"><span>Away jersey (gris)</span><span>$110–200</span></div>
+      <div class="mcat"><span>Gorra ajustada New Era</span><span>$38–45</span></div>
+      <div class="mcat"><span>Lifestyle & t-shirts</span><span>$28–65</span></div>
+      <div class="mcat"><span>Coleccionables</span><span>$20–200</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://www.mlbshop.com/new-york-yankees" target="_blank">Yankees en MLB Shop</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">🏈</div><div><div class="mname">Dallas Cowboys</div><div class="mclub">Nike · NFL · nflshop.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Nike Game jersey</span><span>$100–120</span></div>
+      <div class="mcat"><span>Nike Limited jersey</span><span>$130–160</span></div>
+      <div class="mcat"><span>Nike Elite Authentic</span><span>$320–380</span></div>
+      <div class="mcat"><span>Gorras & headwear</span><span>$30–45</span></div>
+      <div class="mcat"><span>T-shirts & hoodies</span><span>$30–80</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://www.nflshop.com/dallas_cowboys" target="_blank">Cowboys en NFL Shop</a></div>
+  </div>
+
+  <div class="mc">
+    <div class="mh"><div class="mico">🏒</div><div><div class="mname">Toronto Maple Leafs</div><div class="mclub">Adidas · NHL · nhlshop.com</div></div></div>
+    <div class="mcats">
+      <div class="mcat"><span>Authentic Adidas</span><span>$220–280</span></div>
+      <div class="mcat"><span>Replica fan jersey</span><span>$115–140</span></div>
+      <div class="mcat"><span>Winter Classic edition</span><span>$220–280</span></div>
+      <div class="mcat"><span>Gorras & t-shirts</span><span>$28–45</span></div>
+      <div class="mcat"><span>Vintage Mitchell & Ness</span><span>$150–250</span></div>
+    </div>
+    <div class="mfoot"><a class="mlink" href="https://www.nhlshop.com/toronto_maple_leafs" target="_blank">Maple Leafs en NHL Shop</a></div>
+  </div>
+
+</div>
+</div>
+
+<!-- ═══ LATAM ═══ -->
+<div class="sport-section">
+<div class="sport-title"><span class="ic">🌎</span>América Latina — Referencia regional</div>
+<div class="ref-grid">
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(82,201,138,.12);border-color:rgba(82,201,138,.25)">🇦🇷</div>
+      <div><div class="rname">Indumentaria deportiva Argentina</div><div class="rurl">HM Sport · Promatex · TN Platex</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Proveedores</span><span class="rtag">Telas técnicas</span><span class="rtag">Fabricación</span></div>
+    <div class="rdesc">Los principales proveedores de telas técnicas y confección en Argentina son referencia regional. Precios en USD un 20-35% más bajos que Europa. Envíos a Uruguay sin problema.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.hmsport.com.ar" target="_blank">HM Sport Rosario</a>
+      <a class="rlk" href="https://www.promatex.com.ar" target="_blank">Promatex telas</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(91,156,246,.12);border-color:rgba(91,156,246,.25)">🇧🇷</div>
+      <div><div class="rname">Cluster Santa Catarina</div><div class="rurl">Brusque · Blumenau · Brasil</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Telas premium</span><span class="rtag">Exportación</span><span class="rtag">Brasil</span></div>
+    <div class="rdesc">El polo textil deportivo más importante de Sudamérica. Telas técnicas de alta performance exportadas a toda la región. Referencia de calidad para producción local de indumentaria deportiva.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://www.sintex.com.br" target="_blank">Sintex (Santa Catarina)</a>
+      <a class="rlk" href="https://www.textilblumenau.com.br" target="_blank">Textil Blumenau</a>
+    </div>
+  </div>
+
+  <div class="rc">
+    <div class="rh">
+      <div class="rlogo" style="background:rgba(232,201,122,.12);border-color:rgba(232,201,122,.25)">🇺🇾</div>
+      <div><div class="rname">MGR Sport / Zeus UY</div><div class="rurl">zeusindumentaria.uy</div></div>
+    </div>
+    <div class="rtags"><span class="rtag">Fabricación local UY</span><span class="rtag">Sublimación</span><span class="rtag">Clubes</span></div>
+    <div class="rdesc">Los fabricantes de referencia en Uruguay. MGR Sport desde 1982 (Hocquart 1650), Zeus Indumentaria con sitio web activo. Producción de kits para clubes OFI/ONFI y retail local.</div>
+    <div class="rlinks">
+      <a class="rlk" href="https://zeusindumentaria.uy" target="_blank">Zeus Indumentaria UY</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+</div>
+</main>
+</div>
+<script>
+function tsb(){document.getElementById('sb').classList.toggle('open');document.getElementById('ov').classList.toggle('open');}
+function csb(){document.getElementById('sb').classList.remove('open');document.getElementById('ov').classList.remove('open');}
+</script>
+</body>
+</html>

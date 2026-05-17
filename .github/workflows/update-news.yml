@@ -1,0 +1,44 @@
+name: Update Sports News
+
+on:
+  schedule:
+    # Every Monday, Wednesday, Friday at 7am UTC (4am Uruguay)
+    - cron: '0 7 * * 1,3,5'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force update even if recently run'
+        required: false
+        default: 'false'
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic requests
+
+      - name: Run news updater
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: python scripts/update_news.py
+
+      - name: Commit updated news
+        run: |
+          git config --global user.name 'Sports News Bot'
+          git config --global user.email 'bot@sports-catalog.local'
+          git add data/news.json
+          git diff --staged --quiet || git commit -m "News update: $(date +'%Y-%m-%d')"
+          git push
