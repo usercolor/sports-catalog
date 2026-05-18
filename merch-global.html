@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investigación Merchandising Global — Sports Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* ── PAGE EXTRAS ── */
+.club-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;margin-bottom:20px}
+.club-card{background:var(--bg3);border:1px solid var(--b);border-radius:12px;overflow:hidden;transition:all .2s}
+.club-card:hover{border-color:var(--b2);transform:translateY(-2px)}
+.club-head{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--b)}
+.club-ico{font-size:26px;width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:1px solid var(--b2)}
+.club-name{font-size:14px;font-weight:600;color:var(--tx)}
+.club-sub{font-size:11px;color:var(--tx3);margin-top:2px;font-family:var(--mo)}
+.club-body{padding:12px 16px}
+.cat-list{display:flex;flex-direction:column;gap:5px;margin-bottom:10px}
+.cat-row{display:flex;align-items:flex-start;gap:8px;font-size:12px}
+.cat-label{color:var(--tx2);min-width:120px;flex-shrink:0;font-weight:500}
+.cat-val{color:var(--tx3);line-height:1.4;flex:1}
+.cat-val a{color:var(--blue);text-decoration:none}
+.cat-val a:hover{color:var(--gold)}
+.cat-val .price{color:var(--gold);font-family:var(--mo);font-size:11px;font-weight:500}
+.cat-star{font-size:11px;color:var(--gold);margin-left:4px}
+.club-highlight{background:rgba(232,201,122,.07);border-left:3px solid var(--gold);padding:7px 10px;border-radius:0 6px 6px 0;margin:8px 0;font-size:11px;color:var(--tx2);line-height:1.5}
+.club-highlight strong{color:var(--gold)}
+.club-footer{padding:10px 16px;border-top:1px solid var(--b);display:flex;flex-wrap:wrap;gap:5px}
+.shop-link{font-size:10px;padding:3px 9px;border-radius:10px;background:var(--bg4);color:var(--blue);text-decoration:none;border:1px solid var(--b);transition:all .13s}
+.shop-link:hover{background:rgba(91,156,246,.12);border-color:rgba(91,156,246,.3)}
+.shop-link::before{content:'↗ '}
+.league-title{display:flex;align-items:center;gap:10px;padding:14px 0 10px;margin-bottom:2px}
+.league-title h2{font-size:17px;font-weight:600;color:var(--tx)}
+.league-title .lic{font-size:12px;color:var(--tx3);margin-left:auto;font-family:var(--mo)}
+.compare-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin-bottom:20px}
+.cmp-card{background:var(--bg3);border:1px solid var(--b);border-radius:9px;padding:12px;text-align:center}
+.cmp-icon{font-size:22px;margin-bottom:5px}
+.cmp-title{font-size:11px;font-weight:600;color:var(--tx);margin-bottom:4px}
+.cmp-eu{font-size:10px;color:var(--green);line-height:1.3}
+.cmp-us{font-size:10px;color:var(--blue);line-height:1.3}
+.cmp-no{font-size:10px;color:var(--tx3);line-height:1.3}
+.opp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:11px;margin-bottom:20px}
+.opp-card{background:var(--bg3);border:1px solid var(--b);border-radius:11px;padding:14px;border-left:3px solid var(--green)}
+.opp-card.med{border-left-color:var(--gold)}
+.opp-card.hi{border-left-color:var(--blue)}
+.opp-num{font-size:10px;font-weight:700;color:var(--green);letter-spacing:.06em;margin-bottom:5px;text-transform:uppercase}
+.opp-card.med .opp-num{color:var(--gold)}
+.opp-card.hi .opp-num{color:var(--blue)}
+.opp-title{font-size:13px;font-weight:600;color:var(--tx);margin-bottom:5px}
+.opp-desc{font-size:11px;color:var(--tx2);line-height:1.5}
+.opp-price{font-size:11px;font-family:var(--mo);color:var(--gold);margin-top:5px;padding-top:5px;border-top:1px solid var(--b)}
+.ranking-table{margin-bottom:20px}
+.badge-new{font-size:9px;font-weight:700;padding:2px 7px;border-radius:8px;background:rgba(232,201,122,.2);color:var(--gold);margin-left:6px;letter-spacing:.04em}
+.badge-uni{font-size:9px;font-weight:700;padding:2px 7px;border-radius:8px;background:rgba(224,111,168,.15);color:var(--pink);margin-left:6px}
+.tldr{background:linear-gradient(135deg,rgba(232,201,122,.07) 0%,rgba(91,156,246,.05) 100%);border:1px solid rgba(232,201,122,.2);border-radius:12px;padding:16px 18px;margin-bottom:20px}
+.tldr h3{font-family:var(--sf);font-size:17px;font-weight:400;color:var(--gold);margin-bottom:8px}
+.tldr ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.tldr li{font-size:12px;color:var(--tx2);line-height:1.5;padding-left:14px;position:relative}
+.tldr li::before{content:'→';position:absolute;left:0;color:var(--gold);font-size:10px;top:2px}
+@media(max-width:700px){.club-grid{grid-template-columns:1fr}.compare-grid{grid-template-columns:1fr 1fr}.opp-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header id="tb">
+  <button id="hm" onclick="tsb()">☰</button>
+  <a class="logo" href="index.html">Sports Intelligence <em>· 2024-26</em></a>
+  <nav class="tnav">
+    <a href="index.html">🏠 Inicio</a>
+    <a href="noticias.html">📰 Noticias</a>
+    <a href="referencias.html">🔗 Referencia</a>
+    <a href="futbol.html">⚽ Fútbol</a>
+    <a href="basketball.html">🏀 Basketball</a>
+    <a href="mlb-nfl.html">⚾ MLB/NFL</a>
+    <a href="uruguay.html">🇺🇾 Uruguay</a>
+  </nav>
+</header>
+<div id="ov" onclick="csb()"></div>
+<div id="ly">
+<nav id="sb">
+  <div class="nlb">Navegación</div>
+  <a href="index.html" class="ni"><span class="ic">🏠</span>Inicio</a>
+  <a href="noticias.html" class="ni"><span class="ic">📰</span>Noticias</a>
+  <a href="referencias.html" class="ni"><span class="ic">🔗</span>Sitios de referencia</a>
+  <a href="merch-global.html" class="ni on"><span class="ic">🛍</span>Merch global</a>
+  <div class="nlb">Por deporte</div>
+  <a href="futbol.html" class="ni"><span class="ic">⚽</span>Fútbol</a>
+  <a href="basketball.html" class="ni"><span class="ic">🏀</span>Basketball</a>
+  <a href="mlb-nfl.html" class="ni"><span class="ic">⚾</span>MLB & NFL</a>
+  <a href="otros.html" class="ni"><span class="ic">🌐</span>Otros deportes</a>
+  <div class="nlb">Análisis</div>
+  <a href="calendario.html" class="ni"><span class="ic">📅</span>Calendario</a>
+  <a href="marcas.html" class="ni"><span class="ic">🏷</span>Marcas & contratos</a>
+  <a href="diseno.html" class="ni"><span class="ic">✦</span>Diseño</a>
+  <a href="uruguay.html" class="ni"><span class="ic">🇺🇾</span>Uruguay</a>
+</nav>
+<main id="mn">
+
+<div class="hr">
+  <div>
+    <h1>Merch global — <em>20 clubes líderes</em></h1>
+    <p>Investigación completa de categorías de producto, precios y oportunidades · Fútbol · NBA · MLB · NFL</p>
+  </div>
+  <div class="hi">🛍</div>
+</div>
+
+<div class="tabs">
+  <div class="tab on" onclick="tb(this,'t-resumen')">Resumen</div>
+  <div class="tab" onclick="tb(this,'t-fut')">⚽ Fútbol (5)</div>
+  <div class="tab" onclick="tb(this,'t-nba')">🏀 NBA (5)</div>
+  <div class="tab" onclick="tb(this,'t-mlb')">⚾ MLB (5)</div>
+  <div class="tab" onclick="tb(this,'t-nfl')">🏈 NFL (5)</div>
+  <div class="tab" onclick="tb(this,'t-compare')">⇄ Europa vs EEUU</div>
+  <div class="tab" onclick="tb(this,'t-uru')">🇺🇾 Oportunidades UY</div>
+</div>
+
+<div class="ct">
+
+<!-- ══ RESUMEN ══ -->
+<div id="t-resumen" class="pn on">
+<div class="tldr">
+  <h3>Conclusiones clave</h3>
+  <ul>
+    <li>Los 5 clubes de fútbol europeo operan tiendas propias con catálogos extremadamente amplios — el Megastore del Man United tiene <strong>más de 800 líneas de producto</strong> en góndola.</li>
+    <li>Los 15 clubes norteamericanos (NBA/MLB/NFL) operan ~90% sobre la plataforma Fanatics con catálogos muy estandarizados: jersey + headwear + tailgate + memorabilia firmada.</li>
+    <li>Las camisetas oficiales se venden en <strong>3 tiers universales</strong>: réplica/fan (USD 100–135), authentic/match (USD 150–200) y memorabilia firmada (hasta <strong>USD 2.499,99</strong> — Mahomes autografiado).</li>
+    <li>PSG/Jordan es el único club con productos de lujo en su catálogo oficial: <strong>Air Jordan 1 High × PSG EUR 7.500</strong>, edición de 23 unidades.</li>
+    <li>Bayern Munich es el único club top 20 con categoría de <strong>alimentación y bebida</strong> (vino, café, gomitas, Paulaner 5L Keg).</li>
+    <li>FC Barcelona es el único con plataforma <strong>NFT/Web3 propia</strong> (Barça Vision + Fan Token $BAR en Socios.com, NFT "Empowerment" vendido por USD 300.231).</li>
+    <li>Para Uruguay: las categorías más imitables sin licencia son <strong>homeware, mascotas y tailgate/decoración LED</strong> — alto margen, baja barrera técnica.</li>
+  </ul>
+</div>
+
+<div class="st">Ranking confirmado por número de aficionados — Mayo 2026</div>
+<div class="tw ranking-table"><table>
+<thead><tr><th>#</th><th>Liga</th><th>Club</th><th>Proveedor</th><th>Tienda oficial</th><th>Modelo e-commerce</th></tr></thead>
+<tbody>
+<tr><td class="v">1</td><td class="m">⚽ Fútbol</td><td style="font-weight:600">Real Madrid</td><td class="m">Adidas</td><td class="m"><a href="https://us.shop.realmadrid.com" target="_blank">us.shop.realmadrid.com</a></td><td class="g">Tienda propia</td></tr>
+<tr><td class="v">2</td><td class="m">⚽ Fútbol</td><td style="font-weight:600">FC Barcelona</td><td class="m">Nike</td><td class="m"><a href="https://store.fcbarcelona.com" target="_blank">store.fcbarcelona.com</a></td><td class="g">Tienda propia</td></tr>
+<tr><td class="v">3</td><td class="m">⚽ Fútbol</td><td style="font-weight:600">Manchester United</td><td class="m">Adidas</td><td class="m"><a href="https://store.manutd.com" target="_blank">store.manutd.com</a></td><td class="g">Tienda propia · Megastore 800+ líneas</td></tr>
+<tr><td class="v">4</td><td class="m">⚽ Fútbol</td><td style="font-weight:600">PSG</td><td class="m">Nike + Jordan Brand</td><td class="m"><a href="https://store.psg.fr" target="_blank">store.psg.fr</a></td><td class="g">Tienda propia</td></tr>
+<tr><td class="v">5</td><td class="m">⚽ Fútbol</td><td style="font-weight:600">Bayern Munich</td><td class="m">Adidas</td><td class="m"><a href="https://fcbayern.com/store" target="_blank">fcbayern.com/store</a></td><td class="g">Tienda propia</td></tr>
+<tr><td class="v">6</td><td class="m">🏀 NBA</td><td style="font-weight:600">LA Lakers</td><td class="m">Nike</td><td class="m"><a href="https://store.nba.com/los-angeles-lakers" target="_blank">store.nba.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">7</td><td class="m">🏀 NBA</td><td style="font-weight:600">Golden State Warriors</td><td class="m">Nike</td><td class="m"><a href="https://store.nba.com/golden-state-warriors" target="_blank">store.nba.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">8</td><td class="m">🏀 NBA</td><td style="font-weight:600">Boston Celtics</td><td class="m">Nike</td><td class="m"><a href="https://store.nba.com/boston-celtics" target="_blank">store.nba.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">9</td><td class="m">🏀 NBA</td><td style="font-weight:600">Chicago Bulls</td><td class="m">Nike</td><td class="m"><a href="https://store.nba.com/chicago-bulls" target="_blank">store.nba.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">10</td><td class="m">🏀 NBA</td><td style="font-weight:600">NY Knicks / Miami Heat</td><td class="m">Nike</td><td class="m"><a href="https://store.nba.com" target="_blank">store.nba.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">11</td><td class="m">⚾ MLB</td><td style="font-weight:600">New York Yankees</td><td class="m">Nike</td><td class="m"><a href="https://www.mlbshop.com/new-york-yankees" target="_blank">mlbshop.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">12</td><td class="m">⚾ MLB</td><td style="font-weight:600">LA Dodgers</td><td class="m">Nike</td><td class="m"><a href="https://www.mlbshop.com/los-angeles-dodgers" target="_blank">mlbshop.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">13</td><td class="m">⚾ MLB</td><td style="font-weight:600">Boston Red Sox</td><td class="m">Nike</td><td class="m"><a href="https://www.mlbshop.com/boston-red-sox" target="_blank">mlbshop.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">14</td><td class="m">⚾ MLB</td><td style="font-weight:600">Chicago Cubs</td><td class="m">Nike</td><td class="m"><a href="https://www.mlbshop.com/chicago-cubs" target="_blank">mlbshop.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">15</td><td class="m">⚾ MLB</td><td style="font-weight:600">San Francisco Giants</td><td class="m">Nike</td><td class="m"><a href="https://www.mlbshop.com/san-francisco-giants" target="_blank">mlbshop.com</a></td><td class="m">Fanatics platform</td></tr>
+<tr><td class="v">16</td><td class="m">🏈 NFL</td><td style="font-weight:600">Dallas Cowboys</td><td class="m">Nike</td><td class="m"><a href="https://shop.dallascowboys.com" target="_blank">shop.dallascowboys.com</a></td><td class="m">Pro Shop dedicado</td></tr>
+<tr><td class="v">17</td><td class="m">🏈 NFL</td><td style="font-weight:600">Kansas City Chiefs</td><td class="m">Nike</td><td class="m"><a href="https://shop.chiefs.com" target="_blank">shop.chiefs.com</a></td><td class="m">Pro Shop dedicado</td></tr>
+<tr><td class="v">18</td><td class="m">🏈 NFL</td><td style="font-weight:600">Pittsburgh Steelers</td><td class="m">Nike</td><td class="m"><a href="https://shop.steelers.com" target="_blank">shop.steelers.com</a></td><td class="m">Pro Shop dedicado</td></tr>
+<tr><td class="v">19</td><td class="m">🏈 NFL</td><td style="font-weight:600">New England Patriots</td><td class="m">Nike</td><td class="m"><a href="https://proshop.patriots.com" target="_blank">proshop.patriots.com</a></td><td class="m">Pro Shop dedicado</td></tr>
+<tr><td class="v">20</td><td class="m">🏈 NFL</td><td style="font-weight:600">Green Bay Packers</td><td class="m">Nike</td><td class="m"><a href="https://www.packersproshop.com" target="_blank">packersproshop.com</a></td><td class="m">Pro Shop dedicado</td></tr>
+</tbody></table></div>
+</div>
+
+<!-- ══ FÚTBOL ══ -->
+<div id="t-fut" class="pn">
+<div class="league-title"><h2>⚽ Fútbol — Top 5 por seguidores globales</h2><span class="lic">Fuente: CIES Football Observatory + GiveMeSport 2025</span></div>
+<div class="club-grid">
+
+  <!-- REAL MADRID -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(200,200,200,.1)">⚪</div>
+      <div><div class="club-name">Real Madrid CF</div><div class="club-sub">Adidas · La Liga · 474,7M seguidores</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Camisetas</span><span class="cat-val">Home/Away/Third/Fourth + Authentic · <span class="price">EUR 100–190 / USD 125–200</span></span></div>
+        <div class="cat-row"><span class="cat-label">Ediciones limitadas</span><span class="cat-val">Real Madrid × NFL collection (t-shirts USD 65, hoodies USD 115, premium tee USD 115)</span></div>
+        <div class="cat-row"><span class="cat-label">Training</span><span class="cat-val">Camiseta entreno, pantalones, jacket, anthem jacket · <span class="price">EUR 40–130</span></span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Hoodies, polos, camisetas gráficas, gorras Adidas · <span class="price">EUR 25–90</span></span></div>
+        <div class="cat-row"><span class="cat-label">Headwear</span><span class="cat-val">Gorras Adidas, New Era, beanies · <span class="price">EUR 20–40</span></span></div>
+        <div class="cat-row"><span class="cat-label">Hogar</span><span class="cat-val">Copa de vino 370ml con crest, tazas, banderines · <span class="price">EUR 12–30</span></span></div>
+        <div class="cat-row"><span class="cat-label">Fragancia <span class="badge-uni">licencia</span></span><span class="cat-val">Eau de Toilette 100ml (Air-Val International) · <span class="price">USD 18–45</span></span></div>
+        <div class="cat-row"><span class="cat-label">Baby & Junior</span><span class="cat-val">Kit infantil completo, ropa bebé · <span class="price">EUR 25–75</span></span></div>
+        <div class="cat-row"><span class="cat-label">Membresía</span><span class="cat-val">Platinum: jersey oficial anual + 15% desc. online</span></div>
+      </div>
+      <div class="club-highlight">Megastore 2.800 m² en el nuevo Bernabéu con personalización, click & collect y 40 metros de pantallas LED.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://us.shop.realmadrid.com/collections/jerseys-kits" target="_blank">Kits</a>
+      <a class="shop-link" href="https://us.shop.realmadrid.com/collections/training" target="_blank">Training</a>
+      <a class="shop-link" href="https://us.shop.realmadrid.com/pages/jerseys-kits-ltd-edition" target="_blank">Ediciones limitadas</a>
+      <a class="shop-link" href="https://www.adidas.com/us/real_madrid" target="_blank">Adidas.com</a>
+    </div>
+  </div>
+
+  <!-- FC BARCELONA -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(0,48,135,.2)">🔵🔴</div>
+      <div><div class="club-name">FC Barcelona</div><div class="club-sub">Nike · La Liga · 428,5M seguidores</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Camisetas</span><span class="cat-val">Home/Away/Third/Fourth · Stadium (réplica) vs Matchday (auténtica) · <span class="price">EUR 100–150</span></span></div>
+        <div class="cat-row"><span class="cat-label">Colección CAT <span class="badge-new">25 productos</span></span><span class="cat-val">Mug €12,99–19,99 · Backpack €27,99–44,99 · Hoodie €44,99 · Teddy plush €39,99 · Poncho €39,99 · Thermal Lunch Bag €12,99</span></div>
+        <div class="cat-row"><span class="cat-label">Petwear <span class="badge-uni">licencia</span></span><span class="cat-val">Max & Molly Urban Pets: Treatbag, Poo Bag Carrier, collares Matrix 2.0, jerseys para perro</span></div>
+        <div class="cat-row"><span class="cat-label">NFT / Web3 <span class="badge-new">único</span></span><span class="cat-val">Barça Vision + Fan Token $BAR (Socios.com, supply 40M). NFT "Empowerment" (Alexia Putellas) vendido por USD 300.231</span></div>
+        <div class="cat-row"><span class="cat-label">Training</span><span class="cat-val">Kits entrenamiento Nike · <span class="price">EUR 50–130</span></span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Streetwear, hoodies, camisetas gráficas · <span class="price">EUR 30–90</span></span></div>
+        <div class="cat-row"><span class="cat-label">Baby & Junior</span><span class="cat-val">Kit infantil, ropa bebé, accesorios · <span class="price">EUR 25–70</span></span></div>
+        <div class="cat-row"><span class="cat-label">Coleccionables</span><span class="cat-val">Figuras, gifts, merchandising turístico · <span class="price">EUR 10–120</span></span></div>
+      </div>
+      <div class="club-highlight"><strong>15+ Barça Stores físicas</strong> incluyendo Madrid, Málaga, Palma, Georgia (USA). Tienda Spotify Camp Nou: 2.000 m², Personal Shopper, impresión de camisetas.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://store.fcbarcelona.com/collections/jerseys" target="_blank">Camisetas</a>
+      <a class="shop-link" href="https://store.fcbarcelona.com/collections/cat-collection" target="_blank">Colección CAT</a>
+      <a class="shop-link" href="https://barcavision.fcbarcelona.com" target="_blank">Barça Vision NFT</a>
+      <a class="shop-link" href="https://store.fcbarcelona.com/collections/basketball" target="_blank">Basketball</a>
+    </div>
+  </div>
+
+  <!-- MAN UTD -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(200,0,0,.15)">🔴⚫</div>
+      <div><div class="club-name">Manchester United</div><div class="club-sub">Adidas · Premier League · 800+ líneas en tienda</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Camisetas actuales</span><span class="cat-val">Home/Away/Third + Authentic · <span class="price">USD 55–200</span></span></div>
+        <div class="cat-row"><span class="cat-label">Camisetas retro <span class="badge-new">12+ modelos</span></span><span class="cat-val">1963 FA Cup USD 23 · 1973 No.7 USD 55 · 1994 Home USD 32 · 1999 FA Cup USD 103–635 · Track Jacket 1963 USD 70</span></div>
+        <div class="cat-row"><span class="cat-label">Golf</span><span class="cat-val">Driver Head Cover USD 45 · Golf Gift Box USD 58 · Polo de golf</span></div>
+        <div class="cat-row"><span class="cat-label">Hogar</span><span class="cat-val">Team Matte Mug USD 39, banderas, posters impresos</span></div>
+        <div class="cat-row"><span class="cat-label">Memorabilia firmada</span><span class="cat-val">Bruno Fernandes signed shirt USD 70 · Cantona signed framed · Premium USD 508</span></div>
+        <div class="cat-row"><span class="cat-label">Accesorios</span><span class="cat-val">Bufandas, New Era Bucket Hat USD 23, mochilas</span></div>
+        <div class="cat-row"><span class="cat-label">Coleccionables</span><span class="cat-val">Badge sets, Magnificent 7 Gift Set, figuras históricas</span></div>
+        <div class="cat-row"><span class="cat-label">Baby & Junior</span><span class="cat-val">Kits infantiles, ropa bebé · <span class="price">USD 20–60</span></span></div>
+      </div>
+      <div class="club-highlight"><strong>Megastore Old Trafford 17.000 sq ft</strong> — promedio de +10.000 visitantes en días de partido. Más de 800 líneas de producto en góndola.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://store.manutd.com/en" target="_blank">United Store oficial</a>
+      <a class="shop-link" href="https://www.kitbag.com/en/premier-league/manchester-united" target="_blank">Kitbag</a>
+      <a class="shop-link" href="https://www.fanatics.com/premier-league/manchester-united" target="_blank">Fanatics</a>
+    </div>
+  </div>
+
+  <!-- PSG -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(0,50,120,.2)">🔵🔴⭐</div>
+      <div><div class="club-name">Paris Saint-Germain</div><div class="club-sub">Nike + Jordan Brand · Ligue 1 · 63,6M IG seguidores</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Camisetas</span><span class="cat-val">Home/Away/Third/Night Edition 360° · <span class="price">EUR 100–160</span></span></div>
+        <div class="cat-row"><span class="cat-label">Jordan Wings × PSG <span class="badge-new">lujo único</span></span><span class="cat-val">Varsity jacket cashmere + cuero · Wool Anthem Jacket · Leather pants · Air Jordan 1 High Chrome <span class="price">EUR 7.500</span> (23 unidades)</span></div>
+        <div class="cat-row"><span class="cat-label">Calzado Jordan</span><span class="cat-val">Air Jordan 5 Retro PSG · <span class="price">USD ~210</span></span></div>
+        <div class="cat-row"><span class="cat-label">Training Jordan</span><span class="cat-val">90+ productos performance/lifestyle/training con Jumpman</span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Hoodies, t-shirts, jackets Jordan Brand</span></div>
+        <div class="cat-row"><span class="cat-label">Headwear</span><span class="cat-val">Gorras Jordan, bufandas, beanies</span></div>
+        <div class="cat-row"><span class="cat-label">Hogar & accesorios</span><span class="cat-val">Tazas, mochilas, artículos de viaje</span></div>
+        <div class="cat-row"><span class="cat-label">Baby</span><span class="cat-val">Ropa bebé e infantil Jordan · <span class="price">EUR 25–65</span></span></div>
+        <div class="cat-row"><span class="cat-label">Fan Token</span><span class="cat-val">$PSG en Socios.com — utility token para votos y experiencias</span></div>
+      </div>
+      <div class="club-highlight"><strong>Primera colaboración Jordan Brand × fútbol</strong> (desde 2018). Pop-up exclusiva Jordan Wings × PSG en Paris Fashion Week (enero 2025). Partnership cross-sport con San Antonio Spurs NBA.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://www.psg.fr/en/jersey-kits" target="_blank">Kits PSG</a>
+      <a class="shop-link" href="https://www.nike.com/w/psg-jerseys" target="_blank">Nike.com PSG</a>
+      <a class="shop-link" href="https://www.unisportstore.com/nike-psg-x-jordan/" target="_blank">Jordan × PSG</a>
+    </div>
+  </div>
+
+  <!-- BAYERN -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(220,5,45,.15)">🔴⚪</div>
+      <div><div class="club-name">Bayern Munich</div><div class="club-sub">Adidas · Bundesliga · 125° aniversario 2025</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Camisetas</span><span class="cat-val">Home (Lozenge pattern retro) / Away / Third · <span class="price">EUR 95–150</span></span></div>
+        <div class="cat-row"><span class="cat-label">Alimentación <span class="badge-new">único top 20</span></span><span class="cat-val">Vino blanco/tinto/espumoso FCB · Café tostado FCB · Espresso FCB · Gomitas (trofeos) · Discos de chocolate · Gingerbread hearts "Mia san mia"</span></div>
+        <div class="cat-row"><span class="cat-label">Paulaner × FCB <span class="badge-new">exclusivo</span></span><span class="cat-val">5L Party Keg edición limitada · Vaso de trigo 0,5L colector · Colección Paulaner en tienda FCB</span></div>
+        <div class="cat-row"><span class="cat-label">Mascota Berni</span><span class="cat-val">Peluche 35cm · Jumbo 33" · Llavero Berni · Mini peluche con ventosa auto · <span class="price">USD 15–40</span></span></div>
+        <div class="cat-row"><span class="cat-label">Hogar distintivo</span><span class="cat-val">Garden gnome FCB · Doormat/alfombra · Grill apron · Wall tattoos · Wallpaper</span></div>
+        <div class="cat-row"><span class="cat-label">Mascotas (perro)</span><span class="cat-val">Accesorios rojo/blanco para perros · Collares, comederos</span></div>
+        <div class="cat-row"><span class="cat-label">Training</span><span class="cat-val">Kits Adidas entrenamiento · <span class="price">EUR 50–130</span></span></div>
+        <div class="cat-row"><span class="cat-label">Baby & Junior</span><span class="cat-val">Kit infantil, ropa toddler, sets regalo bebé</span></div>
+      </div>
+      <div class="club-highlight"><strong>El catálogo más diverso en alimentación del deporte global.</strong> Store en T1/T2 del aeropuerto de Múnich. Tienda online ships a 200+ países.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://fcbayern.com/store/en-zz/c/fanworld/home/kitchen/food/drinks" target="_blank">Comida & bebida</a>
+      <a class="shop-link" href="https://fcbayern.com/store/en-zz/c/fanworld/games/berni" target="_blank">Berni mascot</a>
+      <a class="shop-link" href="https://fcbayern.com/store/en-aa/c/fanworld/home" target="_blank">Hogar FCB</a>
+      <a class="shop-link" href="https://fcbayern.com/store" target="_blank">Tienda completa</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ══ NBA ══ -->
+<div id="t-nba" class="pn">
+<div class="league-title"><h2>🏀 NBA — Top 5 por fanbase</h2><span class="lic">Nike proveedor exclusivo desde 2017-18 · Plataforma Fanatics</span></div>
+<div class="ib">Los 5 clubes NBA comparten la misma estructura de catálogo vía store.nba.com (Fanatics). La diferenciación es por colección y memorabilia de jugadores estrella, no por categorías de producto.</div>
+<div class="club-grid">
+
+  <!-- LAKERS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(85,37,130,.2)">🟣🟡</div>
+      <div><div class="club-name">LA Lakers</div><div class="club-sub">Nike · NBA · 12,9% fan support nacional</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Icon/Statement/Association/City Edition · Swingman <span class="price">USD 125–150</span> · Authentic <span class="price">USD 200–250</span></span></div>
+        <div class="cat-row"><span class="cat-label">Hardwood Classics</span><span class="cat-val">M&N Authentic LeBron, Kobe, Shaq, Magic · <span class="price">USD 200–325</span></span></div>
+        <div class="cat-row"><span class="cat-label">Memorabilia</span><span class="cat-val">Magic Johnson autographed · 17x Champs 12" Larry O'Brien Trophy · Phenom Gallery serigraph posters · Wilson Authentic autographed basketball</span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Hoodies Concepts Sport, t-shirts Jordan Brand, shorts swingman USD 90–110</span></div>
+        <div class="cat-row"><span class="cat-label">Headwear</span><span class="cat-val">New Era 59FIFTY fitted, 9TWENTY, Mitchell & Ness Two-Tone · <span class="price">USD 35–45</span></span></div>
+        <div class="cat-row"><span class="cat-label">Women's</span><span class="cat-val">WEAR by Erin Andrews, Touch by Alyssa Milano · <span class="price">USD 35–80</span></span></div>
+        <div class="cat-row"><span class="cat-label">Youth/Infant</span><span class="cat-val">Toddler/Preschool/Infant jerseys y sets · <span class="price">USD 25–65</span></span></div>
+      </div>
+      <div class="club-highlight">Sin alimentación, mascotas, NFTs ni fragancias. Foco total en jersey + memorabilia + lifestyle.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://store.nba.com/los-angeles-lakers/jerseys" target="_blank">Jerseys Lakers</a>
+      <a class="shop-link" href="https://store.nba.com/los-angeles-lakers/collectibles" target="_blank">Coleccionables</a>
+      <a class="shop-link" href="https://lakersstore.com/collections/jerseys-2" target="_blank">Lakers Store</a>
+    </div>
+  </div>
+
+  <!-- BULLS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(200,0,0,.15)">🔴⚫</div>
+      <div><div class="club-name">Chicago Bulls</div><div class="club-sub">Nike · NBA · Jordan legacy extraordinario</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys actuales</span><span class="cat-val">Icon/Statement/City Edition · <span class="price">USD 125–250</span></span></div>
+        <div class="cat-row"><span class="cat-label">M&N MJ <span class="badge-new">top catálogo</span></span><span class="cat-val">MJ Authentic 1984-85 USD 325 · 1991-92 USD 325 · 1995-96 USD 325 · DREAMER Fashion Jersey USD 375 · Scottie Pippen USD 134,99–184,99</span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Jordan Brand hoodies y t-shirts · Pro Standard colección · <span class="price">USD 35–95</span></span></div>
+        <div class="cat-row"><span class="cat-label">Headwear</span><span class="cat-val">New Era, M&N, '47 Brand · <span class="price">USD 28–45</span></span></div>
+        <div class="cat-row"><span class="cat-label">Coleccionables</span><span class="cat-val">Memorabilia Jordan firmada, figuras, trading cards</span></div>
+      </div>
+      <div class="club-highlight"><strong>El catálogo M&N de MJ es el más extenso del deporte norteamericano</strong> — 12+ jerseys retro desde 1984 a 1997. DREAMER Fashion Jersey a USD 375.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://store.nba.com/chicago-bulls" target="_blank">NBA Store Bulls</a>
+      <a class="shop-link" href="https://www.mitchellandness.com/basketball/chicago-bulls" target="_blank">M&N Bulls</a>
+    </div>
+  </div>
+
+  <!-- CELTICS, WARRIORS, HEAT (card combinada) -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(0,122,51,.15)">🟢⬛</div>
+      <div><div class="club-name">Celtics · Warriors · Heat</div><div class="club-sub">Nike · NBA · Estructura idéntica a Lakers/Bulls</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Celtics</span><span class="cat-val">City Edition "Gold Standard" (campeones 2024) · Jayson Tatum Authentic USD 250 · Hardwood M&N Bird/McHale/Parish · <span class="price">USD 125–325</span></span></div>
+        <div class="cat-row"><span class="cat-label">Warriors</span><span class="cat-val">City Edition Curry · Hardwood Run TMC era · Statement "Royal" · <span class="price">USD 125–250</span></span></div>
+        <div class="cat-row"><span class="cat-label">Heat Vice City</span><span class="cat-val">Vice City edition (la más icónica NBA) · Hardwood 1990s Mourning/Hardaway · Lifestyle Jordan Brand · <span class="price">USD 125–250</span></span></div>
+        <div class="cat-row"><span class="cat-label">Común todos</span><span class="cat-val">Headwear New Era · Women's WEAR by Erin Andrews · Youth/Infant · Sleepwear Concepts Sport · Coleccionables autografiados</span></div>
+      </div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://store.nba.com/boston-celtics" target="_blank">Celtics</a>
+      <a class="shop-link" href="https://store.nba.com/golden-state-warriors" target="_blank">Warriors</a>
+      <a class="shop-link" href="https://store.nba.com/miami-heat" target="_blank">Heat</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ══ MLB ══ -->
+<div id="t-mlb" class="pn">
+<div class="league-title"><h2>⚾ MLB — Top 5 por fanbase y mercado</h2><span class="lic">Nike proveedor exclusivo · mlbshop.com (Fanatics)</span></div>
+<div class="club-grid">
+
+  <!-- YANKEES -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(0,0,0,.3)">⬛🔵</div>
+      <div><div class="club-name">New York Yankees</div><div class="club-sub">Nike · MLB · 45% engagement relativo</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Réplica / Limited / Authentic Nike · <span class="price">USD 110–200</span></span></div>
+        <div class="cat-row"><span class="cat-label">Headwear <span class="badge-new">top categoría</span></span><span class="cat-val">New Era 59FIFTY fitted (el más vendido del mundo) · 9TWENTY · Mitchell & Ness wool · Pro Standard · '47 Brand · <span class="price">USD 32–55</span></span></div>
+        <div class="cat-row"><span class="cat-label">Drinkware</span><span class="cat-val">Yeti 20oz Rambler + MagSlider Lid · Tervis 20oz MVP DuraPrint · <span class="price">USD 30–45</span></span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Pro Standard colección · WEAR by Erin Andrews · Mitchell & Ness · <span class="price">USD 35–95</span></span></div>
+        <div class="cat-row"><span class="cat-label">Mascotas</span><span class="cat-val">Pet jerseys, collares, bandanas, chew toys</span></div>
+        <div class="cat-row"><span class="cat-label">Tailgate & Party</span><span class="cat-val">Drinkware, flags, banners, patio accessories</span></div>
+        <div class="cat-row"><span class="cat-label">Trading Cards</span><span class="cat-val">Topps Yankees team sets, rookie cards</span></div>
+        <div class="cat-row"><span class="cat-label">Youth/Women</span><span class="cat-val">Touch by Alyssa Milano, WEAR by EA, infant/toddler</span></div>
+      </div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://www.mlbshop.com/new-york-yankees" target="_blank">MLB Shop Yankees</a>
+      <a class="shop-link" href="https://www.fanatics.com/mlb/new-york-yankees" target="_blank">Fanatics</a>
+    </div>
+  </div>
+
+  <!-- DODGERS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(0,90,161,.2)">🔵⚪</div>
+      <div><div class="club-name">LA Dodgers</div><div class="club-sub">Nike · MLB · Campeones World Series 2024</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Réplica/Limited/Authentic + City Connect · <span class="price">USD 110–200</span></span></div>
+        <div class="cat-row"><span class="cat-label">Pet Gear <span class="badge-new">extenso</span></span><span class="cat-val">Pet Jersey (genérico) USD 29,99 · Player Pet Jerseys (Ohtani, Yamamoto, Freeman, Betts) USD 31,99–34,99 · WinCraft Leash & Collar Set USD 34,99</span></div>
+        <div class="cat-row"><span class="cat-label">Memorabilia WS 2025</span><span class="cat-val">Sublimated Plaque Limited Ed. 500 · Highland Mint 18"×22" Bronze Coin · Ohtani Framed 5-Photo con pieza de pelota usada</span></div>
+        <div class="cat-row"><span class="cat-label">Home & Office</span><span class="cat-val">Bedding, drinkware Yeti/Tervis, banners, rug, light fixtures, dinnerware</span></div>
+        <div class="cat-row"><span class="cat-label">Ohtani player store</span><span class="cat-val">Sección dedicada con signed items, bobbleheads, player jerseys</span></div>
+      </div>
+      <div class="club-highlight"><strong>Player store de Shohei Ohtani</strong> es el más activo en MLB. Memorabilia de WS 2025 con piezas del partido (tierra del campo) incluida en placa Limited Edition de 500 unidades.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://www.mlbshop.com/los-angeles-dodgers" target="_blank">MLB Shop Dodgers</a>
+      <a class="shop-link" href="https://www.mlbshop.com/los-angeles-dodgers/pet-gear" target="_blank">Pet Gear</a>
+      <a class="shop-link" href="https://www.mlbshop.com/los-angeles-dodgers/home-and-office" target="_blank">Home & Office</a>
+    </div>
+  </div>
+
+  <!-- RED SOX / CUBS / GIANTS (combinada) -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(200,0,0,.12)">🔴⚪🔵</div>
+      <div><div class="club-name">Red Sox · Cubs · Giants</div><div class="club-sub">Nike · MLB · Estructura estándar Fanatics</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Réplica / Limited / Authentic + City Connect cuando aplica · <span class="price">USD 110–200</span></span></div>
+        <div class="cat-row"><span class="cat-label">Headwear</span><span class="cat-val">New Era 59FIFTY / Mitchell & Ness / '47 / Pro Standard · <span class="price">USD 32–55</span></span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Hoodies, t-shirts, joggers · WEAR by Erin Andrews (women's)</span></div>
+        <div class="cat-row"><span class="cat-label">Drinkware</span><span class="cat-val">Yeti, Tervis co-branded · <span class="price">USD 30–45</span></span></div>
+        <div class="cat-row"><span class="cat-label">Pet Gear</span><span class="cat-val">Jerseys, collares, bandanas para perros · <span class="price">USD 15–35</span></span></div>
+        <div class="cat-row"><span class="cat-label">Golf</span><span class="cat-val">Polo de golf, driver head covers, bags</span></div>
+        <div class="cat-row"><span class="cat-label">Home & Office</span><span class="cat-val">Banners, flags, light fixtures, bedding</span></div>
+      </div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://www.mlbshop.com/boston-red-sox" target="_blank">Red Sox</a>
+      <a class="shop-link" href="https://www.mlbshop.com/chicago-cubs" target="_blank">Cubs</a>
+      <a class="shop-link" href="https://www.mlbshop.com/san-francisco-giants" target="_blank">Giants</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ══ NFL ══ -->
+<div id="t-nfl" class="pn">
+<div class="league-title"><h2>🏈 NFL — Top 5 por fanbase</h2><span class="lic">Nike proveedor exclusivo · Pro Shops dedicados</span></div>
+<div class="club-grid">
+
+  <!-- COWBOYS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(0,53,148,.15)">⭐🔵</div>
+      <div><div class="club-name">Dallas Cowboys</div><div class="club-sub">Nike · NFL · "America's Team" · 7,3% fanbase</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Nike Game USD 110–120 · Limited USD 130–160 · Authentic Elite USD 320–380 · CeeDee Lamb 2026 Draft Pick</span></div>
+        <div class="cat-row"><span class="cat-label">Pet Gear</span><span class="cat-val">Collares · Water bowls · Dog beds · Dog jerseys USD 9,99–29,82 · Bandanas</span></div>
+        <div class="cat-row"><span class="cat-label">Gift Boxes</span><span class="cat-val">Cowboys Gift Box seasonal · Box Calendar · Holiday sets</span></div>
+        <div class="cat-row"><span class="cat-label">Memorabilia</span><span class="cat-val">Signed replica helmets · Autographed white footballs · Signed rookie cards</span></div>
+        <div class="cat-row"><span class="cat-label">Home & Office</span><span class="cat-val">School supplies, décor, tailgate accessories</span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Nike, Pro Standard, '47 · Women's WEAR by EA, STAUD × NFL · <span class="price">USD 30–95</span></span></div>
+      </div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://shop.dallascowboys.com" target="_blank">Cowboys Pro Shop</a>
+      <a class="shop-link" href="https://www.fansedge.com/en/dallas-cowboys-merchandise" target="_blank">FansEdge</a>
+    </div>
+  </div>
+
+  <!-- CHIEFS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(227,24,55,.15)">🔴🟡</div>
+      <div><div class="club-name">Kansas City Chiefs</div><div class="club-sub">Nike · NFL · Mahomes · 7,2% fanbase</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Game / Limited / Elite · Mahomes Vapor F.U.S.E. · <span class="price">USD 110–380</span></span></div>
+        <div class="cat-row"><span class="cat-label">Memorabilia Mahomes <span class="badge-new">record</span></span><span class="cat-val">Autographed White Nike Limited Jersey <span class="price">USD 2.499,99</span> · Autographed SB LIV Pro Football <span class="price">USD 1.999,99</span> · Riddell Speed Authentic Helmet Mahomes+Reid Limited 10 · Mahomes+Kelce dual-signed SB LVIII Shadowbox</span></div>
+        <div class="cat-row"><span class="cat-label">Colecciones especiales</span><span class="cat-val">BOSS × NFL · Pro Standard · NFL × Staple streetwear · OVO (exclusivo, sin descuentos)</span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Hoodies, t-shirts, polos · <span class="price">USD 30–95</span></span></div>
+        <div class="cat-row"><span class="cat-label">Headwear</span><span class="cat-val">New Era, Pro Standard, '47 · <span class="price">USD 28–50</span></span></div>
+      </div>
+      <div class="club-highlight"><strong>La pieza de memorabilia más cara del deporte norteamericano activo</strong>: jersey autografiado Mahomes USD 2.499,99. Efecto "Taylor Swift": demanda de gear Chiefs se triplicó en 2023–24.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://shop.chiefs.com" target="_blank">Chiefs Pro Shop</a>
+      <a class="shop-link" href="https://shop.chiefs.com/kansas-city-chiefs-patrick-mahomes-collectibles" target="_blank">Mahomes collectibles</a>
+      <a class="shop-link" href="https://www.nflshop.com/kansas-city-chiefs" target="_blank">NFL Shop Chiefs</a>
+    </div>
+  </div>
+
+  <!-- STEELERS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(255,182,18,.15)">⬛🟡</div>
+      <div><div class="club-name">Pittsburgh Steelers</div><div class="club-sub">Nike · NFL · Terrible Towel® · 6,2% fanbase</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Game / Limited / Elite · Najee Harris, TJ Watt · <span class="price">USD 110–380</span></span></div>
+        <div class="cat-row"><span class="cat-label">Terrible Towel® <span class="badge-new">categoría única</span></span><span class="cat-val">Classic USD 10,95–12,95 · Custom Towel USD 24,95 · Gift Box USD 39,95 · 50th Anniversary · Microfiber Golf · Inflatable · Here We Go · Color Rush · Pittsburghese · Steel Beam · Neighborhoods · Yeti co-brand</span></div>
+        <div class="cat-row"><span class="cat-label">Yeti × Steelers</span><span class="cat-val">26oz Terrible Towel Yeti Rambler Bottle (co-brand exclusivo) · <span class="price">USD 45</span></span></div>
+        <div class="cat-row"><span class="cat-label">Colecciones premium</span><span class="cat-val">OVO × Steelers · UNRL · Pro Standard · Yeti — todos sin descuento</span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Hoodies, t-shirts, polos · <span class="price">USD 30–95</span></span></div>
+      </div>
+      <div class="club-highlight">El <strong>Terrible Towel® es el único producto exclusivo con nombre registrado</strong> en el deporte profesional norteamericano. Categoría dedicada con 15+ variantes. Su revenue va a The Allegheny Valley School (institución de discapacidad).</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://shop.steelers.com" target="_blank">Steelers Pro Shop</a>
+      <a class="shop-link" href="https://shop.steelers.com/terrible-towel" target="_blank">Terrible Towel®</a>
+      <a class="shop-link" href="https://shop.steelers.com/custom/custom-terrible-towels" target="_blank">Custom Towel</a>
+    </div>
+  </div>
+
+  <!-- PATRIOTS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(0,33,168,.15)">🔵🔴</div>
+      <div><div class="club-name">New England Patriots</div><div class="club-sub">Nike · NFL · Brady legacy · 4,4% fanbase</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Nike Game USD 130 · Limited USD 200 · Elite USD 330 · 2025 AFC Champions Locker Room Trophy</span></div>
+        <div class="cat-row"><span class="cat-label">Colecciones fashion</span><span class="cat-val">Patriots Rivalries Collection · NFL × Staple · WEAR by Erin Andrews · STAUD × NFL · BOSS × NFL · Darius Rucker × NFL · Adaptive Apparel</span></div>
+        <div class="cat-row"><span class="cat-label">Tom Brady memorabilia</span><span class="cat-val">Autographed Nike Navy Color Rush Elite Jersey con SB inscriptions · Signed helmets · Framed photos · <span class="price">USD 300–1.500</span></span></div>
+        <div class="cat-row"><span class="cat-label">Headwear</span><span class="cat-val">New Era 59FIFTY, 9TWENTY, Toque/Beanie, Bucket Hat · <span class="price">USD 28–50</span></span></div>
+        <div class="cat-row"><span class="cat-label">Salute to Service</span><span class="cat-val">Colección militar + Crucial Catch (breast cancer awareness) — ambas donaciones de proceeds</span></div>
+      </div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://proshop.patriots.com" target="_blank">Patriots ProShop</a>
+      <a class="shop-link" href="https://proshop.patriots.com/new-england-patriots-tom-brady" target="_blank">Tom Brady</a>
+    </div>
+  </div>
+
+  <!-- PACKERS -->
+  <div class="club-card">
+    <div class="club-head">
+      <div class="club-ico" style="background:rgba(24,48,40,.3)">💚🟡</div>
+      <div><div class="club-name">Green Bay Packers</div><div class="club-sub">Nike · NFL · Unique fan-owned · Tailgate culture</div></div>
+    </div>
+    <div class="club-body">
+      <div class="cat-list">
+        <div class="cat-row"><span class="cat-label">Jerseys</span><span class="cat-val">Nike Game/Limited/Elite + Jordan Love, Aaron Jones · <span class="price">USD 110–380</span></span></div>
+        <div class="cat-row"><span class="cat-label">Tailgate & BBQ <span class="badge-new">categoría central</span></span><span class="cat-val">Sportula USD 24,99 · Spirit Series Sportula USD 44,99 · Imperial BBQ Caddy · Grill covers · Cornhole sets · Foldable chairs · Canopies · Aprons · Pint glasses · Shot glasses · Mugs</span></div>
+        <div class="cat-row"><span class="cat-label">Colecciones fashion</span><span class="cat-val">BOSS × NFL · NFL × Staple · Darius Rucker × NFL · STAUD · Nike Pegasus Shoes</span></div>
+        <div class="cat-row"><span class="cat-label">Cold Weather Gear</span><span class="cat-val">Parkas, fleece, layering sets para clima Wisconsin</span></div>
+        <div class="cat-row"><span class="cat-label">Lifestyle</span><span class="cat-val">Adaptive Apparel · WEAR by Erin Andrews · Sideline Headwear</span></div>
+      </div>
+      <div class="club-highlight">Únicos en el mundo con <strong>fans como co-propietarios del club</strong> (corporación sin dueño único). Tailgating es parte de la identidad de marca — el BBQ y cornhole son categorías tan importantes como la ropa.</div>
+    </div>
+    <div class="club-footer">
+      <a class="shop-link" href="https://www.packersproshop.com" target="_blank">Packers Pro Shop</a>
+      <a class="shop-link" href="https://www.nflshop.com/green-bay-packers/bbq-gear" target="_blank">BBQ Gear</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ══ COMPARATIVA ══ -->
+<div id="t-compare" class="pn">
+<div class="st">Europa vs. Estados Unidos — Categorías de producto comparadas</div>
+<div class="compare-grid">
+  <div class="cmp-card"><div class="cmp-icon">👕</div><div class="cmp-title">Camisetas técnicas</div><div class="cmp-eu">✓✓✓ Europa: réplica/auténtica/Ltd. 3–4 tiers + edición lujo (PSG)</div><div class="cmp-us">✓✓✓ EEUU: Game/Limited/Authentic (NFL) o Swingman/Authentic (NBA)</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🧥</div><div class="cmp-title">Streetwear/Lifestyle</div><div class="cmp-eu">✓✓✓ Europa: PSG×Jordan wings lujo, Adidas Originals, colabs moda</div><div class="cmp-us">✓✓ EEUU: Pro Standard, M&N, NFL×Staple, BOSS×NFL, STAUD</div></div>
+  <div class="cmp-card"><div class="cmp-icon">👟</div><div class="cmp-title">Calzado</div><div class="cmp-eu">✓✓ Europa: Air Jordan×PSG EUR 7.500, Adidas RM/FCB</div><div class="cmp-us">⚠ EEUU: Nike Pegasus Packers — marginal</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🐕</div><div class="cmp-title">Mascotas</div><div class="cmp-eu">✓ Europa: FCB (Max&Molly), Bayern, Liverpool</div><div class="cmp-us">✓✓✓ EEUU: Casi todos los clubes tienen player pet jerseys, leashes, beds</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🍺</div><div class="cmp-title">Alimentación & bebida</div><div class="cmp-eu">✓✓✓ Bayern: vino, café, gomitas, Paulaner 5L keg — ÚNICO</div><div class="cmp-us">✗ Ningún club NBA/MLB/NFL ofrece alimentos en tienda oficial</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🔥</div><div class="cmp-title">Tailgate/BBQ/Grill</div><div class="cmp-eu">✗ Europa: inexistente</div><div class="cmp-us">✓✓✓ NFL: categoría completa (grills, aprons, cornhole, canopies)</div></div>
+  <div class="cmp-card"><div class="cmp-icon">💎</div><div class="cmp-title">Fragancias</div><div class="cmp-eu">✓ Real Madrid (licencia Air-Val) · Liverpool (Home Fragrance)</div><div class="cmp-us">✗ Ninguno</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🪙</div><div class="cmp-title">NFT / Fan Token</div><div class="cmp-eu">✓✓ FCB (Barça Vision + $BAR) · PSG ($PSG Socios)</div><div class="cmp-us">✗ Ningún club NBA/MLB/NFL top 5</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🏆</div><div class="cmp-title">Memorabilia firmada</div><div class="cmp-eu">✓✓ Man Utd (USD 508 max) · PSG</div><div class="cmp-us">✓✓✓ EEUU: Fanatics Authentic hasta USD 2.499,99 (Mahomes)</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🕰️</div><div class="cmp-title">Camisetas retro</div><div class="cmp-eu">✓✓ Man Utd (12+ modelos 1963–1999, USD 23–635)</div><div class="cmp-us">✓✓ M&N Hardwood NBA · Mitchell & Ness NFL throwback</div></div>
+  <div class="cmp-card"><div class="cmp-icon">👶</div><div class="cmp-title">Baby & Infant</div><div class="cmp-eu">✓✓ Todos los clubes europeos</div><div class="cmp-us">✓✓ Estándar en todos los clubs</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🦔</div><div class="cmp-title">Mascota/peluche club</div><div class="cmp-eu">✓✓✓ Bayern: Berni 35 items · FCB Cat Culer · Liverpool LFC Duck</div><div class="cmp-us">✗ Ausente en los 5 clubes top</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🌿</div><div class="cmp-title">Garden & Outdoor</div><div class="cmp-eu">✓ Bayern: garden gnome FCB, doormat, grill apron</div><div class="cmp-us">✓ NFL: tailgate canopies, outdoor flags, cornhole</div></div>
+  <div class="cmp-card"><div class="cmp-icon">📲</div><div class="cmp-title">Tecnología/casos</div><div class="cmp-eu">⚠ Limitado — Real Madrid algunos accesorios</div><div class="cmp-us">✓ NFL/NBA tienen fundas de teléfono, power banks</div></div>
+  <div class="cmp-card"><div class="cmp-icon">⛳</div><div class="cmp-title">Golf</div><div class="cmp-eu">✓ Man Utd (Driver Cover, Gift Box)</div><div class="cmp-us">✓ MLB: polos de golf, driver covers, bags</div></div>
+  <div class="cmp-card"><div class="cmp-icon">🎨</div><div class="cmp-title">Decoración LED/Cartel</div><div class="cmp-eu">✓ Real Madrid, FCB (cartel LED, wall sign)</div><div class="cmp-us">⚠ Limitado — via terceros licenciatarios</div></div>
+</div>
+</div>
+
+<!-- ══ URUGUAY ══ -->
+<div id="t-uru" class="pn">
+<div class="st">Oportunidades para fabricación/comercialización sin licencia — Uruguay</div>
+<div class="ib">Las siguientes categorías pueden desarrollarse legalmente con diseño propio, evocando colores y cultura del club sin usar escudos o marcas registradas. Marco: Ley 17.011 + Convenio de París.</div>
+
+<div class="opp-grid">
+  <div class="opp-card">
+    <div class="opp-num">Fase 1 · Baja barrera</div>
+    <div class="opp-title">Bufandas & banderas</div>
+    <div class="opp-desc">Con colores y tipografía evocativa sin escudos ni logos protegidos. Alta demanda, baja inversión, fácil distribución online. Modelo referencia: Crystal Palace (239+ llaveros, 805+ accesorios).</div>
+    <div class="opp-price">Costo: $4–8 · B2C: $18–30 · Margen: ~60%</div>
+  </div>
+  <div class="opp-card">
+    <div class="opp-num">Fase 1 · Baja barrera</div>
+    <div class="opp-title">Homeware decorativo</div>
+    <div class="opp-desc">Tazas, termos, banderines, posters con frases icónicas (no logos). "Hala Madrid", "Mia san Mia", "YNWA" en diseño propio. Referencia: Liverpool LFC Lamp Shade, Bayern FCB wine glass EUR 12,99.</div>
+    <div class="opp-price">Costo: $4–12 · B2C: $18–45 · Margen: ~55%</div>
+  </div>
+  <div class="opp-card">
+    <div class="opp-num">Fase 1 · Baja barrera</div>
+    <div class="opp-title">Accesorios mascota</div>
+    <div class="opp-desc">Collares, bandanas, jerseys para perro con paletas de color de equipos. Categoría sub-explotada en Latam. Referencia: MLB pet jerseys Ohtani/Freeman USD 31,99–34,99, FCB Max&Molly.</div>
+    <div class="opp-price">Costo: $5–12 · B2C: $25–40 · Margen: ~55%</div>
+  </div>
+  <div class="opp-card">
+    <div class="opp-num">Fase 1 · Baja barrera</div>
+    <div class="opp-title">Decoración LED</div>
+    <div class="opp-desc">Carteles tipo neón con frases en colores de club. Costo bajo, alto valor percibido, transporte fácil. Referencia: Fan Zone TT (Barça+Pedri) carteles LED USD 50–120.</div>
+    <div class="opp-price">Costo: $10–20 · B2C: $50–120 · Margen: ~65%</div>
+  </div>
+  <div class="opp-card med">
+    <div class="opp-num">Fase 2 · Barrera media</div>
+    <div class="opp-title">Camisetas retro "inspired"</div>
+    <div class="opp-desc">Diseños inspirados en kits históricos 1990s (los modelos más buscados, raramente con trademark vigente). Modelo Man Utd: 12+ camisetas históricas USD 23–55. Potencial alto en diáspora uruguaya.</div>
+    <div class="opp-price">Costo: $8–14 · B2C: $35–65 · Margen: ~55%</div>
+  </div>
+  <div class="opp-card med">
+    <div class="opp-num">Fase 2 · Barrera media</div>
+    <div class="opp-title">Tailgate & BBQ (Uruguay-style)</div>
+    <div class="opp-desc">Categoría inexistente en clubes europeos, muy fuerte en NFL. Asados con identidad deportiva: mandil con frases, vasos, termos. Adaptación cultural al mercado uruguayo-rioplatense.</div>
+    <div class="opp-price">Costo: $8–25 · B2C: $30–70 · Margen: ~55%</div>
+  </div>
+  <div class="opp-card med">
+    <div class="opp-num">Fase 2 · Barrera media</div>
+    <div class="opp-title">Streetwear estilo propio</div>
+    <div class="opp-desc">Hoodies y t-shirts con tipografías custom en paletas de clubes top — sin usar logos. Modelo: NFL×Staple, BOSS×NFL. Diferenciación por diseño local con estética Latam/Uruguay.</div>
+    <div class="opp-price">Costo: $12–22 · B2C: $45–75 · Margen: ~57%</div>
+  </div>
+  <div class="opp-card hi">
+    <div class="opp-num">Fase 3 · Cross-cultural</div>
+    <div class="opp-title">Diáspora uruguaya (600k+)</div>
+    <div class="opp-desc">USA, España, Australia. Productos con crossover Uruguay + club global favorito. Ej: "Aurinegros que aman al United". E-commerce con márgenes 55-65% sin costo de tienda física. Nicho sin competencia directa.</div>
+    <div class="opp-price">Costo: $8–14 · B2C online: $35–65 · Envíos internacionales</div>
+  </div>
+  <div class="opp-card hi">
+    <div class="opp-num">Fase 3 · Alimentación</div>
+    <div class="opp-title">Coffee & snacks co-branded</div>
+    <div class="opp-desc">Replicar modelo Bayern Munich (café tostado + chocolates + bebida) adaptado a Uruguay. Alianza con tostador uruguayo + diseño evocativo de club top. Categoría sin competencia en Latam.</div>
+    <div class="opp-price">Costo: $4–10 · B2C: $18–35 · Margen: ~60%</div>
+  </div>
+  <div class="opp-card hi">
+    <div class="opp-num">Fase 4 · Licencia</div>
+    <div class="opp-title">Distribución oficial Fanatics</div>
+    <div class="opp-desc">Si ventas online superan USD 200K/año, evaluar ser distribuidor regional de Fanatics International para 1–2 clubes. Mínimo compra: USD 50K+ y aprobaciones de diseño. Margen: 30–40% sobre producto oficial.</div>
+    <div class="opp-price">Inversión inicial: USD 50K+ · Margen: 30–40%</div>
+  </div>
+</div>
+
+<div class="st">Benchmarks estratégicos</div>
+<div class="tw"><table>
+<thead><tr><th>Indicador</th><th>Umbral</th><th>Acción recomendada</th></tr></thead>
+<tbody>
+<tr><td style="font-weight:600">Ventas online mensuales</td><td class="v">USD 15K+</td><td class="m">Invertir en licencia oficial de 1 club (OFI/ONFI o acuerdo club europeo regional)</td></tr>
+<tr><td style="font-weight:600">Ventas anuales totales</td><td class="v">USD 200K+</td><td class="m">Evaluar distribución oficial vía Fanatics International para Latam</td></tr>
+<tr><td style="font-weight:600">Segmento mascotas</td><td class="v">&gt;15% del revenue</td><td class="m">Expandir con licenciatario internacional (modelo Max & Molly)</td></tr>
+<tr><td style="font-weight:600">Segmento homeware</td><td class="v">&gt;20% del revenue</td><td class="m">Desarrollar colección decoración LED propia — margen 65%</td></tr>
+<tr><td style="font-weight:600">Canal diáspora (USA)</td><td class="v">USD 5K/mes</td><td class="m">Registrar marca propia en USPTO para protección en mercado americano</td></tr>
+</tbody></table></div>
+</div>
+
+</div><!-- end ct -->
+</main>
+</div>
+
+<script>
+function tsb(){document.getElementById('sb').classList.toggle('open');document.getElementById('ov').classList.toggle('open');}
+function csb(){document.getElementById('sb').classList.remove('open');document.getElementById('ov').classList.remove('open');}
+function tb(el,pid){
+  el.closest('.tabs').querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  el.classList.add('on');
+  document.querySelectorAll('.pn').forEach(p=>{p.classList.remove('on');p.style.display='none';});
+  const pn=document.getElementById(pid);
+  if(pn){pn.classList.add('on');pn.style.display='block';}
+}
+document.querySelectorAll('.pn').forEach((p,i)=>{
+  const all=p.closest('.ct')?.querySelectorAll(':scope > .pn');
+  if(all && [...all].indexOf(p)===0){p.style.display='block';p.classList.add('on');}
+  else if(all){p.style.display='none';}
+});
+</script>
+</body>
+</html>
