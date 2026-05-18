@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-05-17T00:00:00",
-  "total_products": 10,
+  "last_updated": "2026-05-18T11:46:29.569950",
+  "total_products": 26,
   "products": [
     {
       "id": "rm-home-2526",
@@ -430,6 +430,342 @@
       "brand": "Adidas",
       "special": true,
       "added_date": "2026-05-17"
+    },
+    {
+      "id": "arsenal-home-2026-27",
+      "cat": "fut",
+      "t": "Arsenal 2026/27 Home Kit",
+      "sub": "Adidas jersey celebrating Emirates Stadium's 20 years with maroon stripes and lightning bolt design",
+      "tags": [
+        "Arsenal",
+        "Adidas",
+        "2026/27 season",
+        "limited edition",
+        "Emirates Stadium"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Arsenal Official",
+          "u": "https://www.arsenal.com"
+        }
+      ],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "liverpool-home-2026-27",
+      "cat": "fut",
+      "t": "Liverpool 2026/27 Home Kit",
+      "sub": "Adidas home jersey releasing May 19, 2026 at 9am BST",
+      "tags": [
+        "Liverpool",
+        "Adidas",
+        "2026/27 season",
+        "release"
+      ],
+      "date": "May 19 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Liverpool FC Official",
+          "u": "https://www.liverpoolfc.com"
+        }
+      ],
+      "brand": "Adidas",
+      "special": false,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "inter-miami-third-2026",
+      "cat": "fut",
+      "t": "Inter Miami 2026 Third Kit",
+      "sub": "Inter Miami third kit in Miami Vice inspired colorway",
+      "tags": [
+        "Inter Miami",
+        "third kit",
+        "2026",
+        "Miami Vice"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "timberwolves-classic-2026",
+      "cat": "bsk",
+      "t": "Timberwolves Classic Uniforms",
+      "sub": "Minnesota Timberwolves modern classic rebrand for 2026-27 NBA season",
+      "tags": [
+        "NBA",
+        "uniforms",
+        "rebrand",
+        "classic"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "pirates-city-connect-airmax1-2026",
+      "cat": "mlb",
+      "t": "Pirates City Connect Nike Air Max 1",
+      "sub": "Nike custom Air Max 1 sneaker for Pittsburgh Pirates City Connect collection",
+      "tags": [
+        "city-connect",
+        "air-max-1",
+        "pirates",
+        "2026"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "ohio-state-home-road-2026",
+      "cat": "nfl",
+      "t": "Ohio State Home & Road Football Uniforms",
+      "sub": "Scarlet home and white road jerseys with heritage stripes design",
+      "tags": [
+        "college football",
+        "heritage stripes",
+        "uniforms",
+        "ohio state"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Ohio State Athletics",
+      "special": false,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "ohio-state-black-alternate-2026",
+      "cat": "nfl",
+      "t": "Ohio State Black Alternate Football Uniforms",
+      "sub": "Black alternate jersey with iconic heritage stripes pattern",
+      "tags": [
+        "college football",
+        "alternate",
+        "heritage stripes",
+        "ohio state"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Ohio State Athletics",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "packers-throwback-2025",
+      "cat": "nfl",
+      "t": "Green Bay Packers Throwback Helmets & Uniforms",
+      "sub": "New throwback uniform set debuting at 2025 training camp",
+      "tags": [
+        "packers",
+        "throwback",
+        "uniforms",
+        "helmets"
+      ],
+      "date": "Jul 2025",
+      "prices": [],
+      "links": [],
+      "brand": "Green Bay Packers",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "steelers-1933-throwback-2026",
+      "cat": "nfl",
+      "t": "Pittsburgh Steelers 1933 Throwback Uniforms",
+      "sub": "Historic 1933 throwback jerseys returning for 2026 season",
+      "tags": [
+        "steelers",
+        "throwback",
+        "1933",
+        "heritage"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Pittsburgh Steelers",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "unc-1980-throwback-2026",
+      "cat": "nfl",
+      "t": "UNC Football 1980 Throwback Jerseys",
+      "sub": "1980 throwback jerseys for Kenan Stadium centennial celebration",
+      "tags": [
+        "college football",
+        "throwback",
+        "unc",
+        "centennial"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "UNC Athletics",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "sabalenka-nike-supersuit-2026",
+      "cat": "tennis",
+      "t": "Aryna Sabalenka Custom Nike Supersuit",
+      "sub": "Nike custom kit designed for French Open 2026, featured on Sabalenka's Instagram",
+      "tags": [
+        "custom kit",
+        "French Open",
+        "performance wear"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Tennis star Aryna Sabalenka's 'supersuit' for French Open is turning heads",
+          "u": "https://example.com/sabalenka-nike-supersuit"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "nahmias-formula1-2026",
+      "cat": "formula1",
+      "t": "NAHMIAS x Formula 1 Collection",
+      "sub": "NAHMIAS collaboration with Formula 1 featuring new apparel designs",
+      "tags": [
+        "formula1",
+        "apparel",
+        "collaboration",
+        "fashion"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "F1.com Interview",
+          "u": "https://www.formula1.com"
+        }
+      ],
+      "brand": "NAHMIAS",
+      "special": false,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "disney-f1-2026-collections",
+      "cat": "formula1",
+      "t": "Disney x Formula 1 Collections",
+      "sub": "New collections from Disney and Formula 1 'Fuel the Magic' campaign for 2026 Montreal Grand Prix",
+      "tags": [
+        "formula1",
+        "disney",
+        "merchandise",
+        "collaboration"
+      ],
+      "date": "2026 Montreal Grand Prix",
+      "prices": [],
+      "links": [
+        {
+          "t": "Official Announcement",
+          "u": "https://www.formula1.com"
+        }
+      ],
+      "brand": "Disney",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "tagheuer-f1-solargraph-2026",
+      "cat": "formula1",
+      "t": "TAG Heuer Formula 1 Solargraph Watch",
+      "sub": "Limited-edition motorsports watch from TAG Heuer for Formula 1 fans",
+      "tags": [
+        "formula1",
+        "watch",
+        "limited-edition",
+        "motorsports"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "TAG Heuer Official",
+          "u": "https://www.tagheuer.com"
+        }
+      ],
+      "brand": "TAG Heuer",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "blackhawks-winter-classic-2025",
+      "cat": "nhl",
+      "t": "Blackhawks 2025 Winter Classic Jersey",
+      "sub": "Official Chicago Blackhawks Winter Classic jersey for Wrigley Field game",
+      "tags": [
+        "winter classic",
+        "blackhawks",
+        "jersey",
+        "wrigley field",
+        "2025"
+      ],
+      "date": "2025",
+      "prices": [],
+      "links": [],
+      "brand": "Official NHL",
+      "special": true,
+      "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "canterbury-wicking-shorts-2025",
+      "cat": "rugby",
+      "t": "Wicking Fabric Shorts Men's 2025",
+      "sub": "Canterbury gym training rugby shorts with lightweight wicking fabric and zip pockets",
+      "tags": [
+        "shorts",
+        "training",
+        "wicking fabric",
+        "gym wear",
+        "zip pockets"
+      ],
+      "date": "2025",
+      "prices": [],
+      "links": [],
+      "brand": "Canterbury",
+      "special": false,
+      "added_date": "2026-05-18",
+      "auto_generated": true
     }
   ]
 }
