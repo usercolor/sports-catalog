@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-05-18T11:46:29.569950",
-  "total_products": 26,
+  "last_updated": "2026-05-25T11:54:45.126794",
+  "total_products": 36,
   "products": [
     {
       "id": "rm-home-2526",
@@ -765,6 +765,208 @@
       "brand": "Canterbury",
       "special": false,
       "added_date": "2026-05-18",
+      "auto_generated": true
+    },
+    {
+      "id": "lfc-home-2026-27",
+      "cat": "fut",
+      "t": "LFC 2026-27 Home Kit",
+      "sub": "adidas - Inspired by iconic 1989-90 title-winning season",
+      "tags": [
+        "Liverpool",
+        "adidas",
+        "heritage",
+        "home kit",
+        "2026-27"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": true,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "arsenal-home-2025-26",
+      "cat": "fut",
+      "t": "Arsenal 2025-26 Home Kit",
+      "sub": "adidas - Official on-pitch debut",
+      "tags": [
+        "Arsenal",
+        "adidas",
+        "Premier League",
+        "home kit"
+      ],
+      "date": "May 2025",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": false,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "man-city-home-2026-27",
+      "cat": "fut",
+      "t": "Manchester City 2026-27 Home Kit",
+      "sub": "PUMA - New season design",
+      "tags": [
+        "Manchester City",
+        "PUMA",
+        "home kit",
+        "2026-27"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "PUMA",
+      "special": false,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "england-wc-2026",
+      "cat": "fut",
+      "t": "England 2026 World Cup Kits",
+      "sub": "Official home and away jerseys for World Cup 2026",
+      "tags": [
+        "England",
+        "World Cup",
+        "2026",
+        "national team"
+      ],
+      "date": "Mar 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "jamaica-bob-marley-wc-2026",
+      "cat": "fut",
+      "t": "Jamaica x Bob Marley World Cup Kits",
+      "sub": "adidas - Home and away 2026 World Cup jerseys",
+      "tags": [
+        "Jamaica",
+        "Bob Marley",
+        "World Cup",
+        "adidas",
+        "collaboration"
+      ],
+      "date": "Mar 2026",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": true,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "warriors-city-2024-25",
+      "cat": "bsk",
+      "t": "Warriors 2024-25 City Edition Uniform",
+      "sub": "Nike NBA City Edition design for Golden State Warriors",
+      "tags": [
+        "warriors",
+        "city edition",
+        "nike",
+        "2024-25"
+      ],
+      "date": "2024-25 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "giants-legacy-throwback-2026",
+      "cat": "nfl",
+      "t": "Giants Legacy Throwback Uniform",
+      "sub": "New York Giants Super Bowl XXI 40th Anniversary edition throwback",
+      "tags": [
+        "throwback",
+        "super-bowl",
+        "anniversary",
+        "giants"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "kotahitanga-warriors-2026",
+      "cat": "rugby",
+      "t": "Kotahitanga Jersey",
+      "sub": "One New Zealand Warriors x Dynasty Sport collaboration jersey",
+      "tags": [
+        "warriors",
+        "collaboration",
+        "new zealand rugby",
+        "limited edition",
+        "kotahitanga"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Dynasty Sport",
+      "special": true,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "england-pro-kit-2026",
+      "cat": "rugby",
+      "t": "England Nations Championship Pro Kit",
+      "sub": "England rugby pro version strip for Nations Championship",
+      "tags": [
+        "england",
+        "pro kit",
+        "nations championship",
+        "premium"
+      ],
+      "date": "2026",
+      "prices": [
+        {
+          "l": "Pro Version",
+          "v": "£125"
+        },
+        {
+          "l": "Baby Version",
+          "v": "£50"
+        }
+      ],
+      "links": [],
+      "brand": "Official RFU",
+      "special": false,
+      "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "italy-world-cup-away-2026",
+      "cat": "rugby",
+      "t": "Italy 2026 World Cup Away Kit",
+      "sub": "Italy away jersey inspired by historic national team suits",
+      "tags": [
+        "italy",
+        "world cup 2026",
+        "away kit",
+        "inspired design"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Official FIR",
+      "special": false,
+      "added_date": "2026-05-25",
       "auto_generated": true
     }
   ]
