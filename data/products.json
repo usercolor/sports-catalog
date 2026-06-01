@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-05-25T11:54:45.126794",
-  "total_products": 36,
+  "last_updated": "2026-06-01T13:38:18.948097",
+  "total_products": 44,
   "products": [
     {
       "id": "rm-home-2526",
@@ -967,6 +967,169 @@
       "brand": "Official FIR",
       "special": false,
       "added_date": "2026-05-25",
+      "auto_generated": true
+    },
+    {
+      "id": "aston-villa-2026-27-home",
+      "cat": "fut",
+      "t": "Aston Villa 2026-27 Home Kit",
+      "sub": "adidas | New home jersey for 2026-27 season",
+      "tags": [
+        "aston villa",
+        "home kit",
+        "2026-27",
+        "adidas"
+      ],
+      "date": "May 28, 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Official Release",
+          "u": "https://www.aston-villa.com"
+        }
+      ],
+      "brand": "adidas",
+      "special": false,
+      "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "fcsb-2025-26-home",
+      "cat": "fut",
+      "t": "FCSB 2025-26 Home Kit",
+      "sub": "FCSB | Heritage with Voltage design",
+      "tags": [
+        "fcsb",
+        "home kit",
+        "2025-26",
+        "eastern europe"
+      ],
+      "date": "2025-26 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "spurs-finals-gear-2026",
+      "cat": "mer",
+      "t": "Spurs NBA Finals Gear Collection",
+      "sub": "Official licensed Finals apparel including shirts, hats, hoodies, jerseys",
+      "tags": [
+        "NBA Finals",
+        "Spurs",
+        "merchandise",
+        "official"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Official NBA",
+      "special": false,
+      "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "timberwolves-new-uniforms-2026",
+      "cat": "bsk",
+      "t": "Minnesota Timberwolves New Logos & Uniforms",
+      "sub": "First uniform update since Nike partnership in 2017-18 season",
+      "tags": [
+        "Timberwolves",
+        "new uniforms",
+        "NBA",
+        "Nike"
+      ],
+      "date": "Jun 7 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "rockets-ketchup-mustard-uniforms-2026",
+      "cat": "bsk",
+      "t": "Rockets 'Ketchup and Mustard' Uniforms Return",
+      "sub": "Houston Rockets unveiling new uniforms inspired by championship era design",
+      "tags": [
+        "Rockets",
+        "uniforms",
+        "retro",
+        "NBA"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "reds-city-connect-airmax-2026",
+      "cat": "mlb",
+      "t": "Cincinnati Reds City Connect Nike Air Max 1",
+      "sub": "Nike x MLB custom red sneakers celebrating Cincinnati",
+      "tags": [
+        "city-connect",
+        "air-max-1",
+        "baseball",
+        "custom",
+        "red"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Shop now",
+          "u": "https://www.nike.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "bruins-hometown-remix-2026",
+      "cat": "nhl",
+      "t": "Bruins Hometown Remix Jersey",
+      "sub": "New alternate jersey as part of NHL Hometown Remix line",
+      "tags": [
+        "bruins",
+        "hometown-remix",
+        "alternate-jersey",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "penguins-hometown-remix-2026",
+      "cat": "nhl",
+      "t": "Penguins Hometown Remix Jersey",
+      "sub": "NHL Hometown Remix alternate jersey for next season",
+      "tags": [
+        "penguins",
+        "hometown-remix",
+        "alternate-jersey",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-06-01",
       "auto_generated": true
     }
   ]
