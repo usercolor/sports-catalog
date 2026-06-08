@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-06-01T13:38:18.948097",
-  "total_products": 44,
+  "last_updated": "2026-06-08T12:32:49.478008",
+  "total_products": 53,
   "products": [
     {
       "id": "rm-home-2526",
@@ -1130,6 +1130,210 @@
       "brand": "Unknown",
       "special": true,
       "added_date": "2026-06-01",
+      "auto_generated": true
+    },
+    {
+      "id": "chelsea-home-2026-27",
+      "cat": "fut",
+      "t": "Chelsea Home Kit 2026-27",
+      "sub": "Nike home jersey with refreshed club crest, midwest gold accents",
+      "tags": [
+        "chelsea",
+        "nike",
+        "home kit",
+        "2026-27 season",
+        "premier league"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Official Chelsea Site",
+          "u": "https://www.chelseafc.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "leeds-away-2026-27",
+      "cat": "fut",
+      "t": "Leeds United Away Kit 2026-27",
+      "sub": "Adidas away kit marking first partnership with Leeds United",
+      "tags": [
+        "leeds united",
+        "adidas",
+        "away kit",
+        "2026-27 season",
+        "historic"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Leeds United Official",
+          "u": "https://www.leedsunited.com"
+        }
+      ],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "porto-home-2026-27",
+      "cat": "fut",
+      "t": "FC Porto Home Shirt 2026-27",
+      "sub": "New Balance home kit inspired by Porto's Douro landmarks",
+      "tags": [
+        "fc porto",
+        "new balance",
+        "home kit",
+        "2026-27",
+        "design"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "FC Porto Official",
+          "u": "https://www.fcporto.pt"
+        }
+      ],
+      "brand": "New Balance",
+      "special": false,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "timberwolves-uniforms-2026",
+      "cat": "bsk",
+      "t": "Minnesota Timberwolves New Uniforms",
+      "sub": "Updated logos and uniforms inspired by past designs, launching 2026-27 season",
+      "tags": [
+        "timberwolves",
+        "uniforms",
+        "nba",
+        "rebranding",
+        "2026-27"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "rockets-uniforms-2026",
+      "cat": "bsk",
+      "t": "Houston Rockets New Uniforms",
+      "sub": "New logos and uniforms with iconic red-and-yellow color scheme for 2026-27 season",
+      "tags": [
+        "rockets",
+        "uniforms",
+        "ketchup-mustard",
+        "nba",
+        "2026-27"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "okc-city-edition-jerseys-2026",
+      "cat": "bsk",
+      "t": "Oklahoma City Thunder City Edition",
+      "sub": "OKC Thunder City Edition jerseys with new court designs by Nike",
+      "tags": [
+        "thunder",
+        "city-edition",
+        "jerseys",
+        "nba",
+        "2026"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "padres-city-connect-air-max-2026",
+      "cat": "mlb",
+      "t": "San Diego Padres City Connect Air Max 1",
+      "sub": "Nike, Dia de los Muertos-inspired with papel picado detail",
+      "tags": [
+        "City Connect",
+        "Air Max 1",
+        "Dia de los Muertos",
+        "limited edition",
+        "sneakers"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Shop now",
+          "u": "https://www.nike.com/mlb/padres-city-connect-air-max"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "reds-city-connect-air-max-2026",
+      "cat": "mlb",
+      "t": "Cincinnati Reds City Connect Air Max 1",
+      "sub": "Nike, red custom City Connect Air Max 1 sneakers",
+      "tags": [
+        "City Connect",
+        "Air Max 1",
+        "Cincinnati Reds",
+        "sneakers",
+        "custom"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Shop now",
+          "u": "https://www.nike.com/mlb/reds-city-connect-air-max"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "rams-garrett-jersey-2026",
+      "cat": "nfl",
+      "t": "Myles Garrett Browns Jersey",
+      "sub": "Official NFL jersey, number 95, Cleveland Browns",
+      "tags": [
+        "nfl",
+        "browns",
+        "jersey",
+        "garrett"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Official NFL",
+      "special": false,
+      "added_date": "2026-06-08",
       "auto_generated": true
     }
   ]
