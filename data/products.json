@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-06-08T12:32:49.478008",
-  "total_products": 53,
+  "last_updated": "2026-06-15T13:57:38.539591",
+  "total_products": 60,
   "products": [
     {
       "id": "rm-home-2526",
@@ -1334,6 +1334,147 @@
       "brand": "Official NFL",
       "special": false,
       "added_date": "2026-06-08",
+      "auto_generated": true
+    },
+    {
+      "id": "inter-milan-third-2026-27",
+      "cat": "fut",
+      "t": "Inter Milan 2026-27 Third Kit",
+      "sub": "Nike, leaked exclusive design for 2026-27 season",
+      "tags": [
+        "inter milan",
+        "third kit",
+        "nike",
+        "2026-27",
+        "leaked"
+      ],
+      "date": "Apr 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-06-15",
+      "auto_generated": true
+    },
+    {
+      "id": "wrexham-2026-27-kits",
+      "cat": "fut",
+      "t": "Wrexham 2026-27 Kit Collection",
+      "sub": "Home, away, third & goalkeeper jerseys for 2026-27 season",
+      "tags": [
+        "wrexham",
+        "home kit",
+        "away kit",
+        "third kit",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-06-15",
+      "auto_generated": true
+    },
+    {
+      "id": "premier-league-kits-2026-27",
+      "cat": "fut",
+      "t": "Premier League Kits 2026-27",
+      "sub": "Home, away & third strips from Nike, Adidas, Puma & others",
+      "tags": [
+        "premier league",
+        "multiple kits",
+        "limited edition gift card",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike, Adidas, Puma",
+      "special": true,
+      "added_date": "2026-06-15",
+      "auto_generated": true
+    },
+    {
+      "id": "royals-city-connect-2026",
+      "cat": "mlb",
+      "t": "KC Royals City Connect Air Max 1",
+      "sub": "Nike Air Max 1 sneakers, Kansas City Royals custom design",
+      "tags": [
+        "city-connect",
+        "air-max-1",
+        "royals",
+        "sneakers"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Shop now",
+          "u": "https://www.nike.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-15",
+      "auto_generated": true
+    },
+    {
+      "id": "orioles-city-connect-2026",
+      "cat": "mlb",
+      "t": "Baltimore Orioles City Connect Air Max 1",
+      "sub": "Nike Air Max 1 sneakers, limited-edition Orioles design",
+      "tags": [
+        "city-connect",
+        "air-max-1",
+        "orioles",
+        "limited-edition"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-15",
+      "auto_generated": true
+    },
+    {
+      "id": "osaka-kevin-germanier-2026-fo",
+      "cat": "tennis",
+      "t": "Custom Beaded Corset Top & Pleated Skirt",
+      "sub": "Naomi Osaka custom couture ensemble by Kevin Germanier, French Open 2026",
+      "tags": [
+        "custom",
+        "couture",
+        "french-open",
+        "naomi-osaka",
+        "beaded"
+      ],
+      "date": "May 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Kevin Germanier",
+      "special": true,
+      "added_date": "2026-06-15",
+      "auto_generated": true
+    },
+    {
+      "id": "raducanu-uniqlo-2026",
+      "cat": "tennis",
+      "t": "Uniqlo Tennis Collection",
+      "sub": "Emma Raducanu partnership outfits with Uniqlo, 2026 season",
+      "tags": [
+        "uniqlo",
+        "emma-raducanu",
+        "wimbledon",
+        "ambassador"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Uniqlo",
+      "special": false,
+      "added_date": "2026-06-15",
       "auto_generated": true
     }
   ]
