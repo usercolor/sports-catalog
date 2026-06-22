@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-06-15T13:57:38.539591",
-  "total_products": 60,
+  "last_updated": "2026-06-22T13:36:45.697928",
+  "total_products": 68,
   "products": [
     {
       "id": "rm-home-2526",
@@ -1475,6 +1475,169 @@
       "brand": "Uniqlo",
       "special": false,
       "added_date": "2026-06-15",
+      "auto_generated": true
+    },
+    {
+      "id": "tottenham-2026-27-kits",
+      "cat": "fut",
+      "t": "Tottenham 2026-27 Home and Away Kits",
+      "sub": "Spurs' official new gear for the 2026-2027 season",
+      "tags": [
+        "Tottenham",
+        "2026-27",
+        "home kit",
+        "away kit"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "girona-2026-27-home",
+      "cat": "fut",
+      "t": "Girona 2026-27 Home Kit",
+      "sub": "Puma launches Girona FC's new home kit with traditional vertical stripes",
+      "tags": [
+        "Girona",
+        "Puma",
+        "2026-27",
+        "home kit",
+        "vertical stripes"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Puma",
+      "special": false,
+      "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "chelsea-2026-27-home",
+      "cat": "fut",
+      "t": "Chelsea 2026-27 Home Shirt",
+      "sub": "Chelsea's new kit for the forthcoming season",
+      "tags": [
+        "Chelsea",
+        "home shirt",
+        "2026-27"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "rangers-city-connect-air-max-2026",
+      "cat": "mlb",
+      "t": "Texas Rangers City Connect Nike Air Max 1",
+      "sub": "Nike Air Max 1 sneaker in all-red design for Texas Rangers",
+      "tags": [
+        "city-connect",
+        "air-max",
+        "rangers",
+        "red",
+        "2026"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "nike-osaka-wimbledon-dress-2026",
+      "cat": "tennis",
+      "t": "Naomi Osaka Wimbledon Dress",
+      "sub": "Nike releases Osaka's Grand Slam tennis dress to public for first time",
+      "tags": [
+        "wimbledon",
+        "dress",
+        "osaka",
+        "grand-slam"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Nike Osaka Wimbledon Dress",
+          "u": "https://www.nike.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "wimbledon-strawberry-capsule-2026",
+      "cat": "tennis",
+      "t": "Wimbledon Strawberry Capsule",
+      "sub": "Archive-inspired whites with playful strawberry capsule collection",
+      "tags": [
+        "wimbledon",
+        "capsule",
+        "strawberry",
+        "tenniscore"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Wimbledon",
+      "special": true,
+      "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "mercedes-amg-blue-wonder-2026",
+      "cat": "formula1",
+      "t": "Blue Wonder Collection",
+      "sub": "Adidas x Mercedes-AMG PETRONAS F1 Team honoring 1955 motorsport legacy",
+      "tags": [
+        "mercedes-amg",
+        "f1-team-collection",
+        "heritage",
+        "apparel"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "f1-etai-capsule-2026",
+      "cat": "formula1",
+      "t": "Formula 1 x ETAI Fashion Capsule",
+      "sub": "Los Angeles design innovator ETAI debuts at F1 Hub Oxford Street",
+      "tags": [
+        "f1-official",
+        "etai-collab",
+        "fashion-capsule",
+        "british-gp"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "F1 Hub London",
+          "u": "https://www.formula1.com/en/merchandise"
+        }
+      ],
+      "brand": "ETAI",
+      "special": true,
+      "added_date": "2026-06-22",
       "auto_generated": true
     }
   ]
