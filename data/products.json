@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-06-22T13:36:45.697928",
-  "total_products": 68,
+  "last_updated": "2026-06-29T12:36:55.338165",
+  "total_products": 77,
   "products": [
     {
       "id": "rm-home-2526",
@@ -1638,6 +1638,184 @@
       "brand": "ETAI",
       "special": true,
       "added_date": "2026-06-22",
+      "auto_generated": true
+    },
+    {
+      "id": "atletico-madrid-2026-27-home",
+      "cat": "fut",
+      "t": "Atlético Madrid 2026-27 Home Kit",
+      "sub": "New home kit launched for 2026-27 season",
+      "tags": [
+        "atletico madrid",
+        "home kit",
+        "2026-27 season"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "sunderland-elvis-away-2026-27",
+      "cat": "fut",
+      "t": "Sunderland Elvis Presley Away Kit 26-27",
+      "sub": "hummel collaboration, Elvis Presley inspired away shirt for 2026-27",
+      "tags": [
+        "sunderland",
+        "elvis presley",
+        "away kit",
+        "hummel"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "hummel",
+      "special": true,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "psg-2026-27-home",
+      "cat": "fut",
+      "t": "PSG 2026-27 Home Kit",
+      "sub": "New design reinterpreting iconic central stripe inspired by Paris",
+      "tags": [
+        "psg",
+        "home kit",
+        "2026-27",
+        "paris"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "grizzlies-boozer-jersey-2026",
+      "cat": "mer",
+      "t": "Cameron Boozer Memphis Grizzlies Jersey",
+      "sub": "Official NBA jersey for No. 3 draft pick, Memphis Grizzlies",
+      "tags": [
+        "grizzlies",
+        "nba-draft",
+        "boozer",
+        "official-jersey"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "mets-pride-night-2026",
+      "cat": "mlb",
+      "t": "Mets Pride Night Merchandise",
+      "sub": "New York Mets exclusive pride-themed apparel and merchandise",
+      "tags": [
+        "pride",
+        "mets",
+        "exclusive",
+        "merchandise"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "New York Mets",
+      "special": true,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "giants-twins-city-connect-jersey-2026",
+      "cat": "mlb",
+      "t": "City Connect Baseball Jerseys",
+      "sub": "SF Giants & Minnesota Twins player jerseys with MLB player names",
+      "tags": [
+        "city-connect",
+        "jerseys",
+        "giants",
+        "twins",
+        "player-apparel"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Starssport",
+          "u": "https://www.starssport.com"
+        }
+      ],
+      "brand": "MLB Official",
+      "special": false,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "nike-england-mlb-nfl-world-cup-2026",
+      "cat": "mer",
+      "t": "England Limited Edition MLB/NFL Shirts",
+      "sub": "Nike limited-edition collection inspired by American sports",
+      "tags": [
+        "limited-edition",
+        "world-cup",
+        "mlb",
+        "nfl",
+        "england"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "vuori-draper-wimbledon-2026",
+      "cat": "tennis",
+      "t": "Jack Draper Wimbledon Kit",
+      "sub": "Vuori custom apparel collection for 2026 Wimbledon Championships",
+      "tags": [
+        "wimbledon",
+        "men's tennis",
+        "2026",
+        "performance wear"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Vuori",
+      "special": false,
+      "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "boks-all-blacks-jersey-2026",
+      "cat": "rugby",
+      "t": "Springboks All Blacks Series Jersey",
+      "sub": "Nike special edition with anthem words, Greatest Rivalry series",
+      "tags": [
+        "Springboks",
+        "special edition",
+        "All Blacks",
+        "Nike",
+        "anthem"
+      ],
+      "date": "Jun 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-06-29",
       "auto_generated": true
     }
   ]
