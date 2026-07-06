@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-06-29T12:36:55.338165",
-  "total_products": 77,
+  "last_updated": "2026-07-06T12:06:20.936104",
+  "total_products": 88,
   "products": [
     {
       "id": "rm-home-2526",
@@ -1816,6 +1816,248 @@
       "brand": "Nike",
       "special": true,
       "added_date": "2026-06-29",
+      "auto_generated": true
+    },
+    {
+      "id": "barcelona-home-2026-27",
+      "cat": "fut",
+      "t": "FC Barcelona 2026/27 Home Shirt",
+      "sub": "Nike, tonal Blaugrana design with color grading",
+      "tags": [
+        "barcelona",
+        "home kit",
+        "2026-27 season",
+        "nike"
+      ],
+      "date": "2026-07",
+      "prices": [],
+      "links": [
+        {
+          "t": "Nike Barcelona 2026/27 Kit",
+          "u": "https://www.nike.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "tottenham-home-away-2026-27",
+      "cat": "fut",
+      "t": "Tottenham 2026/27 Home & Away Kits",
+      "sub": "Nike, lilywhite heritage-inspired design",
+      "tags": [
+        "tottenham",
+        "home away kit",
+        "2026-27 season",
+        "nike"
+      ],
+      "date": "2026-07",
+      "prices": [],
+      "links": [
+        {
+          "t": "Tottenham 2026/27 Kits",
+          "u": "https://www.nike.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "germany-third-2026",
+      "cat": "fut",
+      "t": "Germany 2026 Third Kit",
+      "sub": "Adidas, black, gold & white - final Adidas Germany kit",
+      "tags": [
+        "germany",
+        "third kit",
+        "2026",
+        "adidas",
+        "limited"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Germany 2026 Third Kit Leaked",
+          "u": "https://www.adidas.com"
+        }
+      ],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "royals-bobblehead-2026",
+      "cat": "mlb",
+      "t": "City Connect Big Bobby Bobblehead",
+      "sub": "Kansas City Royals giveaway, first 20,000 fans, July 17",
+      "tags": [
+        "bobblehead",
+        "giveaway",
+        "royals",
+        "city-connect"
+      ],
+      "date": "Jul 17 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Kansas City Royals Official",
+          "u": "https://www.mlb.com/royals"
+        }
+      ],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "rangers-america-250-jersey-2026",
+      "cat": "mlb",
+      "t": "America's 250th Jersey",
+      "sub": "Texas Rangers presented by Coca-Cola, July 4 2026",
+      "tags": [
+        "jersey",
+        "special-edition",
+        "rangers",
+        "america-250"
+      ],
+      "date": "Jul 4 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Texas Rangers Official",
+          "u": "https://www.mlb.com/rangers"
+        }
+      ],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "rangers-futbol-scarf-2026",
+      "cat": "mlb",
+      "t": "Fútbol Scarf Giveaway",
+      "sub": "Texas Rangers homestand giveaway, July 5 2026",
+      "tags": [
+        "scarf",
+        "giveaway",
+        "rangers",
+        "futbol"
+      ],
+      "date": "Jul 5 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Texas Rangers Official",
+          "u": "https://www.mlb.com/rangers"
+        }
+      ],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "rams-alternate-uniforms-2026",
+      "cat": "nfl",
+      "t": "Rams Throwback Alternate Uniforms",
+      "sub": "Two new throwback-inspired alternate designs unveiled July 23",
+      "tags": [
+        "alternate",
+        "throwback",
+        "uniforms",
+        "2026"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "bills-gray-alternate-uniforms-2026",
+      "cat": "nfl",
+      "t": "Bills Gray Alternate Uniforms",
+      "sub": "Gray alternate jerseys with royal blue helmets revealed July 27",
+      "tags": [
+        "alternate",
+        "gray",
+        "royal blue helmets",
+        "2026"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "texans-light-blue-uniforms-2026",
+      "cat": "nfl",
+      "t": "Texans Light Blue Uniforms",
+      "sub": "New light blue uniform design inspired by Oilers heritage",
+      "tags": [
+        "light blue",
+        "oilers",
+        "throwback",
+        "2026"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "ferrari-hamilton-silverstone-2026",
+      "cat": "formula1",
+      "t": "Ferrari Lewis Hamilton Silverstone Collection",
+      "sub": "Ferrari special edition collection for British GP 2026 at Silverstone",
+      "tags": [
+        "Lewis Hamilton",
+        "Ferrari",
+        "Silverstone",
+        "British GP",
+        "special edition"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Ferrari",
+      "special": true,
+      "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "disney-f1-2026-collection",
+      "cat": "formula1",
+      "t": "Disney x Formula 1 2026 Collection",
+      "sub": "Mickey & Friends collaboration 'Fueling the Magic' for 2026 F1 season",
+      "tags": [
+        "Disney",
+        "Mickey",
+        "2026 season",
+        "collaboration",
+        "trackside"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Disney",
+      "special": true,
+      "added_date": "2026-07-06",
       "auto_generated": true
     }
   ]
