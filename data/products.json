@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-07-06T12:06:20.936104",
-  "total_products": 88,
+  "last_updated": "2026-07-13T11:13:02.417953",
+  "total_products": 95,
   "products": [
     {
       "id": "rm-home-2526",
@@ -2058,6 +2058,142 @@
       "brand": "Disney",
       "special": true,
       "added_date": "2026-07-06",
+      "auto_generated": true
+    },
+    {
+      "id": "cd-tenerife-home-2026-27",
+      "cat": "fut",
+      "t": "CD Tenerife 2026/27 Home Kit",
+      "sub": "Macron technical partner kit inspired by ocean waves",
+      "tags": [
+        "home kit",
+        "La Liga",
+        "Macron",
+        "ocean inspired"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Macron",
+      "special": false,
+      "added_date": "2026-07-13",
+      "auto_generated": true
+    },
+    {
+      "id": "chelsea-away-2026-27",
+      "cat": "fut",
+      "t": "Chelsea FC 2026/27 Away Kit",
+      "sub": "Official away strip coming soon",
+      "tags": [
+        "away kit",
+        "Premier League"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [],
+      "brand": "",
+      "special": false,
+      "added_date": "2026-07-13",
+      "auto_generated": true
+    },
+    {
+      "id": "notre-dame-shamrock-2026",
+      "cat": "nfl",
+      "t": "Notre Dame 2026 Shamrock Series Jersey",
+      "sub": "Homage to original Green Bay Packers uniform design",
+      "tags": [
+        "shamrock series",
+        "throwback",
+        "notre dame",
+        "packers inspired"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-07-13",
+      "auto_generated": true
+    },
+    {
+      "id": "wisconsin-football-2026-uniform",
+      "cat": "nfl",
+      "t": "Wisconsin Badgers 2026 Alternate Uniform",
+      "sub": "New alternate uniform announced for 2026 season",
+      "tags": [
+        "wisconsin",
+        "alternate uniform",
+        "badgers"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-07-13",
+      "auto_generated": true
+    },
+    {
+      "id": "tennessee-adidas-home-2026",
+      "cat": "nfl",
+      "t": "Tennessee Volunteers Home Adidas Jersey",
+      "sub": "New white home jersey, official Adidas apparel partnership",
+      "tags": [
+        "tennessee",
+        "adidas",
+        "home jersey",
+        "white"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": false,
+      "added_date": "2026-07-13",
+      "auto_generated": true
+    },
+    {
+      "id": "tennessee-adidas-uniforms-2026",
+      "cat": "nfl",
+      "t": "Tennessee Volunteers 2026 Adidas Uniforms",
+      "sub": "Complete new uniform set, Nike to Adidas switch effective Jul 1",
+      "tags": [
+        "tennessee",
+        "adidas",
+        "uniform set",
+        "2026"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": false,
+      "added_date": "2026-07-13",
+      "auto_generated": true
+    },
+    {
+      "id": "scotland-macron-2026-27",
+      "cat": "rugby",
+      "t": "Scotland 2026/27 International Home Kit",
+      "sub": "Macron partnership, new international kit for 2026/27 season",
+      "tags": [
+        "Scotland",
+        "international kit",
+        "Macron",
+        "home jersey",
+        "2026/27"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [
+        {
+          "t": "Scottish Rugby and Macron launch new 2026/27 international kits",
+          "u": "https://www.scottishrugby.org"
+        }
+      ],
+      "brand": "Macron",
+      "special": false,
+      "added_date": "2026-07-13",
       "auto_generated": true
     }
   ]
