@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-07-13T11:13:02.417953",
-  "total_products": 95,
+  "last_updated": "2026-07-20T10:53:43.794769",
+  "total_products": 100,
   "products": [
     {
       "id": "rm-home-2526",
@@ -2194,6 +2194,106 @@
       "brand": "Macron",
       "special": false,
       "added_date": "2026-07-13",
+      "auto_generated": true
+    },
+    {
+      "id": "newcastle-away-2026-27",
+      "cat": "fut",
+      "t": "Newcastle United Away Shirt 2026/27",
+      "sub": "Official Premier League away kit for 2026/27 season",
+      "tags": [
+        "newcastle",
+        "away-kit",
+        "2026-27",
+        "premier-league"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-07-20",
+      "auto_generated": true
+    },
+    {
+      "id": "grimsby-town-2026-27",
+      "cat": "fut",
+      "t": "Grimsby Town 2026/27 Kit",
+      "sub": "Italian-inspired strips for 2026-27 season with Milan-style design",
+      "tags": [
+        "grimsby-town",
+        "inspired",
+        "2026-27",
+        "lower-league"
+      ],
+      "date": "Summer 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "The Athletic",
+          "u": "https://www.theathletic.com"
+        }
+      ],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-07-20",
+      "auto_generated": true
+    },
+    {
+      "id": "standard-liege-away-2026-27",
+      "cat": "fut",
+      "t": "Standard Liège Away Kit 2026/27",
+      "sub": "Macron technical partner kit with black, gold and red details",
+      "tags": [
+        "standard-liege",
+        "away-kit",
+        "2026-27",
+        "macron"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Macron",
+      "special": false,
+      "added_date": "2026-07-20",
+      "auto_generated": true
+    },
+    {
+      "id": "chivas-guadalajara-nike",
+      "cat": "fut",
+      "t": "Chivas de Guadalajara Nike Kit",
+      "sub": "Nike becomes exclusive sports sponsor and kit supplier",
+      "tags": [
+        "chivas",
+        "nike",
+        "mexico",
+        "partnership"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-07-20",
+      "auto_generated": true
+    },
+    {
+      "id": "jordan-walker-cardinals-2026",
+      "cat": "mlb",
+      "t": "Jordan Walker St. Louis Cardinals Jersey",
+      "sub": "2026 Home Run Derby Champion jersey, official MLB merchandise",
+      "tags": [
+        "cardinals",
+        "jordan-walker",
+        "hr-derby-2026",
+        "official"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-07-20",
       "auto_generated": true
     }
   ]
