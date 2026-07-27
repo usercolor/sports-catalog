@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-07-20T10:53:43.794769",
-  "total_products": 100,
+  "last_updated": "2026-07-27T11:24:39.229140",
+  "total_products": 108,
   "products": [
     {
       "id": "rm-home-2526",
@@ -2294,6 +2294,162 @@
       "brand": "MLB",
       "special": true,
       "added_date": "2026-07-20",
+      "auto_generated": true
+    },
+    {
+      "id": "real-madrid-away-2026-27",
+      "cat": "fut",
+      "t": "Real Madrid Away Kit 2026-27",
+      "sub": "Dark green away jersey for 2026-27 season",
+      "tags": [
+        "away kit",
+        "2026-27",
+        "dark green"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": false,
+      "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "arsenal-away-2026-27",
+      "cat": "fut",
+      "t": "Arsenal Away Shirt 2026-27",
+      "sub": "adidas away kit for 2026-27 season, heritage design",
+      "tags": [
+        "away kit",
+        "2026-27",
+        "navy"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": false,
+      "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "barcelona-away-2026-27",
+      "cat": "fut",
+      "t": "Barcelona Away Kit 2026-27",
+      "sub": "Nike & Kobe brand collaboration, 2nd chapter",
+      "tags": [
+        "away kit",
+        "2026-27",
+        "kobe collaboration"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "mlb-lululemon-2026",
+      "cat": "mlb",
+      "t": "MLB x lululemon Collection",
+      "sub": "First-ever collaboration between MLB and lululemon featuring comfortable baseball apparel",
+      "tags": [
+        "lululemon",
+        "mlb",
+        "collaboration",
+        "apparel",
+        "baseball"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [],
+      "brand": "lululemon",
+      "special": true,
+      "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "dodgers-kaws-2026",
+      "cat": "mlb",
+      "t": "Los Angeles Dodgers x KAWS",
+      "sub": "Limited edition collection available at Complex and select retail stores",
+      "tags": [
+        "kaws",
+        "dodgers",
+        "limited-edition",
+        "collaboration",
+        "apparel"
+      ],
+      "date": "Jul 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Complex",
+          "u": "https://www.complex.com"
+        }
+      ],
+      "brand": "KAWS",
+      "special": true,
+      "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "rams-classic-sol-2026",
+      "cat": "nfl",
+      "t": "Classic Sol Alternate Uniform",
+      "sub": "LA Rams throwback-inspired alternate jersey and pants combo",
+      "tags": [
+        "alternate",
+        "throwback",
+        "2026 season",
+        "classic"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "rams-fearsome-white-2026",
+      "cat": "nfl",
+      "t": "Fearsome White Alternate Uniform",
+      "sub": "LA Rams throwback-inspired white alternate jersey design",
+      "tags": [
+        "alternate",
+        "throwback",
+        "2026 season",
+        "white"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "chargers-gold-power-2026",
+      "cat": "nfl",
+      "t": "Gold Charger Power Alternate Jersey",
+      "sub": "San Diego Chargers gold alternate jersey with white pants",
+      "tags": [
+        "alternate",
+        "gold",
+        "week 13",
+        "2026"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-07-27",
       "auto_generated": true
     }
   ]
