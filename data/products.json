@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-07-27T11:24:39.229140",
-  "total_products": 108,
+  "last_updated": "2026-08-03T11:24:55.156123",
+  "total_products": 122,
   "products": [
     {
       "id": "rm-home-2526",
@@ -2450,6 +2450,277 @@
       "brand": "Nike",
       "special": true,
       "added_date": "2026-07-27",
+      "auto_generated": true
+    },
+    {
+      "id": "arsenal-third-2026-27",
+      "cat": "fut",
+      "t": "Arsenal 2026/27 Third Kit",
+      "sub": "Arsenal's third and final kit for the 2026/27 season",
+      "tags": [
+        "arsenal",
+        "third-kit",
+        "2026-27",
+        "premier-league"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "liverpool-away-2026-27",
+      "cat": "fut",
+      "t": "Liverpool 2026/27 Away Kit",
+      "sub": "Inspired by the club's away kits from the mid-80s",
+      "tags": [
+        "liverpool",
+        "away-kit",
+        "2026-27",
+        "retro"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "leeds-home-2026-27",
+      "cat": "fut",
+      "t": "Leeds United 2026/27 Home Kit",
+      "sub": "Launched in New York City with experiential pop-up event",
+      "tags": [
+        "leeds-united",
+        "home-kit",
+        "2026-27",
+        "launch-event"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Red Bull",
+      "special": false,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "real-madrid-third-2026-27",
+      "cat": "fut",
+      "t": "Real Madrid 2026/27 Third Kit Pink",
+      "sub": "Pink third kit in authentic and replica versions",
+      "tags": [
+        "real-madrid",
+        "third-kit",
+        "pink",
+        "2026-27"
+      ],
+      "date": "Aug 12, 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": false,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "pacers-gold-statement-2026",
+      "cat": "bsk",
+      "t": "Pacers Gold Statement Edition Uniform",
+      "sub": "Indiana Pacers, pinstriped design inspired by late 1990s/early 2000s with modern touches",
+      "tags": [
+        "pacers",
+        "statement-edition",
+        "pinstripe",
+        "nba",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "bills-nickel-city-2026",
+      "cat": "nfl",
+      "t": "Bills Nickel City Alternate Jersey",
+      "sub": "Buffalo Bills new alternate jersey design for 2026 NFL season",
+      "tags": [
+        "bills",
+        "alternate-jersey",
+        "nickel-city",
+        "nfl",
+        "2026"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "nfl-rivalries-2026",
+      "cat": "nfl",
+      "t": "NFL Rivalries Uniforms Collection",
+      "sub": "Nike Rivalries uniforms for AFC South and NFC North teams, unveiling August 25",
+      "tags": [
+        "nfl-rivalries",
+        "nike",
+        "afc-south",
+        "nfc-north",
+        "2026"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "lions-nike-rivalries-2026",
+      "cat": "nfl",
+      "t": "Lions Nike Rivalries Uniform",
+      "sub": "Detroit Lions new Nike Rivalries uniform design for 2026 season",
+      "tags": [
+        "lions",
+        "nike-rivalries",
+        "nfl",
+        "2026",
+        "detroit"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "nike-kobe-af1-dodgers-2026",
+      "cat": "mer",
+      "t": "Nike Kobe Air Force 1 Protro Dodgers",
+      "sub": "Nike ReactX-cushioned sneaker inspired by LA Dodgers colorway",
+      "tags": [
+        "sneaker",
+        "kobe",
+        "dodgers",
+        "reactx",
+        "collaboration"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "chargers-super-chargers-2026",
+      "cat": "nfl",
+      "t": "Chargers Super Chargers Navy Uniform",
+      "sub": "All-navy alternate uniform for Los Angeles Chargers, 3 games in 2026 season",
+      "tags": [
+        "alternate",
+        "chargers",
+        "navy",
+        "super-chargers"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Official NFL",
+      "special": true,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "seahawks-throwback-2026",
+      "cat": "nfl",
+      "t": "Seahawks Throwback & 'Rivalries' Jersey",
+      "sub": "Seattle Seahawks throwback uniforms and 'Rivalries' alternate for 2026 season matchups",
+      "tags": [
+        "throwback",
+        "seahawks",
+        "rivalries",
+        "alternate"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Official NFL",
+      "special": true,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "sabalenka-us-open-nike-2026",
+      "cat": "tennis",
+      "t": "Aryna Sabalenka US Open Nike Kit 2026",
+      "sub": "Nike tennis kit worn by WTA World No. 1 at 2026 US Open",
+      "tags": [
+        "US Open 2026",
+        "Nike",
+        "Sabalenka",
+        "women's tennis"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "osaka-floral-nike-dc-open-2026",
+      "cat": "tennis",
+      "t": "Naomi Osaka Floral Pink Nike Tennis Kit",
+      "sub": "Floral pink Nike kit with Japanese cherry blossom design at DC Open",
+      "tags": [
+        "Naomi Osaka",
+        "Nike",
+        "floral design",
+        "DC Open 2026"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "sinner-alcaraz-us-open-nike-2026",
+      "cat": "tennis",
+      "t": "Jannik Sinner & Carlos Alcaraz US Open Kits",
+      "sub": "Nike tennis kits for Sinner and Alcaraz at 2026 US Open",
+      "tags": [
+        "US Open 2026",
+        "Nike",
+        "men's tennis",
+        "leaked"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-03",
       "auto_generated": true
     }
   ]
