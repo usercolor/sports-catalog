@@ -1,6 +1,102 @@
 {
   "news": [
     {
+      "id": "barcelona-26-27-third-long-sleeve",
+      "cat": "fut",
+      "title": "Barcelona filtra tercer uniforme 26-27 versión manga larga",
+      "summary": "Nike Barcelona 26-27: nueva imagen filtrada del tercer jersey en versión manga larga oficial.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/3726351943/fc-barcelona-26-27-third-kit-leaked-long-sleeve-version.html",
+      "date": "2026-08-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
+      "id": "bayern-munich-26-27-third",
+      "cat": "fut",
+      "title": "Bayern Munich presenta impactante tercer uniforme 26-27",
+      "summary": "Adidas Bayern Munich 26-27: imágenes oficiales del nuevo tercer kit con diseño llamativo filtrado vía Bundesleaker.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/2115719930/fc-bayern-munchen-26-27-third-kit-leaked-official-pictures.html",
+      "date": "2026-08-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
+      "id": "thionville-lusitanos-26-27",
+      "cat": "fut",
+      "title": "US Thionville Lusitanos presenta nuevos kits 2026-27 con Kappa",
+      "summary": "El club francés desvela sus nuevos uniformes de local y visitante 26-27 en colaboración con Kappa.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/7157811883/us-thionville-lusitanos-26-27-home-away-kits-released.html",
+      "date": "2026-08-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
+      "id": "galatasaray-26-27-fourth",
+      "cat": "fut",
+      "title": "Galatasaray filtra cuarto uniforme para la temporada 26-27",
+      "summary": "Se filtran imágenes del nuevo cuarto kit del Galatasaray para la campaña 2026-27.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/2284859213/galatasaray-26-27-fourth-kit-leaked.html",
+      "date": "2026-08-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
+      "id": "pacers-gold-statement-pinstripes-2026",
+      "cat": "bsk",
+      "title": "Pacers revelan uniformes Statement Edition dorados con rayas",
+      "summary": "Indiana Pacers presenta nuevos uniformes dorados inspirados en los diseños rayados de finales de los 90 y principios de 2000, con toques modernos.",
+      "source": "SportsLogos.Net News",
+      "url": "https://www.google.com/goto?url=CAEStQEB7keqTYm2HIZ86q2yzbQQD7MpU9UYzO4TlugTyr6haHAOpMKWj54VU2b8xJPMZFaa3MsOACDVE5YcXf0jp2rCd0V2o8o8Cn_hVV_CxeM5-x1Ab0gNUBwbta9gRBYjNYRxgLoyJ8CRk5iVVFx94KmxqDDOhMU-95R9dcDru46x6t2UjRHoXUF6W0tG6_3OUoFJ4wJUErec-OrPemxDNd4J5P3xN0TOfZm6rBZwgpC_EthP5jOB",
+      "date": "2026-08-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
+      "id": "cleveland-sirens-wnba-logo-2026",
+      "cat": "bsk",
+      "title": "Franquicia WNBA de Cleveland revela nombre 'Sirens' y logo",
+      "summary": "El equipo de Cleveland WNBA presenta su identidad 'Sirens' con logo que muestra una sirena mitológica con baloncesto en el lago Erie.",
+      "source": "SportsLogos.Net News",
+      "url": "https://www.google.com/goto?url=CAESrwEB7keqTf9aC9W2sVf9Oa2CDUKtbLsjyCPlT6Wb9i1SWEpeW4zymS8mZheLn6qJs2OQRad7UF3q_xILpQxcihD7IH702g5h23CJ2vCft3TpS5AW7KQ8UVTeAnqhq2sypSJ4NK339N4lSmyKe2cX00LEFseskvAeZu2PiDnnHj1yLWMtrzHtJB4wB2CzMSVXfsSQyvf-UcpOMEu9ooDF01ZUmMYUmTFjX4b0KdoHHLLS",
+      "date": "2026-08-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
+      "id": "bills-uniform-schedule-2026",
+      "cat": "nfl",
+      "title": "Bills revelan calendario de uniformes para temporada 2026",
+      "summary": "Los Buffalo Bills anunciaron el calendario de uniformes que usarán en sus juegos locales de la temporada regular 2026.",
+      "source": "Buffalo Rumblings",
+      "url": "https://www.buffalorumblings.com/buffalo-bills-news/137841/buffalo-bills-release-2026-home-uniform-schedule",
+      "date": "2026-08-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
+      "id": "canadiens-third-jersey-hockeybuzz",
+      "cat": "nhl",
+      "title": "¿Es hora de que Montreal agregue un tercer uniforme?",
+      "summary": "Análisis sobre si los Canadiens deberían lanzar un nuevo tercer uniforme. Hace dos décadas que no tienen uno designado oficialmente.",
+      "source": "HockeyBuzz.com",
+      "url": "https://www.hockeybuzz.com/2026/08/06/should-the-montreal-canadiens-introduce-a-third-jersey",
+      "date": "2026-08-06",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-08-07"
+    },
+    {
       "id": "premier-league-2026-27-kits-ranking",
       "cat": "fut",
       "title": "Premier League 2026-27: Ranking de uniformes lanzados",
@@ -623,104 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-07-29"
-    },
-    {
-      "id": "barcelona-away-kit-2026-27-bold",
-      "cat": "fut",
-      "title": "Barcelona presenta audaz nuevo kit visitante para temporada 2026/27",
-      "summary": "FC Barcelona revela su uniforme visitante 2026/27 con diseño atrevido que refleja la ambición del club de seguir empujando los límites.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/barcelona-unveil-bold-away-kit-092500302.html",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
-    },
-    {
-      "id": "ad-ceuta-macron-kits-2026-27",
-      "cat": "fut",
-      "title": "AD Ceuta presenta kits local y visitante 2026/27 con Macron",
-      "summary": "Macron y AD Ceuta lanzan los nuevos uniformes home y away 2026/27, combinando tradición e innovación en su colaboración desde 2024.",
-      "source": "About Macron",
-      "url": "https://about.macron.com/en/news/kit-launches/ad-ceuta-new-home-away-2026-27/",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
-    },
-    {
-      "id": "borussia-dortmund-26-27-third-kit-purple",
-      "cat": "fut",
-      "title": "Borussia Dortmund filtra su kit tercero 2026-27 en color púrpura",
-      "summary": "Se revelan nuevas imágenes del tercer uniforme del Dortmund para 2026-27 con una base púrpura combinada con detalles destacados.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/1070408605/purple-borussia-dortmund-26-27-third-kit-leaked.html",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
-    },
-    {
-      "id": "juventus-26-27-third-kit-flame",
-      "cat": "fut",
-      "title": "Juventus presenta kit tercero 2026-27 con patrón de llamas",
-      "summary": "Adidas y Juventus revelan el tercer uniforme 2026-27 con un único patrón de llamas que destaca en el diseño de la temporada.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/2025/08/juventus-26-27-away-kit.html",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
-    },
-    {
-      "id": "union-berlin-26-27-away-kit-trefoil",
-      "cat": "fut",
-      "title": "Union Berlin filtra su primer kit away con Trefoil 2026-27",
-      "summary": "Adidas presenta el nuevo uniforme away del 1. FC Union Berlin 2026-27, su primer diseño con el icónico Trefoil en la historia del club.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/6028253354/union-berlin-26-27-away-kit-leaked-first-with-trefoil.html",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
-    },
-    {
-      "id": "gladbach-26-27-third-kit",
-      "cat": "fut",
-      "title": "Borussia Mönchengladbach filtra su kit tercero 2026-27",
-      "summary": "Se revela el diseño del nuevo uniforme tercero del Borussia Mönchengladbach 2026-27 a través del medio alemán Rheinische Post.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/1014536444/gladbach-26-27-third-kit-leaked.html",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
-    },
-    {
-      "id": "haaland-botas-nike-phantom-26-27",
-      "cat": "fut",
-      "title": "Exclusiva: botas Nike Phantom personalizadas Erling Haaland 26-27",
-      "summary": "Filtración exclusiva de las próximas botas exclusivas de Erling Haaland, que saldrán a la venta para el inicio de la temporada 2026-27.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/es/exclusiva-nike-lanzara-las-botas-exclusivas-de-erling-haaland-para-la-temporada-26-27.html",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
-    },
-    {
-      "id": "deportivo-municipal-1000-patrocinadores",
-      "cat": "uru",
-      "title": "Club peruano lanza camiseta histórica con 1.000 patrocinadores",
-      "summary": "Deportivo Municipal presentó una camiseta única con 1.000 patrocinadores como estrategia para salir de su crisis económica, sorprendiendo al fútbol sudamericano.",
-      "source": "HCH",
-      "url": "https://hch.tv/club-peruano-presento-una-insolita-camiseta-con-1-000-patrocinadores-para-salir-de-la-crisis-economica/",
-      "date": "2026-07-29",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-07-29"
     }
   ],
-  "last_updated": "2026-08-05T09:38:10.693302",
+  "last_updated": "2026-08-07T08:15:45.039588",
   "total": 60
 }
