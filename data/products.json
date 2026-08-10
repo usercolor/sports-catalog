@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-08-03T11:24:55.156123",
-  "total_products": 122,
+  "last_updated": "2026-08-10T09:23:07.160736",
+  "total_products": 128,
   "products": [
     {
       "id": "rm-home-2526",
@@ -2721,6 +2721,115 @@
       "brand": "Nike",
       "special": false,
       "added_date": "2026-08-03",
+      "auto_generated": true
+    },
+    {
+      "id": "salford-city-home-2026-27",
+      "cat": "fut",
+      "t": "Salford City Home Kit 2026/27",
+      "sub": "Historic orange return for 2026/27 season",
+      "tags": [
+        "salford city",
+        "home kit",
+        "2026-27 season"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-08-10",
+      "auto_generated": true
+    },
+    {
+      "id": "chivas-nike-2026-27",
+      "cat": "fut",
+      "t": "Chivas Nike 2026/27 Jerseys",
+      "sub": "Nike kits unveiled at BMO Stadium match vs LAFC",
+      "tags": [
+        "chivas",
+        "nike",
+        "2026-27"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-10",
+      "auto_generated": true
+    },
+    {
+      "id": "brentford-third-kit-2026-27",
+      "cat": "fut",
+      "t": "Brentford Third Kit 2026/27",
+      "sub": "Bold yellow design by Joma Sport S.A.",
+      "tags": [
+        "brentford",
+        "third kit",
+        "joma sport"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Joma Sport",
+      "special": false,
+      "added_date": "2026-08-10",
+      "auto_generated": true
+    },
+    {
+      "id": "guardians-city-connect-sling-2026",
+      "cat": "mlb",
+      "t": "Guardians City Connect Sling Bag",
+      "sub": "Official MLB giveaway item, Aug 15 release",
+      "tags": [
+        "city-connect",
+        "sling-bag",
+        "giveaway"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "MLB",
+      "special": false,
+      "added_date": "2026-08-10",
+      "auto_generated": true
+    },
+    {
+      "id": "padres-vietnamese-heritage-hat-2026",
+      "cat": "mlb",
+      "t": "Vietnamese Heritage Hat #2",
+      "sub": "Padres theme game merchandise, Aug 7-12 homestand",
+      "tags": [
+        "heritage",
+        "theme-game",
+        "padres"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-08-10",
+      "auto_generated": true
+    },
+    {
+      "id": "nike-eala-cincinnati-2026",
+      "cat": "tennis",
+      "t": "Alex Eala Cincinnati Outfit",
+      "sub": "Nike unveils new tournament outfit for tennis star Alex Eala",
+      "tags": [
+        "alex-eala",
+        "nike",
+        "wta",
+        "cincinnati"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-10",
       "auto_generated": true
     }
   ]
