@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-08-10T09:23:07.160736",
-  "total_products": 128,
+  "last_updated": "2026-08-17T08:44:36.702840",
+  "total_products": 140,
   "products": [
     {
       "id": "rm-home-2526",
@@ -2830,6 +2830,232 @@
       "brand": "Nike",
       "special": false,
       "added_date": "2026-08-10",
+      "auto_generated": true
+    },
+    {
+      "id": "newcastle-third-2026-27",
+      "cat": "fut",
+      "t": "Newcastle United Third Shirt 2026/27",
+      "sub": "Official 2026-27 third kit, launched August 13, 2026",
+      "tags": [
+        "Newcastle United",
+        "third kit",
+        "2026-27 season"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "barcelona-third-2026-27",
+      "cat": "fut",
+      "t": "Barcelona 2026/27 Third Kit",
+      "sub": "Green-themed third kit with 90s tribute design, on sale Aug 12",
+      "tags": [
+        "Barcelona",
+        "third kit",
+        "90s tribute",
+        "green"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "bournemouth-third-2026-27",
+      "cat": "fut",
+      "t": "AFC Bournemouth Third Kit 2026/27",
+      "sub": "Official third kit by Hummel for 2026-27 season",
+      "tags": [
+        "AFC Bournemouth",
+        "third kit",
+        "Hummel",
+        "2026-27"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Hummel",
+      "special": false,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "adidas-mls-archive-2026",
+      "cat": "sel",
+      "t": "adidas x MLS Archive Collection 2026",
+      "sub": "Retro-inspired third kits for 8 MLS teams including Austin FC, Chicago Fire, Houston Dynamo, Orlando City, Philadelphia Union and more",
+      "tags": [
+        "MLS",
+        "retro",
+        "third kit",
+        "archive collection"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": true,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "newcastle-26-27-third-kit",
+      "cat": "sel",
+      "t": "Newcastle United 26-27 Third Kit",
+      "sub": "Light purple base shade for 2026-27 season, released August 13, 2026",
+      "tags": [
+        "Newcastle",
+        "third kit",
+        "2026-27",
+        "light purple"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "man-united-26-27-third-kit",
+      "cat": "sel",
+      "t": "Manchester United 26-27 Third Kit",
+      "sub": "Youth culture inspired design tribute to Salford Lads Club for 2026-27 season",
+      "tags": [
+        "Manchester United",
+        "third kit",
+        "2026-27",
+        "Salford Lads Club"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "white-sox-southside-2026",
+      "cat": "mlb",
+      "t": "Chicago White Sox Southside City Connect",
+      "sub": "Chicago White Sox honoring Tim Anderson with classic City Connect uniform",
+      "tags": [
+        "city-connect",
+        "white-sox",
+        "uniform",
+        "tribute"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "cardinals-navy-caps-2026",
+      "cat": "mlb",
+      "t": "St. Louis Cardinals Navy Road Caps",
+      "sub": "St. Louis Cardinals new navy caps for road games remainder of 2026 season",
+      "tags": [
+        "cardinals",
+        "caps",
+        "uniform",
+        "road"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "eala-cincinnati-2026",
+      "cat": "tennis",
+      "t": "Alex Eala Cincinnati Champion Outfit",
+      "sub": "Nike unveils new Cincinnati Open outfit for rising Filipina star",
+      "tags": [
+        "Alex Eala",
+        "Cincinnati Open",
+        "women's tennis"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "sabalenka-usopen-2026",
+      "cat": "tennis",
+      "t": "Aryna Sabalenka US Open Outfit",
+      "sub": "Nike US Open outfit for World No. 1, draws mixed reactions",
+      "tags": [
+        "Aryna Sabalenka",
+        "US Open 2026",
+        "women's tennis"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "disney-cars-f1-2026",
+      "cat": "formula1",
+      "t": "Disney & Pixar Cars F1 Merchandise",
+      "sub": "Lightning McQueen and Cars characters collaboration with Formula 1",
+      "tags": [
+        "disney",
+        "pixar",
+        "cars",
+        "collaboration",
+        "merchandise"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Disney",
+      "special": true,
+      "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "tag-heuer-f1-solargraph-dutch-gp",
+      "cat": "formula1",
+      "t": "TAG Heuer F1 Solargraph Dutch GP",
+      "sub": "Limited-edition racing watch dedicated to the Dutch Grand Prix",
+      "tags": [
+        "tag-heuer",
+        "watch",
+        "limited-edition",
+        "dutch-gp"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "TAG Heuer",
+      "special": true,
+      "added_date": "2026-08-17",
       "auto_generated": true
     }
   ]
