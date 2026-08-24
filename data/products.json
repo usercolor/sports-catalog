@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-08-17T08:44:36.702840",
-  "total_products": 140,
+  "last_updated": "2026-08-24T08:50:01.001235",
+  "total_products": 151,
   "products": [
     {
       "id": "rm-home-2526",
@@ -3056,6 +3056,233 @@
       "brand": "TAG Heuer",
       "special": true,
       "added_date": "2026-08-17",
+      "auto_generated": true
+    },
+    {
+      "id": "bayern-third-2026-27",
+      "cat": "fut",
+      "t": "Bayern Munich Third Shirt 2026/27",
+      "sub": "adidas, inspired by club's heritage moments",
+      "tags": [
+        "Bayern Munich",
+        "third kit",
+        "2026-27 season",
+        "adidas"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": false,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "sunderland-third-2026-27",
+      "cat": "fut",
+      "t": "Sunderland AFC Third Kit 2026/27",
+      "sub": "Inspired by city's glassmaking heritage",
+      "tags": [
+        "Sunderland AFC",
+        "third kit",
+        "2026-27 season",
+        "heritage"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "",
+      "special": false,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "nhl-hometown-remix-2026",
+      "cat": "nhl",
+      "t": "Hometown Remix Uniforms",
+      "sub": "Fanatics, 32-team program for 2026-27 season with on-ice debuts early season",
+      "tags": [
+        "nhl",
+        "fanatics",
+        "uniforms",
+        "2026-27",
+        "all-teams"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Fanatics",
+      "special": false,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "tennessee-smokey-grey-2026",
+      "cat": "nfl",
+      "t": "Smokey Grey Alternate Uniforms",
+      "sub": "Adidas Tennessee Volunteers tribute to Gen. Robert Neyland's 100th anniversary",
+      "tags": [
+        "throwback",
+        "alternate",
+        "neyland-tribute",
+        "anniversary"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Tennessee reveals new 'Smokey Grey' uniforms",
+          "u": "https://www.tennessee.edu"
+        }
+      ],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "baylor-throwback-uniform-2026",
+      "cat": "nfl",
+      "t": "Baylor Bears Throwback Uniform",
+      "sub": "Fan-favorite throwback design for Colorado game late September",
+      "tags": [
+        "throwback",
+        "historic",
+        "fan-favorite"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Baylor Football Unveils Throwback Uniform",
+          "u": "https://www.baylor.edu"
+        }
+      ],
+      "brand": "Baylor Athletics",
+      "special": true,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "mizzou-throwback-memorial-2026",
+      "cat": "nfl",
+      "t": "Mizzou Throwback Memorial Stadium Uniform",
+      "sub": "Special throwback uniform for 100th anniversary game vs Troy on Sept 19",
+      "tags": [
+        "throwback",
+        "memorial-stadium",
+        "anniversary",
+        "troy-game"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Mizzou Unveils Throwback Football Uniforms",
+          "u": "https://www.mizzou.edu"
+        }
+      ],
+      "brand": "Mizzou Athletics",
+      "special": true,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "nhl-hometown-remix-2026-27",
+      "cat": "nhl",
+      "t": "NHL Hometown Remix Uniforms",
+      "sub": "Special edition jerseys for all NHL teams, 2026-27 season",
+      "tags": [
+        "hometown remix",
+        "special edition",
+        "all teams",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [
+        {
+          "t": "NHL Announces Hometown Remix Initiative",
+          "u": "https://www.nhl.com"
+        }
+      ],
+      "brand": "NHL",
+      "special": true,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "utah-mammoth-hometown-remix-2026-27",
+      "cat": "nhl",
+      "t": "Utah Mammoth Hometown Remix Jersey",
+      "sub": "Special edition uniform for Utah Mammoth, 2026-27 season",
+      "tags": [
+        "utah mammoth",
+        "hometown remix",
+        "new jersey",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "NHL",
+      "special": true,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "penguins-hometown-remix-2026-27",
+      "cat": "nhl",
+      "t": "Pittsburgh Penguins Hometown Remix",
+      "sub": "New Hometown Remix uniform for Penguins, details TBA fall 2026",
+      "tags": [
+        "pittsburgh penguins",
+        "hometown remix",
+        "new uniform"
+      ],
+      "date": "Fall 2026",
+      "prices": [],
+      "links": [],
+      "brand": "NHL",
+      "special": true,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "maple-leafs-remix-nights-jersey",
+      "cat": "nhl",
+      "t": "Toronto Maple Leafs Remix Jersey",
+      "sub": "New or retro jersey for Maple Leafs Remix Nights, 2025-26 season",
+      "tags": [
+        "toronto maple leafs",
+        "remix nights",
+        "retro",
+        "scotiabank arena"
+      ],
+      "date": "2025-26 Season",
+      "prices": [],
+      "links": [],
+      "brand": "NHL",
+      "special": true,
+      "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "canadiens-hometown-remix-2026-27",
+      "cat": "nhl",
+      "t": "Montreal Canadiens Hometown Remix",
+      "sub": "New alternate jersey for Canadiens, 2026-27 season",
+      "tags": [
+        "montreal canadiens",
+        "hometown remix",
+        "alternate jersey"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "NHL",
+      "special": true,
+      "added_date": "2026-08-24",
       "auto_generated": true
     }
   ]
