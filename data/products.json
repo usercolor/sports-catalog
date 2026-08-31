@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-08-24T08:50:01.001235",
-  "total_products": 151,
+  "last_updated": "2026-08-31T15:55:27.507525",
+  "total_products": 164,
   "products": [
     {
       "id": "rm-home-2526",
@@ -3283,6 +3283,254 @@
       "brand": "NHL",
       "special": true,
       "added_date": "2026-08-24",
+      "auto_generated": true
+    },
+    {
+      "id": "man-city-puma-3rd-2026-27",
+      "cat": "fut",
+      "t": "Manchester City 2026/27 Third Kit",
+      "sub": "PUMA, fan-designed via AI, limited edition",
+      "tags": [
+        "manchester-city",
+        "puma",
+        "third-kit",
+        "ai-design",
+        "fan-created"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "PUMA",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "detroit-lions-nfl-rivalries-2026",
+      "cat": "nfl",
+      "t": "Detroit Lions 2026 Rivalries Jersey",
+      "sub": "Nike NFL Rivalries uniform collection",
+      "tags": [
+        "detroit-lions",
+        "nike",
+        "nfl-rivalries",
+        "uniform"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "liverpool-adidas-3rd-2026-27",
+      "cat": "fut",
+      "t": "Liverpool 2026-27 Third Kit",
+      "sub": "adidas, inspired by European Anfield nights",
+      "tags": [
+        "liverpool",
+        "adidas",
+        "third-kit",
+        "european-heritage"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": false,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "nba-city-edition-2026",
+      "cat": "bsk",
+      "t": "2026 Nike City Edition Uniforms",
+      "sub": "Nike, all 30 NBA teams, alternate jerseys",
+      "tags": [
+        "city-edition",
+        "nba",
+        "uniforms",
+        "2026"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "mavericks-gold-city-2026",
+      "cat": "bsk",
+      "t": "Dallas Mavericks Gold City Edition",
+      "sub": "Nike, 10-year anniversary design revival",
+      "tags": [
+        "city-edition",
+        "mavericks",
+        "gold",
+        "limited"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "nets-city-edition-2026",
+      "cat": "bsk",
+      "t": "Brooklyn Nets City Edition Jersey",
+      "sub": "Nets, 2018-19 design return, nostalgia",
+      "tags": [
+        "city-edition",
+        "nets",
+        "throwback",
+        "2026"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "cavaliers-city-edition-2026",
+      "cat": "bsk",
+      "t": "Cleveland Cavaliers City Edition",
+      "sub": "Cavaliers, announcement coming soon",
+      "tags": [
+        "city-edition",
+        "cavaliers",
+        "2026"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "packers-rivalries-2026",
+      "cat": "nfl",
+      "t": "Packers NFL Rivalries Uniform",
+      "sub": "Nike - Jersey, pants, helmet with unique ownership design",
+      "tags": [
+        "rivalries",
+        "alternate-uniform",
+        "2026",
+        "packers"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "patriots-rivalries-2026",
+      "cat": "nfl",
+      "t": "Patriots NFL Rivalries Uniform",
+      "sub": "Nike - Alternate uniform for 2026 season",
+      "tags": [
+        "rivalries",
+        "alternate-uniform",
+        "2026",
+        "patriots"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "vikings-rivalries-2026",
+      "cat": "nfl",
+      "t": "Vikings NFL Rivalries Uniform",
+      "sub": "Nike - Deep purple with white and gold accents",
+      "tags": [
+        "rivalries",
+        "alternate-uniform",
+        "2026",
+        "vikings"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "jaguars-rivalries-2026",
+      "cat": "nfl",
+      "t": "Jaguars NFL Rivalries Uniform",
+      "sub": "Nike - Game day apparel celebrating AFC South",
+      "tags": [
+        "rivalries",
+        "alternate-uniform",
+        "2026",
+        "jaguars"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "lions-rivalries-2026",
+      "cat": "nfl",
+      "t": "Lions NFL Rivalries Uniform",
+      "sub": "Nike - New alternate uniform revealed Aug 25",
+      "tags": [
+        "rivalries",
+        "alternate-uniform",
+        "2026",
+        "lions"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "mercedes-amg-vanda-bloom-2026",
+      "cat": "formula1",
+      "t": "Vanda Bloom Collection",
+      "sub": "adidas x Mercedes-AMG PETRONAS F1 Team, inspired by Singapore's national flower",
+      "tags": [
+        "mercedes-amg",
+        "singapore",
+        "f1-apparel",
+        "adidas",
+        "limited-edition"
+      ],
+      "date": "Aug 2026",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": true,
+      "added_date": "2026-08-31",
       "auto_generated": true
     }
   ]
