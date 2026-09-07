@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-08-31T15:55:27.507525",
-  "total_products": 164,
+  "last_updated": "2026-09-07T14:03:06.781321",
+  "total_products": 178,
   "products": [
     {
       "id": "rm-home-2526",
@@ -3531,6 +3531,300 @@
       "brand": "adidas",
       "special": true,
       "added_date": "2026-08-31",
+      "auto_generated": true
+    },
+    {
+      "id": "calcio-padova-third-2026-27",
+      "cat": "sel",
+      "t": "Calcio Padova Third Kit 2026/27",
+      "sub": "Macron x BlssdKiddos collaboration kit",
+      "tags": [
+        "third kit",
+        "macron",
+        "collaboration",
+        "2026/27"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Macron",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "as-roma-kits-2026-27",
+      "cat": "sel",
+      "t": "AS Roma Kit Collection 2026/27",
+      "sub": "Home, Away and Training kits for 2026/27 season",
+      "tags": [
+        "home kit",
+        "away kit",
+        "training kit",
+        "2026/27"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [
+        {
+          "t": "Official AS Roma Store",
+          "u": "https://www.asroma.com"
+        }
+      ],
+      "brand": "AS Roma",
+      "special": false,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "puma-asap-rocky-mc-2026",
+      "cat": "mer",
+      "t": "PUMA x A$AP Rocky Limited-Edition Merch",
+      "sub": "PUMA, Manchester City collaboration with limited edition jersey and name/number",
+      "tags": [
+        "limited-edition",
+        "collaboration",
+        "asap-rocky",
+        "manchester-city"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "PUMA",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "nets-60th-season-2026-27",
+      "cat": "mer",
+      "t": "Brooklyn Nets 60th Season Celebration",
+      "sub": "Nets unveil yearlong 60th season campaign honoring franchise history and culture",
+      "tags": [
+        "nets",
+        "60th-anniversary",
+        "celebration",
+        "heritage"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "NBA",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "mariners-star-trek-60th-jersey-2026",
+      "cat": "mlb",
+      "t": "Mariners Star Trek 60th Anniversary Jersey",
+      "sub": "Official MLB themed jersey exclusive to Star Trek 60th Anniversary Night event",
+      "tags": [
+        "Star Trek",
+        "anniversary",
+        "exclusive",
+        "themed jersey"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Seattle Mariners Official Website",
+          "u": "https://www.mlb.com/mariners"
+        }
+      ],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "packers-1923-throwback-2026",
+      "cat": "nfl",
+      "t": "1923 Throwback Uniforms",
+      "sub": "Green Bay Packers historic uniform inspired by 1923, worn vs Bills",
+      "tags": [
+        "throwback",
+        "historic",
+        "packers",
+        "1923",
+        "limited"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "packers-uniform-set-2026",
+      "cat": "nfl",
+      "t": "Packers 2026 Uniform Lineup",
+      "sub": "4-uniform set: Vintage Green, Classic White, Rivalries, 1923",
+      "tags": [
+        "packers",
+        "uniforms",
+        "2026",
+        "vintage",
+        "classic"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "eagles-kelly-green-2026",
+      "cat": "nfl",
+      "t": "Kelly Green Historic Uniforms",
+      "sub": "Philadelphia Eagles bring back iconic Kelly Green for division rivalry matchup",
+      "tags": [
+        "eagles",
+        "kelly-green",
+        "historic",
+        "rivalry",
+        "2026"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "giants-historic-uniforms-2026",
+      "cat": "nfl",
+      "t": "Historic Uniforms",
+      "sub": "New York Giants historic uniform for Eagles rivalry matchup",
+      "tags": [
+        "giants",
+        "historic",
+        "rivalry",
+        "2026"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "travis-scott-nike-alcaraz-2026",
+      "cat": "tennis",
+      "t": "Travis Scott x Nike Tennis Kit",
+      "sub": "Custom collaboration kit worn by Carlos Alcaraz at US Open 2026",
+      "tags": [
+        "Travis Scott",
+        "Nike",
+        "US Open 2026",
+        "collaboration",
+        "custom"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Carlos Alcaraz Debuts Full Travis Scott x Nike Kit",
+          "u": "https://www.example.com/alcaraz-travis-scott-nike"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "disney-f1-2026-merchandise",
+      "cat": "formula1",
+      "t": "Disney & Pixar Cars F1 2026 Collaboration",
+      "sub": "Lightning McQueen enters F1 with Disney merchandise line for 2026 season",
+      "tags": [
+        "disney",
+        "cars",
+        "collaboration",
+        "f1-2026",
+        "merchandise"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Disney",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "f1-singapore-2026-merch",
+      "cat": "formula1",
+      "t": "F1 Singapore Grand Prix 2026 Merch",
+      "sub": "Singapore-inspired jerseys and limited-edition watches for 2026 SGP",
+      "tags": [
+        "singapore",
+        "f1-2026",
+        "jerseys",
+        "watches",
+        "limited-edition"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Formula1",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "puma-ferrari-monza-collection",
+      "cat": "formula1",
+      "t": "PUMA Scuderia Ferrari HP Monza Collection",
+      "sub": "PUMA racewear-inspired apparel and Speedcat footwear honoring Schumacher's 30-year Ferrari legacy",
+      "tags": [
+        "puma",
+        "ferrari",
+        "schumacher",
+        "monza",
+        "speedcat"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "PUMA",
+      "special": true,
+      "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "ultimate-sevens-reebok-kits-2026",
+      "cat": "rugby",
+      "t": "Ultimate Sevens Championship Kits",
+      "sub": "Reebok unveils six club kits for inaugural Ultimate Sevens championship",
+      "tags": [
+        "sevens rugby",
+        "team kits",
+        "reebok",
+        "inaugural",
+        "championship"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Ultimate Sevens and Reebok unveil kits",
+          "u": "https://www.rugbypass.com"
+        }
+      ],
+      "brand": "Reebok",
+      "special": true,
+      "added_date": "2026-09-07",
       "auto_generated": true
     }
   ]
