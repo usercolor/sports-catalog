@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-09-07T14:03:06.781321",
-  "total_products": 178,
+  "last_updated": "2026-09-14T14:48:11.074932",
+  "total_products": 189,
   "products": [
     {
       "id": "rm-home-2526",
@@ -3825,6 +3825,229 @@
       "brand": "Reebok",
       "special": true,
       "added_date": "2026-09-07",
+      "auto_generated": true
+    },
+    {
+      "id": "chelsea-third-kit-2026-27",
+      "cat": "fut",
+      "t": "Chelsea 2026-27 Third Kit",
+      "sub": "Nike third kit for Chelsea FC, completing the 2026-27 shirt lineup",
+      "tags": [
+        "Chelsea",
+        "Nike",
+        "Third Kit",
+        "2026-27 Season"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Official Site",
+          "u": "https://www.chelseafc.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "atletico-madrid-third-kit-2026-27",
+      "cat": "fut",
+      "t": "Atlético Madrid 2026-27 Third Kit",
+      "sub": "Nike third kit launch with official campaign following historic unveiling",
+      "tags": [
+        "Atlético Madrid",
+        "Nike",
+        "Third Kit",
+        "Campaign"
+      ],
+      "date": "Sept 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "as-roma-third-kit-2026-27",
+      "cat": "fut",
+      "t": "AS Roma 2026-27 Third Kit",
+      "sub": "Nike third kit inspired by faith and solidarity values",
+      "tags": [
+        "AS Roma",
+        "Nike",
+        "Third Kit",
+        "Faith"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "bayern-munich-oktoberfest-2026-27",
+      "cat": "fut",
+      "t": "Bayern Munich Oktoberfest Shirt 2026-27",
+      "sub": "Vibrant special-edition kit blending Bavarian tradition",
+      "tags": [
+        "Bayern Munich",
+        "Oktoberfest",
+        "Special Edition",
+        "Bavarian"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "nike-nba-standard-issue-2026",
+      "cat": "bsk",
+      "t": "NBA Standard Issue Collection",
+      "sub": "Nike reimagines fan wear with new team identity and basketball culture collection",
+      "tags": [
+        "nba",
+        "fan-wear",
+        "team-identity",
+        "new-collection"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "pistons-specter-edition-2026",
+      "cat": "bsk",
+      "t": "Pistons Specter Edition Uniform",
+      "sub": "Nike black base with teal trim and heritage-inspired graphics",
+      "tags": [
+        "pistons",
+        "alternate-uniform",
+        "specter-edition",
+        "heritage"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "nba-specter-edition-eight-teams-2026",
+      "cat": "bsk",
+      "t": "Specter Edition Uniforms - 8 Teams",
+      "sub": "Nike alternate uniforms for Hawks, Celtics, Pistons, Warriors, Lakers, Knicks, 76ers, Kings",
+      "tags": [
+        "specter-edition",
+        "alternate-uniforms",
+        "heritage",
+        "oldest-franchises"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "seahawks-throwback-2027",
+      "cat": "nfl",
+      "t": "Seahawks 90s Throwback Uniform Set",
+      "sub": "White jersey with silver pants and helmets, debuting 2027",
+      "tags": [
+        "throwback",
+        "seahawks",
+        "uniform",
+        "2027",
+        "vintage"
+      ],
+      "date": "2027",
+      "prices": [],
+      "links": [
+        {
+          "t": "Seattle Seahawks Announce Throwback Uniform for 2027",
+          "u": "https://www.seahawks.com"
+        }
+      ],
+      "brand": "Seattle Seahawks",
+      "special": true,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "ford-racing-f1-apparel-2026",
+      "cat": "formula1",
+      "t": "Ford Racing F1 Apparel Line",
+      "sub": "Ford Racing, inspired by Blue Oval's F1 heritage and history",
+      "tags": [
+        "ford",
+        "racing",
+        "formula1",
+        "merchandise",
+        "apparel"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Ford Racing",
+      "special": false,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "formula1-pompeii-capsule-2026",
+      "cat": "formula1",
+      "t": "F1 x Pompeii Limited Capsule Collection",
+      "sub": "Formula 1 and Spanish fashion brand Pompeii collaboration",
+      "tags": [
+        "formula1",
+        "pompeii",
+        "capsule",
+        "limited-edition",
+        "fashion"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Pompeii",
+      "special": true,
+      "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "capitals-250-anniversary-2026",
+      "cat": "nhl",
+      "t": "Capitals 250th Anniversary Jersey",
+      "sub": "Special edition co-designed by military veterans Patrick Sargent and Fidel GomezTorres, benefits Military Kids",
+      "tags": [
+        "anniversary",
+        "military",
+        "specialty-jersey",
+        "limited-edition",
+        "capitals"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Washington Capitals",
+      "special": true,
+      "added_date": "2026-09-14",
       "auto_generated": true
     }
   ]
