@@ -1,6 +1,54 @@
 {
   "news": [
     {
+      "id": "adidas-real-madrid-dia-muertos-2026",
+      "cat": "fut",
+      "title": "Adidas filtra diseños de Real Madrid inspirados en Día de Muertos",
+      "summary": "Adidas presentó una colección limitada para el Real Madrid con temática de Día de Muertos, generando nuevamente controversia tras polémica anterior en 2025.",
+      "source": "Excélsior",
+      "url": "https://www.excelsior.com.mx/deportes/adidas-real-madrid-coleccion-dia-muertos",
+      "date": "2026-09-18",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-18"
+    },
+    {
+      "id": "sporting-cristal-puma-camiseta-70s",
+      "cat": "fut",
+      "title": "Sporting Cristal lanza camiseta retro inspirada en los años 70",
+      "summary": "Sporting Cristal y Puma presentaron una edición limitada de camiseta con diseño vintage de los años 70, recuperando la estética histórica del club.",
+      "source": "Futbolperuano.com",
+      "url": "https://www.futbolperuano.com/liga-1/noticias/sporting-cristal-sorprendio-con-su-nueva-camiseta-de-coleccion-inspirada-en-la-decada-de-los-70-601016",
+      "date": "2026-09-18",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-18"
+    },
+    {
+      "id": "sportiqe-nyc-music-icons-mlb-2026",
+      "cat": "mlb",
+      "title": "Sportiqe lanza colección temática de iconos musicales NYC para MLB Store",
+      "summary": "Sportiqe presenta nueva línea de indumentaria para Yankees y Mets inspirada en leyendas de la música neoyorquina como Billy Joel y Elton John, disponible en MLB Store.",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/yankees-mets-apparel-from-sportiqe-debuts-at-mlb-store",
+      "date": "2026-09-18",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-18"
+    },
+    {
+      "id": "madden-26-nfl-uniforms-equipment",
+      "cat": "nfl",
+      "title": "Madden 26: Nuevos uniformes y equipamiento NFL",
+      "summary": "Madden 26 incorpora nuevos uniformes y cascos NFL, Guardian Caps, botines, guantes y equipo protector actualizado. Expansión de personalización de entrenadores.",
+      "source": "Operation Sports",
+      "url": "https://www.operationsports.com/madden-26-all-new-equipment-and-uniforms/",
+      "date": "2026-09-18",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-18"
+    },
+    {
       "id": "tottenham-2026-27-kits",
       "cat": "fut",
       "title": "Tottenham Hotspur lanza nuevos kits 2026-27",
@@ -671,56 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-09-09"
-    },
-    {
-      "id": "germany-nike-away-kit-green",
-      "cat": "fut",
-      "title": "Kit Leak: Germany's First Nike Away Kit Could Be Green",
-      "summary": "Nike prepara un uniforme de visitante verde y negro para Alemania, retomando tradiciones del fútbol germano con su primer kit con Nike.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/kit-leak-germany-first-nike-143000565.html",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "barcelona-saint-jordi-fourth-kit-2026-27",
-      "cat": "fut",
-      "title": "Barcelona's Saint Jordi Inspired Fourth Kit 2026-27",
-      "summary": "Barcelona lanzará un cuarto uniforme inspirado en Saint Jordi para la temporada 2026-27, además de sus tres kits principales.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/barcelona-saint-jordi-inspired-fourth-190000024.html",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "pisa-26-27-third-kit-released",
-      "cat": "fut",
-      "title": "Pisa 26-27 Third Kit Released",
-      "summary": "Pisa y Adidas presentan oficialmente el tercer uniforme del club para la campaña Serie B 26-27.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/4869921996/pisa-26-27-third-kit-released.html",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "flamengo-manto-nacion-guinness",
-      "cat": "fut",
-      "title": "Flamengo entra a Guinness con proyecto de diseño de camiseta",
-      "summary": "El proyecto \"Manto da Nação\" de Flamengo se convierte en el concurso de diseño de camiseta deportiva con mayor participación popular del mundo, ingresando al libro Guinness.",
-      "source": "Everardo Herrera",
-      "url": "https://everardoherrera.com/index.php/futbol-internacional/69-internacional-2/136442-flamengo-entra-al-libro-guinness-gracias-a-su-nueva-camiseta",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
     }
   ],
-  "last_updated": "2026-09-16T12:28:18.576162",
+  "last_updated": "2026-09-18T12:06:37.617103",
   "total": 60
 }
