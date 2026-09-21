@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-09-14T14:48:11.074932",
-  "total_products": 189,
+  "last_updated": "2026-09-21T14:54:41.831784",
+  "total_products": 195,
   "products": [
     {
       "id": "rm-home-2526",
@@ -4048,6 +4048,133 @@
       "brand": "Washington Capitals",
       "special": true,
       "added_date": "2026-09-14",
+      "auto_generated": true
+    },
+    {
+      "id": "aston-villa-2026-27",
+      "cat": "fut",
+      "t": "Aston Villa 2026-27 Kit Collection",
+      "sub": "Home, away, third & goalkeeper jerseys for 2026-27 season",
+      "tags": [
+        "aston villa",
+        "kit",
+        "2026-27 season",
+        "jersey"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [
+        {
+          "t": "GOAL - Aston Villa Kit Guide",
+          "u": "https://www.goal.com"
+        }
+      ],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-09-21",
+      "auto_generated": true
+    },
+    {
+      "id": "charly-heritage-2026",
+      "cat": "fut",
+      "t": "Charly 2026 Heritage Collection",
+      "sub": "Talavera-inspired football & baseball jerseys celebrating Mexican identity",
+      "tags": [
+        "heritage",
+        "talavera",
+        "mexico",
+        "football",
+        "baseball"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Charly",
+      "special": true,
+      "added_date": "2026-09-21",
+      "auto_generated": true
+    },
+    {
+      "id": "croatia-adidas-kit",
+      "cat": "fut",
+      "t": "Croatia National Team Adidas Kit",
+      "sub": "Official Adidas kit following Nike partnership expiration",
+      "tags": [
+        "croatia",
+        "national team",
+        "adidas",
+        "official"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": false,
+      "added_date": "2026-09-21",
+      "auto_generated": true
+    },
+    {
+      "id": "adidas-final-rush",
+      "cat": "fut",
+      "t": "adidas Final Rush Boot Pack",
+      "sub": "Mint colour palette F50, Predator & COPA franchises",
+      "tags": [
+        "boots",
+        "final rush",
+        "mint",
+        "football"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-09-21",
+      "auto_generated": true
+    },
+    {
+      "id": "ohtani-tokyo-series-2025",
+      "cat": "mlb",
+      "t": "Shohei Ohtani Tokyo Series Jersey",
+      "sub": "Game-worn 2025 Dodgers uniform with inaugural Gold MLB Logoman patch",
+      "tags": [
+        "game-worn",
+        "tokyo-series",
+        "limited-edition",
+        "ohtani",
+        "dodgers"
+      ],
+      "date": "2025",
+      "prices": [],
+      "links": [],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-09-21",
+      "auto_generated": true
+    },
+    {
+      "id": "girard-perregaux-williams-laureato-2026",
+      "cat": "formula1",
+      "t": "Laureato Race-Ready Editions",
+      "sub": "Girard-Perregaux x Williams Racing F1 special-edition watches",
+      "tags": [
+        "watches",
+        "williams-racing",
+        "limited-edition",
+        "luxury",
+        "f1-partnership"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Girard-Perregaux Williams Racing",
+          "u": "https://www.girard-perregaux.com"
+        }
+      ],
+      "brand": "Girard-Perregaux",
+      "special": true,
+      "added_date": "2026-09-21",
       "auto_generated": true
     }
   ]
