@@ -1,6 +1,90 @@
 {
   "news": [
     {
+      "id": "charly-2026-heritage-collection",
+      "cat": "fut",
+      "title": "Charly lanza Heritage Collection con inspiración Talavera",
+      "summary": "Charly presenta su colección Heritage 2026 celebrando la identidad mexicana con jerseys de fútbol inspirados en cerámica Talavera para el mes de herencia hispana.",
+      "source": "SoccerBible",
+      "url": "https://www.soccerbible.com/lifestyle/clothing/2026/09/the-2026-heritage-collection-is-a-celebration-of-mexican-identity-that-only-charly-could-pull-off/",
+      "date": "2026-09-21",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
+    },
+    {
+      "id": "inter-milan-2026-27-kits",
+      "cat": "fut",
+      "title": "Inter Milan presenta sus kits 2026-27: home, away y tercero",
+      "summary": "Goal revela todos los detalles de los nuevos kits del Inter Milan para 2026-27, incluyendo filtraciones, fechas de lanzamiento y precios de jerseys.",
+      "source": "Goal.com",
+      "url": "https://www.goal.com/en-us/lists/inter-milan-2026-27-kits-release-date-prices/blt8d981a5c9ed16909",
+      "date": "2026-09-21",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
+    },
+    {
+      "id": "best-third-shirts-26-27-season",
+      "cat": "fut",
+      "title": "Los 10 mejores diseños de terceros uniformes 26-27",
+      "summary": "SoccerBible analiza los 10 mejores uniformes terceros de la temporada 26-27, destacando los diseños más creativos e innovadores del fútbol.",
+      "source": "SoccerBible",
+      "url": "https://www.soccerbible.com/performance/football-apparel/2026/09/the-10-best-third-shirt-designs-of-the-2627-season/",
+      "date": "2026-09-21",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
+    },
+    {
+      "id": "aston-villa-2026-27-kits",
+      "cat": "fut",
+      "title": "Aston Villa 2026-27: nuevos kits retro inspirados de Adidas",
+      "summary": "Adidas presenta los kits 2026-27 del Aston Villa con diseños audaces e inspirados en lo retro para home, away y tercer uniforme.",
+      "source": "Goal.com",
+      "url": "https://www.goal.com/en-us/lists/aston-villa-2026-27-kits-release-date-prices/blt79bd8df24b3dc280",
+      "date": "2026-09-21",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
+    },
+    {
+      "id": "brighton-125th-anniversary-shirt",
+      "cat": "fut",
+      "title": "Brighton genera polémica con uniforme 125 aniversario",
+      "summary": "Brighton lanza jersey limitado para su 125 aniversario pero genera crítica por su diseño y precio elevado entre los aficionados.",
+      "source": "WeAreBrighton.com",
+      "url": "https://www.wearebrighton.com/newsopinion/awful-design-ridiculous-cost-the-limited-edition-125th-anniversary-brighton-shirt-debacle/",
+      "date": "2026-09-21",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
+    },
+    {
+      "id": "domingo-dianderas-walon-2026",
+      "cat": "fut",
+      "title": "Walon nuevo patrocinador de Domingo Dianderas con nueva camiseta",
+      "summary": "Domingo Dianderas estrena camiseta fabricada por Walon tras conquistar el título departamental de Ica. Jorge Luna es propietario del club.",
+      "source": "Mercado Negro",
+      "url": "https://www.mercadonegro.pe/actualidad/lanzamientos/jorge-luna-domingo-dianderas-walon/",
+      "date": "2026-09-21",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
+    },
+    {
+      "id": "chelsea-26-27-energy-retro-jersey",
+      "cat": "fut",
+      "title": "Chelsea lanza jersey retro 'Energy' 26-27 con diseño clásico",
+      "summary": "Chelsea oficializa su nueva camiseta retro 26-27 'Energy' con diseño clásico que complementa su uniforme tercero de la temporada.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/2025/11/nike-chelsea-26-27-retro-jersey.html",
+      "date": "2026-09-19",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
+    },
+    {
       "id": "adidas-real-madrid-dia-muertos-2026",
       "cat": "fut",
       "title": "Adidas filtra diseños de Real Madrid inspirados en Día de Muertos",
@@ -203,6 +287,18 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-09-16"
+    },
+    {
+      "id": "croatia-adidas-2026-27-kits",
+      "cat": "fut",
+      "title": "Croacia presenta nuevos kits Adidas 2026-27 sin Nike",
+      "summary": "HNS revela oficialmente los uniformes home y away 2026-27 de Croacia con Adidas, reemplazando el acuerdo anterior con Nike.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/2025/08/croatia-2026-home-kit.html",
+      "date": "2026-09-15",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-21"
     },
     {
       "id": "roma-third-kit-2026-27-fenerbahce",
@@ -623,104 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-09-11"
-    },
-    {
-      "id": "f1-pompeii-madrid-streetwear",
-      "cat": "f1",
-      "title": "F1 y Pompeii lanzan colección streetwear inspirada en Madrid",
-      "summary": "F1 celebra su regreso a Madrid con una colección cápsula exclusiva junto a la marca deportiva española Pompeii de inspiración urbana.",
-      "source": "Style Rave",
-      "url": "https://www.stylerave.com/formula-1-pompeii-madrid-capsule-collection/",
-      "date": "2026-09-11",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-11"
-    },
-    {
-      "id": "seahawks-1990s-throwback-uniforms-2027",
-      "cat": "nfl",
-      "title": "Seahawks lucirán uniformes retro de los 90s en blanco en 2027",
-      "summary": "Los Seattle Seahawks utilizarán la versión de ruta blanca de sus uniformes retro de la década de 1990 durante la próxima temporada.",
-      "source": "SportsLogos.Net News",
-      "url": "https://news.sportslogos.net/2026/09/10/seattle-seahawks-to-wear-white-road-version-of-1990s-era-throwback-uniforms-in-2027/football/",
-      "date": "2026-09-10",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-11"
-    },
-    {
-      "id": "premier-league-2026-27-kits-ranking",
-      "cat": "fut",
-      "title": "Premier League 2026-27: Ranking de todos los kits",
-      "summary": "ESPN presenta un ranking de los nuevos uniformes home y away de los 20 clubes de la Premier League para la temporada 2026-27. Análisis completo de todos los diseños.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49163915/premier-league-202627-kits-ranking-every-jersey-released-arsenal-chelsea-liverpool-man-city-man-united-tottenham",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "premier-league-kits-2026-27-season",
-      "cat": "fut",
-      "title": "Kits de Premier League temporada 2026/27",
-      "summary": "Premier League oficial presenta los nuevos uniformes de todos los clubes para la próxima campaña 2026-27.",
-      "source": "Premier League",
-      "url": "https://www.premierleague.com/en/news/4672981/premier-league-club-kits-for-202627-season",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "roma-adidas-third-kit-2026-27",
-      "cat": "fut",
-      "title": "AS Roma presenta su tercer uniforme Adidas",
-      "summary": "AS Roma lanzó oficialmente su camiseta alternativa para 2026-27. El diseño celebra la Fides romana, símbolo de lealtad y virtud histórica.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/official-roma-unveil-adidas-third-080500913.html",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "bundesliga-2025-26-jersey-review",
-      "cat": "fut",
-      "title": "Review de camisetas Bundesliga 2025-26",
-      "summary": "Análisis completo de los 73 uniformes de la Bundesliga 2025-26, evaluando desde diseños fallidos hasta kits icónicos de la temporada.",
-      "source": "Mshale",
-      "url": "https://mshale.com/cd9b42b1/3fb06be9WD49Ng4QHAIVLAI",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "puma-asap-rocky-man-city-ac-milan-sep-2026",
-      "cat": "fut",
-      "title": "PUMA x A$AP Rocky: camisetas limitadas para Man City y AC Milan",
-      "summary": "PUMA colabora con A$AP Rocky para lanzar dos camisetas edición limitada del Manchester City y AC Milan. Proyecto que reimagina las identidades de dos grandes clubes.",
-      "source": "SoccerBible",
-      "url": "https://www.soccerbible.com/lifestyle/clothing/2026/09/puma-and-a-ap-rocky-bring-music-fashion-and-football-together-with-man-city-ac-milan-jerseys/",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
-    },
-    {
-      "id": "psg-26-27-lifestyle-retro-shirt",
-      "cat": "fut",
-      "title": "PSG 26-27 Lifestyle Retro Shirt Released",
-      "summary": "PSG lanza una camiseta retro con concepto 'Energy' para la temporada 26-27, basada en diseño original y presentada por Dembélé.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/2025/11/nike-psg-26-27-retro-jersey.html",
-      "date": "2026-09-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-09"
     }
   ],
-  "last_updated": "2026-09-18T12:06:37.617103",
+  "last_updated": "2026-09-21T13:42:00.436631",
   "total": 60
 }
