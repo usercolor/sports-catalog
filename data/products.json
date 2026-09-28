@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-09-21T14:54:41.831784",
-  "total_products": 195,
+  "last_updated": "2026-09-28T16:32:12.312830",
+  "total_products": 197,
   "products": [
     {
       "id": "rm-home-2526",
@@ -4175,6 +4175,43 @@
       "brand": "Girard-Perregaux",
       "special": true,
       "added_date": "2026-09-21",
+      "auto_generated": true
+    },
+    {
+      "id": "rays-new-tampa-bay-road-2026",
+      "cat": "mlb",
+      "t": "Tampa Bay Rays 'New Tampa Bay' Road Uniforms",
+      "sub": "Official MLB road uniform, debuted Sept. 22, 2026",
+      "tags": [
+        "road uniform",
+        "tampa bay rays",
+        "2026 season",
+        "new design"
+      ],
+      "date": "Sept 2026",
+      "prices": [],
+      "links": [],
+      "brand": "MLB",
+      "special": false,
+      "added_date": "2026-09-28",
+      "auto_generated": true
+    },
+    {
+      "id": "broncos-midnight-navy-2026",
+      "cat": "nfl",
+      "t": "Alternate Midnight Navy Jerseys",
+      "sub": "Denver Broncos fan-favorite uniform color set for Sunday Night Football",
+      "tags": [
+        "alternate",
+        "navy",
+        "throwback"
+      ],
+      "date": "Sep 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Official NFL",
+      "special": false,
+      "added_date": "2026-09-28",
       "auto_generated": true
     }
   ]
