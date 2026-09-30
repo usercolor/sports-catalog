@@ -1,6 +1,54 @@
 {
   "news": [
     {
+      "id": "mejores-camisetas-futbol-2025-26",
+      "cat": "fut",
+      "title": "Las mejores camisetas del fútbol 2025-26: diseños originales",
+      "summary": "Selección de las camisetas más originales de la temporada 2026-27, con diseños que recuperan la historia de los clubes y reflejan su identidad.",
+      "source": "ESPN Deportes",
+      "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/17317012/mejores-camisetas-futbol-2025-26-disenos",
+      "date": "2026-09-30",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-30"
+    },
+    {
+      "id": "america-110-aniversario-adidas",
+      "cat": "fut",
+      "title": "América 110 años: Filtran nueva playera Adidas inspirada en historia",
+      "summary": "Se filtra posible nueva camiseta de Adidas para América. La marca alemana presenta distintos diseños para el club desde su relación iniciada en 2025.",
+      "source": "El Sol de México",
+      "url": "https://oem.com.mx/esto/liga-mx/america-110-aniversario-se-filtra-posible-nueva-playera-de-adidas-inspirada-en-su-historia-32348489",
+      "date": "2026-09-30",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-30"
+    },
+    {
+      "id": "bills-nickel-city-uniforms-2026",
+      "cat": "nfl",
+      "title": "Bills revelan uniforme alterno 'Nickel City' en Week 3",
+      "summary": "Buffalo debuta sus nuevos uniformes alternos polarizantes en Week 3 contra Los Angeles. La combinación ha generado fuertes reacciones entre los aficionados.",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/nfl/bills/onsi/uniforms-bills-fans-must-endure-nickel-city-eyesore-vs-chargers",
+      "date": "2026-09-30",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-30"
+    },
+    {
+      "id": "bengals-black-uniform-week-4-2026",
+      "cat": "nfl",
+      "title": "Bengals lucen uniforme negro completo contra Jaguars en Week 4",
+      "summary": "Cincinnati estrena combinación de jersey y pantalón negro con franjas naranjas para su encuentro en casa en Week 4 versus Jacksonville.",
+      "source": "Cincinnati Bengals",
+      "url": "https://www.bengals.com/news/bengals-uniform-combination-week-4-2026-jacksonville-jaguars",
+      "date": "2026-09-30",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-30"
+    },
+    {
       "id": "belarus-26-27-home-away-kits",
       "cat": "fut",
       "title": "Belarus presenta sus nuevos kits 2026-27 con Adidas",
@@ -167,6 +215,18 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-09-28"
+    },
+    {
+      "id": "colts-anvil-strike-rivals-uniforms-2026",
+      "cat": "nfl",
+      "title": "Colts estrenan 'Anvil Strike': primeros con uniformes Nike Rivalries",
+      "summary": "Indianapolis debuta los nuevos uniformes 'Rivalries' de Nike con casco azul y elementos de yunque. Colts son el primer equipo en 2026 en lucir esta colección.",
+      "source": "USA Today",
+      "url": "https://www.usatoday.com/story/sports/nfl/colts/2026/09/27/colts-new-uniforms-rivalries-anvil-strike-indianapolis-blue-helmet/91929686007/",
+      "date": "2026-09-27",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-09-30"
     },
     {
       "id": "germany-2026-third-farewell-kit",
@@ -659,68 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-09-18"
-    },
-    {
-      "id": "sportiqe-nyc-music-icons-mlb-2026",
-      "cat": "mlb",
-      "title": "Sportiqe lanza colección temática de iconos musicales NYC para MLB Store",
-      "summary": "Sportiqe presenta nueva línea de indumentaria para Yankees y Mets inspirada en leyendas de la música neoyorquina como Billy Joel y Elton John, disponible en MLB Store.",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/yankees-mets-apparel-from-sportiqe-debuts-at-mlb-store",
-      "date": "2026-09-18",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-18"
-    },
-    {
-      "id": "madden-26-nfl-uniforms-equipment",
-      "cat": "nfl",
-      "title": "Madden 26: Nuevos uniformes y equipamiento NFL",
-      "summary": "Madden 26 incorpora nuevos uniformes y cascos NFL, Guardian Caps, botines, guantes y equipo protector actualizado. Expansión de personalización de entrenadores.",
-      "source": "Operation Sports",
-      "url": "https://www.operationsports.com/madden-26-all-new-equipment-and-uniforms/",
-      "date": "2026-09-18",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-18"
-    },
-    {
-      "id": "tottenham-2026-27-kits",
-      "cat": "fut",
-      "title": "Tottenham Hotspur lanza nuevos kits 2026-27",
-      "summary": "Tottenham presenta su colección completa de uniformes 2026-27: local, visitante, tercero y portero. Incluye fechas de lanzamiento y precios.",
-      "source": "Goal.com",
-      "url": "https://www.goal.com/en-us/lists/tottenham-2026-27-kits-release-dates-prices/bltfa6aaa7abcc17de6",
-      "date": "2026-09-16",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-16"
-    },
-    {
-      "id": "bayern-oktoberfest-2026-27-kit",
-      "cat": "fut",
-      "title": "Bayern Munich lanza vibrante camiseta Oktoberfest",
-      "summary": "Bayern Munich y adidas presentan su audaz camiseta Oktoberfest 2026-27 con diseño multicolor vibrante e inspiración festiva.",
-      "source": "SoccerBible",
-      "url": "https://www.soccerbible.com/performance/football-apparel/2026/09/bayern-munich-go-loud-with-vibrant-new-2627-oktoberfest-shirt/",
-      "date": "2026-09-16",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-16"
-    },
-    {
-      "id": "adidas-croatia-26-27-away-kit",
-      "cat": "fut",
-      "title": "Adidas presenta nuevo kit visitante de Croacia 2026-27 sin Nike",
-      "summary": "Croacia cambia de proveedor: Adidas filtra imágenes oficiales del nuevo kit de visitante para la selección 2026-2027, reemplazando a Nike con diseño auténtico.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/1934368368/adidas-croatia-2026-27-away-kit-leaked-no-more-nike-3-new-images-of-authentic-version.html",
-      "date": "2026-09-16",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-16"
     }
   ],
-  "last_updated": "2026-09-28T15:01:48.079822",
+  "last_updated": "2026-09-30T13:22:52.445076",
   "total": 60
 }
