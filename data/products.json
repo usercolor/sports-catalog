@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-09-28T16:32:12.312830",
-  "total_products": 197,
+  "last_updated": "2026-10-05T16:53:14.614530",
+  "total_products": 203,
   "products": [
     {
       "id": "rm-home-2526",
@@ -4212,6 +4212,135 @@
       "brand": "Official NFL",
       "special": false,
       "added_date": "2026-09-28",
+      "auto_generated": true
+    },
+    {
+      "id": "aviator-nation-nfl-2026",
+      "cat": "nfl",
+      "t": "Aviator Nation x NFL Collection",
+      "sub": "Aviator Nation, officially-licensed T-shirts, hoodies, sweatpants and sweatshirts from 25 NFL teams",
+      "tags": [
+        "NFL",
+        "collaboration",
+        "apparel",
+        "licensed"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Aviator Nation",
+      "special": false,
+      "added_date": "2026-10-05",
+      "auto_generated": true
+    },
+    {
+      "id": "prettylittlething-nfl-2026",
+      "cat": "nfl",
+      "t": "PrettyLittleThing NFL Capsule",
+      "sub": "PrettyLittleThing, first officially licensed NFL line for everyday wear",
+      "tags": [
+        "NFL",
+        "licensed",
+        "fashion",
+        "capsule"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "PrettyLittleThing",
+      "special": false,
+      "added_date": "2026-10-05",
+      "auto_generated": true
+    },
+    {
+      "id": "fc-real-bristol-subu-spike-2026",
+      "cat": "fut",
+      "t": "F.C.Real Bristol x SUBU Football Spike Sandal",
+      "sub": "F.C.Real Bristol x SUBU, black grained synthetic leather football spike sandal",
+      "tags": [
+        "collaboration",
+        "sandal",
+        "football",
+        "limited"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "SUBU",
+      "special": true,
+      "added_date": "2026-10-05",
+      "auto_generated": true
+    },
+    {
+      "id": "cambridge-united-syd-barrett-2026",
+      "cat": "fut",
+      "t": "Cambridge United Syd Barrett Special Edition",
+      "sub": "Cambridge United, special edition shirt designed by Syd Barrett's family and club",
+      "tags": [
+        "special edition",
+        "tribute",
+        "limited"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Cambridge United",
+      "special": true,
+      "added_date": "2026-10-05",
+      "auto_generated": true
+    },
+    {
+      "id": "heat-vice-city-2026",
+      "cat": "bsk",
+      "t": "Heat Vice City Alternate Uniform",
+      "sub": "Miami Heat x Rockstar Games GTA VI-inspired jersey for Night in Vice City",
+      "tags": [
+        "alternate-uniform",
+        "gta6",
+        "vice-city",
+        "limited-edition",
+        "collaboration"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "NBA/Miami Heat",
+      "special": true,
+      "added_date": "2026-10-05",
+      "auto_generated": true
+    },
+    {
+      "id": "mercedes-silver-space-jacket-2026",
+      "cat": "formula1",
+      "t": "Silver Space Jacket",
+      "sub": "adidas Motorsport x Mercedes F1 official team store release",
+      "tags": [
+        "mercedes",
+        "adidas",
+        "f1-official",
+        "driver-worn",
+        "motorsport"
+      ],
+      "date": "Oct 2026",
+      "prices": [
+        {
+          "l": "Starting price",
+          "v": "£220"
+        }
+      ],
+      "links": [
+        {
+          "t": "Mercedes F1 Official Team Store",
+          "u": "https://www.mercedesamgf1store.com"
+        },
+        {
+          "t": "adidas Motorsport",
+          "u": "https://www.adidas.com/motorsport"
+        }
+      ],
+      "brand": "adidas",
+      "special": true,
+      "added_date": "2026-10-05",
       "auto_generated": true
     }
   ]
