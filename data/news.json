@@ -1,6 +1,42 @@
 {
   "news": [
     {
+      "id": "udechile-retro-sudamericana-2011",
+      "cat": "uru",
+      "title": "U de Chile estrena camiseta retro Copa Sudamericana 2011 en 2027",
+      "summary": "Adidas lanzará una nueva camiseta retro para la U de Chile en 2027, inspirada en el uniforme de la Copa Sudamericana 2011.",
+      "source": "RedGol",
+      "url": "https://redgol.cl/udechile/adidas-lanza-camiseta-retro-universidad-de-chile-2011-copa-sudamericana-jabulani",
+      "date": "2026-10-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "seleccion-argentina-nueva-camiseta-adidas",
+      "cat": "uru",
+      "title": "Adidas presenta la nueva camiseta de la Selección Argentina",
+      "summary": "Adidas presentó la nueva casaca de la Selección Argentina en acto con presencia de jugadores como Lavezzi, Correa, Lamela y Gaitán.",
+      "source": "iProfesional",
+      "url": "https://www.iprofesional.com/marketing/229623-adidas-presento-la-nueva-camiseta-de-la-seleccion-argentina",
+      "date": "2026-10-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-07"
+    },
+    {
+      "id": "f1-drivers-tommy-hilfiger-popups-2026",
+      "cat": "f1",
+      "title": "Pilotos de F1 y celebridades en pop-ups Tommy Hilfiger",
+      "summary": "Sergio Pérez y Zhou Guanyu del equipo Cadillac F1 participarán en eventos pop-up de Tommy Hilfiger durante la temporada de Grandes Premios 2026.",
+      "source": "The Straits Times",
+      "url": "https://www.straitstimes.com/life/style/meet-f1-drivers-and-celebrities-at-pop-ups-this-grand-prix-season",
+      "date": "2026-10-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-07"
+    },
+    {
       "id": "catalonia-26-27-kit-adidas-official",
       "cat": "fut",
       "title": "Adidas presenta oficial el nuevo kit de Cataluña 26-27",
@@ -155,6 +191,18 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-10-05"
+    },
+    {
+      "id": "club-america-110-aniversario-26-27",
+      "cat": "uru",
+      "title": "Adidas filtra camiseta del Club América 26-27 por 110.º aniversario",
+      "summary": "Adidas reveló la nueva camiseta del Club América para 2026-27 conmemorando su 110.º aniversario. También lanzará una versión en azul de la casaca.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/es/filtracion-adidas-lanzara-la-camiseta-del-110-aniversario-del-club-america.html",
+      "date": "2026-10-03",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-07"
     },
     {
       "id": "soccer-best-kits-2025-26",
@@ -671,56 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-09-25"
-    },
-    {
-      "id": "bologna-udinese-26-27-third-kits-leaked",
-      "cat": "fut",
-      "title": "Bologna y Udinese 2026-27: Terceros uniformes filtrados",
-      "summary": "La base de datos SoFIFA de EA Sports FC reveló los nuevos uniformes alternativos 2026-27 de Bologna y Udinese de Serie A.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/0622409159/bologna-and-udinese-26-27-third-kits-leaked-via-sofifa.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "stunning-celtic-2027-icon-jersey-leaked",
-      "cat": "fut",
-      "title": "Celtic 2027: Jersey Icon de Adidas filtrado",
-      "summary": "Adidas revela el nuevo jersey Icon del Celtic 2027 con lanzamiento programado para principios de 2027.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/1371311248/stunning-celtic-2027-icon-jersey-leaked.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "adidas-river-plate-2027-icon-shirt-leaked",
-      "cat": "fut",
-      "title": "River Plate 2027: Jersey Icon inspirado en 1986 filtrado",
-      "summary": "Adidas lanza el jersey Icon del River Plate 2027, rendimiento retro al histórico uniforme de 1986.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/8103340591/adidas-river-plate-2027-icon-shirt-leaked-1986-throwback.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "adidas-argentina-messi-farewell-kit-leaked",
-      "cat": "fut",
-      "title": "Argentina: Colección conmemorativa Messi despedida filtrada",
-      "summary": "Adidas revela colección oficial de uniformes Argentina celebrando a Lionel Messi antes de su último partido internacional.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/5764461851/adidas-argentina-messi-farewell-player-keeper-kit-leaked-official-pictures.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
     }
   ],
-  "last_updated": "2026-10-05T15:37:44.515185",
+  "last_updated": "2026-10-07T14:16:15.431671",
   "total": 60
 }
