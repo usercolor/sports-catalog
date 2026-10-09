@@ -1,6 +1,102 @@
 {
   "news": [
     {
+      "id": "universidad-chile-2011-remake-adidas",
+      "cat": "fut",
+      "title": "Adidas lanza kit retro de Universidad de Chile 2011",
+      "summary": "Adidas prepara un remake del kit retro de Universidad de Chile basado en su archivo sudamericano. Vuelta a los diseños clásicos del equipo chileno.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/1108532715/exclusive-adidas-to-release-universidad-de-chile-2011-remake-kit.html",
+      "date": "2026-10-09",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "nashville-sc-27-28-away-green",
+      "cat": "fut",
+      "title": "Nashville SC 2027-28: nuevo kit visitante en verde oscuro",
+      "summary": "Nashville SC sorprende con un cambio radical en su kit visitante 2027-28. El equipo estadounidense abandona su estética tradicional por verde oscuro.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/2673651069/exclusive-nashville-sc-27-28-away-kit-to-be-green.html",
+      "date": "2026-10-09",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "inter-miami-27-28-away-blackout",
+      "cat": "fut",
+      "title": "Inter Miami 2027-28: kit visitante negro sin rosa",
+      "summary": "Inter Miami CF cambia radicalmente su estética con kit visitante blackout 2027-28. Por primera vez abandona el rosa que caracteriza al club.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/6677769176/inter-miami-27-28-away-kit-to-be-blackout-no-pink-for-the-first-time.html",
+      "date": "2026-10-09",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "jerseybird-kit-creator-physical",
+      "cat": "fut",
+      "title": "JerseyBird x Kit Creator: kits físicos edición limitada",
+      "summary": "Llegan finalmente los kits físicos de la colaboración JerseyBird x Kit Creator. Producción limitada basada en diseños ganadores de la comunidad.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/7094162770/physical-jerseybird-x-kit-creator-kits-are-here.html",
+      "date": "2026-10-09",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "adidas-y3-2026-boots-tiger-dragon",
+      "cat": "fut",
+      "title": "Adidas Y-3 2026: botas Predator Tiger y F50 Dragon",
+      "summary": "Adidas prepara colección Y-3 de botas de fútbol late 2026 con motivos 'Tigre' y 'Dragón'. Revival de la colección de criaturas icónicas.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/4360024359/adidas-y-3-2026-boots-pack-leaked-predator-tiger-f50-dragon.html",
+      "date": "2026-10-09",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "playboi-carti-mitchell-ness-nba-complexcon-2026",
+      "cat": "bsk",
+      "title": "Mitchell & Ness x Playboi Carti x NBA: Hardwood Classics en ComplexCon",
+      "summary": "Colaboración exclusiva entre Mitchell & Ness, Playboi Carti y la NBA con lanzamiento de jerseys Hardwood Classics durante ComplexCon 2026, ahora disponibles.",
+      "source": "Complex",
+      "url": "https://www.complex.com/style/a/backwoodsaltar/playboi-carti-mitchell-ness-nba-complexcon-2026-jerseys",
+      "date": "2026-10-09",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "canadiens-heritage-classic-jersey-2026",
+      "cat": "nhl",
+      "title": "Montreal Canadiens presenta jersey oficial para Heritage Classic",
+      "summary": "NHL y Fanatics revelaron oficialmente los uniformes que usarán en el Heritage Classic, a jugarse al aire libre en Princess Auto Stadium. Diseño especial para este evento clásico.",
+      "source": "Habs Eyes on the Prize",
+      "url": "https://www.habseyesontheprize.com/montreal-canadiens-jersey-for-heritage-classic-officially-unveiled-habs-jets-alternate/",
+      "date": "2026-10-09",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "serena-williams-barbie-signature-oct-2026",
+      "cat": "tennis",
+      "title": "Mattel lanza muñeca Barbie Signature de Serena Williams",
+      "summary": "Mattel honra a la leyenda del tenis Serena Williams con una nueva muñeca Barbie Signature que presenta su look del Australian Open 2005.",
+      "source": "USA Today",
+      "url": "https://www.usatoday.com/story/sports/tennis/2026/10/08/serena-williams-new-barbie-doll-tennis-australian-open/92142010007/",
+      "date": "2026-10-08",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
       "id": "udechile-retro-sudamericana-2011",
       "cat": "uru",
       "title": "U de Chile estrena camiseta retro Copa Sudamericana 2011 en 2027",
@@ -35,6 +131,30 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-10-07"
+    },
+    {
+      "id": "real-madrid-27-28-third-kit-purple",
+      "cat": "fut",
+      "title": "Real Madrid 2027-28: filtrado kit suplente en morado",
+      "summary": "Filtración exclusiva del tercer kit del Real Madrid para 2027-28. El equipo madrileño regresa al color morado en su uniforme alternativo.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/4752320930/exclusive-real-madrid-27-28-third-kit-design-leaked-return-to-purple.html",
+      "date": "2026-10-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
+    },
+    {
+      "id": "adidas-adipure-2027-return",
+      "cat": "fut",
+      "title": "Adidas Adipure regresa en 2027: botas y tecnología",
+      "summary": "Confirmado el retorno de la línea de botas Adidas Adipure en 2027 con nueva tecnología. La marca reactiva uno de sus modelos más icónicos.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/2025/12/exclusive-adidas-could-be-preparing.html",
+      "date": "2026-10-06",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
     },
     {
       "id": "catalonia-26-27-kit-adidas-official",
@@ -203,6 +323,18 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-10-07"
+    },
+    {
+      "id": "broncos-uniform-49ers-week-4",
+      "cat": "nfl",
+      "title": "Broncos anuncian uniforme blanco y azul para duelo ante 49ers",
+      "summary": "Los Denver Broncos confirmaron que vestirán camisetas blancas con pantalones azules para el encuentro de la Semana 4 contra San Francisco.",
+      "source": "Broncos Wire",
+      "url": "https://broncoswire.usatoday.com/story/sports/nfl/broncos/2026/10/03/denver-broncos-news-uniform-announced-vs-49ers/92044083007/",
+      "date": "2026-10-03",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-09"
     },
     {
       "id": "soccer-best-kits-2025-26",
@@ -587,140 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-09-28"
-    },
-    {
-      "id": "bills-nickel-city-uniforms-debut",
-      "cat": "nfl",
-      "title": "Bills presentan uniforme 'Nickel City' con casco azul real",
-      "summary": "Buffalo Bills estrena nuevo uniforme 'Nickel City' con cascos azul real (primeros en la historia), jerseys grises y un homenaje al apodo de la ciudad.",
-      "source": "SportsLogos.Net News",
-      "url": "https://news.sportslogos.net/2026/09/27/buffalo-bills-to-debut-nickel-city-alternate-uniforms-royal-blue-helmets-on-sunday/football/",
-      "date": "2026-09-27",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-28"
-    },
-    {
-      "id": "broncos-midnight-navy-rams",
-      "cat": "nfl",
-      "title": "Broncos resucitan uniforme Midnight Navy vs Rams",
-      "summary": "Denver Broncos lucirá sus jerseys Midnight Navy, un color fan-favorito del pasado, en el Sunday Night Football contra Los Angeles Rams.",
-      "source": "NBC TV Network",
-      "url": "https://www.nbc.com/nbc-insider/all-about-the-denver-broncos-midnight-navy-jerseys-vs-the-rams",
-      "date": "2026-09-27",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-28"
-    },
-    {
-      "id": "colts-anvil-strike-rivals-uniforms-2026",
-      "cat": "nfl",
-      "title": "Colts estrenan 'Anvil Strike': primeros con uniformes Nike Rivalries",
-      "summary": "Indianapolis debuta los nuevos uniformes 'Rivalries' de Nike con casco azul y elementos de yunque. Colts son el primer equipo en 2026 en lucir esta colección.",
-      "source": "USA Today",
-      "url": "https://www.usatoday.com/story/sports/nfl/colts/2026/09/27/colts-new-uniforms-rivalries-anvil-strike-indianapolis-blue-helmet/91929686007/",
-      "date": "2026-09-27",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-30"
-    },
-    {
-      "id": "manchester-united-27-28-away-kit",
-      "cat": "fut",
-      "title": "Manchester United 27-28 Away Kit: Información exclusiva filtrada",
-      "summary": "Información adicional sobre el uniforme alternativo del Manchester United para la temporada 2027-28.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/0938913545/exclusive-manchester-united-27-28-away-kit-info-leaked.html",
-      "date": "2026-09-27",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-02"
-    },
-    {
-      "id": "germany-2026-third-farewell-kit",
-      "cat": "fut",
-      "title": "Alemania 2026 Third Kit 'Despedida' Adidas",
-      "summary": "Adidas revela el uniforme de despedida de Alemania para 2026, disponible desde el 26 de septiembre en el sitio oficial de Adidas.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/2026/02/breaking-adidas-germany-2026-third-kit.html",
-      "date": "2026-09-26",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-28"
-    },
-    {
-      "id": "soccer-warmup-kits-2026-27",
-      "cat": "fut",
-      "title": "Los kits de calentamiento más salvajes de 2026-27",
-      "summary": "ESPN analiza los mejores y peores uniformes de calentamiento previo al partido de la temporada 2026-27, más allá de las camisetas home, away y alternativas tradicionales.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/blog/the-toe-poke/65/index",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "manchester-united-white-away-kit-final",
-      "cat": "fut",
-      "title": "Manchester United usa última vez camiseta away blanca",
-      "summary": "Manchester United viste su camiseta away blanca por última vez en un partido oficial cuando enfrente a Bournemouth el viernes, marcando el final de era.",
-      "source": "Manchester United Website",
-      "url": "https://www.manutd.com/en/news/manchester-united-first-team-to-wear-away-shirt-for-final-time-this-season",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "inter-miami-2026-2027-home-kit-leaked",
-      "cat": "fut",
-      "title": "Inter Miami 2026-2027: Kit local filtrado con mangas largas",
-      "summary": "Adidas reveló el uniforme local del Inter Miami para 2026-2027 en versión de mangas largas, marcando el regreso de este estilo en la MLS.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/5193106165/inter-miami-2026-2027-home-kit-leaked-return-of-long-sleeve-kits-in-mls.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "fc-barcelona-27-28-home-kit-leaked",
-      "cat": "fut",
-      "title": "Barcelona 2027-28: Filtradas imágenes reales del uniforme local",
-      "summary": "Se filtraron imágenes del uniforme local del Barcelona para la temporada 2027-28, basadas en conceptos previos de diseño.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/3924339923/fc-barcelona-27-28-home-kit-leaked-2-real-images.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "nike-afc-richmond-26-27-away-kit-leaked",
-      "cat": "fut",
-      "title": "AFC Richmond 2026-27: Uniforme visitante naranja filtrado",
-      "summary": "EA Sports FC reveló la colección completa de kits del Richmond 26-27, incluyendo el nuevo uniforme visitante en vibrante naranja.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/5074506132/nike-afc-richmond-26-27-away-kit-leaked-third-leak-confirmed.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
-    },
-    {
-      "id": "adidas-river-plate-1996-long-sleeve-remake-kit-leaked",
-      "cat": "fut",
-      "title": "River Plate: Remasterización 1996 con mangas largas filtrada",
-      "summary": "Adidas presenta una versión de mangas largas del uniforme retrógrado River Plate 1996, recreando fielmente el diseño original.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/8469399433/adidas-river-plate-1996-long-sleeve-remake-kit-leaked.html",
-      "date": "2026-09-25",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-09-25"
     }
   ],
-  "last_updated": "2026-10-07T14:16:15.431671",
+  "last_updated": "2026-10-09T14:11:18.226272",
   "total": 60
 }
