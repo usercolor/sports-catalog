@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-10-05T16:53:14.614530",
-  "total_products": 203,
+  "last_updated": "2026-10-12T17:28:45.621348",
+  "total_products": 210,
   "products": [
     {
       "id": "rm-home-2526",
@@ -4341,6 +4341,141 @@
       "brand": "adidas",
       "special": true,
       "added_date": "2026-10-05",
+      "auto_generated": true
+    },
+    {
+      "id": "bape-cr7-life-2026",
+      "cat": "mer",
+      "t": "BAPE x CR7 LIFE Collaboration",
+      "sub": "BAPE x Cristiano Ronaldo streetwear collection with bold graphics",
+      "tags": [
+        "collaboration",
+        "streetwear",
+        "limited edition",
+        "football fashion"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "BAPE",
+      "special": true,
+      "added_date": "2026-10-12",
+      "auto_generated": true
+    },
+    {
+      "id": "barca-kits-2627",
+      "cat": "fut",
+      "t": "FC Barcelona 26/27 Three Kit Collection",
+      "sub": "Three unique kits with innovative typeface design for 2026/27 season",
+      "tags": [
+        "official kit",
+        "three designs",
+        "innovative typeface",
+        "season kit"
+      ],
+      "date": "2026/27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-10-12",
+      "auto_generated": true
+    },
+    {
+      "id": "kentucky-power-k-2026",
+      "cat": "nfl",
+      "t": "Kentucky Power K Throwback Uniforms",
+      "sub": "Historic throwback uniforms returning after 30 years for LSU game",
+      "tags": [
+        "throwback",
+        "kentucky",
+        "power k",
+        "heritage",
+        "2026"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-10-12",
+      "auto_generated": true
+    },
+    {
+      "id": "utah-utes-white-out-2026",
+      "cat": "nfl",
+      "t": "Utah Utes Hand-Painted White Helmets",
+      "sub": "Inaugural white base hand-painted helmets for White Out game",
+      "tags": [
+        "hand-painted",
+        "white out",
+        "utah",
+        "helmets",
+        "2026"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-10-12",
+      "auto_generated": true
+    },
+    {
+      "id": "avalanche-winter-classic-2026",
+      "cat": "nhl",
+      "t": "Avalanche Winter Classic Jersey",
+      "sub": "Colorado Avalanche vintage-style uniform for Dec 31 matchup, Hometown Remix program",
+      "tags": [
+        "winter classic",
+        "vintage",
+        "outdoor",
+        "hometown remix"
+      ],
+      "date": "Dec 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Fanatics",
+      "special": true,
+      "added_date": "2026-10-12",
+      "auto_generated": true
+    },
+    {
+      "id": "canadiens-heritage-classic-2026",
+      "cat": "nhl",
+      "t": "Canadiens Heritage Classic Jersey",
+      "sub": "Montreal Canadiens official Heritage Classic jersey for outdoor game at Princess Auto Stadium",
+      "tags": [
+        "heritage classic",
+        "outdoor",
+        "official",
+        "canada"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Fanatics",
+      "special": true,
+      "added_date": "2026-10-12",
+      "auto_generated": true
+    },
+    {
+      "id": "scottish-rugby-macron-archive-2026",
+      "cat": "rugby",
+      "t": "The Archive Collection: Inverleith",
+      "sub": "Scottish Rugby x Macron heritage collection celebrating international rugby history",
+      "tags": [
+        "heritage",
+        "scotland",
+        "limited edition",
+        "macron"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Macron",
+      "special": true,
+      "added_date": "2026-10-12",
       "auto_generated": true
     }
   ]
