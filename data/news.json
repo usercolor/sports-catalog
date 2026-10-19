@@ -1,6 +1,78 @@
 {
   "news": [
     {
+      "id": "barcelona-musicos-camisetas",
+      "cat": "fut",
+      "title": "Barcelona incorpora músicos en diseño de camisetas",
+      "summary": "Análisis sobre la estrategia del Barcelona de incluir músicos en sus camisetas como elemento diferenciador de diseño, práctica que otros clubes no han replicado completamente.",
+      "source": "Tribuna.com",
+      "url": "https://tribuna.com/amp/es/blogs/por-que-el-barcelona-pone-musicos-en-sus-camisetas-y-por-que/",
+      "date": "2026-10-19",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
+    },
+    {
+      "id": "nfl-throwback-uniforms-permanent-si",
+      "cat": "nfl",
+      "title": "10 uniformes retro de la NFL que deberían ser permanentes",
+      "summary": "Sports Illustrated analiza los uniformes throwback más icónicos de la NFL, destacando el retorno de Seahawks y Broncos en Week 6 como inspiración para debates sobre qué uniforms clásicos merecen quedarse.",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/onsi/jerseys/news/10-nfl-throwback-uniforms-that-should-be-permanent",
+      "date": "2026-10-19",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
+    },
+    {
+      "id": "broncos-seahawks-color-vs-color-throwback",
+      "cat": "nfl",
+      "title": "Raro duelo de uniformes: Orange Crush vs Royal Blue en TNF",
+      "summary": "Broncos presentarán sus icónicos uniformes Orange Crush mientras Seahawks lucirán sus throwback royal blue en una inusual batalla de colores durante Week 6 en Denver.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/outkick-sports/broncos-throwback-orange-crush-uniforms-meet-seahawks-throwback-royal-blue-rare-nfl-color-vs-color-game",
+      "date": "2026-10-19",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
+    },
+    {
+      "id": "seahawks-broncos-uniform-battle-tnf",
+      "cat": "nfl",
+      "title": "El mejor duelo de uniformes de la temporada: Seahawks vs Broncos",
+      "summary": "Week 6 traerá una batalla visual única en Thursday Night Football con los uniformes retro de Seahawks y Broncos enfrentándose en Denver, un evento casi nunca visto en la NFL.",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/nfl/news/seahawks-broncos-rare-uniform-matchup-thursday-night-football/",
+      "date": "2026-10-19",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
+    },
+    {
+      "id": "tommy-hilfiger-austin-f1-capsule-2026",
+      "cat": "f1",
+      "title": "Tommy Hilfiger lanza cápsula temática texana para F1 Austin",
+      "summary": "Tommy Hilfiger crea colección de fanwear inspirada en Texas para el Gran Premio de Austin F1, en colaboración con Cadillac F1. Cápsula de cinco piezas con estilo texano.",
+      "source": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/tommy-hilfiger-capsule-austin-formula-1-cadillac-1239343023/",
+      "date": "2026-10-19",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
+    },
+    {
+      "id": "haas-godzilla-cota-livery-2026",
+      "cat": "f1",
+      "title": "Haas revela impactante livery Godzilla para GP Estados Unidos",
+      "summary": "El equipo Haas F1 presenta un nuevo diseño de monoplaza basado en la película Godzilla para el GP de Austin. Livery espectacular con temática del clásico monstruo.",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/f1/news/1107895/1/haas-reveals-striking-godzilla-cota-f1-livery",
+      "date": "2026-10-19",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
+    },
+    {
       "id": "barcelona-clasico-tyler-creator-oct-2026",
       "cat": "fut",
       "title": "Barcelona luce logo de Tyler, The Creator en kit especial para El Clásico",
@@ -191,6 +263,18 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-10-16"
+    },
+    {
+      "id": "nfl-week6-uniform-matchups-2026",
+      "cat": "nfl",
+      "title": "Diez enfrentamientos de uniformes imprescindibles de la NFL 2026",
+      "summary": "USA Today destaca los mejores matchups de uniformes de la temporada 2026, encabezados por el duelo retro entre Seahawks y Broncos en Thursday Night Football.",
+      "source": "USA Today",
+      "url": "https://www.usatoday.com/story/sports/nfl/columnist/nate-davis/2026/10/15/seahawks-broncos-alternate-throwback-rivalries-nfl-uniform-matchups-2026/92270359007/",
+      "date": "2026-10-15",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
     },
     {
       "id": "a-league-kit-rankings-2026-27",
@@ -529,6 +613,18 @@
       "added_date": "2026-10-12"
     },
     {
+      "id": "nba-aba-throwback-uniforms",
+      "cat": "bsk",
+      "title": "NBA lanza uniformes estilo ABA para celebrar 50 años de fusión",
+      "summary": "Nets, Nuggets, Pacers y Spurs lucirán uniformes clásicos ABA conmemorando el 50 aniversario de la histórica fusión entre ABA y NBA.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/outkick-sports/ranking-nba-teams-aba-style-uniforms-honor-50th-anniversary-historic-merger",
+      "date": "2026-10-12",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-10-19"
+    },
+    {
       "id": "packers-rivalries-alternates-oct-2026",
       "cat": "nfl",
       "title": "Packers lanzan uniformes alternativos 'Rivalries' inspirados en el histórico equipo",
@@ -623,104 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-10-09"
-    },
-    {
-      "id": "canadiens-heritage-classic-jersey-2026",
-      "cat": "nhl",
-      "title": "Montreal Canadiens presenta jersey oficial para Heritage Classic",
-      "summary": "NHL y Fanatics revelaron oficialmente los uniformes que usarán en el Heritage Classic, a jugarse al aire libre en Princess Auto Stadium. Diseño especial para este evento clásico.",
-      "source": "Habs Eyes on the Prize",
-      "url": "https://www.habseyesontheprize.com/montreal-canadiens-jersey-for-heritage-classic-officially-unveiled-habs-jets-alternate/",
-      "date": "2026-10-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-09"
-    },
-    {
-      "id": "tigres-uanl-26-27-third-kit",
-      "cat": "fut",
-      "title": "Tigres UANL 26-27: Filtran el uniforme alternativo",
-      "summary": "Se filtra el tercer kit del Tigres UANL para la temporada 26-27. El diseño ya había sido revelado previamente en la versión femenina.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/6890814474/exclusive-tigres-uanl-26-27-third-kit-leaked.html",
-      "date": "2026-10-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-12"
-    },
-    {
-      "id": "inter-milan-27-28-home-kit",
-      "cat": "fut",
-      "title": "Inter de Milán 27-28: Filtraciones del nuevo uniforme local",
-      "summary": "Se filtra información sobre el uniforme local del Inter de Milán para 2027-28 con mockup creado por @whatthekit_x.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/6262217505/inter-milan-27-28-home-kit-leaked.html",
-      "date": "2026-10-09",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-14"
-    },
-    {
-      "id": "serena-williams-barbie-signature-oct-2026",
-      "cat": "tennis",
-      "title": "Mattel lanza muñeca Barbie Signature de Serena Williams",
-      "summary": "Mattel honra a la leyenda del tenis Serena Williams con una nueva muñeca Barbie Signature que presenta su look del Australian Open 2005.",
-      "source": "USA Today",
-      "url": "https://www.usatoday.com/story/sports/tennis/2026/10/08/serena-williams-new-barbie-doll-tennis-australian-open/92142010007/",
-      "date": "2026-10-08",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-09"
-    },
-    {
-      "id": "udechile-retro-sudamericana-2011",
-      "cat": "uru",
-      "title": "U de Chile estrena camiseta retro Copa Sudamericana 2011 en 2027",
-      "summary": "Adidas lanzará una nueva camiseta retro para la U de Chile en 2027, inspirada en el uniforme de la Copa Sudamericana 2011.",
-      "source": "RedGol",
-      "url": "https://redgol.cl/udechile/adidas-lanza-camiseta-retro-universidad-de-chile-2011-copa-sudamericana-jabulani",
-      "date": "2026-10-07",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-07"
-    },
-    {
-      "id": "seleccion-argentina-nueva-camiseta-adidas",
-      "cat": "uru",
-      "title": "Adidas presenta la nueva camiseta de la Selección Argentina",
-      "summary": "Adidas presentó la nueva casaca de la Selección Argentina en acto con presencia de jugadores como Lavezzi, Correa, Lamela y Gaitán.",
-      "source": "iProfesional",
-      "url": "https://www.iprofesional.com/marketing/229623-adidas-presento-la-nueva-camiseta-de-la-seleccion-argentina",
-      "date": "2026-10-07",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-07"
-    },
-    {
-      "id": "f1-drivers-tommy-hilfiger-popups-2026",
-      "cat": "f1",
-      "title": "Pilotos de F1 y celebridades en pop-ups Tommy Hilfiger",
-      "summary": "Sergio Pérez y Zhou Guanyu del equipo Cadillac F1 participarán en eventos pop-up de Tommy Hilfiger durante la temporada de Grandes Premios 2026.",
-      "source": "The Straits Times",
-      "url": "https://www.straitstimes.com/life/style/meet-f1-drivers-and-celebrities-at-pop-ups-this-grand-prix-season",
-      "date": "2026-10-07",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-07"
-    },
-    {
-      "id": "real-madrid-27-28-third-kit-purple",
-      "cat": "fut",
-      "title": "Real Madrid 2027-28: filtrado kit suplente en morado",
-      "summary": "Filtración exclusiva del tercer kit del Real Madrid para 2027-28. El equipo madrileño regresa al color morado en su uniforme alternativo.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/4752320930/exclusive-real-madrid-27-28-third-kit-design-leaked-return-to-purple.html",
-      "date": "2026-10-07",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-10-09"
     }
   ],
-  "last_updated": "2026-10-16T12:08:35.427762",
+  "last_updated": "2026-10-19T14:24:54.744523",
   "total": 60
 }
