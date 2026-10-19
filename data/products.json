@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-10-12T17:28:45.621348",
-  "total_products": 210,
+  "last_updated": "2026-10-19T15:20:27.421454",
+  "total_products": 215,
   "products": [
     {
       "id": "rm-home-2526",
@@ -4476,6 +4476,115 @@
       "brand": "Macron",
       "special": true,
       "added_date": "2026-10-12",
+      "auto_generated": true
+    },
+    {
+      "id": "barcelona-tyler-creator-2026",
+      "cat": "fut",
+      "t": "FC Barcelona x Tyler, The Creator El Clásico Kit",
+      "sub": "Nike collaboration jersey featuring Tyler, The Creator logo with Spotify partnership",
+      "tags": [
+        "collaboration",
+        "el-clasico",
+        "limited-edition",
+        "musician"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "FC Barcelona Official",
+          "u": "https://www.fcbarcelona.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-10-19",
+      "auto_generated": true
+    },
+    {
+      "id": "chelsea-26-27-third-gk-kit",
+      "cat": "fut",
+      "t": "Chelsea 2026-27 Third Goalkeeper Kit",
+      "sub": "Nike goalkeeper kit template, debuted Oct 17 vs Everton",
+      "tags": [
+        "goalkeeper",
+        "third-kit",
+        "2026-27-season"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Chelsea Official Site",
+          "u": "https://www.chelseafc.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-10-19",
+      "auto_generated": true
+    },
+    {
+      "id": "young-boys-women-third-shirt",
+      "cat": "fut",
+      "t": "BSC Young Boys Women Third Shirt",
+      "sub": "Nike exclusive third kit for Young Boys Women's team",
+      "tags": [
+        "womens-football",
+        "third-kit",
+        "nike"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "BSC Young Boys Official",
+          "u": "https://www.bscyoungboys.ch"
+        }
+      ],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-10-19",
+      "auto_generated": true
+    },
+    {
+      "id": "nba-aba-throwback-2026",
+      "cat": "bsk",
+      "t": "ABA Classic Edition Throwback Uniforms",
+      "sub": "Brooklyn Nets, Denver Nuggets, Indiana Pacers, San Antonio Spurs - 50th anniversary merger celebration",
+      "tags": [
+        "throwback",
+        "ABA",
+        "anniversary",
+        "limited-edition",
+        "classic"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-10-19",
+      "auto_generated": true
+    },
+    {
+      "id": "nba-emirates-cup-court-2026",
+      "cat": "bsk",
+      "t": "Team-Specific Court Designs 2026",
+      "sub": "Nike Standard Issue Collection - Emirates NBA Cup team courts with bold colors",
+      "tags": [
+        "court-design",
+        "emirates-cup",
+        "2026",
+        "standard-issue"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-10-19",
       "auto_generated": true
     }
   ]
