@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-10-19T15:20:27.421454",
-  "total_products": 215,
+  "last_updated": "2026-10-26T14:55:02.139021",
+  "total_products": 225,
   "products": [
     {
       "id": "rm-home-2526",
@@ -4585,6 +4585,217 @@
       "brand": "Nike",
       "special": false,
       "added_date": "2026-10-19",
+      "auto_generated": true
+    },
+    {
+      "id": "ac-milan-third-2025-26",
+      "cat": "sel",
+      "t": "AC Milan Third Kit 2025/26",
+      "sub": "PUMA - Tribute to 1995/96 season with modern design",
+      "tags": [
+        "ac-milan",
+        "third-kit",
+        "puma",
+        "2025-26",
+        "heritage"
+      ],
+      "date": "2025/26 Season",
+      "prices": [],
+      "links": [],
+      "brand": "PUMA",
+      "special": false,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "cork-gaa-home-2027",
+      "cat": "rugby",
+      "t": "Cork GAA 2027 Home Kit",
+      "sub": "New modern design for Senior Footballers and Hurlers",
+      "tags": [
+        "cork-gaa",
+        "home-kit",
+        "2027",
+        "gaelic-games"
+      ],
+      "date": "2027",
+      "prices": [],
+      "links": [],
+      "brand": "Cork GAA",
+      "special": false,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "orlando-pirates-third-2026-27",
+      "cat": "sel",
+      "t": "Orlando Pirates Third Kit 2026/27",
+      "sub": "adidas - Inspired by Soweto, celebrates club heritage",
+      "tags": [
+        "orlando-pirates",
+        "third-kit",
+        "adidas",
+        "2026-27",
+        "soweto"
+      ],
+      "date": "2026/27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": false,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "bulls-chicago-flag-2026-27",
+      "cat": "bsk",
+      "t": "Bulls Chicago Flag City Edition Jersey",
+      "sub": "Nike, white design inspired by Chicago flag, 2026-27 season",
+      "tags": [
+        "City Edition",
+        "Chicago Bulls",
+        "2026-27",
+        "white jersey",
+        "flag design"
+      ],
+      "date": "2026-27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "browns-road-uniform-2026",
+      "cat": "nfl",
+      "t": "Browns New Road Uniform",
+      "sub": "Cleveland Browns debut brown pants road combination",
+      "tags": [
+        "uniform",
+        "road",
+        "browns",
+        "2026",
+        "debut"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "steelers-paris-uniform-2026",
+      "cat": "nfl",
+      "t": "Steelers Paris Game Uniform",
+      "sub": "Pittsburgh Steelers new uniform combo for France game",
+      "tags": [
+        "uniform",
+        "steelers",
+        "paris",
+        "special-event",
+        "2026"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "f1-hub-etai-la-2026",
+      "cat": "formula1",
+      "t": "F1 Hub Etai LA Collection",
+      "sub": "New merchandise collaboration at The Venetian Resort Las Vegas, November 7",
+      "tags": [
+        "f1-merchandise",
+        "collaboration",
+        "etai-la",
+        "las-vegas"
+      ],
+      "date": "Nov 7, 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "F1 Hub Announcement",
+          "u": "https://www.formula1.com"
+        }
+      ],
+      "brand": "Etai LA",
+      "special": false,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "red-bull-verstappen-us-gp-2026",
+      "cat": "formula1",
+      "t": "Verstappen US GP Special Suit & Helmet",
+      "sub": "Red Bull reveals cowboy-themed helmet and white suits with Ford inspiration for US GP",
+      "tags": [
+        "red-bull",
+        "verstappen",
+        "us-gp",
+        "special-edition"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Red Bull Announcement",
+          "u": "https://www.redbullracing.com"
+        }
+      ],
+      "brand": "Red Bull",
+      "special": true,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "adidas-audi-sampa-soul-2026",
+      "cat": "formula1",
+      "t": "Sampa Soul Collection",
+      "sub": "adidas and Audi Revolut F1 Team collection celebrating São Paulo cultural identity",
+      "tags": [
+        "adidas",
+        "audi-revolut-f1",
+        "sao-paulo",
+        "cultural"
+      ],
+      "date": "Oct 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "adidas Sampa Soul Collection",
+          "u": "https://www.adidas.com"
+        }
+      ],
+      "brand": "adidas",
+      "special": false,
+      "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "stars-hometown-remix-2026",
+      "cat": "nhl",
+      "t": "Stars Hometown Remix Jersey",
+      "sub": "Dallas Stars, neon green look with possible blue accents",
+      "tags": [
+        "jersey",
+        "neon",
+        "hometown",
+        "stars",
+        "debut"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Dallas Stars",
+      "special": true,
+      "added_date": "2026-10-26",
       "auto_generated": true
     }
   ]
