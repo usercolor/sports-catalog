@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-10-26T14:55:02.139021",
-  "total_products": 225,
+  "last_updated": "2026-11-02T17:55:47.869664",
+  "total_products": 235,
   "products": [
     {
       "id": "rm-home-2526",
@@ -4796,6 +4796,224 @@
       "brand": "Dallas Stars",
       "special": true,
       "added_date": "2026-10-26",
+      "auto_generated": true
+    },
+    {
+      "id": "palace-nike-manor-place-2026",
+      "cat": "fut",
+      "t": "Manor Place Football Collection",
+      "sub": "Palace x Nike collaboration featuring jerseys and track jackets with Manor Place crest",
+      "tags": [
+        "palace",
+        "nike",
+        "limited-edition",
+        "manor-place",
+        "collection"
+      ],
+      "date": "Oct 30, 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Dover Street Market London",
+          "u": "https://www.dover-street-market.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "sunderland-home-shirt-2025-26",
+      "cat": "fut",
+      "t": "2025-26 Home Shirt",
+      "sub": "Sunderland AFC official home shirt for 2025-26 season",
+      "tags": [
+        "sunderland",
+        "home-kit",
+        "2025-26",
+        "official"
+      ],
+      "date": "2025-26 Season",
+      "prices": [],
+      "links": [
+        {
+          "t": "Official Sunderland Website",
+          "u": "https://www.safc.com"
+        }
+      ],
+      "brand": "Sunderland AFC",
+      "special": false,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "brewers-world-series-sneakers-2026",
+      "cat": "mlb",
+      "t": "Brewers World Series Sneakers",
+      "sub": "Nike limited-edition championship sneakers celebrating Milwaukee Brewers' first World Series title",
+      "tags": [
+        "World Series",
+        "championship",
+        "limited edition",
+        "Nike"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "brewers-world-series-champs-merch-2026",
+      "cat": "mer",
+      "t": "Brewers World Series Champion Gear",
+      "sub": "Fanatics official merchandise including hats, shirts, hoodies celebrating Brewers championship",
+      "tags": [
+        "World Series",
+        "championship",
+        "apparel",
+        "Fanatics"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Shop Fanatics",
+          "u": "https://www.fanatics.com"
+        }
+      ],
+      "brand": "Fanatics",
+      "special": true,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "savannah-bananas-gear-2026",
+      "cat": "mer",
+      "t": "Banana Ball Gear Collection",
+      "sub": "Colorful Savannah Bananas and Party Animals inspired merchandise, up to 50% off",
+      "tags": [
+        "Banana Ball",
+        "Savannah Bananas",
+        "sale",
+        "apparel"
+      ],
+      "date": "Nov 2026",
+      "prices": [
+        {
+          "l": "Sale",
+          "v": "Up to 50% off"
+        }
+      ],
+      "links": [],
+      "brand": "Savannah Bananas",
+      "special": false,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "lions-defend-den-2026",
+      "cat": "nfl",
+      "t": "Lions 'Defend the Den' Alternate",
+      "sub": "Detroit Lions alternate uniforms with carbon-fiber elements, NFL Week 8",
+      "tags": [
+        "alternate",
+        "carbon-fiber",
+        "motown"
+      ],
+      "date": "Week 8 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "eagles-2026-uniform-schedule",
+      "cat": "nfl",
+      "t": "Eagles 2026 Uniform Schedule",
+      "sub": "Philadelphia Eagles uniform rotation tracking for 2026 season",
+      "tags": [
+        "schedule",
+        "uniforms",
+        "eagles"
+      ],
+      "date": "2026 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "titans-dark-mode-2026",
+      "cat": "nfl",
+      "t": "Titans Dark Mode Uniform",
+      "sub": "Tennessee Titans Adidas dark mode uniforms for Kentucky game",
+      "tags": [
+        "dark-mode",
+        "homecoming",
+        "adidas"
+      ],
+      "date": "Nov 7 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Adidas",
+      "special": true,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "redwings-hometown-remix-2026",
+      "cat": "nhl",
+      "t": "Detroit Red Wings Hometown Remix Jersey",
+      "sub": "Red Wings new Hometown Remix jersey for 2026-27 season",
+      "tags": [
+        "red-wings",
+        "hometown-remix",
+        "jersey",
+        "detroit"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Red Wings Hometown Remix Jersey",
+          "u": "https://www.nhl.com/redwings"
+        }
+      ],
+      "brand": "NHL",
+      "special": true,
+      "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "kraken-hometown-remix-2026",
+      "cat": "nhl",
+      "t": "Seattle Kraken Hometown Remix Jersey",
+      "sub": "Kraken alternate jersey with Hometown Remix design",
+      "tags": [
+        "kraken",
+        "hometown-remix",
+        "alternate-jersey",
+        "seattle"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Kraken Hometown Remix Jersey",
+          "u": "https://www.nhl.com/kraken"
+        }
+      ],
+      "brand": "NHL",
+      "special": true,
+      "added_date": "2026-11-02",
       "auto_generated": true
     }
   ]
