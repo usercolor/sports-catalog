@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-02T17:55:47.869664",
-  "total_products": 235,
+  "last_updated": "2026-11-09T18:26:54.753444",
+  "total_products": 244,
   "products": [
     {
       "id": "rm-home-2526",
@@ -5014,6 +5014,202 @@
       "brand": "NHL",
       "special": true,
       "added_date": "2026-11-02",
+      "auto_generated": true
+    },
+    {
+      "id": "benfica-adidas-retro-1980",
+      "cat": "sel",
+      "t": "Benfica x adidas Retro 1980/81 Jersey",
+      "sub": "adidas Trefoil-era classic revival from iconic 1980/81 season",
+      "tags": [
+        "retro",
+        "benfica",
+        "classic",
+        "trefoil",
+        "limited"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "adidas Benfica",
+          "u": "https://www.adidas.com"
+        }
+      ],
+      "brand": "adidas",
+      "special": true,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "sunderland-hummel-2026-27",
+      "cat": "sel",
+      "t": "Sunderland AFC 2026-27 Home Shirt",
+      "sub": "hummel official home kit for Sunderland 2026-27 season",
+      "tags": [
+        "sunderland",
+        "home-kit",
+        "2026-27",
+        "official"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Sunderland AFC Official",
+          "u": "https://www.safc.com"
+        }
+      ],
+      "brand": "hummel",
+      "special": false,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "bundesliga-topps-debut-patch-2026",
+      "cat": "mer",
+      "t": "Bundesliga Starting XI Debut Patch 2026/27",
+      "sub": "Topps official collecting partnership debut patch for 2026-27 season",
+      "tags": [
+        "bundesliga",
+        "topps",
+        "collectible",
+        "debut-patch"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [
+        {
+          "t": "Bundesliga Official",
+          "u": "https://www.bundesliga.com"
+        }
+      ],
+      "brand": "Topps",
+      "special": true,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "heat-vice-city-gta6-2026",
+      "cat": "bsk",
+      "t": "Miami Heat Vice City Uniforms",
+      "sub": "Cactus Jack x Nike x GTA VI collaboration, black and pink design",
+      "tags": [
+        "Miami Heat",
+        "GTA VI",
+        "Travis Scott",
+        "limited edition",
+        "Vice City"
+      ],
+      "date": "Nov 18, 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "nba-crafted-alternate-2026",
+      "cat": "bsk",
+      "t": "NBA Crafted Alternate Designs",
+      "sub": "Nike replaces City Edition program with new Crafted uniform line",
+      "tags": [
+        "alternate jersey",
+        "nba",
+        "nike",
+        "new program",
+        "2026-27"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "avalanche-hometown-remix-2026",
+      "cat": "nhl",
+      "t": "Colorado Avalanche Hometown Remix",
+      "sub": "New 2026-27 jersey inspired by Denver mountains",
+      "tags": [
+        "hometown remix",
+        "colorado avalanche",
+        "nhl",
+        "2026-27",
+        "mountains"
+      ],
+      "date": "2026-27 Season",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "heat-gta-vice-city-2026",
+      "cat": "bsk",
+      "t": "Miami Heat GTA VI Vice City Uniforms",
+      "sub": "Grand Theft Auto VI-inspired on-court uniforms with Vice City design",
+      "tags": [
+        "miami heat",
+        "gta vi",
+        "vice city",
+        "video game",
+        "limited edition"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Unknown",
+      "special": true,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "sinner-head-speed-2027",
+      "cat": "tennis",
+      "t": "Head Speed Pack 2027",
+      "sub": "Jannik Sinner signature racquet for ATP tour 2027",
+      "tags": [
+        "racquet",
+        "sinner",
+        "head",
+        "atp",
+        "2027"
+      ],
+      "date": "2027",
+      "prices": [],
+      "links": [],
+      "brand": "Head",
+      "special": true,
+      "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "bruins-varsity-sweater-2026",
+      "cat": "nhl",
+      "t": "Bruins Varsity Sweater",
+      "sub": "Boston Bruins - Part of Hometown Remix collection",
+      "tags": [
+        "varsity sweater",
+        "hometown remix",
+        "bruins"
+      ],
+      "date": "Nov 12 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Bruins Varsity Sweater",
+          "u": "https://www.nhl.com/bruins"
+        }
+      ],
+      "brand": "Fanatics",
+      "special": true,
+      "added_date": "2026-11-09",
       "auto_generated": true
     }
   ]
