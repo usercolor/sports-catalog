@@ -1,6 +1,102 @@
 {
   "news": [
     {
+      "id": "borussia-dortmund-27-28-home-kit",
+      "cat": "fut",
+      "title": "Borussia Dortmund 27-28 Home Kit Filtrado - Clásico",
+      "summary": "Se revelaron detalles del uniforme local de Borussia Dortmund 2027-28, describiendo un diseño 100% clásico y simple.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/1173698853/dortmund-27-28-home-kit-info-leaked-100-classic-simple.html",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
+      "id": "fenerbahce-120th-anniversary-kit",
+      "cat": "fut",
+      "title": "Fenerbahçe 120 Aniversario Kit Filtrado - Diseño Retro",
+      "summary": "Se filtró el uniforme especial de los 120 años de Fenerbahçe con diseño retro, mostrando un homenaje a la historia del club turco.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/1781781607/fenerbahce-120th-anniversary-kit-leaked.html",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
+      "id": "jordan-psg-26-27-third-kit",
+      "cat": "fut",
+      "title": "Jordan PSG 26-27 Third Kit Avistado en Tiendas",
+      "summary": "El tercer uniforme Jordan Paris Saint-Germain 2026-27 fue avistado en tiendas antes de su lanzamiento oficial programado.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/8926468097/jordan-psg-26-27-third-kit-spotted-on-sale-ahead-of-official-launch.html",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
+      "id": "macron-miami-fc-pantera-2025",
+      "cat": "fut",
+      "title": "Macron presenta la equipación 'Pantera Kit' del Miami FC 2025",
+      "summary": "Macron y Miami FC lanzan la nueva equipación 'Pantera Kit', que se suma a la colección de uniformes del club estadounidense para la temporada 2025.",
+      "source": "About Macron",
+      "url": "https://about.macron.com/es/noticias/el-lanzamiento-de-kit/macron-miami-fc-pantera-equipacion-2025/",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
+      "id": "heat-cactus-jack-vice-city-jerseys",
+      "cat": "bsk",
+      "title": "Heat presenta jerseys Cactus Jack Vice City con diseño negro y rosa",
+      "summary": "Miami Heat revela uniforme especial en colaboración con Nike y Cactus Jack. Diseño en negro y rosa inspirado en Vice City para asociación con videojuego GTA 6.",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/heat-unveil-cactus-jack-vice-213941726.html",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
+      "id": "knicks-kith-pop-up-2025-26",
+      "cat": "bsk",
+      "title": "Kith abre pop-up shop exclusivo para Knicks 2025-26",
+      "summary": "Los New York Knicks anuncian detalles del pop-up shop de Kith para la temporada 2025-26 en Madison Square Garden.",
+      "source": "NBA.com",
+      "url": "https://www.nba.com/knicks/kith-pop-up-shop",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
+      "id": "vegas-golden-knights-jersey-history-nov-2026",
+      "cat": "nhl",
+      "title": "Evolución de los uniformes de Vegas Golden Knights",
+      "summary": "Análisis de la historia de los jerseys de Vegas Golden Knights desde su creación en 2017, mostrando cómo su vestuario ha evolucionado continuamente para crear un look icónico en el hielo.",
+      "source": "The Hockey Writers",
+      "url": "https://thehockeywriters.com/vegas-golden-knights-jersey-history/",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
+      "id": "red-bull-racing-2025-racesuits-kit-helmets-nov-2026",
+      "cat": "f1",
+      "title": "Max Verstappen y Liam Lawson presentan los nuevos trajes y kits Red Bull 2025",
+      "summary": "Oracle Red Bull Racing revela los nuevos monos de competición, kits de equipo y cascos de Max y Liam para la temporada 2025.",
+      "source": "Oracle Red Bull Racing",
+      "url": "https://www.redbullracing.com/int-en/galleries/max-and-liam-reveal-2025-racesuits-team-kit-helmets-oracle-red-bull-racing",
+      "date": "2026-11-13",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
       "id": "wrexham-macron-kit-making-2026",
       "cat": "fut",
       "title": "El proceso de creación del kit de Wrexham: un año de trabajo",
@@ -205,6 +301,18 @@
       "added_date": "2026-11-11"
     },
     {
+      "id": "bayern-munchen-27-28-champions-league-kit",
+      "cat": "fut",
+      "title": "Bayern München 27-28 Champions League Kit Filtrado",
+      "summary": "Se filtró que Bayern München tendrá uniforme dedicado para Champions League 2027-28, revelando los colores del nuevo diseño europeo.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/7486916951/exclusive-bayern-munchen-27-28-champions-league-kit-colors-leaked.html",
+      "date": "2026-11-11",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
       "id": "real-madrid-2027-icon-jersey",
       "cat": "fut",
       "title": "Adidas filtra nueva camiseta Icon del Real Madrid 2027",
@@ -215,6 +323,18 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-11-11"
+    },
+    {
+      "id": "tigres-feminil-26-27-third-kit",
+      "cat": "fut",
+      "title": "Tigres Femenil 26-27 Third Kit Oficial - Último de Adidas",
+      "summary": "Adidas presenta oficialmente el tercer uniforme de Tigres Femenil 2026-27 con diseño audaz y eslogan 'Aura Amazona', último kit de la marca.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/8573267699/horrendous-tigres-feminil-26-27-third-kit-released-last-by-adidas.html",
+      "date": "2026-11-10",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
     },
     {
       "id": "dreamville-psg-collaboration-nov-2026",
@@ -445,6 +565,18 @@
       "added_date": "2026-11-11"
     },
     {
+      "id": "fiorentina-26-27-third-kit",
+      "cat": "fut",
+      "title": "Fiorentina 26-27 Third Kit Leaked - Diseño Proporción Áurea",
+      "summary": "Se filtró el tercer uniforme de Fiorentina 2026-27 con diseño basado en la proporción áurea, revelado prematuramente por retailers.",
+      "source": "Footy Headlines",
+      "url": "https://www.footyheadlines.com/5627744657/fiorentina-26-27-third-kit-leaked-golden-ratio-design.html",
+      "date": "2026-11-07",
+      "image": "",
+      "relevant": true,
+      "added_date": "2026-11-13"
+    },
+    {
       "id": "real-madrid-y3-dragon-jersey-nov-2026",
       "cat": "fut",
       "title": "Real Madrid x Y-3: el regreso de la icónica Dragon Jersey",
@@ -587,140 +719,8 @@
       "image": "",
       "relevant": true,
       "added_date": "2026-11-09"
-    },
-    {
-      "id": "nba-nike-crafted-uniforms-nov-2026",
-      "cat": "bsk",
-      "title": "NBA y Nike reemplazan City Edition con nuevos diseños Crafted",
-      "summary": "La NBA terminará el programa City Edition tras 10 temporadas, siendo reemplazado por nuevos uniformes alternativos Crafted diseñados por Nike para la próxima temporada.",
-      "source": "SportsLogos.Net News",
-      "url": "https://news.sportslogos.net/2026/11/05/report-nba-nike-to-replace-city-edition-uniforms-with-new-crafted-alternate-designs/basketball/",
-      "date": "2026-11-05",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-06"
-    },
-    {
-      "id": "packers-classic-white-uniforms-patriots",
-      "cat": "nfl",
-      "title": "Packers lucen uniformes Classic White vs Patriots en Semana 9",
-      "summary": "Los Packers usarán sus uniformes Classic White primarios de visitante contra los Patriots, buscando su primera victoria con esta combinación en 2026.",
-      "source": "Packers Wire",
-      "url": "https://packerswire.usatoday.com/story/sports/nfl/packers/2026/11/05/packers-uniform-patriots-week-9-classic-white-first-win-2026-season/92625006007/",
-      "date": "2026-11-05",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-09"
-    },
-    {
-      "id": "nba-nike-crafted-alternate-nov-2026",
-      "cat": "bsk",
-      "title": "NBA y Nike Reemplazan City Edition con Nuevos Uniformes \"Crafted\"",
-      "summary": "La NBA terminará el programa City Edition después de 10 temporadas. Nike introducirá nuevos diseños alternos \"Crafted\" para reemplazarlo, dejando atrás los últimos dos años de reciclaje de diseños.",
-      "source": "SportsLogos.Net News",
-      "url": "https://news.sportslogos.net/2026/11/05/report-nba-nike-to-replace-city-edition-uniforms-with-new-crafted-alternate-designs/",
-      "date": "2026-11-05",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-11"
-    },
-    {
-      "id": "nhl-hometown-remix-jerseys-nov-2026",
-      "cat": "bsk",
-      "title": "NHL lanza Hometown Remix: nuevos uniformes para las 32 franquicias",
-      "summary": "La NHL y Fanatics presentaron el programa Hometown Remix, uniformes de edición especial con diseños únicos y auténticos para todas las 32 franquicias de la liga en la temporada 2026-27.",
-      "source": "NHL.com",
-      "url": "https://www.nhl.com/news/nhl-fanatics-hometown-remix-jersey-descriptions",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-04"
-    },
-    {
-      "id": "nhl-hometown-remix-jerseys-ranking-espn-nov-2026",
-      "cat": "bsk",
-      "title": "ESPN rankea los 32 nuevos jerseys Hometown Remix del NHL",
-      "summary": "ESPN publica su ranking definitivo de los jerseys Hometown Remix del NHL para la temporada 2026-27 de las 32 franquicias de la liga.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/nhl/story/_/id/50354672/nhl-2026-27-hometown-remix-jerseys-rankings",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-04"
-    },
-    {
-      "id": "flyers-hometown-remix-jersey-on-pattison-nov-2026",
-      "cat": "bsk",
-      "title": "Todo sobre el nuevo jersey Hometown Remix de los Flyers",
-      "summary": "Análisis completo del jersey Hometown Remix de los Philadelphia Flyers, parte del lanzamiento oficial de los uniformes especiales del NHL para 2026-27.",
-      "source": "On Pattison",
-      "url": "https://onpattison.com/sports/heres-everything-you-need-to-know-about-the-flyers-remix-jersey/",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-04"
-    },
-    {
-      "id": "nhl-hometown-remix-32-equipos-nov-2026",
-      "cat": "nhl",
-      "title": "Uniformes Hometown Remix traen diseño hiperlocal a 32 equipos NHL",
-      "summary": "La NHL presenta los nuevos uniformes Hometown Remix que celebran las ciudades de origen de los 32 equipos, con diseños inspirados en la identidad local.",
-      "source": "NHL.com",
-      "url": "https://www.nhl.com/news/hometown-remix-jerseys-bring-fresh-hyperlocal-look-to-32-nhl-teams",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-04"
-    },
-    {
-      "id": "golden-knights-jersey-ranking-hometown-remix-nov-2026",
-      "cat": "nhl",
-      "title": "Ranking de jerseys de Golden Knights con colección Hometown Remix",
-      "summary": "Actualización del ranking de uniformes de Vegas Golden Knights incluyendo el nuevo diseño Hometown Remix para la temporada 2026-27.",
-      "source": "SinBin.vegas",
-      "url": "https://sinbin.vegas/golden-knights-jersey-updated-power-rankings-including-hometown-remix/",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-04"
-    },
-    {
-      "id": "predators-hometown-remix-nashville-nov-2026",
-      "cat": "nhl",
-      "title": "Nashville Predators revelan nuevos uniformes Hometown Remix",
-      "summary": "Los Nashville Predators presentan su uniforme Hometown Remix, un diseño estilísticamente diferente que mantiene la identidad local de la franquicia.",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/nhl/predators/onsi/news/nashville-unveils-new-hometown-remix-jerseys-",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-04"
-    },
-    {
-      "id": "rugby-jerseys-ranking-nov-2026",
-      "cat": "rugby",
-      "title": "Ranking de camisetas internacionales: Springboks aterradoramente buenos",
-      "summary": "Planet Rugby analiza y clasifica los 12 kits de rugby internacional para la ventana de Nations Championship. Destaca a Springboks como mejores y critica el 'bland' diseño de Castore de Inglaterra.",
-      "source": "Planet Rugby",
-      "url": "https://www.planetrugby.com/news/ranked-the-best-and-worst-of-the-international-rugby-jerseys",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-04"
-    },
-    {
-      "id": "psg-27-28-home-kit",
-      "cat": "fut",
-      "title": "PSG 2027-28: Filtrado uniforme local con diseño degradado",
-      "summary": "Revelado el uniforme local de PSG 2027-28 con una franja central gradiente. Diseño especial de Adidas para la próxima temporada.",
-      "source": "Footy Headlines",
-      "url": "https://www.footyheadlines.com/6701477048/psg-27-28-home-kit-leaked.html",
-      "date": "2026-11-04",
-      "image": "",
-      "relevant": true,
-      "added_date": "2026-11-09"
     }
   ],
-  "last_updated": "2026-11-11T14:57:53.532750",
+  "last_updated": "2026-11-13T15:10:22.599700",
   "total": 60
 }
