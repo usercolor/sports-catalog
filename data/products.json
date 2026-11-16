@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-09T18:26:54.753444",
-  "total_products": 244,
+  "last_updated": "2026-11-16T18:01:52.409313",
+  "total_products": 251,
   "products": [
     {
       "id": "rm-home-2526",
@@ -5210,6 +5210,156 @@
       "brand": "Fanatics",
       "special": true,
       "added_date": "2026-11-09",
+      "auto_generated": true
+    },
+    {
+      "id": "congo-26-27-home-away-kits",
+      "cat": "fut",
+      "t": "Congo 2026-27 Home & Away Kits",
+      "sub": "Macron official release for Congo national team",
+      "tags": [
+        "national team",
+        "home kit",
+        "away kit",
+        "2026-27"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Congo 26-27 Home & Away Kits Released",
+          "u": "https://www.macron.com"
+        }
+      ],
+      "brand": "Macron",
+      "special": false,
+      "added_date": "2026-11-16",
+      "auto_generated": true
+    },
+    {
+      "id": "boca-juniors-26-27-third-kit",
+      "cat": "fut",
+      "t": "Boca Juniors 2026-27 Third Kit",
+      "sub": "New third kit leaked with 8 new images",
+      "tags": [
+        "third kit",
+        "2026-27",
+        "boca juniors",
+        "leaked"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Boca Juniors 26-27 Third Kit Leaked",
+          "u": "https://www.footyheadlines.com"
+        }
+      ],
+      "brand": "Unknown",
+      "special": false,
+      "added_date": "2026-11-16",
+      "auto_generated": true
+    },
+    {
+      "id": "nike-germany-2027-home-kit",
+      "cat": "fut",
+      "t": "Nike Germany 2027 Home Kit",
+      "sub": "First Nike kit for Germany, ending 72-year Adidas partnership",
+      "tags": [
+        "national team",
+        "home kit",
+        "2027",
+        "nike",
+        "germany"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Nike Germany 2027 Home Kit Leaked",
+          "u": "https://www.footyheadlines.com"
+        }
+      ],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-16",
+      "auto_generated": true
+    },
+    {
+      "id": "brewers-ws-merch-2026",
+      "cat": "mlb",
+      "t": "Milwaukee Brewers World Series Champs Merch",
+      "sub": "Official championship jerseys, hats, t-shirts, collectibles and memorabilia",
+      "tags": [
+        "world series",
+        "championship",
+        "brewers",
+        "holiday",
+        "merchandise"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Official MLB",
+      "special": true,
+      "added_date": "2026-11-16",
+      "auto_generated": true
+    },
+    {
+      "id": "titans-rivalries-2026",
+      "cat": "nfl",
+      "t": "Titans 'Rivalries' Alternate Uniform",
+      "sub": "Tennessee Titans navy alternate jersey honoring Nashville musical heritage",
+      "tags": [
+        "alternate jersey",
+        "rivalries",
+        "navy",
+        "nashville"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-16",
+      "auto_generated": true
+    },
+    {
+      "id": "bengals-white-bengal-2026",
+      "cat": "nfl",
+      "t": "Bengals White Bengal Uniform",
+      "sub": "Cincinnati Bengals white uniform combination for annual White Bengal game",
+      "tags": [
+        "white uniform",
+        "alternate",
+        "week 10"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-16",
+      "auto_generated": true
+    },
+    {
+      "id": "adidas-lvgp-2026",
+      "cat": "formula1",
+      "t": "2026 Las Vegas Grand Prix Gear",
+      "sub": "adidas Motorsport collections for Mercedes & Audi F1 Teams",
+      "tags": [
+        "Las Vegas",
+        "Grand Prix",
+        "Mercedes",
+        "Audi",
+        "fan collection"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "adidas",
+      "special": true,
+      "added_date": "2026-11-16",
       "auto_generated": true
     }
   ]
