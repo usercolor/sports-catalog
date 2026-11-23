@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-16T18:01:52.409313",
-  "total_products": 251,
+  "last_updated": "2026-11-23T19:55:36.743657",
+  "total_products": 262,
   "products": [
     {
       "id": "rm-home-2526",
@@ -5360,6 +5360,235 @@
       "brand": "adidas",
       "special": true,
       "added_date": "2026-11-16",
+      "auto_generated": true
+    },
+    {
+      "id": "disney-nfl-collection-2026",
+      "cat": "nfl",
+      "t": "Disney NFL Collection",
+      "sub": "Disney partners with NFL teams, pairing football with iconic cartoon characters",
+      "tags": [
+        "Disney",
+        "NFL",
+        "collaboration",
+        "apparel",
+        "teams"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Disney",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "jordan-psg-third-kit-2026-27",
+      "cat": "fut",
+      "t": "PSG 2026/27 Third Kit",
+      "sub": "Jordan Brand blurs PSG identity lines with new third kit design",
+      "tags": [
+        "PSG",
+        "Jordan",
+        "third kit",
+        "football",
+        "2026/27"
+      ],
+      "date": "2026/27 season",
+      "prices": [],
+      "links": [],
+      "brand": "Jordan",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "portland-hearts-woods-water-2027",
+      "cat": "fut",
+      "t": "Hearts of Pine 2027 Woods & Water Jersey",
+      "sub": "Portland Hearts of Pine football jersey with nature-inspired design",
+      "tags": [
+        "Portland",
+        "football",
+        "jersey",
+        "Woods & Water",
+        "2027"
+      ],
+      "date": "2027",
+      "prices": [],
+      "links": [],
+      "brand": "Portland Hearts of Pine",
+      "special": false,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "bills-cold-front-2026",
+      "cat": "nfl",
+      "t": "Bills 'Cold Front' Rivalries Uniform",
+      "sub": "All-white uniform design for rivalry game against Dolphins",
+      "tags": [
+        "cold-front",
+        "rivalries",
+        "all-white",
+        "buffalo-bills"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "texans-houston-us-2026",
+      "cat": "nfl",
+      "t": "Texans 'HOUSTON/US' Rivalries Uniform",
+      "sub": "New uniform design celebrating Houston culture with street tile details",
+      "tags": [
+        "houston-texans",
+        "rivalries",
+        "city-culture",
+        "street-tiles"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "maine-celtics-uniform-2026",
+      "cat": "bsk",
+      "t": "Maine Celtics Vintage Uniform",
+      "sub": "New uniform featuring vintage L.L. Bean Parka pattern design",
+      "tags": [
+        "maine-celtics",
+        "vintage",
+        "ll-bean",
+        "pattern"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "orioles-alt-caps-2027",
+      "cat": "mlb",
+      "t": "Orioles Alternate Caps & Jersey",
+      "sub": "New alternate caps and jersey changes unveiled for 2027 season",
+      "tags": [
+        "alternate",
+        "caps",
+        "jersey",
+        "2027",
+        "orioles"
+      ],
+      "date": "2027",
+      "prices": [],
+      "links": [],
+      "brand": "MLB",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "commanders-hail-raiser-2026",
+      "cat": "nfl",
+      "t": "Commanders 'Hail Raiser' Alt Uniforms",
+      "sub": "All-black alternate uniforms with spear logo, invokes past mascot",
+      "tags": [
+        "commanders",
+        "alternate-uniforms",
+        "hail-raiser",
+        "mnf"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "texans-rivalries-2026",
+      "cat": "nfl",
+      "t": "Texans 'Rivalries' Uniforms",
+      "sub": "New uniform combination debuted on Thursday Night Football",
+      "tags": [
+        "texans",
+        "rivalries-uniforms",
+        "tnf",
+        "2026"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [],
+      "brand": "Nike",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "disney-f1-mickey-marvel-2026",
+      "cat": "formula1",
+      "t": "Disney x Formula 1 Mickey & Marvel Collection",
+      "sub": "Disney collaboration featuring Mickey Mouse and Marvel characters for F1 2026 season",
+      "tags": [
+        "Disney",
+        "Marvel",
+        "Mickey Mouse",
+        "Limited Edition",
+        "Las Vegas"
+      ],
+      "date": "Nov 2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Disney and Formula 1 Bring Mickey Mouse, Marvel, and New Merchandise to Las Vegas",
+          "u": "https://example.com/disney-f1-merchandise"
+        }
+      ],
+      "brand": "Disney",
+      "special": true,
+      "added_date": "2026-11-23",
+      "auto_generated": true
+    },
+    {
+      "id": "nike-f1-return-2026",
+      "cat": "formula1",
+      "t": "Nike Formula 1 Apparel Collection",
+      "sub": "Nike returns to Formula 1 after 24 years with new apparel line",
+      "tags": [
+        "Nike",
+        "Return",
+        "F1 2026",
+        "Official",
+        "Partnership"
+      ],
+      "date": "2026",
+      "prices": [],
+      "links": [
+        {
+          "t": "Nike to return to F1 after 24 years",
+          "u": "https://example.com/nike-f1-return"
+        },
+        {
+          "t": "Nike's Formula 1 Deal Is About Controlling More Than The Grid",
+          "u": "https://example.com/nike-f1-deal"
+        }
+      ],
+      "brand": "Nike",
+      "special": false,
+      "added_date": "2026-11-23",
       "auto_generated": true
     }
   ]
